@@ -43,7 +43,7 @@ Copy [.env.example](./.env.example) into `.env.local` and set:
 ## Vercel Web Analytics
 
 LipFlower uses the free Vercel Web Analytics package through `@vercel/analytics`.
-The app enables `<Analytics />` automatically when `VERCEL_ENV=production`.
+The app renders `<Analytics />` by default; set `LIPFLOWER_ENABLE_VERCEL_ANALYTICS=false` only if you intentionally want to disable it.
 Enable Web Analytics in the Vercel project dashboard, then deploy production.
 
 ## Local development

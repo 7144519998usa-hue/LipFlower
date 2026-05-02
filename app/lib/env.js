@@ -29,7 +29,7 @@ export const publicEnv = {
 
 export function getServerEnv() {
   return {
-    enableVercelAnalytics: getBoolean("LIPFLOWER_ENABLE_VERCEL_ANALYTICS", appEnv.isProduction),
+    enableVercelAnalytics: getBoolean("LIPFLOWER_ENABLE_VERCEL_ANALYTICS", true),
     internalApiKey: getString("LIPFLOWER_INTERNAL_API_KEY"),
   };
 }
