@@ -1,9 +1,8 @@
 .next
 node_modules
-.env.local
-.env.production.local
-.env.development.local
-.env.test.local
+.env*
+.git
+.vercel
 dev-server*.log
 prod-server*.log
 npm-debug.log*
