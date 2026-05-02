@@ -1,0 +1,20 @@
+{
+  "name": "lipflower",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "check:programmatic-seo": "node --no-warnings scripts/check-programmatic-seo.mjs",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1",
+    "next": "^16.2.4",
+    "react": "18.2.0",
+    "react-dom": "18.2.0"
+  },
+  "overrides": {
+    "postcss": "^8.5.10"
+  }
+}
