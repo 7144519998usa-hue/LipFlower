@@ -53,3 +53,13 @@ npm install
 npm run build
 npm run dev
 ```
+
+## Production verification
+
+After deployment, run:
+
+```bash
+npm run verify:production
+```
+
+This checks the live homepage, robots, sitemap index, programmatic sitemap, a representative `/best` page, Vercel Analytics, and protected internal system endpoints.

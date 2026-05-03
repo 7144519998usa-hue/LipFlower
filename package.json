@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "check:programmatic-seo": "node --no-warnings scripts/check-programmatic-seo.mjs",
+    "verify:production": "node --no-warnings scripts/verify-production.mjs",
     "start": "next start"
   },
   "dependencies": {
