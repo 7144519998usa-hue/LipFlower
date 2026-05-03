@@ -47,8 +47,5 @@ export function getSitemapIndexUrl(siteUrl) {
 }
 
 export function getSitemapUrls(siteUrl) {
-  return [
-    `${siteUrl}/sitemap.xml`,
-    ...getSitemapSections().map((section) => `${siteUrl}/sitemaps/${section.slug}/sitemap.xml`),
-  ];
+  return getSitemapSections().map((section) => `${siteUrl}/sitemaps/${section.slug}/sitemap.xml`);
 }
