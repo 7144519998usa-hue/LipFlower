@@ -1,0 +1,49 @@
+name: SEO or content request
+description: Request new governed beauty routes, content, or programmatic expansion.
+title: "[SEO]: "
+labels:
+  - seo
+  - content
+  - lipflower
+body:
+  - type: input
+    id: intent
+    attributes:
+      label: Search intent
+      placeholder: best serum for redness, luxury fragrance gifts, artificial jewelry for wedding guests
+    validations:
+      required: true
+  - type: dropdown
+    id: vertical
+    attributes:
+      label: Beauty vertical
+      options:
+        - skin care
+        - makeup
+        - lip care
+        - hair care
+        - fragrance
+        - body care
+        - nail care
+        - beauty tools
+        - artificial jewelry
+        - luxury beauty
+        - cross-vertical
+    validations:
+      required: true
+  - type: textarea
+    id: page_family
+    attributes:
+      label: Proposed route family
+      description: Note whether this is a hub, landing page, Beauty University page, comparison, or /best programmatic route.
+      placeholder: /best/[slug], /beauty-university/[slug], /compare/[slug]
+    validations:
+      required: true
+  - type: textarea
+    id: governance
+    attributes:
+      label: Governance notes
+      description: Explain product depth, internal links, claim-safety concerns, and sitemap/indexing expectations.
+    validations:
+      required: true
+

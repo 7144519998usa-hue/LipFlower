@@ -1,0 +1,33 @@
+name: Bug report
+description: Report a LipFlower route, UI, build, or verification issue.
+title: "[Bug]: "
+labels:
+  - bug
+  - lipflower
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What is broken?
+      description: Describe the issue and the user-facing impact.
+    validations:
+      required: true
+  - type: input
+    id: route
+    attributes:
+      label: Affected route or file
+      placeholder: /beauty-routines or app/lib/beautyData.js
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+      description: What should happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification notes
+      description: Include failing command output, screenshots, or reproduction steps.
+      placeholder: npm run verify, browser notes, or production URL checks
+
