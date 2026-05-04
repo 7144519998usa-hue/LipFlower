@@ -185,6 +185,54 @@ a {
   gap: 6px;
 }
 
+.authority-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 18px;
+  align-items: start;
+}
+
+.authority-article {
+  line-height: 1.65;
+}
+
+.authority-section {
+  margin-top: 24px;
+  padding-top: 20px;
+  border-top: 1px solid #eadde0;
+}
+
+.authority-section h3 {
+  margin-bottom: 8px;
+}
+
+.authority-rail {
+  position: sticky;
+  top: 18px;
+}
+
+.faq-stack {
+  display: grid;
+  gap: 12px;
+}
+
+.faq-card {
+  border: 1px solid #eadde0;
+  border-radius: 14px;
+  background: #fffaf8;
+  padding: 14px 16px;
+}
+
+.faq-card summary {
+  cursor: pointer;
+  color: #5b3440;
+  font-weight: 700;
+}
+
+.faq-card p {
+  margin-bottom: 0;
+}
+
 .eyebrow {
   display: inline-block;
   text-transform: uppercase;
@@ -295,5 +343,13 @@ select {
 
   .header-actions {
     width: 100%;
+  }
+
+  .authority-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .authority-rail {
+    position: static;
   }
 }

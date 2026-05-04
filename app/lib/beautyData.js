@@ -921,6 +921,32 @@ export const beautyUniversityTopics = [
     description: "Learn how undertone, coverage, finish, and return policy shape a better high-end foundation purchase.",
     intro:
       "Shade matching is where luxury foundation shopping succeeds or fails, so this guide keeps undertone and seller flexibility front and center.",
+    sections: [
+      {
+        title: "Start with undertone before shade depth",
+        body:
+          "A foundation shade name can vary widely by brand, so the safer first screen is undertone: cool, warm, neutral, olive, or muted. From there, shoppers can compare depth, coverage, and whether the finish changes after it dries down.",
+      },
+      {
+        title: "Use return flexibility as part of the fit decision",
+        body:
+          "Luxury complexion products are fit-sensitive purchases. LipFlower favors seller paths where return rules, shade exchange options, and product-condition expectations are easy to understand before clicking out.",
+      },
+    ],
+    checklist: ["Compare undertone language", "Check finish and coverage", "Review seller return policy", "Avoid assuming one shade name transfers across brands"],
+    faqs: [
+      {
+        question: "Should shade pages be indexed by default?",
+        answer:
+          "No. Shade data is useful for filtering and product discovery, but shade-only pages should stay non-indexable unless they have strong standalone demand and enough unique guidance.",
+      },
+      {
+        question: "What makes a luxury foundation page useful?",
+        answer:
+          "It should explain finish, coverage, undertone support, seller confidence, and comparison tradeoffs instead of only listing affiliate buttons.",
+      },
+    ],
+    relatedLinks: ["/makeup/luxury-foundation", "/compare/luxury-foundation-vs-skin-tint", "/sellers"],
   },
   {
     slug: "luxury-lip-care-routine",
@@ -928,6 +954,32 @@ export const beautyUniversityTopics = [
     description: "Build a premium lip routine with exfoliation, treatment masks, balms, oils, liners, and color.",
     intro:
       "Lip care works best as a small routine, especially when treatment texture and makeup finish need to work together.",
+    sections: [
+      {
+        title: "Separate treatment texture from makeup finish",
+        body:
+          "A lip mask, balm, oil, liner, and gloss can all serve different roles. The useful comparison is not which format is universally better, but which texture fits the shopper's timing, comfort preference, and color routine.",
+      },
+      {
+        title: "Keep sensitivity signals visible",
+        body:
+          "Fragrance, flavor, plumping sensation, and occlusive texture can change how a product feels. LipFlower uses cautious language and encourages shoppers to read product directions before treating any format as a guaranteed fix.",
+      },
+    ],
+    checklist: ["Match format to time of day", "Compare fragrance and flavor", "Check plumper sensation language", "Choose seller paths with clear product details"],
+    faqs: [
+      {
+        question: "Is lip oil the same as lip gloss?",
+        answer:
+          "No. They can overlap in shine, but lip oils are usually positioned around comfort and treatment feel while glosses are often color, finish, or makeup-led.",
+      },
+      {
+        question: "Can LipFlower promise a lip product will repair dryness?",
+        answer:
+          "No. LipFlower keeps beauty guidance claim-safe and frames products as routine support rather than medical or guaranteed outcomes.",
+      },
+    ],
+    relatedLinks: ["/lip-care/lip-masks", "/lip-care/lip-oils", "/compare/lip-mask-vs-lip-balm"],
   },
   {
     slug: "amazon-luxury-beauty-seller-checklist",
@@ -935,6 +987,32 @@ export const beautyUniversityTopics = [
     description: "Use seller, return, packaging, and authenticity signals before buying luxury beauty through Amazon.",
     intro:
       "Amazon can be a useful beauty seller, but premium beauty shoppers should pay close attention to seller identity and return clarity.",
+    sections: [
+      {
+        title: "Read the seller path, not just the product title",
+        body:
+          "Luxury beauty shoppers should compare who sells the item, who ships it, whether the listing has clear product details, and whether the return path is obvious before continuing to a marketplace checkout.",
+      },
+      {
+        title: "Treat low prices as a prompt to verify details",
+        body:
+          "A lower price can be attractive, but it should not replace seller trust. LipFlower keeps price, seller confidence, and product positioning together so shoppers can make a more careful decision.",
+      },
+    ],
+    checklist: ["Check seller identity", "Review return details", "Compare packaging photos", "Avoid listings with unclear product context"],
+    faqs: [
+      {
+        question: "Does LipFlower verify every marketplace seller?",
+        answer:
+          "No. LipFlower provides shopping guidance and links to seller pages, but shoppers should verify current seller details, policies, and listing information on the destination site.",
+      },
+      {
+        question: "Why include seller guidance on affiliate pages?",
+        answer:
+          "Trust-first shopping helps users avoid blind clicks and makes monetized pages more useful than a simple outbound link directory.",
+      },
+    ],
+    relatedLinks: ["/sellers/amazon", "/about/advertiser-disclosure", "/luxury-beauty"],
   },
   {
     slug: "skin-barrier-basics",
@@ -942,6 +1020,32 @@ export const beautyUniversityTopics = [
     description: "Understand how comfort, dryness, texture, and moisturizer choice fit into a claim-safe skin-care routine.",
     intro:
       "Barrier language is common in beauty marketing, but shoppers should keep the decision grounded in product directions, texture, comfort, and visible brand claims.",
+    sections: [
+      {
+        title: "Translate barrier language into shopping criteria",
+        body:
+          "For comparison purposes, barrier-focused pages should look at texture, comfort positioning, fragrance, routine step, and visible product claims rather than implying a product will diagnose or cure a skin condition.",
+      },
+      {
+        title: "Use moisturizers and serums differently",
+        body:
+          "A serum may focus on ingredient story and feel, while a moisturizer often anchors comfort, finish, and layering. The best page helps shoppers understand that role before comparing retailers.",
+      },
+    ],
+    checklist: ["Compare texture richness", "Check fragrance notes", "Read product directions", "Avoid medical cure claims"],
+    faqs: [
+      {
+        question: "Can a beauty page say a product repairs the skin barrier?",
+        answer:
+          "Only when the visible product claim supports it, and even then LipFlower should avoid guaranteed or medical-style language.",
+      },
+      {
+        question: "What is the safest shopper-first framing?",
+        answer:
+          "Use phrases like supports, designed for, commonly used for, and may help, while reminding readers that personal results vary.",
+      },
+    ],
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/skin-care/anti-aging-serums", "/beauty-university/ingredient-claims-guide"],
   },
   {
     slug: "ingredient-claims-guide",
@@ -949,6 +1053,32 @@ export const beautyUniversityTopics = [
     description: "Learn how to evaluate ingredient-led beauty pages without treating marketing claims as guaranteed results.",
     intro:
       "Ingredient-led shopping works best when the shopper separates visible product claims, concentration context, sensitivity history, and seller trust.",
+    sections: [
+      {
+        title: "Ingredient presence is not the same as outcome",
+        body:
+          "A product can feature a recognizable ingredient without delivering the same feel, texture, or visible result as another formula. Shoppers should compare the whole product, not one highlighted ingredient.",
+      },
+      {
+        title: "Keep sensitivity and directions in the decision",
+        body:
+          "Ingredients such as acids, retinoid-positioned products, fragrance, menthol, or plumping agents may not fit every routine. LipFlower pages should direct shoppers back to product instructions and personal tolerance.",
+      },
+    ],
+    checklist: ["Look for visible brand claims", "Compare the full formula context", "Watch sensitivity language", "Do not treat ingredient lists as medical guidance"],
+    faqs: [
+      {
+        question: "Can LipFlower invent ingredient benefits?",
+        answer:
+          "No. Ingredient explanations must stay general, claim-safe, and grounded in visible product positioning or broadly cautious shopping education.",
+      },
+      {
+        question: "Why does ingredient content matter for backlinks?",
+        answer:
+          "Clear ingredient explainers are reference-worthy resources that bloggers, shoppers, and comparison pages can link to without relying on aggressive affiliate copy.",
+      },
+    ],
+    relatedLinks: ["/skin-care/vitamin-c-serums", "/skin-care/barrier-repair-moisturizers", "/beauty-university/skin-barrier-basics"],
   },
   {
     slug: "makeup-prep-routine",
@@ -956,6 +1086,32 @@ export const beautyUniversityTopics = [
     description: "Build a polished makeup-prep path across moisturizer, SPF, primer, complexion, and setting products.",
     intro:
       "Makeup prep is about compatibility and finish. This guide keeps layering, pilling risk, skin feel, and product directions in view.",
+    sections: [
+      {
+        title: "Think in layers, not isolated products",
+        body:
+          "A polished makeup base depends on how moisturizer, SPF, primer, foundation, concealer, and powder behave together. Pages should help shoppers compare finish and compatibility rather than promising all-day wear.",
+      },
+      {
+        title: "Match finish to the final look",
+        body:
+          "Dewy, satin, matte, and blurred finishes each change how complexion products read on skin. The routine should start with the desired final finish, then narrow products by texture and seller fit.",
+      },
+    ],
+    checklist: ["Compare moisturizer finish", "Check SPF layering notes", "Match primer to foundation finish", "Choose powder based on final texture"],
+    faqs: [
+      {
+        question: "Should makeup prep pages promise longer wear?",
+        answer:
+          "No. They can explain products designed for longevity or setting, but should avoid guaranteed wear-time claims unless visibly supported by the product.",
+      },
+      {
+        question: "What internal pages should this guide support?",
+        answer:
+          "It should link into sunscreen, primer, foundation, concealer, setting powder, and comparison pages because those are the buyer decision paths.",
+      },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/makeup/luxury-foundation", "/makeup/setting-powder"],
   },
   {
     slug: "ingredients-to-watch-in-lip-plumpers",
@@ -963,6 +1119,32 @@ export const beautyUniversityTopics = [
     description: "Understand common lip-plumper sensation language, sensitivity concerns, and claim-safe shopping signals.",
     intro:
       "Lip plumpers can involve tingling or warming sensations, so shoppers should compare formula positioning and personal sensitivity before choosing a product.",
+    sections: [
+      {
+        title: "Sensation language deserves extra caution",
+        body:
+          "Tingling, cooling, warming, and plumping-positioned products may feel different from person to person. LipFlower should explain sensation as a shopping signal, not as proof of a guaranteed cosmetic result.",
+      },
+      {
+        title: "Compare format and use case",
+        body:
+          "Some plumpers are gloss-like, some are treatment-positioned, and some are makeup toppers. The page should help shoppers choose the role that fits their routine and comfort threshold.",
+      },
+    ],
+    checklist: ["Read sensation warnings", "Check fragrance or flavor", "Compare gloss versus treatment format", "Patch-test according to product directions"],
+    faqs: [
+      {
+        question: "Can LipFlower say a product will plump lips?",
+        answer:
+          "LipFlower can describe product positioning, but should avoid guaranteed result language and keep sensitivity context visible.",
+      },
+      {
+        question: "Who should be careful with lip plumpers?",
+        answer:
+          "Anyone with sensitivity history, irritation concerns, or low tolerance for tingling should read product directions carefully and consider gentler alternatives.",
+      },
+    ],
+    relatedLinks: ["/lip-care/lip-plumpers", "/compare/lip-oil-vs-lip-gloss", "/lip-care"],
   },
   {
     slug: "fragrance-gifting-guide",
@@ -970,6 +1152,164 @@ export const beautyUniversityTopics = [
     description: "Compare discovery sets, bottle sizes, scent families, and seller return paths before buying fragrance as a gift.",
     intro:
       "Fragrance gifting works best when the shopper thinks about scent family, presentation, return flexibility, and whether a discovery set is safer than a full bottle.",
+    sections: [
+      {
+        title: "Discovery sets reduce blind-buy risk",
+        body:
+          "Fragrance is personal, so a discovery set or travel spray can be a safer gift path than a full-size bottle when the recipient's scent preferences are unknown.",
+      },
+      {
+        title: "Presentation and seller path both matter",
+        body:
+          "Luxury fragrance shoppers often care about packaging, delivery timing, and return clarity. A useful page keeps those details close to the product recommendation.",
+      },
+    ],
+    checklist: ["Compare scent family", "Consider discovery sets", "Check gift packaging", "Review return restrictions"],
+    faqs: [
+      {
+        question: "Are fragrance notes enough to choose a gift?",
+        answer:
+          "Usually not. Notes help narrow the style, but bottle size, discovery options, packaging, and return flexibility can matter just as much.",
+      },
+      {
+        question: "Should fragrance pages use medical language?",
+        answer:
+          "No. Fragrance pages should avoid health claims and focus on scent style, use case, seller trust, and gifting practicality.",
+      },
+    ],
+    relatedLinks: ["/fragrance/fragrance-discovery-sets", "/fragrance/luxury-perfume-gifts", "/sellers"],
+  },
+  {
+    slug: "beauty-routine-order-chart",
+    title: "Beauty Routine Order Chart",
+    description: "Use a claim-safe routine order chart for skin care, makeup prep, lip care, fragrance, hair care, and finishing accessories.",
+    intro:
+      "This chart is designed as a reference asset for shoppers, editors, and creators who need a clean way to explain routine order without turning beauty content into medical advice.",
+    sections: [
+      {
+        title: "The practical routine order",
+        body:
+          "A simple beauty routine usually moves from cleanse, treat, moisturize, protect, prep, complexion, color, lips, fragrance, hair finishing, and accessories. Not every shopper needs every step.",
+      },
+      {
+        title: "Why order matters for comparison pages",
+        body:
+          "Routine order helps product pages link naturally to adjacent decisions. A sunscreen page can support primer and foundation pages, while a lip mask page can support balm, oil, and lipstick pages.",
+      },
+    ],
+    checklist: ["Cleanse", "Treat", "Moisturize", "Protect with SPF when appropriate", "Prep makeup", "Apply color and finishing products"],
+    faqs: [
+      {
+        question: "Is this routine order medical advice?",
+        answer:
+          "No. It is shopping and product-education guidance. Shoppers should follow product directions and seek professional advice for medical concerns.",
+      },
+      {
+        question: "Why is this a linkable asset?",
+        answer:
+          "Routine order charts are useful reference pages for beauty blogs, gift guides, and internal comparison pages because they explain how categories connect.",
+      },
+    ],
+    relatedLinks: ["/skin-care", "/makeup", "/lip-care", "/beauty-tools", "/artificial-jewelry"],
+  },
+  {
+    slug: "ingredient-compatibility-cheat-sheet",
+    title: "Beauty Ingredient Compatibility Cheat Sheet",
+    description: "A cautious buyer-first cheat sheet for comparing ingredient-led products without inventing benefits or guaranteed results.",
+    intro:
+      "Ingredient compatibility content can earn links when it is clear, careful, and useful. LipFlower frames this page as shopping context, not dermatology advice.",
+    sections: [
+      {
+        title: "Use compatibility as a caution filter",
+        body:
+          "Ingredient-led shoppers should compare product directions, routine timing, sensitivity history, and whether the product is designed for daily, weekly, morning, or evening use.",
+      },
+      {
+        title: "Avoid stacking products just because they are popular",
+        body:
+          "A serum, exfoliant, moisturizer, and treatment product may each sound useful on its own. The safer shopping question is whether the routine becomes too complex or too irritating for the user.",
+      },
+    ],
+    checklist: ["Read product directions", "Avoid duplicating strong actives", "Watch fragrance and sensation cues", "Introduce new products gradually"],
+    faqs: [
+      {
+        question: "Can this page tell users which ingredients are safe together?",
+        answer:
+          "No. It can provide cautious shopping context, but individual use should follow product instructions and professional guidance when needed.",
+      },
+      {
+        question: "How does this support SEO?",
+        answer:
+          "It gives ingredient and routine pages a central educational reference, improving internal links and reducing thin ingredient-page risk.",
+      },
+    ],
+    relatedLinks: ["/beauty-university/ingredient-claims-guide", "/skin-care/vitamin-c-serums", "/skin-care/barrier-repair-moisturizers"],
+  },
+  {
+    slug: "artificial-jewelry-styling-guide",
+    title: "Artificial Jewelry Styling Guide for Beauty Looks",
+    description: "Match fashion earrings, necklaces, bracelets, rings, and giftable jewelry sets to makeup, fragrance, and occasion-led beauty shopping.",
+    intro:
+      "Artificial jewelry belongs on LipFlower when it supports the final beauty look: occasion styling, gifting, editorial presentation, and seller confidence.",
+    sections: [
+      {
+        title: "Style jewelry around the beauty finish",
+        body:
+          "Glossy makeup, soft matte skin, bold lipstick, and fragrance gifting all create different accessory moments. The useful shopping path connects jewelry format to the complete beauty look.",
+      },
+      {
+        title: "Keep material and sensitivity details visible",
+        body:
+          "Fashion jewelry pages should avoid unsupported hypoallergenic claims. Instead, they should prompt shoppers to read material details, closure type, weight, dimensions, and seller policies.",
+      },
+    ],
+    checklist: ["Match jewelry to occasion", "Check material details", "Compare earring weight and closure", "Review gifting and return policy"],
+    faqs: [
+      {
+        question: "Why include artificial jewelry on a beauty site?",
+        answer:
+          "Fashion jewelry supports the same occasion, gifting, and styling decisions that drive makeup, fragrance, hair, and beauty-tool shopping.",
+      },
+      {
+        question: "Should jewelry pages make skin-safety claims?",
+        answer:
+          "No. They should avoid unsupported hypoallergenic or sensitivity claims and point shoppers to visible product material information.",
+      },
+    ],
+    relatedLinks: ["/artificial-jewelry", "/artificial-jewelry/fashion-earrings", "/makeup", "/fragrance/luxury-perfume-gifts"],
+  },
+  {
+    slug: "beauty-gift-decision-tree",
+    title: "Beauty Gift Decision Tree",
+    description: "A gift-first decision guide for choosing beauty, fragrance, tools, lip care, hair care, and artificial jewelry without over-personalizing the purchase.",
+    intro:
+      "Gift pages are strongest when they reduce decision stress. This guide helps shoppers choose safer beauty-adjacent gifts by familiarity, return flexibility, occasion, and presentation.",
+    sections: [
+      {
+        title: "Choose lower-risk formats for uncertain preferences",
+        body:
+          "Discovery sets, lip care, beauty tools, fragrance minis, and fashion jewelry sets can be easier gifts than shade-dependent complexion products when the recipient's preferences are unknown.",
+      },
+      {
+        title: "Use return policy as a gift feature",
+        body:
+          "A beautiful gift still needs a practical seller path. LipFlower keeps return clarity and seller confidence close to gift recommendations.",
+      },
+    ],
+    checklist: ["Avoid shade-dependent gifts unless preferences are known", "Consider sets and minis", "Check packaging and delivery timing", "Review return policy"],
+    faqs: [
+      {
+        question: "What beauty gifts are safest for unknown preferences?",
+        answer:
+          "Discovery sets, beauty tools, lip-care sets, fragrance minis, and artificial jewelry can be lower-risk than complexion products when shade or skin preferences are unknown.",
+      },
+      {
+        question: "How can this page earn links?",
+        answer:
+          "Gift decision trees are useful seasonal references for bloggers, shopping roundups, and internal editorial pages because they help readers choose by scenario.",
+      },
+    ],
+    relatedLinks: ["/calculators/gift-finder", "/fragrance/luxury-perfume-gifts", "/artificial-jewelry/jewelry-gift-sets", "/lip-care"],
   },
 ];
 
