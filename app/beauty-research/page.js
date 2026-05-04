@@ -62,6 +62,9 @@ export default function BeautyResearchPage() {
             <Link href="/about/cite-lipflower" className="ghost-link">
               Cite LipFlower
             </Link>
+            <Link href="/beauty-glossary" className="ghost-link">
+              Beauty Glossary
+            </Link>
           </div>
         </div>
       </section>
@@ -90,6 +93,7 @@ export default function BeautyResearchPage() {
               <li>Start with a reference guide when a buying decision depends on routine order.</li>
               <li>Use ingredient guides as shopping context, not medical or dermatology advice.</li>
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
+              <li>Use the glossary when a term needs a short, claim-safe definition.</li>
               <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
             <div className="hero-actions">

@@ -914,6 +914,105 @@ export const beautyCategoryPages = [
 
 export const beautySystemPages = [];
 
+export const beautyGlossaryTerms = [
+  {
+    term: "Barrier support",
+    slug: "barrier-support",
+    category: "Skin care",
+    definition:
+      "Beauty shorthand for products positioned around comfort, moisture, and skin-feel support. LipFlower avoids treating barrier language as a medical repair promise.",
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/beauty-university/skin-barrier-basics"],
+  },
+  {
+    term: "Undertone",
+    slug: "undertone",
+    category: "Makeup",
+    definition:
+      "The cool, warm, neutral, olive, or muted color direction beneath surface shade depth. Undertone helps shoppers compare complexion products more carefully.",
+    relatedLinks: ["/makeup/luxury-foundation", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    term: "Finish",
+    slug: "finish",
+    category: "Makeup",
+    definition:
+      "The visible look a product leaves after application, such as dewy, satin, matte, glossy, shimmer, or natural. Finish is a shopper-fit signal, not a guaranteed result.",
+    relatedLinks: ["/makeup", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    term: "Coverage",
+    slug: "coverage",
+    category: "Makeup",
+    definition:
+      "How much a complexion product is positioned to visually even or veil the skin, commonly described as sheer, light, medium, full, or buildable.",
+    relatedLinks: ["/makeup/luxury-foundation", "/compare/luxury-foundation-vs-skin-tint"],
+  },
+  {
+    term: "SPF",
+    slug: "spf",
+    category: "Skin care",
+    definition:
+      "A sun-protection label that shoppers should evaluate through the product's current directions, amount guidance, texture, and layering fit.",
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    term: "Occlusive texture",
+    slug: "occlusive-texture",
+    category: "Lip care",
+    definition:
+      "A richer, sealing-feeling texture often associated with balms, masks, and overnight products. Comfort varies by person and format.",
+    relatedLinks: ["/lip-care/lip-masks", "/compare/lip-mask-vs-lip-balm"],
+  },
+  {
+    term: "Plumping sensation",
+    slug: "plumping-sensation",
+    category: "Lip care",
+    definition:
+      "Tingling, cooling, or warming language used by some lip plumpers. LipFlower treats sensation as a caution signal rather than proof of a guaranteed effect.",
+    relatedLinks: ["/lip-care/lip-plumpers", "/beauty-university/ingredients-to-watch-in-lip-plumpers"],
+  },
+  {
+    term: "Discovery set",
+    slug: "discovery-set",
+    category: "Fragrance",
+    definition:
+      "A smaller-format set designed to sample multiple scents before choosing a full bottle. Discovery sets can reduce blind-buy risk for fragrance gifts.",
+    relatedLinks: ["/fragrance/fragrance-discovery-sets", "/beauty-university/fragrance-family-reference-chart"],
+  },
+  {
+    term: "Gourmand",
+    slug: "gourmand",
+    category: "Fragrance",
+    definition:
+      "A fragrance-family term often used for sweet, edible, dessert-like, vanilla, caramel, or warm scent impressions.",
+    relatedLinks: ["/fragrance", "/beauty-university/fragrance-family-reference-chart"],
+  },
+  {
+    term: "Fashion jewelry",
+    slug: "fashion-jewelry",
+    category: "Artificial jewelry",
+    definition:
+      "Style-led jewelry designed around occasion, outfit, gifting, and beauty presentation rather than fine-jewelry material value.",
+    relatedLinks: ["/artificial-jewelry", "/beauty-university/artificial-jewelry-styling-guide"],
+  },
+  {
+    term: "Seller confidence",
+    slug: "seller-confidence",
+    category: "Shopping",
+    definition:
+      "A buyer-first check of seller identity, return clarity, product detail quality, shipping expectations, and whether the destination page matches the shopper's intent.",
+    relatedLinks: ["/sellers", "/beauty-university/amazon-luxury-beauty-seller-checklist"],
+  },
+  {
+    term: "Routine step",
+    slug: "routine-step",
+    category: "Beauty education",
+    definition:
+      "The role a product plays in a routine, such as cleanse, treat, moisturize, protect, prep, color, finish, scent, or accessorize.",
+    relatedLinks: ["/beauty-university/beauty-routine-order-chart", "/beauty-research"],
+  },
+];
+
 export const linkableBeautyReferenceSlugs = [
   "beauty-routine-order-chart",
   "ingredient-compatibility-cheat-sheet",
