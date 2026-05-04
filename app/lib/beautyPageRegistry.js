@@ -189,6 +189,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-methodology",
+      title: "LipFlower Beauty Comparison Methodology",
+      sitemapAssignment: "education",
+      pageType: "comparison-methodology",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/about/cite-lipflower",
       title: "Cite LipFlower",
       sitemapAssignment: "education",

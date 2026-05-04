@@ -12,6 +12,7 @@ export const siteConfig = {
     { href: "/beauty-checklists", label: "Buying checklists" },
     { href: "/beauty-seller-scorecard", label: "Seller scorecard" },
     { href: "/beauty-claims-guide", label: "Claims guide" },
+    { href: "/beauty-methodology", label: "Methodology" },
     { href: "/about/media-kit", label: "Media kit" },
     { href: "/about/cite-lipflower", label: "Cite LipFlower" },
     { href: "/about/advertiser-disclosure", label: "Affiliate disclosure" },
