@@ -8,6 +8,7 @@ export const siteConfig = {
   utilityLinks: [
     { href: "/beauty-research", label: "Research library" },
     { href: "/beauty-routines", label: "Routine library" },
+    { href: "/beauty-gifts", label: "Gift library" },
     { href: "/beauty-ingredients", label: "Ingredient library" },
     { href: "/beauty-finishes", label: "Finish library" },
     { href: "/beauty-glossary", label: "Beauty glossary" },

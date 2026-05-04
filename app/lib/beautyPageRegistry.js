@@ -161,6 +161,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-gifts",
+      title: "LipFlower Beauty Gift Guide Library",
+      sitemapAssignment: "education",
+      pageType: "gift-library",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/beauty-ingredients",
       title: "LipFlower Beauty Ingredient Library",
       sitemapAssignment: "education",
