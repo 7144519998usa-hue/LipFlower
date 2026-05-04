@@ -5,7 +5,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "check": "npm run check:internal-links && npm run check:route-coverage && npm run check:programmatic-seo && npm run check:sitemaps && npm run check:structured-data && npm run check:claims && npm run check:metadata && npm run check:security && npm run check:env",
+    "check": "npm run check:internal-links && npm run check:route-coverage && npm run check:programmatic-seo && npm run check:sitemaps && npm run check:structured-data && npm run check:claims && npm run check:metadata && npm run check:security && npm run check:env && npm run check:affiliate",
+    "check:affiliate": "node --no-warnings scripts/check-affiliate.mjs",
     "check:claims": "node --no-warnings scripts/check-claims.mjs",
     "check:env": "node --no-warnings scripts/check-env.mjs",
     "check:internal-links": "node --no-warnings scripts/check-internal-links.mjs",
