@@ -245,10 +245,38 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/about",
+      title: "About LipFlower",
+      sitemapAssignment: "education",
+      pageType: "trust",
+      priority: 0.7,
+    }),
+    makeEntry({
+      canonicalPath: "/about/advertiser-disclosure",
+      title: "Affiliate Disclosure",
+      sitemapAssignment: "education",
+      pageType: "disclosure",
+      priority: 0.7,
+    }),
+    makeEntry({
       canonicalPath: "/about/cite-lipflower",
       title: "Cite LipFlower",
       sitemapAssignment: "education",
       pageType: "editor-resource",
+      priority: 0.7,
+    }),
+    makeEntry({
+      canonicalPath: "/about/editorial-policy",
+      title: "Editorial Policy",
+      sitemapAssignment: "education",
+      pageType: "editorial-policy",
+      priority: 0.7,
+    }),
+    makeEntry({
+      canonicalPath: "/about/how-we-make-money",
+      title: "How We Make Money",
+      sitemapAssignment: "education",
+      pageType: "affiliate-policy",
       priority: 0.7,
     }),
     makeEntry({
@@ -257,6 +285,27 @@ export function buildBeautyPageRegistry() {
       sitemapAssignment: "education",
       pageType: "media-kit",
       priority: 0.7,
+    }),
+    makeEntry({
+      canonicalPath: "/contact",
+      title: "Contact LipFlower",
+      sitemapAssignment: "education",
+      pageType: "contact",
+      priority: 0.5,
+    }),
+    makeEntry({
+      canonicalPath: "/privacy-policy",
+      title: "Privacy Policy",
+      sitemapAssignment: "education",
+      pageType: "policy",
+      priority: 0.4,
+    }),
+    makeEntry({
+      canonicalPath: "/terms",
+      title: "Terms of Use",
+      sitemapAssignment: "education",
+      pageType: "policy",
+      priority: 0.4,
     }),
     ...beautyUniversityTopics.map((page) =>
       makeEntry({
