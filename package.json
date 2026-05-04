@@ -5,9 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "check": "npm run check:internal-links && npm run check:programmatic-seo && npm run check:sitemaps",
     "check:internal-links": "node --no-warnings scripts/check-internal-links.mjs",
     "check:programmatic-seo": "node --no-warnings scripts/check-programmatic-seo.mjs",
     "check:sitemaps": "node --no-warnings scripts/check-sitemaps.mjs",
+    "verify": "npm run check && npm run build",
     "verify:production": "node --no-warnings scripts/verify-production.mjs",
     "start": "next start"
   },
