@@ -2,7 +2,7 @@
 
 Standalone Next.js site for [lipflower.com](https://lipflower.com).
 
-LipFlower is positioned as a luxury beauty affiliate marketplace for cosmetics, skin care, makeup, fragrance, and lip care. The site is built for programmatic SEO collections, premium brand research, seller comparison, and Amazon/retailer affiliate routing.
+LipFlower is positioned as a luxury beauty and artificial jewelry affiliate marketplace for cosmetics, skin care, makeup, fragrance, accessories, and lip care. The site is built for programmatic SEO collections, premium brand research, seller comparison, and Amazon/retailer affiliate routing.
 
 ## Core route families
 
@@ -19,6 +19,8 @@ LipFlower is positioned as a luxury beauty affiliate marketplace for cosmetics, 
 - `/body-care`
 - `/nail-care`
 - `/beauty-tools`
+- `/artificial-jewelry`
+- `/artificial-jewelry/[slug]`
 - `/natural-beauty`
 - `/compare`
 - `/compare/[slug]`

@@ -57,6 +57,11 @@ export const beautyHubPages = {
             label: "Beauty tools",
             description: "Compare brushes, facial tools, hair tools, storage, and routine-support accessories.",
           },
+          {
+            href: "/artificial-jewelry",
+            label: "Artificial jewelry",
+            description: "Compare fashion jewelry, occasion accessories, giftable sets, and seller trust before styling a beauty look.",
+          },
         ],
       },
       {
@@ -431,6 +436,50 @@ export const beautyLandingPages = [
     watchFor: ["Heat damage risk", "Voltage and warranty details"],
     relatedLinks: ["/beauty-tools", "/hair-care", "/hair-care/luxury-shampoo-conditioner"],
   },
+  {
+    categoryPath: "artificial-jewelry",
+    slug: "fashion-earrings",
+    title: "Artificial Fashion Earrings",
+    summary: "Compare artificial earrings by finish, metal tone, closure style, occasion, and seller confidence.",
+    intro:
+      "Artificial earrings are a styling decision, so shoppers should compare metal tone, weight, closure type, occasion fit, and seller trust before treating a pair as a wardrobe staple.",
+    bestFor: ["Event styling", "Statement makeup looks", "Giftable accessories"],
+    watchFor: ["Nickel sensitivity", "Weight and closure comfort"],
+    relatedLinks: ["/artificial-jewelry", "/makeup", "/sellers/amazon"],
+  },
+  {
+    categoryPath: "artificial-jewelry",
+    slug: "fashion-necklaces",
+    title: "Artificial Fashion Necklaces",
+    summary: "Compare artificial necklaces by chain length, plating tone, pendant style, layering potential, and seller path.",
+    intro:
+      "Fashion necklaces can complete a beauty look, but shoppers should compare chain length, plating description, clasp style, and return flexibility before clicking out.",
+    bestFor: ["Layered styling", "Neckline coordination", "Affordable gifting"],
+    watchFor: ["Tarnish expectations", "Clasp and chain durability"],
+    relatedLinks: ["/artificial-jewelry", "/fragrance/luxury-perfume-gifts", "/luxury-beauty"],
+  },
+  {
+    categoryPath: "artificial-jewelry",
+    slug: "fashion-bracelets",
+    title: "Artificial Fashion Bracelets",
+    summary: "Compare artificial bracelets by fit, finish, clasp style, stacking appeal, and seller confidence.",
+    intro:
+      "Bracelet shopping works best when shoppers compare size adjustability, finish, weight, and whether the style supports daily wear, event wear, or gifting.",
+    bestFor: ["Stacked accessories", "Occasion styling", "Small luxury-adjacent gifts"],
+    watchFor: ["Wrist fit", "Finish care instructions"],
+    relatedLinks: ["/artificial-jewelry", "/nail-care", "/body-care/luxury-hand-care"],
+  },
+  {
+    categoryPath: "artificial-jewelry",
+    slug: "jewelry-gift-sets",
+    title: "Artificial Jewelry Gift Sets",
+    summary: "Compare artificial jewelry sets by packaging, style coordination, occasion, and return-friendly sellers.",
+    intro:
+      "Artificial jewelry gift sets should be compared by presentation, metal tone, style versatility, and seller clarity rather than assuming every set fits every recipient.",
+    bestFor: ["Beauty gifts", "Holiday styling", "Occasion-ready accessories"],
+    watchFor: ["Final-sale terms", "Recipient metal-tone preference"],
+    relatedLinks: ["/artificial-jewelry", "/fragrance/luxury-perfume-gifts", "/beauty"],
+  },
 ];
 
 export const beautyComparePages = [
@@ -622,6 +671,7 @@ export const beautyCategoryPages = [
           { href: "/fragrance", label: "Fragrance", description: "Compare discovery sets, signature scents, gifts, and luxury fragrance houses." },
           { href: "/body-care", label: "Body care", description: "Compare body moisturizers, exfoliants, hand care, and fragrance layering routes." },
           { href: "/beauty-tools", label: "Beauty tools", description: "Compare brushes, facial tools, manicure tools, and hair styling tools." },
+          { href: "/artificial-jewelry", label: "Artificial jewelry", description: "Compare fashion earrings, necklaces, bracelets, and giftable jewelry sets." },
         ],
       },
       {
@@ -799,6 +849,27 @@ export const beautyCategoryPages = [
           { href: "/makeup", label: "Makeup", description: "Pair brushes and applicators with complexion and color decisions." },
           { href: "/hair-care", label: "Hair care", description: "Compare tools that support salon-style hair routines." },
           { href: "/beauty-university", label: "Beauty University", description: "Use education routes before selecting specialized tools." },
+        ],
+      },
+    ],
+  },
+  {
+    slug: "artificial-jewelry",
+    title: "Artificial Jewelry",
+    description: "Compare artificial jewelry, fashion earrings, necklaces, bracelets, gift sets, and beauty-adjacent accessories.",
+    intro:
+      "Artificial jewelry belongs in LipFlower as a styling and gifting layer: it helps shoppers complete beauty looks, coordinate occasion outfits, and compare seller trust without confusing accessories with cosmetic claims.",
+    eyebrow: "Artificial jewelry",
+    sections: [
+      {
+        title: "Best next routes",
+        links: [
+          { href: "/artificial-jewelry/fashion-earrings", label: "Fashion earrings", description: "Compare statement and everyday earrings by tone, closure, weight, and occasion." },
+          { href: "/artificial-jewelry/fashion-necklaces", label: "Fashion necklaces", description: "Compare chains, pendants, layering pieces, and giftable necklace routes." },
+          { href: "/artificial-jewelry/fashion-bracelets", label: "Fashion bracelets", description: "Compare stacking styles, fit, finish, clasp style, and seller confidence." },
+          { href: "/artificial-jewelry/jewelry-gift-sets", label: "Jewelry gift sets", description: "Compare artificial jewelry sets by presentation, versatility, and return-friendly sellers." },
+          { href: "/makeup", label: "Makeup", description: "Coordinate accessories with complexion, lip, and occasion makeup." },
+          { href: "/sellers/amazon", label: "Amazon", description: "Use seller checks carefully when comparing fashion jewelry offers." },
         ],
       },
     ],

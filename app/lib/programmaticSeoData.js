@@ -47,6 +47,12 @@ const bestPageCategories = [
   { slug: "makeup-brushes", label: "makeup brushes", plural: "makeup brushes", vertical: "beauty tools", categoryPath: "/beauty-tools/makeup-brushes", examples: ["Sonia G Brush Set", "Hourglass Makeup Brushes", "Sephora Collection Brush Set"] },
   { slug: "facial-tool", label: "facial tool", plural: "facial tools", vertical: "beauty tools", categoryPath: "/beauty-tools/facial-tools", examples: ["NuFACE Mini", "Mount Lai Gua Sha", "Therabody TheraFace"] },
   { slug: "hair-styling-tool", label: "hair styling tool", plural: "hair styling tools", vertical: "beauty tools", categoryPath: "/beauty-tools/hair-styling-tools", examples: ["Dyson Airwrap", "Shark FlexStyle", "T3 AireBrush"] },
+  { slug: "artificial-earrings", label: "artificial earrings", plural: "artificial earrings", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/fashion-earrings", examples: ["Gold-Tone Hoop Earrings", "Pearl Drop Fashion Earrings", "Crystal Stud Earring Set"] },
+  { slug: "artificial-necklace", label: "artificial necklace", plural: "artificial necklaces", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/fashion-necklaces", examples: ["Gold-Tone Layered Necklace", "Pearl Pendant Necklace", "Crystal Tennis Necklace"] },
+  { slug: "artificial-bracelet", label: "artificial bracelet", plural: "artificial bracelets", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/fashion-bracelets", examples: ["Gold-Tone Bangle Set", "Crystal Tennis Bracelet", "Pearl Stretch Bracelet"] },
+  { slug: "artificial-ring", label: "artificial ring", plural: "artificial rings", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry", examples: ["Gold-Tone Stack Ring Set", "Cubic Zirconia Cocktail Ring", "Pearl Fashion Ring"] },
+  { slug: "artificial-jewelry-set", label: "artificial jewelry set", plural: "artificial jewelry sets", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/jewelry-gift-sets", examples: ["Pearl Necklace and Earring Set", "Crystal Jewelry Gift Set", "Gold-Tone Occasion Jewelry Set"] },
+  { slug: "bridal-fashion-jewelry", label: "bridal fashion jewelry", plural: "bridal fashion jewelry", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/jewelry-gift-sets", examples: ["Crystal Bridal Earring Set", "Pearl Bridal Jewelry Set", "Rhinestone Hair and Jewelry Set"] },
   { slug: "beauty-gift-set", label: "beauty gift set", plural: "beauty gift sets", vertical: "luxury beauty", categoryPath: "/luxury-beauty", examples: ["Sephora Favorites Set", "Dior Beauty Gift Set", "Charlotte Tilbury Gift Set"] },
   { slug: "makeup-remover", label: "makeup remover", plural: "makeup removers", vertical: "skin care", categoryPath: "/skin-care", examples: ["Bioderma Sensibio Micellar Water", "Clinique Take The Day Off", "Lancome Bi-Facil"] },
   { slug: "body-wash", label: "body wash", plural: "body washes", vertical: "body care", categoryPath: "/body-care", examples: ["Aesop Body Cleanser", "Necessaire Body Wash", "Sol de Janeiro Shower Cream-Gel"] },
@@ -143,7 +149,7 @@ export function buildProgrammaticBestPages() {
         ],
       };
     }),
-  ).slice(0, 1000);
+  );
 }
 
 export const programmaticBestPages = buildProgrammaticBestPages().map(decorateProgrammaticBestPage);
