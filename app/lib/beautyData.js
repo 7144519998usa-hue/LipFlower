@@ -1311,6 +1311,138 @@ export const beautyUniversityTopics = [
     ],
     relatedLinks: ["/calculators/gift-finder", "/fragrance/luxury-perfume-gifts", "/artificial-jewelry/jewelry-gift-sets", "/lip-care"],
   },
+  {
+    slug: "hair-care-routine-map",
+    title: "Hair Care Routine Map",
+    description: "A reference map for comparing shampoo, conditioner, scalp care, masks, stylers, tools, and finishing products by routine role.",
+    intro:
+      "Hair-care pages earn trust when they explain routine role clearly. This map helps shoppers understand where cleansing, conditioning, treating, styling, and finishing products fit before choosing a seller.",
+    sections: [
+      {
+        title: "Build the route around routine role",
+        body:
+          "A shampoo, conditioner, mask, scalp product, styling cream, and hot tool should not be compared as if they do the same job. The stronger shopping path explains the role first, then compares brand, texture, use case, and seller confidence.",
+      },
+      {
+        title: "Keep tool and heat context separate from product claims",
+        body:
+          "Hair tools and styling products can support a polished routine, but pages should avoid guaranteed damage-prevention or hair-growth language unless visible product claims and directions support the wording.",
+      },
+    ],
+    checklist: ["Choose the routine step", "Compare hair-feel goals", "Check tool and heat guidance", "Review seller and return details"],
+    faqs: [
+      {
+        question: "Why should hair care use a routine map?",
+        answer:
+          "A routine map prevents thin category pages by showing how shampoo, conditioner, masks, scalp care, stylers, and tools connect to different buying decisions.",
+      },
+      {
+        question: "Can LipFlower promise hair repair or growth?",
+        answer:
+          "No. Hair-care pages should stay claim-safe and describe product positioning, routine support, and visible product directions rather than guaranteed outcomes.",
+      },
+    ],
+    relatedLinks: ["/hair-care", "/hair-care/luxury-shampoo-conditioner", "/hair-care/hair-masks", "/beauty-tools/hair-styling-tools"],
+  },
+  {
+    slug: "nail-care-tool-checklist",
+    title: "Nail Care Tool Checklist",
+    description: "A buyer-first checklist for comparing manicure tools, polish, cuticle care, storage, and at-home nail-care systems.",
+    intro:
+      "Nail-care shopping crosses beauty, tools, and gifting, so this checklist keeps tool quality, routine role, hygiene expectations, and seller clarity visible.",
+    sections: [
+      {
+        title: "Separate color products from care tools",
+        body:
+          "Polish, cuticle oil, files, clippers, lamps, and manicure kits all create different buying risks. A useful page explains whether the shopper is choosing color, maintenance, finishing, or a complete giftable system.",
+      },
+      {
+        title: "Use cautious language around nail condition",
+        body:
+          "Nail pages can discuss routine support and product directions, but should avoid implying that a cosmetic product treats nail conditions or guarantees stronger nails without supported claims.",
+      },
+    ],
+    checklist: ["Compare tool purpose", "Check material and cleaning details", "Review kit contents", "Avoid medical nail-condition claims"],
+    faqs: [
+      {
+        question: "Are nail tool pages beauty or accessories?",
+        answer:
+          "They are both. Nail tools support beauty routines, gifting, and at-home maintenance, so they fit naturally beside polish and cuticle-care pages.",
+      },
+      {
+        question: "Should nail pages make treatment claims?",
+        answer:
+          "No. They should keep the guidance cosmetic, routine-led, and grounded in product directions.",
+      },
+    ],
+    relatedLinks: ["/nail-care", "/nail-care/manicure-tools", "/nail-care/cuticle-care", "/beauty-university/beauty-gift-decision-tree"],
+  },
+  {
+    slug: "body-care-layering-guide",
+    title: "Body Care Layering Guide",
+    description: "A clean reference guide for comparing body wash, exfoliants, moisturizers, SPF, hand care, and fragrance layering.",
+    intro:
+      "Body-care pages become more useful when shoppers can see how cleansing, exfoliating, moisturizing, sun protection, and fragrance layering work as separate decisions.",
+    sections: [
+      {
+        title: "Layer by purpose, not hype",
+        body:
+          "A body scrub, lotion, oil, SPF, hand cream, and fragrance mist each belongs to a different shopping moment. The best comparison pages keep texture, scent, finish, and product directions clear.",
+      },
+      {
+        title: "Connect body care to fragrance without overclaiming",
+        body:
+          "Scented body care can support a fragrance routine, but pages should not promise long-lasting scent performance unless the product itself supports that claim.",
+      },
+    ],
+    checklist: ["Choose cleanse, exfoliate, moisturize, protect, or scent", "Compare texture and fragrance", "Check SPF directions where relevant", "Review gifting format"],
+    faqs: [
+      {
+        question: "Why does body care need layering guidance?",
+        answer:
+          "Layering guidance helps connect body moisturizers, exfoliants, SPF, hand care, and fragrance pages without creating duplicate thin content.",
+      },
+      {
+        question: "Can body care pages promise skin transformation?",
+        answer:
+          "No. LipFlower should use routine-support language and avoid guaranteed cosmetic or medical-style claims.",
+      },
+    ],
+    relatedLinks: ["/body-care", "/body-care/body-moisturizers", "/body-care/body-exfoliants", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "fragrance-family-reference-chart",
+    title: "Fragrance Family Reference Chart",
+    description: "A scent-family reference for comparing floral, fresh, warm, woody, gourmand, citrus, and discovery-set fragrance routes.",
+    intro:
+      "Fragrance pages can attract links when they make scent language easier to understand. This reference chart keeps scent family, gifting risk, bottle size, and seller path in one place.",
+    sections: [
+      {
+        title: "Use scent family as the first filter",
+        body:
+          "Floral, fresh, woody, citrus, warm, amber, and gourmand labels can help shoppers narrow the field before comparing bottle size, discovery sets, and seller confidence.",
+      },
+      {
+        title: "Discovery sets are useful comparison bridges",
+        body:
+          "A discovery set can connect fragrance education to commercial pages because it lets shoppers sample across scent families before choosing a full bottle.",
+      },
+    ],
+    checklist: ["Choose a scent family", "Compare discovery sets", "Check bottle size", "Review gifting and return restrictions"],
+    faqs: [
+      {
+        question: "Why are fragrance-family charts linkable?",
+        answer:
+          "They are easy reference assets for gift guides, fragrance roundups, and shopping explainers because they translate scent language into shopper decisions.",
+      },
+      {
+        question: "Should fragrance pages make wellness claims?",
+        answer:
+          "No. They should focus on scent style, gifting, format, and seller confidence rather than mood, health, or therapeutic claims.",
+      },
+    ],
+    relatedLinks: ["/fragrance", "/fragrance/fragrance-discovery-sets", "/fragrance/luxury-perfume-gifts", "/beauty-university/fragrance-gifting-guide"],
+  },
 ];
 
 export function getBeautyHubPage(slug = "home") {

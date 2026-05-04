@@ -2,6 +2,17 @@ import BeautyHubPage from "../components/BeautyHubPage";
 import { beautyUniversityTopics } from "../lib/beautyData";
 import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
+const referenceAssetSlugs = new Set([
+  "beauty-routine-order-chart",
+  "ingredient-compatibility-cheat-sheet",
+  "artificial-jewelry-styling-guide",
+  "beauty-gift-decision-tree",
+  "hair-care-routine-map",
+  "nail-care-tool-checklist",
+  "body-care-layering-guide",
+  "fragrance-family-reference-chart",
+]);
+
 export const metadata = buildBeautyMetadata({
   title: "Beauty University",
   description: "Use luxury beauty guides to understand seller trust, shade matching, lip care, and premium product tradeoffs before you buy.",
@@ -9,6 +20,9 @@ export const metadata = buildBeautyMetadata({
 });
 
 export default function BeautyUniversityPage() {
+  const referenceAssets = beautyUniversityTopics.filter((topic) => referenceAssetSlugs.has(topic.slug));
+  const coreLearningPaths = beautyUniversityTopics.filter((topic) => !referenceAssetSlugs.has(topic.slug));
+
   return (
     <BeautyHubPage
       title="Use Beauty University before you click out to a seller"
@@ -17,7 +31,15 @@ export default function BeautyUniversityPage() {
       sections={[
         {
           title: "Core learning paths",
-          links: beautyUniversityTopics.map((topic) => ({
+          links: coreLearningPaths.map((topic) => ({
+            href: `/beauty-university/${topic.slug}`,
+            label: topic.title,
+            description: topic.description,
+          })),
+        },
+        {
+          title: "Reference assets worth citing",
+          links: referenceAssets.map((topic) => ({
             href: `/beauty-university/${topic.slug}`,
             label: topic.title,
             description: topic.description,
