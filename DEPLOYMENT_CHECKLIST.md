@@ -12,9 +12,10 @@
    - `LIPFLOWER_ENABLE_VERCEL_ANALYTICS` only if you want to override the production default
    - `LIPFLOWER_INTERNAL_API_KEY`
 7. Run `npm install`.
-8. Run `npm run build`.
+8. Run `npm run verify`.
 9. Verify:
    - homepage
+   - `/beauty`
    - `/luxury-beauty`
    - `/skin-care`
    - `/hair-care`
@@ -24,15 +25,35 @@
    - `/body-care`
    - `/nail-care`
    - `/beauty-tools`
+   - `/artificial-jewelry`
    - `/natural-beauty`
+   - `/best`
    - `/compare`
    - `/brands`
+   - `/calculators`
    - `/sellers`
    - `/beauty-university`
+   - `/beauty-research`
+   - `/beauty-routines`
+   - `/beauty-gifts`
+   - `/beauty-occasions`
+   - `/beauty-ingredients`
+   - `/beauty-finishes`
+   - `/beauty-shades`
+   - `/beauty-glossary`
+   - `/beauty-calendar`
+   - `/beauty-checklists`
+   - `/beauty-seller-scorecard`
+   - `/beauty-claims-guide`
+   - `/beauty-methodology`
+   - `/beauty-faq`
    - `/sitemap.xml`
    - `/sitemap_index.xml`
    - `/robots.txt`
    - `/sitemaps/beauty-core/sitemap.xml`
+   - `/sitemaps/beauty-programmatic/sitemap.xml`
+   - `/sitemaps/beauty-education/sitemap.xml`
 10. Confirm canonical tags use `https://lipflower.com`.
 11. Deploy production and submit the sitemap index in Google Search Console.
 12. After production deploy, open Vercel Analytics and confirm pageviews are arriving for `lipflower.com`.
+13. After production deploy, run `npm run verify:production`.
