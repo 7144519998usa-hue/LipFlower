@@ -68,6 +68,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-calendar" className="ghost-link">
               Beauty Calendar
             </Link>
+            <Link href="/beauty-checklists" className="ghost-link">
+              Buying Checklists
+            </Link>
           </div>
         </div>
       </section>
@@ -98,6 +101,7 @@ export default function BeautyResearchPage() {
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
               <li>Use the glossary when a term needs a short, claim-safe definition.</li>
               <li>Use the calendar when seasonal timing, giftability, or occasion styling matters.</li>
+              <li>Use buying checklists before high-intent comparison or seller pages.</li>
               <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
             <div className="hero-actions">

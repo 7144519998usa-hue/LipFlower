@@ -168,6 +168,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-checklists",
+      title: "LipFlower Beauty Buying Checklists",
+      sitemapAssignment: "education",
+      pageType: "buying-checklists",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/about/cite-lipflower",
       title: "Cite LipFlower",
       sitemapAssignment: "education",
