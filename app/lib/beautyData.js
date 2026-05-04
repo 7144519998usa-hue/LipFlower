@@ -914,6 +914,17 @@ export const beautyCategoryPages = [
 
 export const beautySystemPages = [];
 
+export const linkableBeautyReferenceSlugs = [
+  "beauty-routine-order-chart",
+  "ingredient-compatibility-cheat-sheet",
+  "artificial-jewelry-styling-guide",
+  "beauty-gift-decision-tree",
+  "hair-care-routine-map",
+  "nail-care-tool-checklist",
+  "body-care-layering-guide",
+  "fragrance-family-reference-chart",
+];
+
 export const beautyUniversityTopics = [
   {
     slug: "shade-matching-guide",

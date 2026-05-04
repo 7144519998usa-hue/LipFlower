@@ -6,6 +6,7 @@ export const siteConfig = {
   siteTagline:
     "Luxury beauty, artificial jewelry, seller routing, and premium self-care research for affluent shoppers.",
   utilityLinks: [
+    { href: "/beauty-research", label: "Research library" },
     { href: "/about/advertiser-disclosure", label: "Affiliate disclosure" },
     { href: "/about/editorial-policy", label: "Editorial policy" },
     { href: "/about/how-we-make-money", label: "How we rank offers" },

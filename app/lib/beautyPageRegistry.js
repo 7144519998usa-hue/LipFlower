@@ -146,6 +146,13 @@ export function buildBeautyPageRegistry() {
       title: "Beauty University",
       sitemapAssignment: "education",
     }),
+    makeEntry({
+      canonicalPath: "/beauty-research",
+      title: "LipFlower Beauty Research Library",
+      sitemapAssignment: "education",
+      pageType: "research-library",
+      priority: 0.85,
+    }),
     ...beautyUniversityTopics.map((page) =>
       makeEntry({
         canonicalPath: `/beauty-university/${page.slug}`,

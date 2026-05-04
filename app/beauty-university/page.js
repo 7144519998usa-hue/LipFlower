@@ -1,17 +1,8 @@
 import BeautyHubPage from "../components/BeautyHubPage";
-import { beautyUniversityTopics } from "../lib/beautyData";
+import { beautyUniversityTopics, linkableBeautyReferenceSlugs } from "../lib/beautyData";
 import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
-const referenceAssetSlugs = new Set([
-  "beauty-routine-order-chart",
-  "ingredient-compatibility-cheat-sheet",
-  "artificial-jewelry-styling-guide",
-  "beauty-gift-decision-tree",
-  "hair-care-routine-map",
-  "nail-care-tool-checklist",
-  "body-care-layering-guide",
-  "fragrance-family-reference-chart",
-]);
+const referenceAssetSlugs = new Set(linkableBeautyReferenceSlugs);
 
 export const metadata = buildBeautyMetadata({
   title: "Beauty University",
