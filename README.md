@@ -97,6 +97,12 @@ Run the complete pre-deploy suite:
 npm run verify
 ```
 
+For a fast inventory snapshot of route scale, indexable pages, programmatic SEO coverage, and commercial inventory, run:
+
+```bash
+npm run status
+```
+
 This runs:
 
 - `npm run check:internal-links`
