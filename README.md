@@ -1,5 +1,7 @@
 # LipFlower
 
+[![Verify LipFlower](https://github.com/7144519998usa-hue/LipFlower/actions/workflows/verify.yml/badge.svg)](https://github.com/7144519998usa-hue/LipFlower/actions/workflows/verify.yml)
+
 Standalone Next.js site for [lipflower.com](https://lipflower.com).
 
 LipFlower is positioned as a luxury beauty and artificial jewelry affiliate marketplace for cosmetics, skin care, makeup, fragrance, accessories, and lip care. The site is built for programmatic SEO collections, premium brand research, seller comparison, and Amazon/retailer affiliate routing.
@@ -106,6 +108,8 @@ This runs:
 - `npm run check:metadata`
 - `npm run check:security`
 - `npm run check:env`
+- `npm run check:affiliate`
+- `npm run check:a11y`
 - `npm run build`
 
 ## Production verification
