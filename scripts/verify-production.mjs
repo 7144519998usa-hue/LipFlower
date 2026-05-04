@@ -9,6 +9,7 @@ const checks = [
   { path: "/beauty-glossary", status: 200, name: "beauty glossary" },
   { path: "/beauty-calendar", status: 200, name: "beauty shopping calendar" },
   { path: "/beauty-checklists", status: 200, name: "beauty buying checklists" },
+  { path: "/beauty-seller-scorecard", status: 200, name: "beauty seller scorecard" },
   { path: "/about/media-kit", status: 200, name: "media kit" },
   { path: "/about/cite-lipflower", status: 200, name: "citation resource" },
   { path: "/beauty-university/fragrance-family-reference-chart", status: 200, name: "reference guide" },

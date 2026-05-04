@@ -175,6 +175,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-seller-scorecard",
+      title: "LipFlower Beauty Seller Scorecard",
+      sitemapAssignment: "education",
+      pageType: "seller-scorecard",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/about/cite-lipflower",
       title: "Cite LipFlower",
       sitemapAssignment: "education",
