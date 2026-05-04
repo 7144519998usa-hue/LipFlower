@@ -1,0 +1,25 @@
+# Default owner for LipFlower changes.
+* @7144519998usa-hue
+
+# SEO, sitemap, registry, and programmatic page governance.
+/app/lib/beautyData.js @7144519998usa-hue
+/app/lib/beautyPageRegistry.js @7144519998usa-hue
+/app/lib/programmaticSeoData.js @7144519998usa-hue
+/app/lib/programmaticSeoGovernance.js @7144519998usa-hue
+/app/lib/sitemapData.js @7144519998usa-hue
+/scripts/check-*.mjs @7144519998usa-hue
+
+# Affiliate routing, internal APIs, security, and deployment config.
+/app/api/ @7144519998usa-hue
+/app/lib/affiliateRouting.js @7144519998usa-hue
+/app/lib/internalApiGuard.js @7144519998usa-hue
+/app/lib/env.js @7144519998usa-hue
+/next.config.js @7144519998usa-hue
+/vercel.json @7144519998usa-hue
+/.env.example @7144519998usa-hue
+
+# GitHub automation and repo governance.
+/.github/ @7144519998usa-hue
+/SECURITY.md @7144519998usa-hue
+/CONTRIBUTING.md @7144519998usa-hue
+/SUPPORT.md @7144519998usa-hue
