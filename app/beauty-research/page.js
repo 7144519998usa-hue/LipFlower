@@ -74,6 +74,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-seller-scorecard" className="ghost-link">
               Seller Scorecard
             </Link>
+            <Link href="/beauty-claims-guide" className="ghost-link">
+              Claims Guide
+            </Link>
           </div>
         </div>
       </section>
@@ -106,6 +109,7 @@ export default function BeautyResearchPage() {
               <li>Use the calendar when seasonal timing, giftability, or occasion styling matters.</li>
               <li>Use buying checklists before high-intent comparison or seller pages.</li>
               <li>Use the seller scorecard when retailer confidence is part of the decision.</li>
+              <li>Use the claims guide when beauty wording touches sensitive skin, SPF, clean beauty, or safety-adjacent topics.</li>
               <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
             <div className="hero-actions">

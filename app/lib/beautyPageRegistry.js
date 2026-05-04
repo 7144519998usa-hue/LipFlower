@@ -182,6 +182,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-claims-guide",
+      title: "LipFlower Beauty Claims Guide",
+      sitemapAssignment: "education",
+      pageType: "claims-guide",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/about/cite-lipflower",
       title: "Cite LipFlower",
       sitemapAssignment: "education",
