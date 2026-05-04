@@ -65,6 +65,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-glossary" className="ghost-link">
               Beauty Glossary
             </Link>
+            <Link href="/beauty-calendar" className="ghost-link">
+              Beauty Calendar
+            </Link>
           </div>
         </div>
       </section>
@@ -94,6 +97,7 @@ export default function BeautyResearchPage() {
               <li>Use ingredient guides as shopping context, not medical or dermatology advice.</li>
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
               <li>Use the glossary when a term needs a short, claim-safe definition.</li>
+              <li>Use the calendar when seasonal timing, giftability, or occasion styling matters.</li>
               <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
             <div className="hero-actions">

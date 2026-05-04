@@ -161,6 +161,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-calendar",
+      title: "LipFlower Beauty Shopping Calendar",
+      sitemapAssignment: "education",
+      pageType: "seasonal-reference",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/about/cite-lipflower",
       title: "Cite LipFlower",
       sitemapAssignment: "education",
