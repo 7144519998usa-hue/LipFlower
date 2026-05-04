@@ -80,6 +80,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-methodology" className="ghost-link">
               Methodology
             </Link>
+            <Link href="/beauty-faq" className="ghost-link">
+              Beauty FAQ
+            </Link>
           </div>
         </div>
       </section>
@@ -114,6 +117,7 @@ export default function BeautyResearchPage() {
               <li>Use the seller scorecard when retailer confidence is part of the decision.</li>
               <li>Use the claims guide when beauty wording touches sensitive skin, SPF, clean beauty, or safety-adjacent topics.</li>
               <li>Use the methodology page when comparison logic or editorial standards need context.</li>
+              <li>Use the FAQ when users need quick answers about sellers, claims, disclosure, and citation.</li>
               <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
             <div className="hero-actions">

@@ -13,6 +13,7 @@ export const siteConfig = {
     { href: "/beauty-seller-scorecard", label: "Seller scorecard" },
     { href: "/beauty-claims-guide", label: "Claims guide" },
     { href: "/beauty-methodology", label: "Methodology" },
+    { href: "/beauty-faq", label: "Beauty FAQ" },
     { href: "/about/media-kit", label: "Media kit" },
     { href: "/about/cite-lipflower", label: "Cite LipFlower" },
     { href: "/about/advertiser-disclosure", label: "Affiliate disclosure" },
