@@ -68,6 +68,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-gifts" className="ghost-link">
               Gift Library
             </Link>
+            <Link href="/beauty-occasions" className="ghost-link">
+              Occasion Library
+            </Link>
             <Link href="/beauty-ingredients" className="ghost-link">
               Ingredient Library
             </Link>
@@ -128,6 +131,7 @@ export default function BeautyResearchPage() {
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
               <li>Use the routine library when a shopper needs to connect multiple categories into one decision path.</li>
               <li>Use the gift library when recipient fit, return clarity, and seller timing are part of the decision.</li>
+              <li>Use the occasion library when an event changes product, seller, or styling priorities.</li>
               <li>Use the ingredient library when product language depends on ingredient positioning.</li>
               <li>Use the finish library when texture, coverage, shine, or material finish changes the buying decision.</li>
               <li>Use the shade library when undertone, color family, or gift-risk reduction matters.</li>

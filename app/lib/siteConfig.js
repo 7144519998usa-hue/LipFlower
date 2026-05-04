@@ -9,6 +9,7 @@ export const siteConfig = {
     { href: "/beauty-research", label: "Research library" },
     { href: "/beauty-routines", label: "Routine library" },
     { href: "/beauty-gifts", label: "Gift library" },
+    { href: "/beauty-occasions", label: "Occasion library" },
     { href: "/beauty-ingredients", label: "Ingredient library" },
     { href: "/beauty-finishes", label: "Finish library" },
     { href: "/beauty-shades", label: "Shade library" },

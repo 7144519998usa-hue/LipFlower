@@ -8,6 +8,7 @@ const checks = [
   { path: "/beauty-research", status: 200, name: "beauty research library" },
   { path: "/beauty-routines", status: 200, name: "beauty routine library" },
   { path: "/beauty-gifts", status: 200, name: "beauty gift library" },
+  { path: "/beauty-occasions", status: 200, name: "beauty occasion library" },
   { path: "/beauty-ingredients", status: 200, name: "beauty ingredient library" },
   { path: "/beauty-finishes", status: 200, name: "beauty finish library" },
   { path: "/beauty-shades", status: 200, name: "beauty shade library" },
