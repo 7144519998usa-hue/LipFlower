@@ -160,6 +160,13 @@ export function buildBeautyPageRegistry() {
       pageType: "editor-resource",
       priority: 0.7,
     }),
+    makeEntry({
+      canonicalPath: "/about/media-kit",
+      title: "LipFlower Media Kit",
+      sitemapAssignment: "education",
+      pageType: "media-kit",
+      priority: 0.7,
+    }),
     ...beautyUniversityTopics.map((page) =>
       makeEntry({
         canonicalPath: `/beauty-university/${page.slug}`,

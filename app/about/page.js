@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export const metadata = {
   title: "About LipFlower",
   description: "About the LipFlower luxury beauty affiliate marketplace."
@@ -15,6 +17,14 @@ export default function AboutPage() {
         <p>
           The site is designed as a premium decision-support engine, not a checkout cart. We help shoppers compare brands, categories, product roles, and seller paths before continuing to Amazon or another trusted retailer.
         </p>
+        <div className="hero-actions">
+          <Link href="/about/media-kit" className="search-button">
+            Media Kit
+          </Link>
+          <Link href="/beauty-research" className="ghost-link">
+            Research Library
+          </Link>
+        </div>
       </div>
     </main>
   );

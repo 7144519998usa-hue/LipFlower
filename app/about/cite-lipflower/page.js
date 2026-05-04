@@ -48,6 +48,9 @@ export default function CiteLipFlowerPage() {
           <Link href="/about/editorial-policy" className="ghost-link">
             Editorial Policy
           </Link>
+          <Link href="/about/media-kit" className="ghost-link">
+            Media Kit
+          </Link>
         </div>
       </section>
 
