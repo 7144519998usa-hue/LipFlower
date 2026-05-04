@@ -3,6 +3,7 @@ import AffiliateLink from "./AffiliateLink";
 import JsonLd from "./JsonLd";
 import ProductUseDisclaimer from "./ProductUseDisclaimer";
 import { beautySellers, beautySiteUrl } from "../lib/beautyData";
+import { programmaticBestPages } from "../lib/programmaticSeoData";
 
 function sellerSearchUrl(seller, query) {
   const encodedQuery = encodeURIComponent(query);
@@ -22,11 +23,42 @@ function sellerSearchUrl(seller, query) {
   return seller.affiliateUrl;
 }
 
+function getRelatedBestGuides(page) {
+  const sameCategory = programmaticBestPages.filter(
+    (candidate) => candidate.slug !== page.slug && candidate.categorySlug === page.categorySlug,
+  );
+  const sameIntent = programmaticBestPages.filter(
+    (candidate) =>
+      candidate.slug !== page.slug &&
+      candidate.categorySlug !== page.categorySlug &&
+      candidate.intentLabel === page.intentLabel,
+  );
+  const sameVertical = programmaticBestPages.filter(
+    (candidate) =>
+      candidate.slug !== page.slug &&
+      candidate.categorySlug !== page.categorySlug &&
+      candidate.intentLabel !== page.intentLabel &&
+      candidate.vertical === page.vertical,
+  );
+
+  const seen = new Set();
+  return [...sameCategory, ...sameIntent, ...sameVertical]
+    .filter((candidate) => {
+      if (seen.has(candidate.slug)) {
+        return false;
+      }
+      seen.add(candidate.slug);
+      return true;
+    })
+    .slice(0, 8);
+}
+
 export default function BestProgrammaticPage({ page }) {
   const pageUrl = `${beautySiteUrl}/best/${page.slug}`;
   const featuredSellers = beautySellers.filter((seller) =>
     ["amazon", "sephora", "ulta"].includes(seller.slug),
   );
+  const relatedBestGuides = getRelatedBestGuides(page);
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -148,6 +180,21 @@ export default function BestProgrammaticPage({ page }) {
                   <strong>{item.question}</strong>
                   <span>{item.answer}</span>
                 </div>
+              ))}
+            </div>
+          </article>
+          <article className="catalog-card">
+            <h2>Related best guides</h2>
+            <div className="catalog-stack">
+              {relatedBestGuides.map((relatedPage) => (
+                <Link
+                  key={relatedPage.slug}
+                  href={`/best/${relatedPage.slug}`}
+                  className="catalog-link-card"
+                >
+                  <strong>{relatedPage.title}</strong>
+                  <span>{relatedPage.summary}</span>
+                </Link>
               ))}
             </div>
           </article>
