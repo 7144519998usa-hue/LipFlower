@@ -5,9 +5,10 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "check": "npm run check:internal-links && npm run check:programmatic-seo && npm run check:sitemaps && npm run check:structured-data && npm run check:claims",
+    "check": "npm run check:internal-links && npm run check:programmatic-seo && npm run check:sitemaps && npm run check:structured-data && npm run check:claims && npm run check:metadata",
     "check:claims": "node --no-warnings scripts/check-claims.mjs",
     "check:internal-links": "node --no-warnings scripts/check-internal-links.mjs",
+    "check:metadata": "node --no-warnings scripts/check-metadata.mjs",
     "check:programmatic-seo": "node --no-warnings scripts/check-programmatic-seo.mjs",
     "check:sitemaps": "node --no-warnings scripts/check-sitemaps.mjs",
     "check:structured-data": "node --no-warnings scripts/check-structured-data.mjs",

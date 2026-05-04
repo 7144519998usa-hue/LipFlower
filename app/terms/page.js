@@ -1,7 +1,10 @@
-export const metadata = {
+import { buildBeautyMetadata } from "../lib/beautyMetadata";
+
+export const metadata = buildBeautyMetadata({
   title: "Terms of Use",
   description: "Terms of use for LipFlower.",
-};
+  canonicalPath: "/terms",
+});
 
 export default function TermsPage() {
   return (

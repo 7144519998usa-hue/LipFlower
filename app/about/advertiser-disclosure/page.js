@@ -1,7 +1,10 @@
-export const metadata = {
+import { buildBeautyMetadata } from "../../lib/beautyMetadata";
+
+export const metadata = buildBeautyMetadata({
   title: "Affiliate Disclosure",
-  description: "Affiliate disclosure for LipFlower."
-};
+  description: "Affiliate disclosure for LipFlower.",
+  canonicalPath: "/about/advertiser-disclosure",
+});
 
 export default function AdvertiserDisclosurePage() {
   return (

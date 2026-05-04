@@ -1,7 +1,10 @@
-export const metadata = {
+import { buildBeautyMetadata } from "../lib/beautyMetadata";
+
+export const metadata = buildBeautyMetadata({
   title: "Contact",
   description: "Contact LipFlower for partnership, quote, or platform questions.",
-};
+  canonicalPath: "/contact",
+});
 
 export default function ContactPage() {
   return (

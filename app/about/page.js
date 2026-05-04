@@ -1,9 +1,11 @@
 import Link from "next/link";
+import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
-export const metadata = {
+export const metadata = buildBeautyMetadata({
   title: "About LipFlower",
-  description: "About the LipFlower luxury beauty affiliate marketplace."
-};
+  description: "About the LipFlower luxury beauty affiliate marketplace.",
+  canonicalPath: "/about",
+});
 
 export default function AboutPage() {
   return (

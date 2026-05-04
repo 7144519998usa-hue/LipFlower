@@ -1,7 +1,10 @@
-export const metadata = {
+import { buildBeautyMetadata } from "../../lib/beautyMetadata";
+
+export const metadata = buildBeautyMetadata({
   title: "How We Make Money",
-  description: "How LipFlower monetizes affiliate beauty traffic."
-};
+  description: "How LipFlower monetizes affiliate beauty traffic.",
+  canonicalPath: "/about/how-we-make-money",
+});
 
 export default function HowWeMakeMoneyPage() {
   return (

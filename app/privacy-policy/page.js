@@ -1,7 +1,10 @@
-export const metadata = {
+import { buildBeautyMetadata } from "../lib/beautyMetadata";
+
+export const metadata = buildBeautyMetadata({
   title: "Privacy Policy",
   description: "Privacy policy for LipFlower.",
-};
+  canonicalPath: "/privacy-policy",
+});
 
 export default function PrivacyPolicyPage() {
   return (
