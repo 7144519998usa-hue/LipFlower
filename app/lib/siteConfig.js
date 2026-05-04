@@ -11,6 +11,7 @@ export const siteConfig = {
     { href: "/beauty-gifts", label: "Gift library" },
     { href: "/beauty-ingredients", label: "Ingredient library" },
     { href: "/beauty-finishes", label: "Finish library" },
+    { href: "/beauty-shades", label: "Shade library" },
     { href: "/beauty-glossary", label: "Beauty glossary" },
     { href: "/beauty-calendar", label: "Beauty calendar" },
     { href: "/beauty-checklists", label: "Buying checklists" },

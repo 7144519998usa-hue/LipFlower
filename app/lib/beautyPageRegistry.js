@@ -182,6 +182,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-shades",
+      title: "LipFlower Beauty Shade and Color Library",
+      sitemapAssignment: "education",
+      pageType: "shade-library",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/beauty-glossary",
       title: "LipFlower Beauty Glossary",
       sitemapAssignment: "education",

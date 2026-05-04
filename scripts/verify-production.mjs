@@ -10,6 +10,7 @@ const checks = [
   { path: "/beauty-gifts", status: 200, name: "beauty gift library" },
   { path: "/beauty-ingredients", status: 200, name: "beauty ingredient library" },
   { path: "/beauty-finishes", status: 200, name: "beauty finish library" },
+  { path: "/beauty-shades", status: 200, name: "beauty shade library" },
   { path: "/beauty-glossary", status: 200, name: "beauty glossary" },
   { path: "/beauty-calendar", status: 200, name: "beauty shopping calendar" },
   { path: "/beauty-checklists", status: 200, name: "beauty buying checklists" },

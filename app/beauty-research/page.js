@@ -74,6 +74,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-finishes" className="ghost-link">
               Finish Library
             </Link>
+            <Link href="/beauty-shades" className="ghost-link">
+              Shade Library
+            </Link>
             <Link href="/beauty-glossary" className="ghost-link">
               Beauty Glossary
             </Link>
@@ -127,6 +130,7 @@ export default function BeautyResearchPage() {
               <li>Use the gift library when recipient fit, return clarity, and seller timing are part of the decision.</li>
               <li>Use the ingredient library when product language depends on ingredient positioning.</li>
               <li>Use the finish library when texture, coverage, shine, or material finish changes the buying decision.</li>
+              <li>Use the shade library when undertone, color family, or gift-risk reduction matters.</li>
               <li>Use the glossary when a term needs a short, claim-safe definition.</li>
               <li>Use the calendar when seasonal timing, giftability, or occasion styling matters.</li>
               <li>Use buying checklists before high-intent comparison or seller pages.</li>
