@@ -84,19 +84,31 @@ function buildNextActions({ commercialInventory, verticalCounts }) {
     .filter(([, count]) => count < 120)
     .map(([vertical]) => vertical);
 
+  const brandAction =
+    commercialInventory.brands >= 25
+      ? {
+          priority: 2,
+          action: "Continue brand hub expansion",
+          target: "50 reputable beauty, skin care, makeup, fragrance, hair care, and artificial jewelry brands.",
+          reason: `Current brand count is ${commercialInventory.brands}; the first brand-depth milestone is met, but 50 brands gives comparisons and category hubs more room to grow.`,
+        }
+      : {
+          priority: 1,
+          action: "Add brand hubs",
+          target: "25 to 50 reputable beauty, skin care, makeup, fragrance, hair care, and artificial jewelry brands.",
+          reason: `Current brand count is ${commercialInventory.brands}; brand depth improves trust, internal links, and comparison coverage.`,
+        };
+
+  const comparisonAction = {
+    priority: commercialInventory.brands >= 25 ? 1 : 2,
+    action: "Expand comparison pages",
+    target: "50 to 200 high-intent product, brand, and category comparisons with unique verdicts.",
+    reason: `Current comparison count is ${commercialInventory.comparisons}; comparison pages are commercial and useful when not thin.`,
+  };
+
   return [
-    {
-      priority: 1,
-      action: "Add brand hubs",
-      target: "25 to 50 reputable beauty, skin care, makeup, fragrance, hair care, and artificial jewelry brands.",
-      reason: `Current brand count is ${commercialInventory.brands}; brand depth improves trust, internal links, and comparison coverage.`,
-    },
-    {
-      priority: 2,
-      action: "Expand comparison pages",
-      target: "50 to 200 high-intent product, brand, and category comparisons with unique verdicts.",
-      reason: `Current comparison count is ${commercialInventory.comparisons}; comparison pages are commercial and useful when not thin.`,
-    },
+    comparisonAction,
+    brandAction,
     {
       priority: 3,
       action: "Balance weaker verticals",

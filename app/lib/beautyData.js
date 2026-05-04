@@ -609,6 +609,111 @@ export const beautyBrands = [
     name: "Tom Ford Beauty",
     description: "Tom Ford Beauty fits elevated makeup and fragrance shoppers who want rich color, sleek packaging, and a premium finish.",
   },
+  {
+    slug: "charlotte-tilbury",
+    name: "Charlotte Tilbury",
+    description: "Charlotte Tilbury is useful for shoppers comparing polished complexion, glow-focused makeup, lip color, and giftable beauty sets.",
+  },
+  {
+    slug: "rare-beauty",
+    name: "Rare Beauty",
+    description: "Rare Beauty fits makeup shoppers comparing soft color, modern packaging, complexion products, and approachable prestige beauty.",
+  },
+  {
+    slug: "fenty-beauty",
+    name: "Fenty Beauty",
+    description: "Fenty Beauty matters for complexion, lip, cheek, and inclusive shade-path research before choosing a seller.",
+  },
+  {
+    slug: "nars",
+    name: "NARS",
+    description: "NARS is a strong route for shoppers comparing complexion, cheek color, lip products, and artist-led makeup finishes.",
+  },
+  {
+    slug: "armani-beauty",
+    name: "Armani Beauty",
+    description: "Armani Beauty fits luxury complexion, fragrance, and polished makeup shoppers who care about elegant finish and premium presentation.",
+  },
+  {
+    slug: "tatcha",
+    name: "Tatcha",
+    description: "Tatcha is useful for skin-care shoppers comparing ritual-led cleansers, moisturizers, masks, and polished packaging.",
+  },
+  {
+    slug: "drunk-elephant",
+    name: "Drunk Elephant",
+    description: "Drunk Elephant fits shoppers comparing colorful skin-care routines, serums, moisturizers, and product layering decisions.",
+  },
+  {
+    slug: "skinceuticals",
+    name: "SkinCeuticals",
+    description: "SkinCeuticals is a strong route for premium serum shoppers comparing ingredient-led products with careful claim-safe context.",
+  },
+  {
+    slug: "cerave",
+    name: "CeraVe",
+    description: "CeraVe fits practical skin-care shoppers comparing cleansers, moisturizers, SPF, and barrier-positioned routine staples.",
+  },
+  {
+    slug: "la-roche-posay",
+    name: "La Roche-Posay",
+    description: "La Roche-Posay is useful for sunscreen, cleanser, moisturizer, and sensitive-routine shoppers who want pharmacy-style beauty research.",
+  },
+  {
+    slug: "laneige",
+    name: "Laneige",
+    description: "Laneige fits shoppers comparing lip masks, lip balms, hydrating-positioned skin care, and giftable routine products.",
+  },
+  {
+    slug: "summer-fridays",
+    name: "Summer Fridays",
+    description: "Summer Fridays is useful for shoppers comparing lip butter balms, skin tints, masks, and soft modern beauty routines.",
+  },
+  {
+    slug: "sol-de-janeiro",
+    name: "Sol de Janeiro",
+    description: "Sol de Janeiro fits body-care, fragrance mist, and gift-set shoppers comparing scent-forward beauty routines.",
+  },
+  {
+    slug: "oribe",
+    name: "Oribe",
+    description: "Oribe is a premium hair-care route for shoppers comparing shampoos, conditioners, styling products, and salon-inspired presentation.",
+  },
+  {
+    slug: "kerastase",
+    name: "Kerastase",
+    description: "Kerastase fits hair-care shoppers comparing premium cleansing, conditioning, masks, and routine-specific hair categories.",
+  },
+  {
+    slug: "olaplex",
+    name: "Olaplex",
+    description: "Olaplex is useful for hair-care shoppers comparing treatment-positioned products, masks, stylers, and seller confidence.",
+  },
+  {
+    slug: "jo-malone",
+    name: "Jo Malone London",
+    description: "Jo Malone London fits fragrance shoppers comparing discovery sets, scent families, gifting, and polished bottle presentation.",
+  },
+  {
+    slug: "maison-margiela",
+    name: "Maison Margiela Replica",
+    description: "Maison Margiela Replica is useful for fragrance shoppers comparing scent stories, discovery sets, and giftable fragrance routes.",
+  },
+  {
+    slug: "essie",
+    name: "Essie",
+    description: "Essie fits nail-care shoppers comparing polish color families, manicure staples, and accessible beauty seller paths.",
+  },
+  {
+    slug: "dyson-beauty",
+    name: "Dyson Beauty",
+    description: "Dyson Beauty is useful for shoppers comparing premium hair styling tools, giftable devices, and seller return clarity.",
+  },
+  {
+    slug: "kate-spade-jewelry",
+    name: "Kate Spade Jewelry",
+    description: "Kate Spade Jewelry fits artificial and fashion-jewelry shoppers comparing playful earrings, necklaces, and giftable accessories.",
+  },
 ];
 
 export const beautySellers = [
@@ -651,6 +756,27 @@ export const beautyBrandCategories = [
   { brandSlug: "chanel", categorySlug: "fragrance", title: "CHANEL Fragrance", summary: "Compare CHANEL fragrance buying paths, gift sets, and signature scents." },
   { brandSlug: "la-mer", categorySlug: "skin-care", title: "La Mer Skin Care", summary: "Compare La Mer creams, serums, and ultra-premium skin care routines." },
   { brandSlug: "tom-ford-beauty", categorySlug: "lip-care", title: "Tom Ford Lip Color", summary: "Compare premium lip color and luxury makeup seller routes." },
+  { brandSlug: "charlotte-tilbury", categorySlug: "makeup", title: "Charlotte Tilbury Makeup", summary: "Compare Charlotte Tilbury complexion, glow, cheek, and lip routes before choosing a seller." },
+  { brandSlug: "rare-beauty", categorySlug: "makeup", title: "Rare Beauty Makeup", summary: "Compare Rare Beauty cheek, complexion, and lip products with shade and seller context." },
+  { brandSlug: "fenty-beauty", categorySlug: "makeup", title: "Fenty Beauty Makeup", summary: "Compare Fenty Beauty complexion, lip, and cheek routes with shade-path context." },
+  { brandSlug: "nars", categorySlug: "makeup", title: "NARS Makeup", summary: "Compare NARS complexion, blush, bronzer, and lip products by finish and routine fit." },
+  { brandSlug: "armani-beauty", categorySlug: "makeup", title: "Armani Beauty Makeup", summary: "Compare Armani complexion, lip, and fragrance-adjacent beauty shopping paths." },
+  { brandSlug: "tatcha", categorySlug: "skin-care", title: "Tatcha Skin Care", summary: "Compare Tatcha cleansers, moisturizers, masks, and ritual-led skin-care routes." },
+  { brandSlug: "drunk-elephant", categorySlug: "skin-care", title: "Drunk Elephant Skin Care", summary: "Compare Drunk Elephant serums, moisturizers, and routine-building product paths." },
+  { brandSlug: "skinceuticals", categorySlug: "skin-care", title: "SkinCeuticals Serums", summary: "Compare SkinCeuticals serum routes with ingredient-led but claim-safe buying context." },
+  { brandSlug: "cerave", categorySlug: "skin-care", title: "CeraVe Skin Care", summary: "Compare CeraVe cleansers, moisturizers, SPF, and practical routine staples." },
+  { brandSlug: "la-roche-posay", categorySlug: "skin-care", title: "La Roche-Posay Skin Care", summary: "Compare La Roche-Posay sunscreen, cleanser, moisturizer, and sensitive-routine shopping paths." },
+  { brandSlug: "laneige", categorySlug: "lip-care", title: "Laneige Lip Care", summary: "Compare Laneige lip masks, lip balms, and hydrating-positioned beauty products." },
+  { brandSlug: "summer-fridays", categorySlug: "lip-care", title: "Summer Fridays Lip Care", summary: "Compare Summer Fridays lip butter balms, skin tints, and easy gifting routes." },
+  { brandSlug: "sol-de-janeiro", categorySlug: "body-care", title: "Sol de Janeiro Body Care", summary: "Compare Sol de Janeiro body creams, fragrance mists, and giftable body-care paths." },
+  { brandSlug: "oribe", categorySlug: "hair-care", title: "Oribe Hair Care", summary: "Compare Oribe shampoo, conditioner, styling, and premium hair-care seller routes." },
+  { brandSlug: "kerastase", categorySlug: "hair-care", title: "Kerastase Hair Care", summary: "Compare Kerastase cleansing, conditioning, masks, and routine-specific hair-care paths." },
+  { brandSlug: "olaplex", categorySlug: "hair-care", title: "Olaplex Hair Care", summary: "Compare Olaplex treatment-positioned products, masks, and styling support paths." },
+  { brandSlug: "jo-malone", categorySlug: "fragrance", title: "Jo Malone Fragrance", summary: "Compare Jo Malone discovery sets, scent families, gifting, and fragrance seller paths." },
+  { brandSlug: "maison-margiela", categorySlug: "fragrance", title: "Maison Margiela Replica Fragrance", summary: "Compare Replica fragrance stories, discovery sets, and giftable scent routes." },
+  { brandSlug: "essie", categorySlug: "nail-care", title: "Essie Nail Care", summary: "Compare Essie polish color families, manicure staples, and seller routes." },
+  { brandSlug: "dyson-beauty", categorySlug: "beauty-tools", title: "Dyson Beauty Tools", summary: "Compare Dyson hair styling tools by use case, gifting context, and seller policy." },
+  { brandSlug: "kate-spade-jewelry", categorySlug: "artificial-jewelry", title: "Kate Spade Fashion Jewelry", summary: "Compare Kate Spade earrings, necklaces, and giftable fashion-jewelry accessories." },
 ];
 
 export const beautyCategoryPages = [
