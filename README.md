@@ -103,6 +103,12 @@ For a fast inventory snapshot of route scale, indexable pages, programmatic SEO 
 npm run status
 ```
 
+For a growth-readiness report with milestone progress, vertical balance, commercial inventory risks, and next expansion priorities, run:
+
+```bash
+npm run growth:readiness
+```
+
 This runs:
 
 - `npm run check:internal-links`
