@@ -153,6 +153,13 @@ export function buildBeautyPageRegistry() {
       pageType: "research-library",
       priority: 0.85,
     }),
+    makeEntry({
+      canonicalPath: "/about/cite-lipflower",
+      title: "Cite LipFlower",
+      sitemapAssignment: "education",
+      pageType: "editor-resource",
+      priority: 0.7,
+    }),
     ...beautyUniversityTopics.map((page) =>
       makeEntry({
         canonicalPath: `/beauty-university/${page.slug}`,

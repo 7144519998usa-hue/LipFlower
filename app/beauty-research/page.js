@@ -59,8 +59,8 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-university" className="search-button">
               Browse Beauty University
             </Link>
-            <Link href="/compare" className="ghost-link">
-              Compare Products
+            <Link href="/about/cite-lipflower" className="ghost-link">
+              Cite LipFlower
             </Link>
           </div>
         </div>
@@ -92,6 +92,11 @@ export default function BeautyResearchPage() {
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
               <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
+            <div className="hero-actions">
+              <Link href="/about/cite-lipflower" className="ghost-link">
+                Citation guidance
+              </Link>
+            </div>
           </article>
 
           <article className="catalog-card">
