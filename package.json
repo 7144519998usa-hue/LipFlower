@@ -7,6 +7,7 @@
     "build": "next build",
     "check:internal-links": "node --no-warnings scripts/check-internal-links.mjs",
     "check:programmatic-seo": "node --no-warnings scripts/check-programmatic-seo.mjs",
+    "check:sitemaps": "node --no-warnings scripts/check-sitemaps.mjs",
     "verify:production": "node --no-warnings scripts/verify-production.mjs",
     "start": "next start"
   },
