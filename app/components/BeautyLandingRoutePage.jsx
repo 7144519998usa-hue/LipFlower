@@ -2,6 +2,7 @@ import Link from "next/link";
 import JsonLd from "./JsonLd";
 import ProductUseDisclaimer from "./ProductUseDisclaimer";
 import { beautySiteUrl } from "../lib/beautyData";
+import { programmaticBestPages } from "../lib/programmaticSeoData";
 
 function formatRouteLabel(href) {
   return href
@@ -12,9 +13,17 @@ function formatRouteLabel(href) {
     .replace(/\b\w/g, (character) => character.toUpperCase());
 }
 
+function getRelatedBuyingGuides(page, canonicalPath) {
+  const parentPath = `/${page.categoryPath}`;
+  return programmaticBestPages
+    .filter((candidate) => candidate.categoryPath === canonicalPath || candidate.categoryPath === parentPath)
+    .slice(0, 6);
+}
+
 export default function BeautyLandingRoutePage({ eyebrow = "Beauty route", page }) {
   const canonicalPath = `/${page.categoryPath}/${page.slug}`;
   const pageUrl = `${beautySiteUrl}${canonicalPath}`;
+  const relatedBuyingGuides = getRelatedBuyingGuides(page, canonicalPath);
   const categoryLabel = page.categoryPath
     .replaceAll("-", " ")
     .replace(/\b\w/g, (character) => character.toUpperCase());
@@ -96,6 +105,19 @@ export default function BeautyLandingRoutePage({ eyebrow = "Beauty route", page 
               ))}
             </div>
           </article>
+          {relatedBuyingGuides.length ? (
+            <article className="catalog-card">
+              <h2>Related buying guides</h2>
+              <div className="catalog-stack">
+                {relatedBuyingGuides.map((guide) => (
+                  <Link key={guide.slug} href={`/best/${guide.slug}`} className="catalog-link-card">
+                    <strong>{guide.title}</strong>
+                    <span>{guide.summary}</span>
+                  </Link>
+                ))}
+              </div>
+            </article>
+          ) : null}
         </div>
       </section>
       <ProductUseDisclaimer />
