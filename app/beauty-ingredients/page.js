@@ -9,7 +9,7 @@ const ingredientGroups = [
     group: "Hydration and comfort signals",
     ingredients: ["Hyaluronic acid", "Glycerin", "Squalane", "Shea butter", "Aloe vera"],
     guidance:
-      "These ingredients are commonly used in formulas positioned around comfort, hydration feel, and routine support. LipFlower does not treat ingredient presence as a guaranteed result.",
+      "These ingredients are commonly used in formulas positioned around comfort, hydration feel, and routine support. LipFlower does not treat ingredient presence as a promised outcome.",
     links: ["/skin-care/barrier-repair-moisturizers", "/lip-care/lip-masks", "/beauty-claims-guide"],
   },
   {
@@ -88,7 +88,7 @@ export default function BeautyIngredientsPage() {
         <h1>Beauty ingredients explained as shopping context, not promises</h1>
         <p>
           Use this library to understand ingredient-led beauty language across skin care, lip care,
-          fragrance, and routine pages without treating ingredient presence as a guaranteed result.
+          fragrance, and routine pages without treating ingredient presence as a promised outcome.
         </p>
         <p>
           LipFlower keeps ingredient content claim-safe and encourages shoppers to compare full

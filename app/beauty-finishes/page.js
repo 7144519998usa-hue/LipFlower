@@ -44,7 +44,7 @@ const finishGroups = [
     title: "Artificial jewelry finishes",
     terms: ["Gold-tone", "Silver-tone", "Pearl-like", "Crystal", "Enamel"],
     guidance:
-      "Fashion jewelry finish language should describe styling and visible product details without implying fine-jewelry value, hypoallergenic suitability, or material safety unless supported.",
+      "Fashion jewelry finish language should describe styling and visible product details without implying fine-jewelry value, special sensitivity suitability, or material safety unless supported.",
     links: ["/artificial-jewelry", "/artificial-jewelry/fashion-earrings", "/beauty-claims-guide"],
   },
 ];

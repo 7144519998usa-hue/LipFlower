@@ -156,7 +156,7 @@ export const beautyLandingPages = [
     title: "Barrier-Support Luxury Moisturizers",
     summary: "Compare premium moisturizers for comfort, texture, dry-feeling skin, and routine anchoring.",
     intro:
-      "Barrier-support moisturizer pages should explain texture, finish, fragrance, skin-feel, and seller confidence without promising medical repair or guaranteed results.",
+      "Barrier-support moisturizer pages should explain texture, finish, fragrance, skin-feel, and seller confidence without promising medical repair or assured outcomes.",
     bestFor: ["Dry-feeling skin routines", "Comfort-first skin care", "Night cream shoppers"],
     watchFor: ["Fragrance sensitivity", "Rich textures under makeup"],
     relatedLinks: ["/skin-care", "/compare/luxury-serum-vs-moisturizer", "/beauty-university/skin-barrier-basics"],
@@ -936,7 +936,7 @@ export const beautyGlossaryTerms = [
     slug: "finish",
     category: "Makeup",
     definition:
-      "The visible look a product leaves after application, such as dewy, satin, matte, glossy, shimmer, or natural. Finish is a shopper-fit signal, not a guaranteed result.",
+      "The visible look a product leaves after application, such as dewy, satin, matte, glossy, shimmer, or natural. Finish is a shopper-fit signal, not an assured outcome.",
     relatedLinks: ["/makeup", "/beauty-university/makeup-prep-routine"],
   },
   {
@@ -1073,7 +1073,7 @@ export const beautyUniversityTopics = [
       {
         title: "Keep sensitivity signals visible",
         body:
-          "Fragrance, flavor, plumping sensation, and occlusive texture can change how a product feels. LipFlower uses cautious language and encourages shoppers to read product directions before treating any format as a guaranteed fix.",
+          "Fragrance, flavor, plumping sensation, and occlusive texture can change how a product feels. LipFlower uses cautious language and encourages shoppers to read product directions before treating any format as a universal solution.",
       },
     ],
     checklist: ["Match format to time of day", "Compare fragrance and flavor", "Check plumper sensation language", "Choose seller paths with clear product details"],
@@ -1134,7 +1134,7 @@ export const beautyUniversityTopics = [
       {
         title: "Translate barrier language into shopping criteria",
         body:
-          "For comparison purposes, barrier-focused pages should look at texture, comfort positioning, fragrance, routine step, and visible product claims rather than implying a product will diagnose or cure a skin condition.",
+          "For comparison purposes, barrier-focused pages should look at texture, comfort positioning, fragrance, routine step, and visible product claims rather than implying a product can address a skin condition.",
       },
       {
         title: "Use moisturizers and serums differently",
@@ -1142,12 +1142,12 @@ export const beautyUniversityTopics = [
           "A serum may focus on ingredient story and feel, while a moisturizer often anchors comfort, finish, and layering. The best page helps shoppers understand that role before comparing retailers.",
       },
     ],
-    checklist: ["Compare texture richness", "Check fragrance notes", "Read product directions", "Avoid medical cure claims"],
+    checklist: ["Compare texture richness", "Check fragrance notes", "Read product directions", "Avoid medical-style claims"],
     faqs: [
       {
         question: "Can a beauty page say a product repairs the skin barrier?",
         answer:
-          "Only when the visible product claim supports it, and even then LipFlower should avoid guaranteed or medical-style language.",
+          "Only when the visible product claim supports it, and even then LipFlower should avoid assured-outcome or medical-style language.",
       },
       {
         question: "What is the safest shopper-first framing?",
@@ -1160,7 +1160,7 @@ export const beautyUniversityTopics = [
   {
     slug: "ingredient-claims-guide",
     title: "How to Read Beauty Ingredient Claims",
-    description: "Learn how to evaluate ingredient-led beauty pages without treating marketing claims as guaranteed results.",
+    description: "Learn how to evaluate ingredient-led beauty pages without treating marketing claims as assured outcomes.",
     intro:
       "Ingredient-led shopping works best when the shopper separates visible product claims, concentration context, sensitivity history, and seller trust.",
     sections: [
@@ -1246,7 +1246,7 @@ export const beautyUniversityTopics = [
       {
         question: "Can LipFlower say a product will plump lips?",
         answer:
-          "LipFlower can describe product positioning, but should avoid guaranteed result language and keep sensitivity context visible.",
+          "LipFlower can describe product positioning, but should avoid assured-outcome language and keep sensitivity context visible.",
       },
       {
         question: "Who should be careful with lip plumpers?",
@@ -1325,7 +1325,7 @@ export const beautyUniversityTopics = [
   {
     slug: "ingredient-compatibility-cheat-sheet",
     title: "Beauty Ingredient Compatibility Cheat Sheet",
-    description: "A cautious buyer-first cheat sheet for comparing ingredient-led products without inventing benefits or guaranteed results.",
+    description: "A cautious buyer-first cheat sheet for comparing ingredient-led products without inventing benefits or assured outcomes.",
     intro:
       "Ingredient compatibility content can earn links when it is clear, careful, and useful. LipFlower frames this page as shopping context, not dermatology advice.",
     sections: [
@@ -1370,7 +1370,7 @@ export const beautyUniversityTopics = [
       {
         title: "Keep material and sensitivity details visible",
         body:
-          "Fashion jewelry pages should avoid unsupported hypoallergenic claims. Instead, they should prompt shoppers to read material details, closure type, weight, dimensions, and seller policies.",
+          "Fashion jewelry pages should avoid unsupported sensitivity-suitability claims. Instead, they should prompt shoppers to read material details, closure type, weight, dimensions, and seller policies.",
       },
     ],
     checklist: ["Match jewelry to occasion", "Check material details", "Compare earring weight and closure", "Review gifting and return policy"],
@@ -1383,7 +1383,7 @@ export const beautyUniversityTopics = [
       {
         question: "Should jewelry pages make skin-safety claims?",
         answer:
-          "No. They should avoid unsupported hypoallergenic or sensitivity claims and point shoppers to visible product material information.",
+          "No. They should avoid unsupported sensitivity or material-safety claims and point shoppers to visible product material information.",
       },
     ],
     relatedLinks: ["/artificial-jewelry", "/artificial-jewelry/fashion-earrings", "/makeup", "/fragrance/luxury-perfume-gifts"],

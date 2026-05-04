@@ -68,7 +68,7 @@ const bestPageIntents = [
   { slug: "for-travel", label: "for travel", title: "for Travel", summary: "travel-ready path", angle: "compare size, packaging, spill risk, and whether the format is easy to repack" },
   { slug: "for-gifting", label: "for gifting", title: "for Gifting", summary: "gift shopping path", angle: "prioritize presentation, shade flexibility, discovery formats, and return-friendly sellers" },
   { slug: "for-sensitive-shoppers", label: "for sensitive shoppers", title: "for Sensitive Shoppers", summary: "sensitivity-aware path", angle: "review fragrance, sensation, use directions, and visible brand positioning before choosing" },
-  { slug: "for-dry-feeling-routines", label: "for dry-feeling routines", title: "for Dry-Feeling Routines", summary: "comfort-focused path", angle: "compare texture, finish, layering, and comfort language without assuming guaranteed results" },
+  { slug: "for-dry-feeling-routines", label: "for dry-feeling routines", title: "for Dry-Feeling Routines", summary: "comfort-focused path", angle: "compare texture, finish, layering, and comfort language without assuming promised outcomes" },
   { slug: "for-polished-routines", label: "for polished routines", title: "for Polished Routines", summary: "elevated routine path", angle: "match the product to a refined routine step, finish preference, and trusted seller path" },
   { slug: "for-minimalist-routines", label: "for minimalist routines", title: "for Minimalist Routines", summary: "simplified routine path", angle: "choose versatile formats that reduce decision fatigue and support simple beauty routines" },
   { slug: "for-mature-routines", label: "for mature routines", title: "for Mature Routines", summary: "mature beauty path", angle: "compare finish, comfort, visible claims, and ease of application without overpromising outcomes" },
@@ -143,7 +143,7 @@ export function buildProgrammaticBestPages() {
             answer: `Start with routine fit, texture or format, visible brand claims, seller trust, and return flexibility. Avoid assuming that popularity or price guarantees the right result for every shopper.`,
           },
           {
-            question: `Are these ${category.plural} guaranteed to work for everyone?`,
+            question: `Will these ${category.plural} work the same way for everyone?`,
             answer: `No. Beauty products can feel different by routine, preference, sensitivity history, and application style. Follow product directions and use conservative expectations.`,
           },
         ],

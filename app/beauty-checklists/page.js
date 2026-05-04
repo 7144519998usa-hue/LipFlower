@@ -53,7 +53,7 @@ const buyingChecklists = [
     title: "Artificial jewelry checklist",
     intent: "Fashion earrings, necklaces, bracelets, rings, and gift sets",
     items: [
-      "Check material details without assuming hypoallergenic claims.",
+      "Check material details without assuming special sensitivity suitability claims.",
       "Compare earring weight, closure type, and dimensions.",
       "Match jewelry style to occasion, makeup finish, and gift context.",
       "Review seller return policy for jewelry sets and occasion accessories.",
