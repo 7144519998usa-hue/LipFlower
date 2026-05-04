@@ -65,6 +65,9 @@ export default function BeautyResearchPage() {
             <Link href="/beauty-routines" className="ghost-link">
               Routine Library
             </Link>
+            <Link href="/beauty-ingredients" className="ghost-link">
+              Ingredient Library
+            </Link>
             <Link href="/beauty-glossary" className="ghost-link">
               Beauty Glossary
             </Link>
@@ -115,6 +118,7 @@ export default function BeautyResearchPage() {
               <li>Use ingredient guides as shopping context, not medical or dermatology advice.</li>
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
               <li>Use the routine library when a shopper needs to connect multiple categories into one decision path.</li>
+              <li>Use the ingredient library when product language depends on ingredient positioning.</li>
               <li>Use the glossary when a term needs a short, claim-safe definition.</li>
               <li>Use the calendar when seasonal timing, giftability, or occasion styling matters.</li>
               <li>Use buying checklists before high-intent comparison or seller pages.</li>
