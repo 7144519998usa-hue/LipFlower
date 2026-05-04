@@ -7,6 +7,7 @@ export const siteConfig = {
     "Luxury beauty, artificial jewelry, seller routing, and premium self-care research for affluent shoppers.",
   utilityLinks: [
     { href: "/beauty-research", label: "Research library" },
+    { href: "/beauty-routines", label: "Routine library" },
     { href: "/beauty-glossary", label: "Beauty glossary" },
     { href: "/beauty-calendar", label: "Beauty calendar" },
     { href: "/beauty-checklists", label: "Buying checklists" },

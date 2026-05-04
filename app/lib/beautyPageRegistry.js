@@ -154,6 +154,13 @@ export function buildBeautyPageRegistry() {
       priority: 0.85,
     }),
     makeEntry({
+      canonicalPath: "/beauty-routines",
+      title: "LipFlower Beauty Routine Library",
+      sitemapAssignment: "education",
+      pageType: "routine-library",
+      priority: 0.85,
+    }),
+    makeEntry({
       canonicalPath: "/beauty-glossary",
       title: "LipFlower Beauty Glossary",
       sitemapAssignment: "education",

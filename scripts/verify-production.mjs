@@ -6,6 +6,7 @@ const checks = [
   { path: "/sitemap_index.xml", status: 200, name: "sitemap index" },
   { path: "/sitemaps/beauty-programmatic/sitemap.xml", status: 200, name: "programmatic sitemap" },
   { path: "/beauty-research", status: 200, name: "beauty research library" },
+  { path: "/beauty-routines", status: 200, name: "beauty routine library" },
   { path: "/beauty-glossary", status: 200, name: "beauty glossary" },
   { path: "/beauty-calendar", status: 200, name: "beauty shopping calendar" },
   { path: "/beauty-checklists", status: 200, name: "beauty buying checklists" },
