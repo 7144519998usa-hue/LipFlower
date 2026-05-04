@@ -573,6 +573,381 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/skin-care/vitamin-c-serums", "/beauty-university/ingredient-claims-guide", "/skin-care"],
   },
+  {
+    slug: "cleanser-vs-cleansing-balm",
+    title: "Cleanser vs Cleansing Balm",
+    summary: "Compare daily facial cleansers with richer first-cleanse balms before building a skin-care routine.",
+    verdict:
+      "A cleanser is usually the better daily anchor, while a cleansing balm is stronger when makeup, sunscreen, or richer textures need a first-cleanse step.",
+    columns: ["Daily cleanser", "Cleansing balm"],
+    rows: [
+      { label: "Best role", values: ["Everyday cleanse", "First cleanse or makeup removal"] },
+      { label: "Texture", values: ["Gel, cream, or foam", "Balm-to-oil or rich melt"] },
+      { label: "Buyer mindset", values: ["Simple routine anchor", "Double-cleanse upgrade"] },
+      { label: "Shopping note", values: ["Check skin feel after rinsing", "Check residue and eye-area directions"] },
+    ],
+    relatedLinks: ["/skin-care", "/best/best-cleanser", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "retinol-serum-vs-peptide-serum",
+    title: "Retinol Serum vs Peptide Serum",
+    summary: "Compare two mature-routine serum paths with careful, claim-safe shopping context.",
+    verdict:
+      "Retinol serums are usually positioned around evening renewal routines, while peptide serums are often positioned around comfort, texture, and supportive daily routines.",
+    columns: ["Retinol serum", "Peptide serum"],
+    rows: [
+      { label: "Common role", values: ["Evening treatment route", "Supportive serum route"] },
+      { label: "Routine fit", values: ["Introduced cautiously", "Often easier to layer"] },
+      { label: "Buyer concern", values: ["Mature routine planning", "Comfort and texture preference"] },
+      { label: "Shopping note", values: ["Read directions and SPF context", "Check formula pairing and texture"] },
+    ],
+    relatedLinks: ["/best/best-retinol-serum", "/skin-care/anti-aging-serums", "/beauty-university/ingredient-compatibility-cheat-sheet"],
+  },
+  {
+    slug: "moisturizer-vs-barrier-cream",
+    title: "Moisturizer vs Barrier Cream",
+    summary: "Decide whether a general moisturizer or richer barrier-positioned cream fits the routine better.",
+    verdict:
+      "A moisturizer is the flexible daily staple, while a barrier cream is usually better for shoppers who want a richer comfort-focused texture and a more cushioned routine anchor.",
+    columns: ["Moisturizer", "Barrier cream"],
+    rows: [
+      { label: "Best role", values: ["Daily hydration step", "Rich comfort step"] },
+      { label: "Texture", values: ["Gel, lotion, cream, or balm", "Usually creamier or more occlusive"] },
+      { label: "Routine timing", values: ["Morning or evening", "Often evening or dry-feeling routines"] },
+      { label: "Shopping note", values: ["Match finish to skin feel", "Check fragrance and heaviness"] },
+    ],
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/best/best-barrier-cream", "/skin-care"],
+  },
+  {
+    slug: "sunscreen-vs-primer",
+    title: "Sunscreen vs Primer",
+    summary: "Compare SPF and makeup-prep products without blurring protection, finish, and cosmetic roles.",
+    verdict:
+      "Sunscreen is the protection step when used as directed, while primer is the cosmetic prep step for texture, grip, and finish before makeup.",
+    columns: ["Sunscreen", "Primer"],
+    rows: [
+      { label: "Primary role", values: ["SPF protection step", "Makeup-prep step"] },
+      { label: "Finish concern", values: ["White cast, tint, shine, or matte feel", "Grip, blur, glow, or smoothing"] },
+      { label: "Layering", values: ["Usually before makeup", "Usually after skin care and before foundation"] },
+      { label: "Shopping note", values: ["Follow SPF directions", "Check compatibility with foundation"] },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/makeup", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "skin-tint-vs-tinted-moisturizer",
+    title: "Skin Tint vs Tinted Moisturizer",
+    summary: "Compare two lighter complexion routes for everyday makeup and skin-forward routines.",
+    verdict:
+      "Skin tint usually wins for sheer makeup flexibility, while tinted moisturizer is stronger when shoppers want a skin-care-adjacent complexion step.",
+    columns: ["Skin tint", "Tinted moisturizer"],
+    rows: [
+      { label: "Coverage", values: ["Sheer to light", "Sheer to light with moisturizer positioning"] },
+      { label: "Finish", values: ["Skin-like or dewy", "Hydrated-looking or natural"] },
+      { label: "Buyer mindset", values: ["Minimal makeup", "Hybrid routine"] },
+      { label: "Shopping note", values: ["Check shade range", "Check SPF and moisturizer claims separately"] },
+    ],
+    relatedLinks: ["/makeup/luxury-foundation", "/best/best-skin-tint", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "concealer-vs-foundation",
+    title: "Concealer vs Foundation",
+    summary: "Choose between targeted coverage and all-over complexion polish.",
+    verdict:
+      "Concealer is better for targeted coverage and touch-ups, while foundation is better when the shopper wants a more unified complexion finish.",
+    columns: ["Concealer", "Foundation"],
+    rows: [
+      { label: "Best role", values: ["Targeted coverage", "All-over complexion"] },
+      { label: "Shade matching", values: ["Undereye or spot-specific", "Full-face match"] },
+      { label: "Finish risk", values: ["Creasing or texture emphasis", "Oxidation or mismatch"] },
+      { label: "Shopping note", values: ["Check undertone and use case", "Check coverage and lighting"] },
+    ],
+    relatedLinks: ["/makeup/luxury-concealer", "/makeup/luxury-foundation", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "mascara-vs-lash-primer",
+    title: "Mascara vs Lash Primer",
+    summary: "Compare a visible lash-finishing product with a prep layer for shoppers building an eye routine.",
+    verdict:
+      "Mascara is the essential visible finish, while lash primer is an optional prep layer for shoppers who want more structure before mascara.",
+    columns: ["Mascara", "Lash primer"],
+    rows: [
+      { label: "Primary role", values: ["Color and lash finish", "Prep and structure"] },
+      { label: "Routine need", values: ["Standalone product", "Layered before mascara"] },
+      { label: "Buyer concern", values: ["Volume, length, or definition", "Grip and layering"] },
+      { label: "Shopping note", values: ["Check brush and removal", "Check compatibility with mascara"] },
+    ],
+    relatedLinks: ["/makeup", "/best/best-mascara", "/sellers"],
+  },
+  {
+    slug: "eyeliner-pencil-vs-liquid-liner",
+    title: "Eyeliner Pencil vs Liquid Liner",
+    summary: "Compare soft definition against sharper graphic eye looks.",
+    verdict:
+      "Pencil liner is usually easier for soft definition and smudged looks, while liquid liner is stronger for crisp wings and precise lines.",
+    columns: ["Eyeliner pencil", "Liquid liner"],
+    rows: [
+      { label: "Best role", values: ["Soft definition", "Sharp precision"] },
+      { label: "Skill level", values: ["Beginner-friendly", "More technique-sensitive"] },
+      { label: "Finish", values: ["Smudged, satin, or matte", "Crisp, matte, or glossy"] },
+      { label: "Shopping note", values: ["Check glide and wear language", "Check applicator and removal"] },
+    ],
+    relatedLinks: ["/makeup", "/best/best-eyeliner", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "setting-powder-vs-setting-spray",
+    title: "Setting Powder vs Setting Spray",
+    summary: "Compare two finishing routes for makeup polish, shine control, and comfort.",
+    verdict:
+      "Setting powder is stronger for targeted soft-focus and shine control, while setting spray is better for a final mist that helps the makeup feel finished.",
+    columns: ["Setting powder", "Setting spray"],
+    rows: [
+      { label: "Best role", values: ["Set and soften specific areas", "Finish the full makeup look"] },
+      { label: "Texture", values: ["Loose or pressed powder", "Mist"] },
+      { label: "Buyer concern", values: ["Shine, blur, and crease control", "Makeup meld and final feel"] },
+      { label: "Shopping note", values: ["Check shade and flashback language", "Check finish and fragrance"] },
+    ],
+    relatedLinks: ["/makeup/setting-powder", "/best/best-setting-spray", "/makeup"],
+  },
+  {
+    slug: "lipstick-vs-lip-liner",
+    title: "Lipstick vs Lip Liner",
+    summary: "Compare full lip color with shaping and definition before building a lip look.",
+    verdict:
+      "Lipstick is the main color step, while lip liner is best for definition, shaping, and helping the lip look feel more intentional.",
+    columns: ["Lipstick", "Lip liner"],
+    rows: [
+      { label: "Primary role", values: ["Color and finish", "Definition and shape"] },
+      { label: "Finish", values: ["Matte, satin, glossy, or balm-like", "Usually pencil or creamy matte"] },
+      { label: "Best for", values: ["Complete lip look", "Polished edges or base color"] },
+      { label: "Shopping note", values: ["Check shade and comfort", "Check undertone and glide"] },
+    ],
+    relatedLinks: ["/lip-care", "/best/best-lipstick", "/best/best-lip-liner"],
+  },
+  {
+    slug: "lip-plumper-vs-lip-gloss",
+    title: "Lip Plumper vs Lip Gloss",
+    summary: "Compare sensation-positioned lip products with classic shine-focused gloss.",
+    verdict:
+      "Lip gloss is the safer default for shine-first shoppers, while lip plumper is a more sensation-aware route that requires careful attention to product directions.",
+    columns: ["Lip plumper", "Lip gloss"],
+    rows: [
+      { label: "Primary role", values: ["Sensation-positioned shine", "Classic shine"] },
+      { label: "Comfort consideration", values: ["Tingling or warming may be present", "Usually less sensation-led"] },
+      { label: "Buyer mindset", values: ["Curious about plumper positioning", "Wants shine and color"] },
+      { label: "Shopping note", values: ["Read warnings and directions", "Check stickiness, tint, and fragrance"] },
+    ],
+    relatedLinks: ["/lip-care/lip-plumpers", "/lip-care/lip-oils", "/beauty-university/ingredients-to-watch-in-lip-plumpers"],
+  },
+  {
+    slug: "lip-oil-vs-tinted-lip-balm",
+    title: "Lip Oil vs Tinted Lip Balm",
+    summary: "Compare cushiony shine with portable color and comfort.",
+    verdict:
+      "Lip oil usually wins for glossy cushion, while tinted lip balm is better for easy reapplication and everyday low-effort color.",
+    columns: ["Lip oil", "Tinted lip balm"],
+    rows: [
+      { label: "Best role", values: ["Glossy comfort-shine", "Portable color comfort"] },
+      { label: "Texture", values: ["Slick, cushiony, or plush", "Balm, stick, or squeeze format"] },
+      { label: "Use case", values: ["Polished shine", "Daily carry"] },
+      { label: "Shopping note", values: ["Check tint and fragrance", "Check SPF, shade, and finish"] },
+    ],
+    relatedLinks: ["/lip-care/lip-oils", "/lip-care/tinted-lip-balms", "/best/best-lip-oil"],
+  },
+  {
+    slug: "shampoo-vs-cleansing-conditioner",
+    title: "Shampoo vs Cleansing Conditioner",
+    summary: "Compare a classic cleanse step with a gentler-feeling wash-day alternative.",
+    verdict:
+      "Shampoo is the clearer cleansing anchor, while cleansing conditioner is a more niche option for shoppers prioritizing softness and low-lather routines.",
+    columns: ["Shampoo", "Cleansing conditioner"],
+    rows: [
+      { label: "Best role", values: ["Scalp and hair cleanse", "Low-lather wash route"] },
+      { label: "Texture", values: ["Liquid, cream, or gel cleanser", "Conditioner-like cream"] },
+      { label: "Buyer concern", values: ["Build-up and freshness", "Softness and gentle-feel routines"] },
+      { label: "Shopping note", values: ["Check scalp type and directions", "Check whether it replaces or supplements shampoo"] },
+    ],
+    relatedLinks: ["/hair-care/luxury-shampoo-conditioner", "/best/best-shampoo", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "hair-mask-vs-conditioner",
+    title: "Hair Mask vs Conditioner",
+    summary: "Compare a routine staple with a richer occasional treatment step.",
+    verdict:
+      "Conditioner is the regular wash-day staple, while a hair mask is better for shoppers who want a richer occasional care step.",
+    columns: ["Hair mask", "Conditioner"],
+    rows: [
+      { label: "Routine role", values: ["Occasional richer step", "Regular wash-day step"] },
+      { label: "Texture", values: ["Thicker cream or treatment", "Cream, lotion, or rinse-out formula"] },
+      { label: "Buyer mindset", values: ["Upgrade or reset feel", "Everyday manageability"] },
+      { label: "Shopping note", values: ["Check frequency and timing", "Check hair type and rinse feel"] },
+    ],
+    relatedLinks: ["/hair-care/hair-masks", "/hair-care/luxury-shampoo-conditioner", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "hair-oil-vs-leave-in-conditioner",
+    title: "Hair Oil vs Leave-In Conditioner",
+    summary: "Compare finishing shine with leave-in softness and styling support.",
+    verdict:
+      "Hair oil is usually better for finishing shine and polish, while leave-in conditioner is stronger for lightweight conditioning and styling prep.",
+    columns: ["Hair oil", "Leave-in conditioner"],
+    rows: [
+      { label: "Best role", values: ["Finish and shine", "Prep and softness"] },
+      { label: "Texture", values: ["Oil or serum-like", "Spray, cream, or lotion"] },
+      { label: "Use case", values: ["Ends, frizz look, polish", "Detangling and styling prep"] },
+      { label: "Shopping note", values: ["Check weight and fragrance", "Check hair type and heat-tool context"] },
+    ],
+    relatedLinks: ["/hair-care", "/best/best-leave-in-conditioner", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "perfume-vs-fragrance-discovery-set",
+    title: "Perfume vs Fragrance Discovery Set",
+    summary: "Compare a full-bottle fragrance purchase with a lower-risk sampling route.",
+    verdict:
+      "A full perfume bottle is best when the scent is already known, while a discovery set is smarter for gifting, testing, and exploring scent families.",
+    columns: ["Perfume", "Discovery set"],
+    rows: [
+      { label: "Best role", values: ["Signature scent purchase", "Exploration or gift route"] },
+      { label: "Risk level", values: ["Higher for blind buys", "Lower for uncertain preferences"] },
+      { label: "Gift appeal", values: ["Premium if preferences are known", "Flexible and safer"] },
+      { label: "Shopping note", values: ["Check size and return rules", "Check sample count and redemption options"] },
+    ],
+    relatedLinks: ["/fragrance/signature-scent-guide", "/fragrance/fragrance-discovery-sets", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "body-lotion-vs-body-oil",
+    title: "Body Lotion vs Body Oil",
+    summary: "Compare everyday body moisture with richer shine and layering texture.",
+    verdict:
+      "Body lotion is the more practical daily staple, while body oil is better for shoppers who want sheen, layering, or a more indulgent body-care finish.",
+    columns: ["Body lotion", "Body oil"],
+    rows: [
+      { label: "Best role", values: ["Daily body moisture", "Sheen and layering"] },
+      { label: "Texture", values: ["Cream or lotion", "Oil or dry oil"] },
+      { label: "Use case", values: ["Everyday routine", "Post-shower polish or scent layering"] },
+      { label: "Shopping note", values: ["Check fragrance and dry-down", "Check slip, transfer, and packaging"] },
+    ],
+    relatedLinks: ["/body-care/body-moisturizers", "/body-care", "/beauty-university/body-care-layering-guide"],
+  },
+  {
+    slug: "body-scrub-vs-exfoliating-glove",
+    title: "Body Scrub vs Exfoliating Glove",
+    summary: "Compare product-led body exfoliation with a reusable tool route.",
+    verdict:
+      "A body scrub is better for scent and product ritual, while an exfoliating glove is a tool-led route that depends more on pressure, material, and hygiene.",
+    columns: ["Body scrub", "Exfoliating glove"],
+    rows: [
+      { label: "Best role", values: ["Product-led exfoliating routine", "Reusable tool route"] },
+      { label: "Texture", values: ["Grainy, creamy, or oily", "Fabric or textured mitt"] },
+      { label: "Buyer mindset", values: ["Scent and ritual", "Tool control and reuse"] },
+      { label: "Shopping note", values: ["Check granule feel and directions", "Check material, drying, and replacement"] },
+    ],
+    relatedLinks: ["/body-care/body-exfoliants", "/beauty-tools", "/beauty-university/body-care-layering-guide"],
+  },
+  {
+    slug: "nail-polish-vs-gel-polish",
+    title: "Nail Polish vs Gel Polish",
+    summary: "Compare classic polish with a longer-wear-positioned manicure route.",
+    verdict:
+      "Classic nail polish is better for easy color changes, while gel polish is a more equipment- and removal-aware route for shoppers who want a more durable manicure feel.",
+    columns: ["Nail polish", "Gel polish"],
+    rows: [
+      { label: "Best role", values: ["Easy at-home color", "Longer-wear-positioned manicure"] },
+      { label: "Tools needed", values: ["Usually minimal", "May require lamp or specific remover"] },
+      { label: "Flexibility", values: ["Easy shade switching", "More commitment"] },
+      { label: "Shopping note", values: ["Check dry time and finish", "Check lamp setup and removal directions"] },
+    ],
+    relatedLinks: ["/nail-care/luxury-nail-polish", "/nail-care/manicure-tools", "/beauty-university/nail-care-tool-checklist"],
+  },
+  {
+    slug: "cuticle-oil-vs-hand-cream",
+    title: "Cuticle Oil vs Hand Cream",
+    summary: "Compare targeted nail-area care with broader hand comfort.",
+    verdict:
+      "Cuticle oil is the targeted nail-area step, while hand cream is the broader comfort and daily carry product.",
+    columns: ["Cuticle oil", "Hand cream"],
+    rows: [
+      { label: "Best role", values: ["Targeted cuticle area", "Hands and broader skin feel"] },
+      { label: "Texture", values: ["Oil, serum, or pen", "Cream, balm, or lotion"] },
+      { label: "Use case", values: ["Manicure finishing", "Daily hand routine"] },
+      { label: "Shopping note", values: ["Check applicator and fragrance", "Check finish and absorption"] },
+    ],
+    relatedLinks: ["/nail-care/cuticle-care", "/body-care/luxury-hand-care", "/beauty-university/nail-care-tool-checklist"],
+  },
+  {
+    slug: "makeup-brushes-vs-beauty-sponge",
+    title: "Makeup Brushes vs Beauty Sponge",
+    summary: "Compare tool control, blending style, and finish for complexion and color products.",
+    verdict:
+      "Brushes usually win for control, powder, and structure, while a sponge is better for soft blending and sheerer complexion application.",
+    columns: ["Makeup brushes", "Beauty sponge"],
+    rows: [
+      { label: "Best role", values: ["Control and structure", "Soft blending"] },
+      { label: "Product fit", values: ["Powder, cream, and complexion", "Liquid and cream complexion"] },
+      { label: "Maintenance", values: ["Wash multiple brush types", "Replace or wash sponge often"] },
+      { label: "Shopping note", values: ["Check brush shape and fibers", "Check texture and cleaning routine"] },
+    ],
+    relatedLinks: ["/beauty-tools/makeup-brushes", "/makeup/luxury-foundation", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "facial-roller-vs-gua-sha",
+    title: "Facial Roller vs Gua Sha",
+    summary: "Compare two facial tool formats by technique, routine feel, and buyer expectations.",
+    verdict:
+      "A facial roller is usually simpler for a cooling massage ritual, while gua sha is more technique-led and requires careful pressure and direction.",
+    columns: ["Facial roller", "Gua sha"],
+    rows: [
+      { label: "Best role", values: ["Simple massage ritual", "Technique-led tool ritual"] },
+      { label: "Ease of use", values: ["More beginner-friendly", "More technique-sensitive"] },
+      { label: "Routine pairing", values: ["Serum or moisturizer glide", "Oil or slip-focused product"] },
+      { label: "Shopping note", values: ["Check material and cleaning", "Avoid pressure claims and follow safe-use guidance"] },
+    ],
+    relatedLinks: ["/beauty-tools/facial-tools", "/beauty-university/beauty-routine-order-chart", "/beauty-claims-guide"],
+  },
+  {
+    slug: "hair-dryer-vs-hot-air-brush",
+    title: "Hair Dryer vs Hot Air Brush",
+    summary: "Compare classic drying power with a styling-tool route for smoother blowout looks.",
+    verdict:
+      "A hair dryer is better for flexible drying and brush choice, while a hot air brush is stronger for shoppers who want a simplified styling tool.",
+    columns: ["Hair dryer", "Hot air brush"],
+    rows: [
+      { label: "Best role", values: ["Drying flexibility", "Simplified styling"] },
+      { label: "Technique", values: ["Separate brush often needed", "Brush and airflow combined"] },
+      { label: "Buyer mindset", values: ["Control and speed", "At-home blowout convenience"] },
+      { label: "Shopping note", values: ["Check attachments and heat settings", "Check barrel size and hair length fit"] },
+    ],
+    relatedLinks: ["/beauty-tools/hair-styling-tools", "/hair-care", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "fashion-earrings-vs-statement-necklace",
+    title: "Fashion Earrings vs Statement Necklace",
+    summary: "Compare two artificial jewelry routes for finishing beauty looks and occasion styling.",
+    verdict:
+      "Fashion earrings usually frame makeup and hair most directly, while a statement necklace is stronger when the outfit neckline and occasion need the focal point.",
+    columns: ["Fashion earrings", "Statement necklace"],
+    rows: [
+      { label: "Best role", values: ["Face-framing accessory", "Outfit focal point"] },
+      { label: "Beauty pairing", values: ["Works with lip, blush, and hair looks", "Works with fragrance and occasion styling"] },
+      { label: "Fit concern", values: ["Weight and closure", "Length and neckline"] },
+      { label: "Shopping note", values: ["Check material and dimensions", "Check clasp, chain length, and return policy"] },
+    ],
+    relatedLinks: ["/artificial-jewelry/fashion-earrings", "/artificial-jewelry/fashion-necklaces", "/beauty-university/artificial-jewelry-styling-guide"],
+  },
+  {
+    slug: "jewelry-gift-set-vs-beauty-gift-set",
+    title: "Jewelry Gift Set vs Beauty Gift Set",
+    summary: "Compare accessory-led gifts with beauty product sets when shopper preferences are uncertain.",
+    verdict:
+      "Jewelry gift sets can be safer when shade or scent preferences are unknown, while beauty gift sets work better when the recipient already likes the brand or category.",
+    columns: ["Jewelry gift set", "Beauty gift set"],
+    rows: [
+      { label: "Best role", values: ["Accessory-led occasion gift", "Product-led beauty gift"] },
+      { label: "Preference risk", values: ["Material and style risk", "Shade, scent, and routine risk"] },
+      { label: "Gift appeal", values: ["Wearable finishing touch", "Discovery or replenishment"] },
+      { label: "Shopping note", values: ["Check materials and closures", "Check product sizes and return policy"] },
+    ],
+    relatedLinks: ["/artificial-jewelry/jewelry-gift-sets", "/luxury-beauty", "/beauty-university/beauty-gift-decision-tree"],
+  },
 ];
 
 export const beautyCalculators = [
