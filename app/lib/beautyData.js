@@ -3198,6 +3198,306 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/body-care/body-moisturizers", "/compare/body-mist-vs-perfume", "/fragrance"],
   },
+  {
+    slug: "cleansing-milk-vs-cream-cleanser",
+    title: "Cleansing Milk vs Cream Cleanser",
+    summary: "Compare two soft cleanser textures for comfort-led skin-care routines.",
+    verdict:
+      "Cleansing milk is better for shoppers who want a fluid, lotion-like cleanse, while cream cleanser is stronger for a richer cushioned cleansing feel.",
+    columns: ["Cleansing milk", "Cream cleanser"],
+    rows: [
+      { label: "Texture", values: ["Milky, fluid, or lotion-like", "Creamy, cushioned, or richer"] },
+      { label: "Best role", values: ["Soft morning or second cleanse", "Comfort-focused daily cleanse"] },
+      { label: "Buyer concern", values: ["Rinse feel and fragrance", "Residue feel and skin comfort"] },
+      { label: "Shopping note", values: ["Check rinse directions", "Check texture and fragrance notes"] },
+    ],
+    relatedLinks: ["/skin-care", "/compare/cream-cleanser-vs-gel-cleanser", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "oil-cleanser-vs-micellar-water",
+    title: "Oil Cleanser vs Micellar Water",
+    summary: "Compare oil-based first cleanse routines with no-rinse or cotton-pad micellar cleansing.",
+    verdict:
+      "Oil cleanser is stronger for makeup and sunscreen removal routines, while micellar water is better for quick, lightweight cleansing and travel-friendly touch-ups.",
+    columns: ["Oil cleanser", "Micellar water"],
+    rows: [
+      { label: "Format", values: ["Oil or oil-to-milk cleanser", "Watery cleansing liquid"] },
+      { label: "Best role", values: ["First cleanse", "Quick cleanse or makeup correction"] },
+      { label: "Buyer concern", values: ["Emulsifying and rinse feel", "Cotton use and residue feel"] },
+      { label: "Shopping note", values: ["Check eye-area and rinse directions", "Check fragrance and use directions"] },
+    ],
+    relatedLinks: ["/skin-care", "/compare/cleansing-oil-vs-cleansing-balm", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "cleansing-balm-vs-micellar-water",
+    title: "Cleansing Balm vs Micellar Water",
+    summary: "Compare rich balm cleansing with quick watery cleansing before choosing a first-cleanse route.",
+    verdict:
+      "Cleansing balm is better for a richer makeup-removal ritual, while micellar water is stronger for speed, portability, and light cleansing preferences.",
+    columns: ["Cleansing balm", "Micellar water"],
+    rows: [
+      { label: "Texture", values: ["Solid balm that melts", "Watery liquid"] },
+      { label: "Best role", values: ["Richer first cleanse", "Quick cleansing or correction"] },
+      { label: "Buyer concern", values: ["Jar format and rinse feel", "Cotton pads and residue"] },
+      { label: "Shopping note", values: ["Check emulsifying directions", "Check eye-area directions"] },
+    ],
+    relatedLinks: ["/skin-care", "/compare/cleansing-oil-vs-cleansing-balm", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "powder-cleanser-vs-gel-cleanser",
+    title: "Powder Cleanser vs Gel Cleanser",
+    summary: "Compare water-activated powder cleansers with everyday gel cleanser formats.",
+    verdict:
+      "Powder cleanser is stronger for shoppers who like customizable, travel-friendly formats, while gel cleanser is better as a familiar daily cleansing staple.",
+    columns: ["Powder cleanser", "Gel cleanser"],
+    rows: [
+      { label: "Format", values: ["Dry powder activated with water", "Gel or gel-foam cleanser"] },
+      { label: "Best role", values: ["Travel or ritual cleanse", "Everyday face wash"] },
+      { label: "Buyer concern", values: ["Mixing texture and granule feel", "Rinse feel and fragrance"] },
+      { label: "Shopping note", values: ["Check directions and texture", "Check skin-feel and size"] },
+    ],
+    relatedLinks: ["/skin-care", "/compare/foam-cleanser-vs-gel-cleanser", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "enzyme-cleanser-vs-exfoliating-toner",
+    title: "Enzyme Cleanser vs Exfoliating Toner",
+    summary: "Compare rinse-off enzyme-positioned cleansing with leave-on exfoliating toner routines.",
+    verdict:
+      "Enzyme cleanser is better for shoppers who want exfoliation-positioned language in a rinse-off step, while exfoliating toner is stronger for a leave-on routine step that needs more timing awareness.",
+    columns: ["Enzyme cleanser", "Exfoliating toner"],
+    rows: [
+      { label: "Routine step", values: ["Cleanse and rinse", "Post-cleanse leave-on layer"] },
+      { label: "Best role", values: ["Texture-focused cleansing routine", "Ingredient-led routine planning"] },
+      { label: "Buyer concern", values: ["Granule feel and directions", "Frequency and product pairing"] },
+      { label: "Shopping note", values: ["Follow use directions", "Introduce carefully and read label guidance"] },
+    ],
+    relatedLinks: ["/skin-care", "/beauty-claims-guide", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "retinol-cream-vs-retinol-serum",
+    title: "Retinol Cream vs Retinol Serum",
+    summary: "Compare two retinol-positioned product formats by texture, routine step, and buyer expectations.",
+    verdict:
+      "Retinol serum is stronger for a lighter treatment-style step, while retinol cream is better for shoppers who want retinol positioning in a richer cream texture.",
+    columns: ["Retinol cream", "Retinol serum"],
+    rows: [
+      { label: "Texture", values: ["Cream or lotion", "Serum, gel, or fluid"] },
+      { label: "Routine role", values: ["Cream step with active positioning", "Targeted serum step"] },
+      { label: "Buyer concern", values: ["Texture and fragrance", "Strength language and directions"] },
+      { label: "Shopping note", values: ["Read evening-use and SPF context", "Follow product directions carefully"] },
+    ],
+    relatedLinks: ["/skin-care/anti-aging-serums", "/compare/retinol-vs-bakuchiol-serum", "/beauty-claims-guide"],
+  },
+  {
+    slug: "retinal-serum-vs-retinol-serum",
+    title: "Retinal Serum vs Retinol Serum",
+    summary: "Compare two vitamin-A-positioned serum routes without overstating outcomes.",
+    verdict:
+      "Retinal serum is better for shoppers specifically comparing retinaldehyde-positioned products, while retinol serum has broader availability and more familiar shopping language.",
+    columns: ["Retinal serum", "Retinol serum"],
+    rows: [
+      { label: "Ingredient story", values: ["Retinaldehyde-positioned", "Retinol-positioned"] },
+      { label: "Best role", values: ["Specific ingredient comparison", "Broad evening serum shopping"] },
+      { label: "Buyer concern", values: ["Directions and tolerance language", "Strength, texture, and routine pairing"] },
+      { label: "Shopping note", values: ["Read product directions carefully", "Avoid assuming visible results"] },
+    ],
+    relatedLinks: ["/skin-care/anti-aging-serums", "/beauty-university/ingredient-claims-guide", "/beauty-claims-guide"],
+  },
+  {
+    slug: "peptide-cream-vs-peptide-serum",
+    title: "Peptide Cream vs Peptide Serum",
+    summary: "Compare peptide-positioned creams and serums by texture and routine role.",
+    verdict:
+      "Peptide serum is stronger for a targeted layering step, while peptide cream is better for shoppers who want peptide positioning in a moisturizer-style texture.",
+    columns: ["Peptide cream", "Peptide serum"],
+    rows: [
+      { label: "Texture", values: ["Cream or moisturizer", "Serum, gel, or fluid"] },
+      { label: "Best role", values: ["Moisturizer-style routine", "Layered serum routine"] },
+      { label: "Buyer concern", values: ["Finish and fragrance", "Pairing and product claims"] },
+      { label: "Shopping note", values: ["Check full ingredient and texture story", "Use visible claims only"] },
+    ],
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/skin-care/anti-aging-serums", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "ceramide-cream-vs-barrier-serum",
+    title: "Ceramide Cream vs Barrier Serum",
+    summary: "Compare richer ceramide-positioned creams with lighter barrier-support serum routes.",
+    verdict:
+      "Ceramide cream is better for a richer moisturizer-style step, while barrier serum is stronger for shoppers who want a lighter layer before cream.",
+    columns: ["Ceramide cream", "Barrier serum"],
+    rows: [
+      { label: "Texture", values: ["Cream, lotion, or balm", "Serum, gel, or fluid"] },
+      { label: "Best role", values: ["Comfort-focused moisturizer", "Layered prep before moisturizer"] },
+      { label: "Buyer concern", values: ["Richness and finish", "Layering and product claims"] },
+      { label: "Shopping note", values: ["Avoid assuming medical repair", "Check ingredients and texture"] },
+    ],
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/beauty-university/skin-barrier-basics", "/beauty-claims-guide"],
+  },
+  {
+    slug: "water-cream-vs-gel-moisturizer",
+    title: "Water Cream vs Gel Moisturizer",
+    summary: "Compare lightweight moisturizer naming before choosing a skin-care texture.",
+    verdict:
+      "Water cream is better for shoppers drawn to a cushiony lightweight cream feel, while gel moisturizer is stronger for a fresher gel texture and quick daily use.",
+    columns: ["Water cream", "Gel moisturizer"],
+    rows: [
+      { label: "Texture", values: ["Light cream or gel-cream", "Gel or gel-lotion"] },
+      { label: "Best role", values: ["Elegant lightweight cream step", "Fresh daily moisturizer"] },
+      { label: "Buyer concern", values: ["Finish and fragrance", "Stickiness and dry-down"] },
+      { label: "Shopping note", values: ["Check finish and jar format", "Check size and skin-feel notes"] },
+    ],
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/compare/gel-moisturizer-vs-cream-moisturizer", "/skin-care"],
+  },
+  {
+    slug: "spf-moisturizer-vs-face-sunscreen",
+    title: "SPF Moisturizer vs Face Sunscreen",
+    summary: "Compare moisturizer-with-SPF routes with dedicated face sunscreen shopping.",
+    verdict:
+      "SPF moisturizer is stronger for a simplified morning routine, while dedicated face sunscreen is better for shoppers focused on sunscreen texture, finish, and application directions.",
+    columns: ["SPF moisturizer", "Face sunscreen"],
+    rows: [
+      { label: "Product role", values: ["Moisturizer plus SPF positioning", "Dedicated SPF product"] },
+      { label: "Best role", values: ["Simplified morning routine", "SPF-first shopping"] },
+      { label: "Buyer concern", values: ["Amount used and finish", "White cast, finish, and reapplication"] },
+      { label: "Shopping note", values: ["Follow SPF directions", "Follow label directions and reapply as directed"] },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/compare/sunscreen-vs-primer", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "tinted-sunscreen-vs-skin-tint",
+    title: "Tinted Sunscreen vs Skin Tint",
+    summary: "Compare SPF-positioned tinted products with makeup-first sheer complexion tints.",
+    verdict:
+      "Tinted sunscreen is better when SPF is the central shopping priority, while skin tint is stronger when the shopper wants a sheer makeup base.",
+    columns: ["Tinted sunscreen", "Skin tint"],
+    rows: [
+      { label: "Primary role", values: ["SPF product with tint", "Makeup product with sheer coverage"] },
+      { label: "Best role", values: ["Morning SPF routine", "Minimal complexion makeup"] },
+      { label: "Buyer concern", values: ["SPF directions and shade depth", "Coverage, finish, and shade flexibility"] },
+      { label: "Shopping note", values: ["Follow sunscreen directions", "Do not treat tint as SPF unless labeled"] },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/compare/luxury-foundation-vs-skin-tint", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "sunscreen-stick-vs-sunscreen-lotion",
+    title: "Sunscreen Stick vs Sunscreen Lotion",
+    summary: "Compare portable SPF stick formats with classic lotion sunscreen routes.",
+    verdict:
+      "Sunscreen stick is better for portable touch-ups and targeted application, while sunscreen lotion is stronger for broader, more familiar face or body application.",
+    columns: ["Sunscreen stick", "Sunscreen lotion"],
+    rows: [
+      { label: "Format", values: ["Solid stick", "Lotion, cream, or fluid"] },
+      { label: "Best role", values: ["Travel and targeted application", "Daily face or body application"] },
+      { label: "Buyer concern", values: ["Even coverage and texture", "Finish, white cast, and size"] },
+      { label: "Shopping note", values: ["Follow application directions", "Follow label directions and reapply as directed"] },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/body-care", "/beauty-claims-guide"],
+  },
+  {
+    slug: "sunscreen-spray-vs-sunscreen-lotion",
+    title: "Sunscreen Spray vs Sunscreen Lotion",
+    summary: "Compare spray SPF convenience with lotion sunscreen control.",
+    verdict:
+      "Sunscreen spray is better for convenience and hard-to-reach body areas, while sunscreen lotion is stronger for controlled application and texture comparison.",
+    columns: ["Sunscreen spray", "Sunscreen lotion"],
+    rows: [
+      { label: "Format", values: ["Spray or mist", "Lotion, cream, or fluid"] },
+      { label: "Best role", values: ["Convenient body application", "Controlled face or body application"] },
+      { label: "Buyer concern", values: ["Wind, inhalation caution, and coverage", "Finish and white cast"] },
+      { label: "Shopping note", values: ["Follow spray directions carefully", "Follow label directions and reapply as directed"] },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/body-care", "/compare/body-sunscreen-spray-vs-body-sunscreen-lotion"],
+  },
+  {
+    slug: "eye-serum-vs-eye-cream",
+    title: "Eye Serum vs Eye Cream",
+    summary: "Compare lightweight eye-area serums with richer eye creams.",
+    verdict:
+      "Eye serum is stronger for a lightweight targeted layer, while eye cream is better for shoppers who prefer a richer, more cushioned eye-area texture.",
+    columns: ["Eye serum", "Eye cream"],
+    rows: [
+      { label: "Texture", values: ["Gel, fluid, or serum", "Cream, balm, or gel-cream"] },
+      { label: "Best role", values: ["Lightweight eye-area layer", "Richer eye-area comfort"] },
+      { label: "Buyer concern", values: ["Layering and eye-area directions", "Texture under makeup"] },
+      { label: "Shopping note", values: ["Check eye-area use directions", "Avoid unsupported result claims"] },
+    ],
+    relatedLinks: ["/skin-care", "/beauty-university/ingredient-claims-guide", "/beauty-claims-guide"],
+  },
+  {
+    slug: "eye-mask-vs-eye-cream",
+    title: "Eye Mask vs Eye Cream",
+    summary: "Compare occasional eye masks with daily eye-cream routines.",
+    verdict:
+      "Eye masks are better for occasional self-care and event prep, while eye cream is stronger for a repeatable daily or nightly eye-area step.",
+    columns: ["Eye mask", "Eye cream"],
+    rows: [
+      { label: "Routine timing", values: ["Occasional or pre-event", "Daily or nightly"] },
+      { label: "Texture", values: ["Patch, gel, or mask format", "Cream, gel, or balm"] },
+      { label: "Buyer concern", values: ["Fit, slip, and single-use value", "Texture and makeup layering"] },
+      { label: "Shopping note", values: ["Read eye-area directions", "Use visible product claims only"] },
+    ],
+    relatedLinks: ["/skin-care", "/beauty-university/makeup-prep-routine", "/beauty-claims-guide"],
+  },
+  {
+    slug: "night-cream-vs-sleeping-mask",
+    title: "Night Cream vs Sleeping Mask",
+    summary: "Compare nightly moisturizer-style creams with richer overnight mask routines.",
+    verdict:
+      "Night cream is better as a repeatable evening moisturizer step, while sleeping mask is stronger for shoppers who want a more occasional, ritual-style overnight layer.",
+    columns: ["Night cream", "Sleeping mask"],
+    rows: [
+      { label: "Routine role", values: ["Evening moisturizer", "Overnight ritual layer"] },
+      { label: "Texture", values: ["Cream, gel-cream, or lotion", "Gel, cream, or mask-like layer"] },
+      { label: "Buyer concern", values: ["Richness and fragrance", "Pillow transfer and frequency"] },
+      { label: "Shopping note", values: ["Check routine fit", "Check directions and texture"] },
+    ],
+    relatedLinks: ["/skin-care/barrier-repair-moisturizers", "/compare/face-mask-vs-overnight-mask", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "sheet-mask-vs-clay-mask",
+    title: "Sheet Mask vs Clay Mask",
+    summary: "Compare fabric-style sheet masks with rinse-off clay mask routines.",
+    verdict:
+      "Sheet masks are better for quick self-care and hydration-positioned routines, while clay masks are stronger for shoppers comparing rinse-off, texture-focused mask formats.",
+    columns: ["Sheet mask", "Clay mask"],
+    rows: [
+      { label: "Format", values: ["Sheet or patch mask", "Rinse-off clay mask"] },
+      { label: "Best role", values: ["Fast self-care layer", "Texture-focused mask routine"] },
+      { label: "Buyer concern", values: ["Fit, fragrance, and single-use value", "Dry-down feel and rinse effort"] },
+      { label: "Shopping note", values: ["Check directions and timing", "Avoid overuse and read directions"] },
+    ],
+    relatedLinks: ["/skin-care", "/compare/face-mask-vs-overnight-mask", "/beauty-claims-guide"],
+  },
+  {
+    slug: "pore-primer-vs-blurring-serum",
+    title: "Pore Primer vs Blurring Serum",
+    summary: "Compare makeup-first smoothing primers with skin-care-style blur serums.",
+    verdict:
+      "Pore primer is better for makeup prep and cosmetic smoothing, while blurring serum is stronger for shoppers who want a skin-care-style texture before makeup.",
+    columns: ["Pore primer", "Blurring serum"],
+    rows: [
+      { label: "Product role", values: ["Makeup prep", "Skin-care-style prep layer"] },
+      { label: "Best role", values: ["Foundation grip and smoothing", "Soft-focus routine step"] },
+      { label: "Buyer concern", values: ["Pilling and finish", "Layering and visible claims"] },
+      { label: "Shopping note", values: ["Check foundation compatibility", "Avoid assuming skin changes"] },
+    ],
+    relatedLinks: ["/makeup", "/skin-care/anti-aging-serums", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "primer-serum-vs-face-primer",
+    title: "Primer Serum vs Face Primer",
+    summary: "Compare serum-textured prep products with classic makeup primer routes.",
+    verdict:
+      "Primer serum is stronger for shoppers who want a skin-care-like prep texture, while face primer is better for classic makeup grip, smoothing, or finish control.",
+    columns: ["Primer serum", "Face primer"],
+    rows: [
+      { label: "Texture", values: ["Serum, gel, or fluid", "Gel, cream, balm, or lotion"] },
+      { label: "Best role", values: ["Skin-care-style makeup prep", "Classic makeup prep"] },
+      { label: "Buyer concern", values: ["Layering and pilling", "Finish and foundation match"] },
+      { label: "Shopping note", values: ["Check routine order", "Check finish and compatibility"] },
+    ],
+    relatedLinks: ["/makeup", "/compare/sunscreen-vs-primer", "/beauty-university/makeup-prep-routine"],
+  },
 ];
 
 export const beautyCalculators = [
