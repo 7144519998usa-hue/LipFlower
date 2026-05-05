@@ -4023,6 +4023,231 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/compare/dry-shampoo-vs-texturizing-spray", "/hair-care", "/beauty-university/hair-care-routine-map"],
   },
+  {
+    slug: "fragrance-wardrobe-vs-signature-scent",
+    title: "Fragrance Wardrobe vs Signature Scent",
+    summary: "Compare owning several scent options with choosing one primary fragrance.",
+    verdict:
+      "A fragrance wardrobe is stronger for shoppers who want variety by season and occasion, while a signature scent is better for a focused, recognizable everyday fragrance choice.",
+    columns: ["Fragrance wardrobe", "Signature scent"],
+    rows: [
+      { label: "Shopping mindset", values: ["Variety and rotation", "One focused scent identity"] },
+      { label: "Best role", values: ["Seasonal and occasion scent changes", "Daily fragrance consistency"] },
+      { label: "Buyer concern", values: ["Cost across several bottles", "Blind-buy risk on one bottle"] },
+      { label: "Shopping note", values: ["Start with samples or travel sizes", "Sample before full-size when possible"] },
+    ],
+    relatedLinks: ["/fragrance/signature-scent-guide", "/fragrance/fragrance-discovery-sets", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "perfume-oil-vs-body-oil",
+    title: "Perfume Oil vs Body Oil",
+    summary: "Compare scent-focused oil with body-care oil before layering fragrance and skin feel.",
+    verdict:
+      "Perfume oil is better when scent is the main goal, while body oil is stronger when the shopper wants body-care texture, sheen, and fragrance layering.",
+    columns: ["Perfume oil", "Body oil"],
+    rows: [
+      { label: "Primary role", values: ["Fragrance", "Body-care texture and sheen"] },
+      { label: "Best role", values: ["Close-wearing scent", "Post-shower layering"] },
+      { label: "Buyer concern", values: ["Oil feel and scent strength", "Slip, transfer, and fragrance"] },
+      { label: "Shopping note", values: ["Check applicator and notes", "Check dry-down and directions"] },
+    ],
+    relatedLinks: ["/compare/fragrance-oil-vs-eau-de-parfum", "/best/best-body-oil", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "hair-perfume-vs-body-mist",
+    title: "Hair Perfume vs Body Mist",
+    summary: "Compare hair-focused fragrance sprays with broad body mist routines.",
+    verdict:
+      "Hair perfume is better for shoppers who specifically want fragrance for hair styling routines, while body mist is stronger for broader, casual scent layering.",
+    columns: ["Hair perfume", "Body mist"],
+    rows: [
+      { label: "Application area", values: ["Hair", "Body"] },
+      { label: "Best role", values: ["Hair-scent finishing step", "Everyday scent refresh"] },
+      { label: "Buyer concern", values: ["Hair feel and formula directions", "Scent strength and bottle size"] },
+      { label: "Shopping note", values: ["Use only as directed for hair", "Check fragrance notes and set value"] },
+    ],
+    relatedLinks: ["/compare/fragrance-mist-vs-hair-mist", "/compare/body-splash-vs-body-mist", "/fragrance"],
+  },
+  {
+    slug: "discovery-set-vs-sampler-set",
+    title: "Discovery Set vs Sampler Set",
+    summary: "Compare two sample-led beauty shopping routes before buying full size.",
+    verdict:
+      "Discovery sets are stronger for curated brand or fragrance exploration, while sampler sets are better for broader trial across products, shades, or routines.",
+    columns: ["Discovery set", "Sampler set"],
+    rows: [
+      { label: "Intent", values: ["Curated exploration", "Broad trial"] },
+      { label: "Best role", values: ["Fragrance or brand discovery", "Testing multiple products"] },
+      { label: "Buyer concern", values: ["Voucher terms and sample count", "Sample size and category fit"] },
+      { label: "Shopping note", values: ["Check redemption rules", "Check exact contents and sizes"] },
+    ],
+    relatedLinks: ["/fragrance/fragrance-discovery-sets", "/compare/perfume-sampler-vs-travel-size-perfume", "/beauty-gifts"],
+  },
+  {
+    slug: "candle-vs-room-spray",
+    title: "Candle vs Room Spray",
+    summary: "Compare home-fragrance gifting formats with instant scent refreshes.",
+    verdict:
+      "A candle is better for giftable ambiance and longer rituals, while room spray is stronger for fast, adjustable fragrance in a space.",
+    columns: ["Candle", "Room spray"],
+    rows: [
+      { label: "Format", values: ["Burnable home fragrance", "Spray home fragrance"] },
+      { label: "Best role", values: ["Ambiance and gifting", "Fast room refresh"] },
+      { label: "Buyer concern", values: ["Burn time and vessel style", "Scent strength and spray pattern"] },
+      { label: "Shopping note", values: ["Follow candle safety directions", "Check scent notes and room size"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/fragrance", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "body-butter-vs-body-oil",
+    title: "Body Butter vs Body Oil",
+    summary: "Compare rich cream-style body moisture with oil-based sheen and layering.",
+    verdict:
+      "Body butter is better for a rich, cushioned body-care step, while body oil is stronger for sheen, massage feel, and fragrance layering.",
+    columns: ["Body butter", "Body oil"],
+    rows: [
+      { label: "Texture", values: ["Thick cream or butter", "Oil or dry oil"] },
+      { label: "Best role", values: ["Rich body-care routine", "Sheen and layering"] },
+      { label: "Buyer concern", values: ["Richness and absorption", "Transfer and slip"] },
+      { label: "Shopping note", values: ["Check fragrance and jar size", "Check dry-down and applicator"] },
+    ],
+    relatedLinks: ["/compare/body-butter-vs-body-cream", "/best/best-body-oil", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "body-balm-vs-body-oil",
+    title: "Body Balm vs Body Oil",
+    summary: "Compare balm-style body care with liquid oil textures.",
+    verdict:
+      "Body balm is stronger for targeted, richer-feeling application, while body oil is better for larger-area glide, sheen, and layering.",
+    columns: ["Body balm", "Body oil"],
+    rows: [
+      { label: "Texture", values: ["Solid, salve-like, or balm", "Liquid oil or dry oil"] },
+      { label: "Best role", values: ["Targeted rich application", "All-over body sheen"] },
+      { label: "Buyer concern", values: ["Stickiness and jar format", "Slip and transfer"] },
+      { label: "Shopping note", values: ["Check texture and fragrance", "Check pump, spray, or bottle format"] },
+    ],
+    relatedLinks: ["/compare/body-cream-vs-body-balm", "/compare/body-oil-spray-vs-body-oil", "/body-care"],
+  },
+  {
+    slug: "hand-wash-vs-hand-soap",
+    title: "Hand Wash vs Hand Soap",
+    summary: "Compare pump hand wash with classic soap formats for vanity and guest-bath styling.",
+    verdict:
+      "Hand wash is better for pump convenience and scent-led vanity styling, while hand soap is stronger for classic bar presentation and gifting.",
+    columns: ["Hand wash", "Hand soap"],
+    rows: [
+      { label: "Format", values: ["Liquid pump or refill", "Bar soap"] },
+      { label: "Best role", values: ["Sink-side daily use", "Classic guest bath or gift"] },
+      { label: "Buyer concern", values: ["Bottle style and refill value", "Storage, scent, and bar texture"] },
+      { label: "Shopping note", values: ["Check size and refill options", "Check scent and dish needs"] },
+    ],
+    relatedLinks: ["/body-care/luxury-hand-care", "/compare/luxury-soap-vs-body-wash", "/body-care"],
+  },
+  {
+    slug: "cuticle-oil-pen-vs-cuticle-oil-bottle",
+    title: "Cuticle Oil Pen vs Cuticle Oil Bottle",
+    summary: "Compare portable cuticle oil pens with traditional bottle formats.",
+    verdict:
+      "A cuticle oil pen is better for travel and precise daily carry, while a cuticle oil bottle is stronger for vanity use, larger size, and classic manicure routines.",
+    columns: ["Cuticle oil pen", "Cuticle oil bottle"],
+    rows: [
+      { label: "Format", values: ["Brush pen or click pen", "Bottle, dropper, or brush bottle"] },
+      { label: "Best role", values: ["Portable touch-ups", "Home manicure routine"] },
+      { label: "Buyer concern", values: ["Fill amount and applicator", "Spill risk and oil texture"] },
+      { label: "Shopping note", values: ["Check pack count and scent", "Check bottle size and brush"] },
+    ],
+    relatedLinks: ["/nail-care/cuticle-care", "/compare/cuticle-cream-vs-cuticle-oil", "/compare/cuticle-remover-vs-cuticle-oil"],
+  },
+  {
+    slug: "press-on-nail-kit-vs-nail-wraps",
+    title: "Press-On Nail Kit vs Nail Wraps",
+    summary: "Compare full press-on manicure kits with flexible nail wrap color designs.",
+    verdict:
+      "Press-on nail kits are stronger for instant shape and length, while nail wraps are better for lightweight color or pattern changes over natural nails.",
+    columns: ["Press-on nail kit", "Nail wraps"],
+    rows: [
+      { label: "Format", values: ["Pre-shaped nails plus adhesive", "Adhesive polish strips"] },
+      { label: "Best role", values: ["Shape and length change", "Color and design overlay"] },
+      { label: "Buyer concern", values: ["Sizing, adhesive, and removal", "Sizing, smoothing, and top coat"] },
+      { label: "Shopping note", values: ["Check size range and adhesive type", "Check strip count and directions"] },
+    ],
+    relatedLinks: ["/compare/nail-wraps-vs-press-on-nails", "/compare/nail-glue-vs-adhesive-tabs", "/nail-care/manicure-tools"],
+  },
+  {
+    slug: "jewelry-roll-vs-jewelry-box",
+    title: "Jewelry Roll vs Jewelry Box",
+    summary: "Compare travel-friendly jewelry rolls with structured home jewelry boxes.",
+    verdict:
+      "A jewelry roll is better for trips and compact packing, while a jewelry box is stronger for protected home storage and larger collections.",
+    columns: ["Jewelry roll", "Jewelry box"],
+    rows: [
+      { label: "Storage style", values: ["Soft roll-up organizer", "Structured box"] },
+      { label: "Best role", values: ["Travel and event packing", "Home storage"] },
+      { label: "Buyer concern", values: ["Tangle prevention and closure", "Compartments and footprint"] },
+      { label: "Shopping note", values: ["Check earring and necklace sections", "Check lining and drawer layout"] },
+    ],
+    relatedLinks: ["/compare/jewelry-box-vs-jewelry-tray", "/compare/jewelry-organizer-vs-jewelry-travel-case", "/artificial-jewelry"],
+  },
+  {
+    slug: "makeup-train-case-vs-beauty-organizer",
+    title: "Makeup Train Case vs Beauty Organizer",
+    summary: "Compare portable structured makeup cases with everyday vanity organization.",
+    verdict:
+      "A makeup train case is stronger for travel, kits, and large product packing, while a beauty organizer is better for daily visibility on a vanity.",
+    columns: ["Makeup train case", "Beauty organizer"],
+    rows: [
+      { label: "Storage style", values: ["Portable structured case", "Vanity organizer"] },
+      { label: "Best role", values: ["Travel or large kit storage", "Daily product visibility"] },
+      { label: "Buyer concern", values: ["Weight, handle, and compartments", "Dimensions and drawer layout"] },
+      { label: "Shopping note", values: ["Check size and wipeability", "Check footprint and section sizes"] },
+    ],
+    relatedLinks: ["/compare/makeup-bag-vs-makeup-train-case", "/compare/skin-care-fridge-vs-beauty-organizer", "/beauty-tools"],
+  },
+  {
+    slug: "travel-mirror-vs-lighted-compact-mirror",
+    title: "Travel Mirror vs Lighted Compact Mirror",
+    summary: "Compare simple portable mirrors with compact mirrors that include lighting.",
+    verdict:
+      "A travel mirror is better for lightweight packing, while a lighted compact mirror is stronger for touch-ups where lighting quality matters.",
+    columns: ["Travel mirror", "Lighted compact mirror"],
+    rows: [
+      { label: "Features", values: ["Portable mirror", "Mirror with built-in light"] },
+      { label: "Best role", values: ["Simple travel use", "Touch-ups in uneven lighting"] },
+      { label: "Buyer concern", values: ["Durability and size", "Battery, brightness, and hinge"] },
+      { label: "Shopping note", values: ["Check case and magnification", "Check charging or battery details"] },
+    ],
+    relatedLinks: ["/compare/lighted-vanity-mirror-vs-compact-mirror", "/compare/makeup-mirror-vs-vanity-mirror", "/beauty-tools"],
+  },
+  {
+    slug: "facial-steamer-vs-face-sauna",
+    title: "Facial Steamer vs Face Sauna",
+    summary: "Compare two steam-focused facial tool names before choosing a vanity appliance.",
+    verdict:
+      "Facial steamer is the clearer shopping route for compact steam tools, while face sauna is often used for larger or more enclosed steam-style beauty appliances.",
+    columns: ["Facial steamer", "Face sauna"],
+    rows: [
+      { label: "Tool style", values: ["Compact steam device", "Larger steam-style appliance"] },
+      { label: "Best role", values: ["Vanity facial routine", "Spa-style setup"] },
+      { label: "Buyer concern", values: ["Water tank, heat, and cleaning", "Size, steam distance, and storage"] },
+      { label: "Shopping note", values: ["Read safety and cleaning directions", "Follow device directions carefully"] },
+    ],
+    relatedLinks: ["/beauty-tools/facial-tools", "/skin-care", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "ice-globe-vs-jade-roller",
+    title: "Ice Globe vs Jade Roller",
+    summary: "Compare cooling globe facial tools with classic stone roller routines.",
+    verdict:
+      "Ice globes are stronger for a colder, spa-style tool feel, while jade rollers are better for a classic rolling facial-massage ritual.",
+    columns: ["Ice globe", "Jade roller"],
+    rows: [
+      { label: "Tool feel", values: ["Cold globe massage", "Cool stone roller"] },
+      { label: "Best role", values: ["Refreshing facial tool ritual", "Classic rolling routine"] },
+      { label: "Buyer concern", values: ["Storage, breakability, and cleaning", "Stone material and roller quality"] },
+      { label: "Shopping note", values: ["Check safe-use and cleaning directions", "Check material and handle"] },
+    ],
+    relatedLinks: ["/compare/jade-roller-vs-ice-roller", "/beauty-tools/facial-tools", "/beauty-university/beauty-routine-order-chart"],
+  },
 ];
 
 export const beautyCalculators = [
