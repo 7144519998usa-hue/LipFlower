@@ -2313,6 +2313,306 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/best/best-bath-oil", "/best/best-bath-salt-soak", "/body-care"],
   },
+  {
+    slug: "body-polish-vs-body-scrub",
+    title: "Body Polish vs Body Scrub",
+    summary: "Compare two product-led body exfoliation routes by texture, scent, and shower routine.",
+    verdict:
+      "Body polish is usually the more refined, ritual-feeling route, while body scrub is the broader exfoliating category with more texture and price variety.",
+    columns: ["Body polish", "Body scrub"],
+    rows: [
+      { label: "Texture", values: ["Polished, creamy, or oily", "Grainy, creamy, gel, or oil-based"] },
+      { label: "Best role", values: ["Elevated shower ritual", "General body exfoliation"] },
+      { label: "Buyer mindset", values: ["Luxury feel and scent", "Texture, value, and routine use"] },
+      { label: "Shopping note", values: ["Check granule feel and fragrance", "Check directions and skin feel"] },
+    ],
+    relatedLinks: ["/best/best-body-polish", "/body-care/body-exfoliants", "/body-care"],
+  },
+  {
+    slug: "body-oil-spray-vs-body-oil",
+    title: "Body Oil Spray vs Body Oil",
+    summary: "Compare sprayable body oil convenience with traditional pour or pump oil formats.",
+    verdict:
+      "Body oil spray is stronger for quick, even application, while traditional body oil is better for shoppers who want more control over amount and layering.",
+    columns: ["Body oil spray", "Body oil"],
+    rows: [
+      { label: "Format", values: ["Spray or mist oil", "Pump, dropper, or pour bottle"] },
+      { label: "Best role", values: ["Fast body sheen", "Controlled layering"] },
+      { label: "Buyer concern", values: ["Convenience and reach", "Texture and amount control"] },
+      { label: "Shopping note", values: ["Check overspray and transfer", "Check slip, fragrance, and dry-down"] },
+    ],
+    relatedLinks: ["/best/best-body-oil-spray", "/best/best-body-oil", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "shower-gel-vs-body-wash",
+    title: "Shower Gel vs Body Wash",
+    summary: "Compare two everyday body-cleansing formats by texture, fragrance, and skin feel.",
+    verdict:
+      "Shower gel is usually the lighter, more gel-textured route, while body wash is the broader category with creamier and more moisturizing-feeling options.",
+    columns: ["Shower gel", "Body wash"],
+    rows: [
+      { label: "Texture", values: ["Gel or gel-cream", "Gel, cream, oil, or lotion wash"] },
+      { label: "Best role", values: ["Fresh shower feel", "Everyday body cleanse"] },
+      { label: "Buyer mindset", values: ["Scent and freshness", "Comfort, scent, and value"] },
+      { label: "Shopping note", values: ["Check fragrance and lather", "Check post-rinse feel and size"] },
+    ],
+    relatedLinks: ["/best/best-body-wash", "/best/best-luxury-soap", "/body-care"],
+  },
+  {
+    slug: "luxury-soap-vs-body-wash",
+    title: "Luxury Soap vs Body Wash",
+    summary: "Compare bar-style cleansing with liquid body wash in premium body care.",
+    verdict:
+      "Luxury soap is better for classic bathroom styling and bar-cleansing rituals, while body wash is stronger for pump, refill, and shower-friendly convenience.",
+    columns: ["Luxury soap", "Body wash"],
+    rows: [
+      { label: "Format", values: ["Bar or cleansing slab", "Bottle, pump, or refill"] },
+      { label: "Best role", values: ["Classic cleansing ritual", "Convenient shower cleanse"] },
+      { label: "Gift appeal", values: ["High for presentation", "High for sets and refills"] },
+      { label: "Shopping note", values: ["Check scent and storage", "Check size, fragrance, and refill options"] },
+    ],
+    relatedLinks: ["/best/best-luxury-soap", "/best/best-body-wash", "/body-care"],
+  },
+  {
+    slug: "deodorant-cream-vs-deodorant-stick",
+    title: "Deodorant Cream vs Deodorant Stick",
+    summary: "Compare cream deodorant texture with classic stick convenience.",
+    verdict:
+      "Deodorant stick is the more familiar daily route, while deodorant cream is a niche texture choice for shoppers who prefer jar, tube, or cream application.",
+    columns: ["Deodorant cream", "Deodorant stick"],
+    rows: [
+      { label: "Format", values: ["Cream, jar, or tube", "Solid stick"] },
+      { label: "Best role", values: ["Texture-specific routine", "Everyday convenience"] },
+      { label: "Buyer concern", values: ["Application feel and residue", "Speed, scent, and portability"] },
+      { label: "Shopping note", values: ["Check directions and fragrance", "Check white marks and scent"] },
+    ],
+    relatedLinks: ["/best/best-deodorant-cream", "/best/best-body-deodorant", "/body-care"],
+  },
+  {
+    slug: "aluminum-free-deodorant-vs-regular-deodorant",
+    title: "Aluminum-Free Deodorant vs Regular Deodorant",
+    summary: "Compare deodorant positioning without overstating safety, health, or performance claims.",
+    verdict:
+      "Aluminum-free deodorant is best for shoppers intentionally choosing that label, while regular deodorant offers the broadest formula, scent, and format range.",
+    columns: ["Aluminum-free deodorant", "Regular deodorant"],
+    rows: [
+      { label: "Common role", values: ["Label-specific deodorant route", "Broad deodorant category"] },
+      { label: "Formula range", values: ["Cream, stick, gel, or spray", "Stick, gel, spray, cream, or clinical-positioned"] },
+      { label: "Buyer mindset", values: ["Ingredient-label preference", "Format, scent, and familiarity"] },
+      { label: "Shopping note", values: ["Avoid assuming safety outcomes", "Check product label and directions"] },
+    ],
+    relatedLinks: ["/best/best-aluminum-free-deodorant", "/best/best-body-deodorant", "/beauty-claims-guide"],
+  },
+  {
+    slug: "perfume-gift-set-vs-discovery-set",
+    title: "Perfume Gift Set vs Discovery Set",
+    summary: "Compare ready-to-gift fragrance bundles with sample-led scent exploration.",
+    verdict:
+      "Perfume gift sets are better when the scent family is known, while discovery sets are safer for shoppers who want flexibility and testing.",
+    columns: ["Perfume gift set", "Discovery set"],
+    rows: [
+      { label: "Best role", values: ["Known-scent gifting", "Exploration and lower-risk gifting"] },
+      { label: "Contents", values: ["Bottle plus minis or body products", "Samples, minis, or travel sprays"] },
+      { label: "Buyer mindset", values: ["Presentation and value", "Try-before-full-size"] },
+      { label: "Shopping note", values: ["Check size and packaging", "Check sample count and redemption terms"] },
+    ],
+    relatedLinks: ["/best/best-perfume-gift-set", "/fragrance/fragrance-discovery-sets", "/fragrance/luxury-perfume-gifts"],
+  },
+  {
+    slug: "mini-fragrance-set-vs-full-size-perfume",
+    title: "Mini Fragrance Set vs Full-Size Perfume",
+    summary: "Compare small-format scent wardrobes with a committed full bottle.",
+    verdict:
+      "Mini fragrance sets are better for variety and testing, while full-size perfume is stronger when the shopper already knows the scent they want.",
+    columns: ["Mini fragrance set", "Full-size perfume"],
+    rows: [
+      { label: "Best role", values: ["Variety and discovery", "Signature scent purchase"] },
+      { label: "Risk level", values: ["Lower for uncertain preferences", "Higher for blind buys"] },
+      { label: "Gift appeal", values: ["Flexible and playful", "Premium and focused"] },
+      { label: "Shopping note", values: ["Check size per bottle", "Check concentration, size, and return policy"] },
+    ],
+    relatedLinks: ["/best/best-mini-fragrance-set", "/best/best-perfume", "/fragrance"],
+  },
+  {
+    slug: "rollerball-perfume-vs-travel-spray",
+    title: "Rollerball Perfume vs Travel Spray",
+    summary: "Compare two portable perfume formats by application style and packing convenience.",
+    verdict:
+      "Rollerball perfume is better for precise oil-style application, while travel spray is stronger for a more familiar spray fragrance experience.",
+    columns: ["Rollerball perfume", "Travel spray"],
+    rows: [
+      { label: "Application", values: ["Roll-on", "Spray"] },
+      { label: "Best role", values: ["Precise touch-ups", "Portable spray fragrance"] },
+      { label: "Packing", values: ["Compact and low-profile", "Compact but spray-focused"] },
+      { label: "Shopping note", values: ["Check oil base and leakage", "Check cap, atomizer, and size"] },
+    ],
+    relatedLinks: ["/best/best-rollerball-perfume", "/best/best-travel-perfume-spray", "/fragrance/fragrance-discovery-sets"],
+  },
+  {
+    slug: "vanilla-fragrance-vs-amber-fragrance",
+    title: "Vanilla Fragrance vs Amber Fragrance",
+    summary: "Compare two warm scent families before choosing a signature perfume or gift.",
+    verdict:
+      "Vanilla fragrance is usually sweeter and more gourmand-leaning, while amber fragrance is often warmer, resinous, and more enveloping.",
+    columns: ["Vanilla fragrance", "Amber fragrance"],
+    rows: [
+      { label: "Scent family feel", values: ["Sweet, creamy, or gourmand", "Warm, resinous, or cozy"] },
+      { label: "Best for", values: ["Soft warmth and dessert-like notes", "Evening warmth and depth"] },
+      { label: "Gift risk", values: ["Can be approachable but sweet", "Can feel deeper or heavier"] },
+      { label: "Shopping note", values: ["Sample sweetness level", "Sample depth and dry-down"] },
+    ],
+    relatedLinks: ["/best/best-vanilla-fragrance", "/best/best-amber-fragrance", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "citrus-fragrance-vs-floral-fragrance",
+    title: "Citrus Fragrance vs Floral Fragrance",
+    summary: "Compare fresh citrus scent direction with classic floral perfume styling.",
+    verdict:
+      "Citrus fragrance is better for fresh, bright, daytime scent preferences, while floral fragrance is stronger for classic perfume styling and romantic gifting.",
+    columns: ["Citrus fragrance", "Floral fragrance"],
+    rows: [
+      { label: "Scent family feel", values: ["Fresh, bright, or sparkling", "Soft, romantic, or bouquet-like"] },
+      { label: "Best for", values: ["Daytime and warm weather", "Classic gifting and feminine scent wardrobes"] },
+      { label: "Buyer concern", values: ["Freshness and lift", "Petal notes and sweetness"] },
+      { label: "Shopping note", values: ["Check dry-down and longevity language", "Check specific flower notes"] },
+    ],
+    relatedLinks: ["/best/best-citrus-fragrance", "/best/best-floral-fragrance", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "woody-fragrance-vs-musk-fragrance",
+    title: "Woody Fragrance vs Musk Fragrance",
+    summary: "Compare grounded wood notes with soft skin-scent musk profiles.",
+    verdict:
+      "Woody fragrance is stronger for grounded, polished scent direction, while musk fragrance is better for shoppers who want a softer skin-scent effect.",
+    columns: ["Woody fragrance", "Musk fragrance"],
+    rows: [
+      { label: "Scent feel", values: ["Grounded, dry, warm, or smoky", "Soft, clean, skin-like, or powdery"] },
+      { label: "Best for", values: ["Signature depth", "Close-wearing softness"] },
+      { label: "Buyer mindset", values: ["Polished or unisex-leaning scent", "Subtle personal scent"] },
+      { label: "Shopping note", values: ["Sample wood type and dry-down", "Sample musk style and projection"] },
+    ],
+    relatedLinks: ["/best/best-woody-fragrance", "/best/best-musk-fragrance", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "nail-polish-set-vs-single-polish",
+    title: "Nail Polish Set vs Single Polish",
+    summary: "Compare shade bundles with a focused nail color purchase.",
+    verdict:
+      "A nail polish set is better for gifting or building a color wardrobe, while a single polish is stronger when the shopper knows the exact shade they want.",
+    columns: ["Nail polish set", "Single polish"],
+    rows: [
+      { label: "Best role", values: ["Gift or shade wardrobe", "Focused color purchase"] },
+      { label: "Value question", values: ["Multiple shades, not all may be used", "One shade with less waste"] },
+      { label: "Buyer mindset", values: ["Experiment or gift", "Replace or choose a signature color"] },
+      { label: "Shopping note", values: ["Check mini versus full size", "Check finish and dry time"] },
+    ],
+    relatedLinks: ["/best/best-nail-polish-set", "/best/best-nail-polish", "/nail-care/luxury-nail-polish"],
+  },
+  {
+    slug: "nail-art-stickers-vs-nail-art-brush-set",
+    title: "Nail Art Stickers vs Nail Art Brush Set",
+    summary: "Compare quick decorative nail art with tool-led custom designs.",
+    verdict:
+      "Nail art stickers are better for fast decoration, while a nail art brush set is stronger for shoppers who want custom designs and more control.",
+    columns: ["Nail art stickers", "Nail art brush set"],
+    rows: [
+      { label: "Best role", values: ["Fast nail decoration", "Custom nail art"] },
+      { label: "Skill level", values: ["Beginner-friendly", "Technique-sensitive"] },
+      { label: "Flexibility", values: ["Pre-designed accents", "Freehand detail"] },
+      { label: "Shopping note", values: ["Check adhesive and top coat needs", "Check brush sizes and cleaning"] },
+    ],
+    relatedLinks: ["/best/best-nail-art-stickers", "/best/best-nail-art-brush-set", "/nail-care/manicure-tools"],
+  },
+  {
+    slug: "nail-glue-vs-adhesive-tabs",
+    title: "Nail Glue vs Adhesive Tabs",
+    summary: "Compare press-on nail attachment routes by hold, removal, and commitment.",
+    verdict:
+      "Nail glue is usually stronger for longer press-on wear, while adhesive tabs are better for short-term styling and lower-commitment removal.",
+    columns: ["Nail glue", "Adhesive tabs"],
+    rows: [
+      { label: "Best role", values: ["Longer press-on wear", "Short-term styling"] },
+      { label: "Commitment", values: ["Higher", "Lower"] },
+      { label: "Removal", values: ["Requires careful directions", "Usually simpler"] },
+      { label: "Shopping note", values: ["Read removal and warning labels", "Check sizing and hold expectations"] },
+    ],
+    relatedLinks: ["/best/best-nail-glue", "/best/best-press-on-nail-kit", "/nail-care/manicure-tools"],
+  },
+  {
+    slug: "glass-nail-file-vs-emery-board",
+    title: "Glass Nail File vs Emery Board",
+    summary: "Compare reusable glass filing with classic disposable-style nail files.",
+    verdict:
+      "A glass nail file is better for a reusable, smooth-feeling tool, while an emery board is stronger for affordability, portability, and easy replacement.",
+    columns: ["Glass nail file", "Emery board"],
+    rows: [
+      { label: "Best role", values: ["Reusable nail shaping", "Affordable filing"] },
+      { label: "Durability", values: ["Longer-lasting if protected", "Disposable or short-term"] },
+      { label: "Travel", values: ["Protective case helpful", "Easy to pack and replace"] },
+      { label: "Shopping note", values: ["Check grit and case", "Check grit, pack size, and flexibility"] },
+    ],
+    relatedLinks: ["/best/best-glass-nail-file", "/nail-care/manicure-tools", "/nail-care"],
+  },
+  {
+    slug: "makeup-bag-vs-makeup-train-case",
+    title: "Makeup Bag vs Makeup Train Case",
+    summary: "Compare soft portable makeup storage with structured beauty cases.",
+    verdict:
+      "A makeup bag is better for flexible everyday packing, while a makeup train case is stronger for structured storage, travel, and larger beauty kits.",
+    columns: ["Makeup bag", "Makeup train case"],
+    rows: [
+      { label: "Best role", values: ["Soft daily storage", "Structured travel or kit storage"] },
+      { label: "Capacity", values: ["Small to medium", "Medium to large"] },
+      { label: "Organization", values: ["Pouch or compartments", "Dividers, trays, or firm sections"] },
+      { label: "Shopping note", values: ["Check wipeability and closure", "Check dimensions and handle quality"] },
+    ],
+    relatedLinks: ["/best/best-makeup-bag", "/best/best-makeup-train-case", "/beauty-tools"],
+  },
+  {
+    slug: "brush-cleaning-mat-vs-brush-cleaner",
+    title: "Brush Cleaning Mat vs Brush Cleaner",
+    summary: "Compare a tool used for washing brushes with liquid or solid brush cleansers.",
+    verdict:
+      "Brush cleaner is the actual cleansing product, while a brush cleaning mat is the helper tool that adds texture and control during washing.",
+    columns: ["Brush cleaning mat", "Brush cleaner"],
+    rows: [
+      { label: "Best role", values: ["Cleaning helper tool", "Cleansing product"] },
+      { label: "Format", values: ["Textured silicone mat", "Liquid, spray, or solid cleanser"] },
+      { label: "Buyer mindset", values: ["Improve washing process", "Remove makeup from brushes"] },
+      { label: "Shopping note", values: ["Check size and suction", "Check brush type and rinse directions"] },
+    ],
+    relatedLinks: ["/best/best-brush-cleaning-mat", "/best/best-beauty-tool-cleaner", "/beauty-tools/makeup-brushes"],
+  },
+  {
+    slug: "skin-care-fridge-vs-beauty-organizer",
+    title: "Skin Care Fridge vs Beauty Organizer",
+    summary: "Compare chilled beauty storage with general vanity organization.",
+    verdict:
+      "A beauty organizer is the more practical storage default, while a skin-care fridge is a niche vanity appliance for shoppers who specifically want chilled product storage.",
+    columns: ["Skin care fridge", "Beauty organizer"],
+    rows: [
+      { label: "Best role", values: ["Chilled product storage", "General vanity organization"] },
+      { label: "Setup", values: ["Needs counter space and power", "Drawer, tray, or acrylic storage"] },
+      { label: "Buyer mindset", values: ["Beauty appliance upgrade", "Declutter and visibility"] },
+      { label: "Shopping note", values: ["Check capacity and noise", "Check dimensions and compartments"] },
+    ],
+    relatedLinks: ["/best/best-skin-care-fridge", "/best/best-makeup-organizer", "/beauty-tools"],
+  },
+  {
+    slug: "lighted-vanity-mirror-vs-compact-mirror",
+    title: "Lighted Vanity Mirror vs Compact Mirror",
+    summary: "Compare a dedicated beauty-station mirror with portable touch-up mirrors.",
+    verdict:
+      "A lighted vanity mirror is better for home makeup application, while a compact mirror is stronger for travel, purse carry, and quick touch-ups.",
+    columns: ["Lighted vanity mirror", "Compact mirror"],
+    rows: [
+      { label: "Best role", values: ["Home beauty station", "Portable touch-ups"] },
+      { label: "Features", values: ["Lighting, magnification, stand, or sensor", "Small, foldable, or travel light"] },
+      { label: "Buyer concern", values: ["Lighting quality and desk space", "Portability and durability"] },
+      { label: "Shopping note", values: ["Check light tone and power", "Check size, hinge, and magnification"] },
+    ],
+    relatedLinks: ["/best/best-lighted-vanity-mirror", "/best/best-compact-makeup-mirror", "/beauty-tools"],
+  },
 ];
 
 export const beautyCalculators = [
