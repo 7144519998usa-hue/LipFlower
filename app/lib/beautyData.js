@@ -3498,6 +3498,276 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/makeup", "/compare/sunscreen-vs-primer", "/beauty-university/makeup-prep-routine"],
   },
+  {
+    slug: "gel-polish-vs-dip-powder",
+    title: "Gel Polish vs Dip Powder",
+    summary: "Compare two salon-style nail color routes by finish, removal, and at-home buying considerations.",
+    verdict:
+      "Gel polish is better for glossy lamp-set color routines, while dip powder is stronger for shoppers comparing powder-based manicure systems and longer-wear positioning.",
+    columns: ["Gel polish", "Dip powder"],
+    rows: [
+      { label: "Format", values: ["Polish set with lamp", "Powder and activator system"] },
+      { label: "Best role", values: ["Glossy manicure color", "System-based manicure routine"] },
+      { label: "Buyer concern", values: ["Lamp, removal, and skill level", "Kit contents, removal, and learning curve"] },
+      { label: "Shopping note", values: ["Read lamp and removal directions", "Check full kit requirements and directions"] },
+    ],
+    relatedLinks: ["/nail-care/luxury-nail-polish", "/nail-care/manicure-tools", "/beauty-university/nail-care-tool-checklist"],
+  },
+  {
+    slug: "nail-wraps-vs-press-on-nails",
+    title: "Nail Wraps vs Press-On Nails",
+    summary: "Compare sticker-style nail color with ready-shaped press-on nail sets.",
+    verdict:
+      "Nail wraps are better for lightweight color and pattern changes, while press-on nails are stronger for instant shape, length, and full manicure transformation.",
+    columns: ["Nail wraps", "Press-on nails"],
+    rows: [
+      { label: "Format", values: ["Flexible adhesive strips", "Pre-shaped artificial nails"] },
+      { label: "Best role", values: ["Pattern or color overlay", "Length and shape change"] },
+      { label: "Buyer concern", values: ["Sizing, smoothing, and top coat", "Sizing, glue or tabs, and removal"] },
+      { label: "Shopping note", values: ["Check strip count and sizes", "Check nail sizes and adhesive type"] },
+    ],
+    relatedLinks: ["/best/best-press-on-nail-kit", "/nail-care/manicure-tools", "/compare/nail-glue-vs-adhesive-tabs"],
+  },
+  {
+    slug: "cuticle-remover-vs-cuticle-oil",
+    title: "Cuticle Remover vs Cuticle Oil",
+    summary: "Compare manicure-prep cuticle products with daily cuticle-care oils.",
+    verdict:
+      "Cuticle remover is better for a careful manicure-prep step, while cuticle oil is stronger for repeatable daily nail-care comfort and shine.",
+    columns: ["Cuticle remover", "Cuticle oil"],
+    rows: [
+      { label: "Product role", values: ["Manicure prep", "Daily care and finish"] },
+      { label: "Best role", values: ["Before pushing or cleaning up cuticles", "After manicure or daily nail routine"] },
+      { label: "Buyer concern", values: ["Directions and timing", "Oil texture and fragrance"] },
+      { label: "Shopping note", values: ["Follow label directions carefully", "Check applicator and scent"] },
+    ],
+    relatedLinks: ["/nail-care/cuticle-care", "/compare/cuticle-cream-vs-cuticle-oil", "/beauty-university/nail-care-tool-checklist"],
+  },
+  {
+    slug: "base-coat-vs-top-coat",
+    title: "Base Coat vs Top Coat",
+    summary: "Compare two nail-polish support steps before building an at-home manicure kit.",
+    verdict:
+      "Base coat is better for polish prep and nail-surface support, while top coat is stronger for finish, shine, and manicure completion.",
+    columns: ["Base coat", "Top coat"],
+    rows: [
+      { label: "Routine step", values: ["Before color", "After color"] },
+      { label: "Best role", values: ["Polish prep", "Finish and shine"] },
+      { label: "Buyer concern", values: ["Formula type and dry time", "Gloss, matte, gel-look, or quick-dry finish"] },
+      { label: "Shopping note", values: ["Check compatibility with polish", "Check dry time and finish"] },
+    ],
+    relatedLinks: ["/nail-care/luxury-nail-polish", "/compare/nail-strengthener-vs-base-coat", "/nail-care"],
+  },
+  {
+    slug: "ridge-filler-vs-base-coat",
+    title: "Ridge Filler vs Base Coat",
+    summary: "Compare smoothing nail prep with a classic polish base step.",
+    verdict:
+      "Ridge filler is stronger when the shopper wants a smoother-looking nail surface before color, while base coat is the broader prep staple for polish routines.",
+    columns: ["Ridge filler", "Base coat"],
+    rows: [
+      { label: "Product role", values: ["Smoothing prep", "General polish prep"] },
+      { label: "Best role", values: ["Uneven-looking nail surface", "Everyday manicure setup"] },
+      { label: "Buyer concern", values: ["Opacity and texture", "Dry time and polish compatibility"] },
+      { label: "Shopping note", values: ["Avoid assuming nail repair", "Check use directions and finish"] },
+    ],
+    relatedLinks: ["/nail-care/luxury-nail-polish", "/nail-care/manicure-tools", "/beauty-claims-guide"],
+  },
+  {
+    slug: "nail-strengthener-vs-cuticle-oil",
+    title: "Nail Strengthener vs Cuticle Oil",
+    summary: "Compare nail-surface treatment positioning with cuticle-focused oil routines.",
+    verdict:
+      "Nail strengthener is better for shoppers comparing treatment-positioned polish products, while cuticle oil is stronger for daily cuticle and manicure-finish care.",
+    columns: ["Nail strengthener", "Cuticle oil"],
+    rows: [
+      { label: "Product role", values: ["Treatment-positioned nail product", "Cuticle and finish oil"] },
+      { label: "Best role", values: ["Nail-surface routine planning", "Daily manicure care"] },
+      { label: "Buyer concern", values: ["Visible claims and directions", "Oil feel and applicator"] },
+      { label: "Shopping note", values: ["Do not assume guaranteed strengthening", "Check fragrance and format"] },
+    ],
+    relatedLinks: ["/nail-care/cuticle-care", "/compare/nail-strengthener-vs-base-coat", "/beauty-claims-guide"],
+  },
+  {
+    slug: "body-lotion-vs-body-milk",
+    title: "Body Lotion vs Body Milk",
+    summary: "Compare familiar body lotion with lighter body milk textures.",
+    verdict:
+      "Body lotion is the flexible daily staple, while body milk is stronger for shoppers who want a lighter, fluid, more elegant body-care texture.",
+    columns: ["Body lotion", "Body milk"],
+    rows: [
+      { label: "Texture", values: ["Lotion or cream-lotion", "Fluid milk or lightweight lotion"] },
+      { label: "Best role", values: ["Everyday body moisture", "Lightweight body-care layer"] },
+      { label: "Buyer concern", values: ["Absorption and scent", "Bottle size and dry-down"] },
+      { label: "Shopping note", values: ["Check fragrance and size", "Check texture and pump format"] },
+    ],
+    relatedLinks: ["/body-care/body-moisturizers", "/compare/body-serum-vs-body-lotion", "/body-care"],
+  },
+  {
+    slug: "hand-cream-vs-cuticle-cream",
+    title: "Hand Cream vs Cuticle Cream",
+    summary: "Compare full-hand moisturizers with more targeted nail-area creams.",
+    verdict:
+      "Hand cream is better for broad hand-care routines, while cuticle cream is stronger for shoppers focused on nail-area texture and manicure maintenance.",
+    columns: ["Hand cream", "Cuticle cream"],
+    rows: [
+      { label: "Application area", values: ["Hands", "Cuticle and nail area"] },
+      { label: "Best role", values: ["Daily hand care", "Manicure support step"] },
+      { label: "Buyer concern", values: ["Greasy finish and scent", "Richness and portability"] },
+      { label: "Shopping note", values: ["Check dry-down and size", "Check applicator and texture"] },
+    ],
+    relatedLinks: ["/body-care/luxury-hand-care", "/nail-care/cuticle-care", "/compare/cuticle-cream-vs-cuticle-oil"],
+  },
+  {
+    slug: "body-scrub-vs-exfoliating-gloves",
+    title: "Body Scrub vs Exfoliating Gloves",
+    summary: "Compare product-led body exfoliation with reusable shower tools.",
+    verdict:
+      "Body scrub is better for a scented, product-led exfoliation ritual, while exfoliating gloves are stronger for shoppers who want reusable texture control in the shower.",
+    columns: ["Body scrub", "Exfoliating gloves"],
+    rows: [
+      { label: "Format", values: ["Jar, tube, or scrub product", "Reusable shower gloves"] },
+      { label: "Best role", values: ["Fragrance and polish ritual", "Tool-led exfoliation"] },
+      { label: "Buyer concern", values: ["Granule feel and fragrance", "Pressure, cleaning, and drying"] },
+      { label: "Shopping note", values: ["Use gentle pressure and read directions", "Clean and dry between uses"] },
+    ],
+    relatedLinks: ["/body-care/body-exfoliants", "/compare/body-polish-vs-body-scrub", "/beauty-university/body-care-layering-guide"],
+  },
+  {
+    slug: "shower-oil-vs-body-wash",
+    title: "Shower Oil vs Body Wash",
+    summary: "Compare oil-textured shower cleansing with classic body wash formats.",
+    verdict:
+      "Shower oil is better for shoppers who want a richer, silkier shower feel, while body wash is stronger for broad everyday cleansing choices and value.",
+    columns: ["Shower oil", "Body wash"],
+    rows: [
+      { label: "Texture", values: ["Oil or oil-to-milk", "Gel, cream, or lotion wash"] },
+      { label: "Best role", values: ["Indulgent shower routine", "Everyday body cleanse"] },
+      { label: "Buyer concern", values: ["Slip, scent, and rinse feel", "Fragrance, size, and lather"] },
+      { label: "Shopping note", values: ["Check tub slip and directions", "Check post-rinse feel"] },
+    ],
+    relatedLinks: ["/body-care", "/compare/shower-gel-vs-body-wash", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "perfume-set-vs-body-care-set",
+    title: "Perfume Set vs Body Care Set",
+    summary: "Compare fragrance-led gifting with body-care-focused beauty sets.",
+    verdict:
+      "A perfume set is better when scent is the central gift, while a body care set is stronger for shoppers who want a broader self-care routine bundle.",
+    columns: ["Perfume set", "Body care set"],
+    rows: [
+      { label: "Gift focus", values: ["Signature scent or scent wardrobe", "Body routine and fragrance layering"] },
+      { label: "Best role", values: ["Fragrance gifting", "Self-care gifting"] },
+      { label: "Buyer concern", values: ["Scent preference and return policy", "Texture, scent, and product sizes"] },
+      { label: "Shopping note", values: ["Sample if preference is uncertain", "Check set contents and size"] },
+    ],
+    relatedLinks: ["/fragrance/luxury-perfume-gifts", "/body-care", "/beauty-university/beauty-gift-decision-tree"],
+  },
+  {
+    slug: "makeup-gift-set-vs-skincare-gift-set",
+    title: "Makeup Gift Set vs Skin-Care Gift Set",
+    summary: "Compare color-led beauty gifting with routine-led skin-care sets.",
+    verdict:
+      "Makeup gift sets are better for color, finish, and play, while skin-care gift sets are stronger for routine building and texture-led self-care.",
+    columns: ["Makeup gift set", "Skin-care gift set"],
+    rows: [
+      { label: "Gift focus", values: ["Color, finish, and makeup style", "Routine steps and skin feel"] },
+      { label: "Best role", values: ["Beauty lovers who enjoy color", "Self-care and routine shoppers"] },
+      { label: "Buyer concern", values: ["Shade and undertone fit", "Sensitivity history and fragrance"] },
+      { label: "Shopping note", values: ["Check shades and return policy", "Avoid unsupported skin-result assumptions"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/makeup", "/skin-care"],
+  },
+  {
+    slug: "beauty-advent-calendar-vs-gift-set",
+    title: "Beauty Advent Calendar vs Gift Set",
+    summary: "Compare multi-day discovery gifts with focused beauty gift sets.",
+    verdict:
+      "Beauty advent calendars are stronger for discovery and surprise, while gift sets are better when the shopper wants a more focused routine, scent, or makeup category.",
+    columns: ["Beauty advent calendar", "Beauty gift set"],
+    rows: [
+      { label: "Gift style", values: ["Surprise and discovery", "Focused category or routine"] },
+      { label: "Best role", values: ["Holiday countdown gifting", "Targeted occasion gifting"] },
+      { label: "Buyer concern", values: ["Sample sizes and value perception", "Set contents and shade or scent fit"] },
+      { label: "Shopping note", values: ["Check item count and sizes", "Check full contents before buying"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/beauty-calendar", "/beauty-university/beauty-gift-decision-tree"],
+  },
+  {
+    slug: "travel-beauty-kit-vs-full-size-set",
+    title: "Travel Beauty Kit vs Full-Size Set",
+    summary: "Compare portable beauty minis with larger routine-building sets.",
+    verdict:
+      "Travel beauty kits are better for testing, trips, and gifting flexibility, while full-size sets are stronger when the shopper already knows the routine or product category works for them.",
+    columns: ["Travel beauty kit", "Full-size set"],
+    rows: [
+      { label: "Size strategy", values: ["Minis or travel sizes", "Full-size products"] },
+      { label: "Best role", values: ["Trial, travel, and discovery", "Routine commitment"] },
+      { label: "Buyer concern", values: ["Value per ounce and TSA fit", "Upfront price and product fit"] },
+      { label: "Shopping note", values: ["Check sizes and included bag", "Check set savings and return policy"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/beauty-tools", "/beauty-university/beauty-gift-decision-tree"],
+  },
+  {
+    slug: "beauty-sponge-vs-powder-puff",
+    title: "Beauty Sponge vs Powder Puff",
+    summary: "Compare complexion blending sponges with powder-setting puffs.",
+    verdict:
+      "A beauty sponge is better for blending liquids and creams, while a powder puff is stronger for setting powder, touch-ups, and pressed-product application.",
+    columns: ["Beauty sponge", "Powder puff"],
+    rows: [
+      { label: "Best role", values: ["Liquid and cream blending", "Powder application and touch-ups"] },
+      { label: "Texture", values: ["Foam sponge", "Velour, cotton, or puff material"] },
+      { label: "Buyer concern", values: ["Cleaning and replacement", "Size, washable design, and powder pickup"] },
+      { label: "Shopping note", values: ["Clean and replace regularly", "Check pack count and material"] },
+    ],
+    relatedLinks: ["/beauty-tools/makeup-brushes", "/compare/foundation-brush-vs-beauty-sponge", "/makeup/setting-powder"],
+  },
+  {
+    slug: "lash-curler-vs-mascara-primer",
+    title: "Lash Curler vs Mascara Primer",
+    summary: "Compare a mechanical lash tool with a prep product used before mascara.",
+    verdict:
+      "A lash curler is better for shape before mascara, while mascara primer is stronger for shoppers comparing a product layer that changes mascara application and visible effect.",
+    columns: ["Lash curler", "Mascara primer"],
+    rows: [
+      { label: "Product type", values: ["Reusable tool", "Mascara prep product"] },
+      { label: "Best role", values: ["Curl and shape before mascara", "Mascara layering and lash prep"] },
+      { label: "Buyer concern", values: ["Eye shape, pad quality, and technique", "White cast, texture, and removal"] },
+      { label: "Shopping note", values: ["Use gently and replace pads", "Check eye-area directions"] },
+    ],
+    relatedLinks: ["/beauty-tools", "/compare/heated-eyelash-curler-vs-regular-curler", "/compare/volumizing-mascara-vs-lengthening-mascara"],
+  },
+  {
+    slug: "makeup-remover-cloth-vs-cleansing-balm",
+    title: "Makeup Remover Cloth vs Cleansing Balm",
+    summary: "Compare reusable cloth removal with a rich balm first-cleanse product.",
+    verdict:
+      "A makeup remover cloth is better for reusable wipe-style removal, while cleansing balm is stronger for shoppers who want a product-led first cleanse with a richer texture.",
+    columns: ["Makeup remover cloth", "Cleansing balm"],
+    rows: [
+      { label: "Format", values: ["Reusable cloth", "Solid balm cleanser"] },
+      { label: "Best role", values: ["Reusable removal tool", "Rich first cleanse"] },
+      { label: "Buyer concern", values: ["Laundry, texture, and hygiene", "Jar format and rinse feel"] },
+      { label: "Shopping note", values: ["Wash between uses", "Check emulsifying and eye-area directions"] },
+    ],
+    relatedLinks: ["/compare/cleansing-balm-vs-micellar-water", "/skin-care", "/beauty-tools"],
+  },
+  {
+    slug: "silicone-face-brush-vs-cleansing-brush",
+    title: "Silicone Face Brush vs Cleansing Brush",
+    summary: "Compare silicone cleansing tools with broader facial cleansing brush options.",
+    verdict:
+      "Silicone face brushes are stronger for easy-rinse tool maintenance, while cleansing brushes offer the broader range of manual, bristle, and powered options.",
+    columns: ["Silicone face brush", "Cleansing brush"],
+    rows: [
+      { label: "Tool type", values: ["Silicone cleansing tool", "Manual, bristle, silicone, or powered brush"] },
+      { label: "Best role", values: ["Simple cleansing massage tool", "Broader cleansing-tool comparison"] },
+      { label: "Buyer concern", values: ["Texture and pressure", "Brush head, cleaning, and power"] },
+      { label: "Shopping note", values: ["Use gentle pressure and clean after use", "Read directions and clean regularly"] },
+    ],
+    relatedLinks: ["/beauty-tools/facial-tools", "/skin-care", "/beauty-university/beauty-routine-order-chart"],
+  },
 ];
 
 export const beautyCalculators = [
