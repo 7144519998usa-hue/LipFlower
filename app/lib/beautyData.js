@@ -4698,6 +4698,186 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/beauty-gifts", "/beauty-calendar", "/compare/value-set-vs-single-product"],
   },
+  {
+    slug: "luxury-skincare-vs-drugstore-skincare",
+    title: "Luxury Skin Care vs Drugstore Skin Care",
+    summary: "Compare premium skin-care shopping with accessible drugstore routine building.",
+    verdict:
+      "Luxury skin care is stronger for elevated textures, brand storytelling, and premium gifting, while drugstore skin care is better for accessible routine staples and repeat purchases.",
+    columns: ["Luxury skin care", "Drugstore skin care"],
+    rows: [
+      { label: "Shopping style", values: ["Premium brand and texture-led", "Accessible and staple-led"] },
+      { label: "Best role", values: ["Gifting, indulgent routines, prestige discovery", "Daily basics and replenishment"] },
+      { label: "Buyer concern", values: ["Price, fragrance, and claim support", "Formula fit and packaging simplicity"] },
+      { label: "Shopping note", values: ["Compare ingredient story and seller trust", "Do not assume lower price means lower usefulness"] },
+    ],
+    relatedLinks: ["/skin-care", "/luxury-beauty", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "prestige-makeup-vs-drugstore-makeup",
+    title: "Prestige Makeup vs Drugstore Makeup",
+    summary: "Compare high-end makeup shopping with accessible color cosmetics.",
+    verdict:
+      "Prestige makeup is stronger for packaging, shade storytelling, and luxury discovery, while drugstore makeup is better for budget testing, everyday staples, and trend experimentation.",
+    columns: ["Prestige makeup", "Drugstore makeup"],
+    rows: [
+      { label: "Shopping style", values: ["Luxury and specialty retail", "Accessible and value-led"] },
+      { label: "Best role", values: ["Shade-service shopping and gifting", "Experimentation and staples"] },
+      { label: "Buyer concern", values: ["Shade match and return policy", "Shade availability and tester limitations"] },
+      { label: "Shopping note", values: ["Check swatches, returns, and samples", "Check reviews, undertone, and store return path"] },
+    ],
+    relatedLinks: ["/makeup", "/beauty-shades", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "designer-fragrance-vs-niche-fragrance",
+    title: "Designer Fragrance vs Niche Fragrance",
+    summary: "Compare recognizable designer scents with more specialized fragrance houses.",
+    verdict:
+      "Designer fragrance is stronger for recognizable gifting and broad availability, while niche fragrance is better for shoppers who want more distinctive scent stories and discovery-led buying.",
+    columns: ["Designer fragrance", "Niche fragrance"],
+    rows: [
+      { label: "Shopping style", values: ["Recognizable and widely available", "Discovery-led and specialized"] },
+      { label: "Best role", values: ["Gifting and signature scents", "Personal scent exploration"] },
+      { label: "Buyer concern", values: ["Popularity and scent familiarity", "Blind-buy risk and price"] },
+      { label: "Shopping note", values: ["Sample if unsure", "Start with discovery sets when available"] },
+    ],
+    relatedLinks: ["/fragrance", "/fragrance/fragrance-discovery-sets", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "clean-beauty-vs-natural-beauty",
+    title: "Clean Beauty vs Natural Beauty",
+    summary: "Compare two label-heavy beauty shopping terms with careful claim expectations.",
+    verdict:
+      "Clean beauty is a retailer or brand-defined positioning term, while natural beauty usually points to nature-derived ingredient storytelling; both require label-level review rather than assumptions.",
+    columns: ["Clean beauty", "Natural beauty"],
+    rows: [
+      { label: "Label type", values: ["Brand or retailer-defined", "Ingredient-origin storytelling"] },
+      { label: "Best role", values: ["Preference-led shopping", "Botanical or nature-led shopping"] },
+      { label: "Buyer concern", values: ["Definitions vary by seller", "Natural does not automatically mean better fit"] },
+      { label: "Shopping note", values: ["Read the retailer standard", "Read the full ingredient list"] },
+    ],
+    relatedLinks: ["/natural-beauty", "/beauty-claims-guide", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "organic-beauty-vs-natural-beauty",
+    title: "Organic Beauty vs Natural Beauty",
+    summary: "Compare certification-oriented organic language with broader natural beauty positioning.",
+    verdict:
+      "Organic beauty is stronger when a product clearly supports the label with certification or defined sourcing language, while natural beauty is broader and needs more careful ingredient review.",
+    columns: ["Organic beauty", "Natural beauty"],
+    rows: [
+      { label: "Label expectation", values: ["Certification or sourcing details should be checked", "Broad botanical or nature-led positioning"] },
+      { label: "Best role", values: ["Certification-conscious shoppers", "Ingredient-story shoppers"] },
+      { label: "Buyer concern", values: ["Certification scope and formula details", "Vague label language"] },
+      { label: "Shopping note", values: ["Look for visible certification details", "Do not infer safety or results from label alone"] },
+    ],
+    relatedLinks: ["/natural-beauty", "/beauty-claims-guide", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "k-beauty-vs-french-pharmacy-skincare",
+    title: "K-Beauty vs French Pharmacy Skin Care",
+    summary: "Compare two popular skin-care discovery routes by routine style and shopping expectations.",
+    verdict:
+      "K-beauty is stronger for layered routines, textures, and discovery, while French pharmacy skin care is better for understated staples and practical routine building.",
+    columns: ["K-beauty", "French pharmacy skin care"],
+    rows: [
+      { label: "Routine style", values: ["Layered and discovery-led", "Minimal and staple-led"] },
+      { label: "Best role", values: ["Essences, masks, SPF, cushiony textures", "Cleansers, moisturizers, SPF, balms"] },
+      { label: "Buyer concern", values: ["Seller trust and ingredient familiarity", "Availability and product instructions"] },
+      { label: "Shopping note", values: ["Check authorized sellers and translations", "Check directions and seller path"] },
+    ],
+    relatedLinks: ["/skin-care", "/beauty-routines", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "j-beauty-vs-k-beauty",
+    title: "J-Beauty vs K-Beauty",
+    summary: "Compare Japanese and Korean beauty shopping paths by routine style, textures, and category strengths.",
+    verdict:
+      "J-beauty is stronger for streamlined, elegant staples and sunscreen discovery, while K-beauty is better for layered routine exploration, masks, essences, and trend-led textures.",
+    columns: ["J-beauty", "K-beauty"],
+    rows: [
+      { label: "Routine style", values: ["Streamlined and staple-led", "Layered and discovery-led"] },
+      { label: "Best role", values: ["SPF, cleansers, lotions, oils", "Essences, masks, serums, cushiony moisturizers"] },
+      { label: "Buyer concern", values: ["Seller trust and directions", "Seller trust and ingredient translations"] },
+      { label: "Shopping note", values: ["Check authorized seller path", "Check product directions and authenticity cues"] },
+    ],
+    relatedLinks: ["/skin-care", "/beauty-routines", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "salon-haircare-vs-drugstore-haircare",
+    title: "Salon Hair Care vs Drugstore Hair Care",
+    summary: "Compare salon-positioned hair care with accessible drugstore staples.",
+    verdict:
+      "Salon hair care is stronger for premium scent, styling systems, and brand-led routines, while drugstore hair care is better for accessible replenishment and budget-friendly testing.",
+    columns: ["Salon hair care", "Drugstore hair care"],
+    rows: [
+      { label: "Shopping style", values: ["Premium and stylist-positioned", "Accessible and value-led"] },
+      { label: "Best role", values: ["Routine systems and styling support", "Daily shampoo, conditioner, and basics"] },
+      { label: "Buyer concern", values: ["Price and hair type fit", "Formula fit and scent"] },
+      { label: "Shopping note", values: ["Check hair type notes and seller trust", "Compare directions and size value"] },
+    ],
+    relatedLinks: ["/hair-care", "/beauty-university/hair-care-routine-map", "/sellers"],
+  },
+  {
+    slug: "professional-makeup-brushes-vs-budget-brushes",
+    title: "Professional Makeup Brushes vs Budget Brushes",
+    summary: "Compare pro-positioned brush sets with accessible makeup brush options.",
+    verdict:
+      "Professional makeup brushes are stronger for technique-focused shoppers and longer-term kits, while budget brushes are better for beginners, travel, and trying new brush shapes.",
+    columns: ["Professional makeup brushes", "Budget brushes"],
+    rows: [
+      { label: "Best role", values: ["Technique and kit building", "Beginner and travel use"] },
+      { label: "Buyer concern", values: ["Brush shape, fibers, and cleaning", "Shedding, feel, and replacement"] },
+      { label: "Strongest categories", values: ["Complexion, eye detail, artist sets", "Starter sets and backups"] },
+      { label: "Shopping note", values: ["Check brush shapes, not just count", "Check reviews and cleaning expectations"] },
+    ],
+    relatedLinks: ["/beauty-tools/makeup-brushes", "/compare/makeup-brush-set-vs-single-brush", "/compare/foundation-brush-vs-beauty-sponge"],
+  },
+  {
+    slug: "luxury-lipstick-vs-drugstore-lipstick",
+    title: "Luxury Lipstick vs Drugstore Lipstick",
+    summary: "Compare premium lipstick shopping with accessible lip color discovery.",
+    verdict:
+      "Luxury lipstick is stronger for packaging, gifting, and signature shade appeal, while drugstore lipstick is better for shade experimentation and lower-commitment color testing.",
+    columns: ["Luxury lipstick", "Drugstore lipstick"],
+    rows: [
+      { label: "Shopping style", values: ["Premium packaging and shade story", "Accessible and experiment-friendly"] },
+      { label: "Best role", values: ["Gifts and signature shades", "Trend testing and daily color"] },
+      { label: "Buyer concern", values: ["Shade fit and return path", "Formula feel and color accuracy"] },
+      { label: "Shopping note", values: ["Check swatches and seller trust", "Check reviews and undertone notes"] },
+    ],
+    relatedLinks: ["/lip-care", "/compare/lip-crayon-vs-lipstick", "/beauty-university/luxury-lip-care-routine"],
+  },
+  {
+    slug: "department-store-fragrance-vs-brand-direct-fragrance",
+    title: "Department Store Fragrance vs Brand Direct Fragrance",
+    summary: "Compare department-store fragrance shopping with official brand fragrance buying.",
+    verdict:
+      "Department-store fragrance is stronger for multi-brand browsing, gifting, and return-friendly shopping, while brand direct is better for official sets, engraving, and full brand storytelling.",
+    columns: ["Department store fragrance", "Brand direct fragrance"],
+    rows: [
+      { label: "Shopping style", values: ["Multi-brand and service-led", "Official brand-led"] },
+      { label: "Best role", values: ["Gifting and comparison shopping", "Engraving, exclusives, and full assortment"] },
+      { label: "Buyer concern", values: ["Stock and counter availability", "Shipping threshold and return policy"] },
+      { label: "Shopping note", values: ["Check gift wrap and return options", "Check samples, engraving, and exclusives"] },
+    ],
+    relatedLinks: ["/fragrance", "/compare/brand-direct-vs-department-store-beauty", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "beauty-counter-vs-online-beauty-shopping",
+    title: "Beauty Counter vs Online Beauty Shopping",
+    summary: "Compare in-person beauty counter guidance with online product research and seller comparison.",
+    verdict:
+      "A beauty counter is stronger for in-person shade and scent exploration, while online beauty shopping is better for price comparison, reviews, availability, and controlled seller selection.",
+    columns: ["Beauty counter", "Online beauty shopping"],
+    rows: [
+      { label: "Best role", values: ["Shade, scent, and service exploration", "Research, comparison, and availability"] },
+      { label: "Buyer concern", values: ["Sales pressure and stock limits", "Shade uncertainty and seller trust"] },
+      { label: "Strongest categories", values: ["Foundation, fragrance, luxury gifts", "Replenishment, tools, sets, research"] },
+      { label: "Shopping note", values: ["Use service for fit questions", "Check return policy and seller details"] },
+    ],
+    relatedLinks: ["/beauty-seller-scorecard", "/sellers", "/beauty-university/shade-matching-guide"],
+  },
 ];
 
 export const beautyCalculators = [
