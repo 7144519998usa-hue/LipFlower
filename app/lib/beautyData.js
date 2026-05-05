@@ -4473,6 +4473,231 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/compare/face-mist-vs-toner", "/compare/toner-vs-essence", "/skin-care"],
   },
+  {
+    slug: "amazon-beauty-vs-sephora",
+    title: "Amazon Beauty vs Sephora",
+    summary: "Compare marketplace convenience with specialty beauty retail before choosing a seller path.",
+    verdict:
+      "Amazon Beauty is stronger for convenience, broad availability, and fast shipping, while Sephora is better for prestige discovery, shade browsing, samples, and beauty-specific shopping context.",
+    columns: ["Amazon Beauty", "Sephora"],
+    rows: [
+      { label: "Best role", values: ["Convenience and broad catalog", "Prestige beauty discovery"] },
+      { label: "Buyer concern", values: ["Seller identity and authenticity signals", "Shade availability and return policy"] },
+      { label: "Strongest categories", values: ["Refills, tools, everyday staples", "Makeup, fragrance, prestige skin care"] },
+      { label: "Shopping note", values: ["Check seller, reviews, and delivery details", "Check samples, rewards, and return window"] },
+    ],
+    relatedLinks: ["/sellers/amazon", "/sellers/sephora", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "sephora-vs-ulta-beauty",
+    title: "Sephora vs Ulta Beauty",
+    summary: "Compare two major beauty retailers by brand mix, rewards, and shopping style.",
+    verdict:
+      "Sephora is stronger for prestige beauty discovery and luxury curation, while Ulta Beauty is better for shoppers who want prestige, mass, salon, and drugstore beauty in one path.",
+    columns: ["Sephora", "Ulta Beauty"],
+    rows: [
+      { label: "Brand mix", values: ["Prestige and luxury-heavy", "Prestige plus mass and salon"] },
+      { label: "Best role", values: ["Luxury discovery", "Cross-budget beauty shopping"] },
+      { label: "Buyer concern", values: ["Shade stock and return window", "Brand availability and rewards value"] },
+      { label: "Shopping note", values: ["Check samples and exclusives", "Check points, coupons, and pickup options"] },
+    ],
+    relatedLinks: ["/sellers/sephora", "/sellers/ulta", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "nordstrom-vs-sephora-beauty",
+    title: "Nordstrom vs Sephora Beauty",
+    summary: "Compare department-store beauty service with specialty beauty discovery.",
+    verdict:
+      "Nordstrom is stronger for luxury service, gifts, and return-friendly shopping, while Sephora is better for broad beauty discovery, shade exploration, and trend-led launches.",
+    columns: ["Nordstrom Beauty", "Sephora"],
+    rows: [
+      { label: "Shopping style", values: ["Department-store service", "Specialty beauty discovery"] },
+      { label: "Best role", values: ["Luxury gifts and service-led purchases", "Makeup, fragrance, and trend discovery"] },
+      { label: "Buyer concern", values: ["Brand selection by counter", "Stock, samples, and shade fit"] },
+      { label: "Shopping note", values: ["Check return policy and gift services", "Check samples and product availability"] },
+    ],
+    relatedLinks: ["/sellers/nordstrom", "/sellers/sephora", "/beauty-gifts"],
+  },
+  {
+    slug: "amazon-beauty-vs-brand-direct",
+    title: "Amazon Beauty vs Brand Direct",
+    summary: "Compare marketplace buying with official brand-store shopping for beauty products.",
+    verdict:
+      "Amazon Beauty is better for speed and convenience, while brand direct is stronger for official product education, full assortment, exclusive sets, and brand-controlled shopping context.",
+    columns: ["Amazon Beauty", "Brand direct"],
+    rows: [
+      { label: "Best role", values: ["Fast replenishment and broad search", "Official brand experience"] },
+      { label: "Buyer concern", values: ["Seller identity and listing accuracy", "Shipping threshold and return policy"] },
+      { label: "Strongest categories", values: ["Everyday staples and tools", "New launches, sets, and shade education"] },
+      { label: "Shopping note", values: ["Check seller and reviews", "Check offers, samples, and official guidance"] },
+    ],
+    relatedLinks: ["/sellers/amazon", "/brands", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "dermstore-vs-sephora",
+    title: "Dermstore vs Sephora",
+    summary: "Compare skin-care-focused retail with broader prestige beauty discovery.",
+    verdict:
+      "Dermstore is stronger for skin-care-focused shopping and professional-positioned brands, while Sephora is better for makeup, fragrance, trend discovery, and prestige beauty breadth.",
+    columns: ["Dermstore", "Sephora"],
+    rows: [
+      { label: "Retail focus", values: ["Skin care and derm-positioned beauty", "Prestige beauty across categories"] },
+      { label: "Best role", values: ["Serums, SPF, and routine staples", "Makeup, fragrance, gifts, and skin care"] },
+      { label: "Buyer concern", values: ["Brand availability and promotions", "Shade browsing and samples"] },
+      { label: "Shopping note", values: ["Check subscriptions and promos", "Check rewards and samples"] },
+    ],
+    relatedLinks: ["/sellers/dermstore", "/sellers/sephora", "/skin-care"],
+  },
+  {
+    slug: "ulta-vs-target-beauty",
+    title: "Ulta vs Target Beauty",
+    summary: "Compare specialty beauty retail with convenient mass beauty shopping.",
+    verdict:
+      "Ulta Beauty is stronger for broad beauty discovery across prestige and mass, while Target Beauty is better for convenient everyday staples, affordable products, and household-basket shopping.",
+    columns: ["Ulta Beauty", "Target Beauty"],
+    rows: [
+      { label: "Best role", values: ["Beauty-specific browsing", "Convenient everyday beauty"] },
+      { label: "Brand mix", values: ["Prestige, mass, salon, and tools", "Mass, affordable, and practical staples"] },
+      { label: "Buyer concern", values: ["Coupon and points strategy", "Stock, pickup, and return path"] },
+      { label: "Shopping note", values: ["Check rewards and salon-adjacent products", "Check pickup, shipping, and size options"] },
+    ],
+    relatedLinks: ["/sellers/ulta", "/sellers/target", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "walmart-beauty-vs-amazon-beauty",
+    title: "Walmart Beauty vs Amazon Beauty",
+    summary: "Compare two convenience-first beauty seller paths for staples, tools, and value shopping.",
+    verdict:
+      "Walmart Beauty is stronger for everyday value and store pickup, while Amazon Beauty is better for breadth, marketplace search, and fast shipping convenience.",
+    columns: ["Walmart Beauty", "Amazon Beauty"],
+    rows: [
+      { label: "Best role", values: ["Value staples and pickup", "Broad catalog and fast delivery"] },
+      { label: "Strongest categories", values: ["Mass beauty, basics, and household add-ons", "Tools, refills, staples, and niche products"] },
+      { label: "Buyer concern", values: ["Stock and seller details", "Seller identity and listing quality"] },
+      { label: "Shopping note", values: ["Check pickup and return path", "Check seller, reviews, and delivery details"] },
+    ],
+    relatedLinks: ["/sellers/walmart", "/sellers/amazon", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "brand-direct-vs-department-store-beauty",
+    title: "Brand Direct vs Department Store Beauty",
+    summary: "Compare official brand shopping with luxury department-store beauty buying.",
+    verdict:
+      "Brand direct is better for official education, full assortments, and launch context, while department-store beauty is stronger for multi-brand gifting, service, and return-friendly browsing.",
+    columns: ["Brand direct", "Department store beauty"],
+    rows: [
+      { label: "Best role", values: ["Official brand experience", "Multi-brand luxury shopping"] },
+      { label: "Buyer concern", values: ["Shipping threshold and return policy", "Counter selection and stock"] },
+      { label: "Strongest categories", values: ["New launches, sets, shade guidance", "Fragrance, gifts, designer beauty"] },
+      { label: "Shopping note", values: ["Check samples and official offers", "Check gift wrap and return policy"] },
+    ],
+    relatedLinks: ["/brands", "/sellers/nordstrom", "/sellers/saks-fifth-avenue"],
+  },
+  {
+    slug: "luxury-beauty-boutique-vs-marketplace",
+    title: "Luxury Beauty Boutique vs Marketplace",
+    summary: "Compare curated boutique beauty shopping with marketplace breadth and convenience.",
+    verdict:
+      "Luxury beauty boutiques are stronger for curation, editorial context, and premium discovery, while marketplaces are better for breadth, convenience, and replenishment speed.",
+    columns: ["Luxury beauty boutique", "Marketplace"],
+    rows: [
+      { label: "Shopping style", values: ["Curated and editorial", "Search-led and broad"] },
+      { label: "Best role", values: ["Discovery and gifting", "Availability and convenience"] },
+      { label: "Buyer concern", values: ["Price, stock, and return policy", "Seller identity and listing quality"] },
+      { label: "Shopping note", values: ["Check curation and brand authorization", "Check seller details and delivery"] },
+    ],
+    relatedLinks: ["/luxury-beauty", "/sellers", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "beauty-subscription-box-vs-gift-set",
+    title: "Beauty Subscription Box vs Gift Set",
+    summary: "Compare recurring beauty discovery with a focused one-time gift.",
+    verdict:
+      "A beauty subscription box is stronger for ongoing discovery, while a gift set is better for one-time gifting with clearer contents and presentation.",
+    columns: ["Beauty subscription box", "Beauty gift set"],
+    rows: [
+      { label: "Gift style", values: ["Recurring surprise", "Known one-time set"] },
+      { label: "Best role", values: ["Discovery over time", "Occasion gifting"] },
+      { label: "Buyer concern", values: ["Cancellation, repeats, and preferences", "Exact contents, shades, and scent fit"] },
+      { label: "Shopping note", values: ["Check billing and cancellation terms", "Check full contents and sizes"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/compare/beauty-advent-calendar-vs-gift-set", "/beauty-university/beauty-gift-decision-tree"],
+  },
+  {
+    slug: "sample-size-vs-full-size-beauty",
+    title: "Sample Size vs Full Size Beauty",
+    summary: "Compare low-commitment beauty trial sizes with full-size purchases.",
+    verdict:
+      "Sample size is better for testing shade, scent, texture, or tolerance, while full size is stronger when the shopper already knows the product fits their routine.",
+    columns: ["Sample size", "Full size"],
+    rows: [
+      { label: "Commitment", values: ["Low", "Higher"] },
+      { label: "Best role", values: ["Testing and travel", "Routine use and value per ounce"] },
+      { label: "Buyer concern", values: ["Small size and limited uses", "Upfront price and product fit"] },
+      { label: "Shopping note", values: ["Check sample amount and category", "Check return policy and set value"] },
+    ],
+    relatedLinks: ["/compare/discovery-set-vs-sampler-set", "/compare/travel-beauty-kit-vs-full-size-set", "/beauty-gifts"],
+  },
+  {
+    slug: "mini-size-vs-travel-size-beauty",
+    title: "Mini Size vs Travel Size Beauty",
+    summary: "Compare beauty minis with travel-ready product sizes.",
+    verdict:
+      "Mini size is stronger for trial, collecting, and gifting, while travel size is better when portability and trip-friendly packing are the main goals.",
+    columns: ["Mini size", "Travel size"],
+    rows: [
+      { label: "Best role", values: ["Trial, gifts, and discovery", "Packing and portability"] },
+      { label: "Buyer concern", values: ["Value per ounce", "TSA fit, leak risk, and packaging"] },
+      { label: "Strongest categories", values: ["Fragrance, makeup, skin-care sets", "Hair care, skin care, fragrance"] },
+      { label: "Shopping note", values: ["Check size and included products", "Check ounces and cap security"] },
+    ],
+    relatedLinks: ["/compare/perfume-sampler-vs-travel-size-perfume", "/compare/travel-beauty-kit-vs-full-size-set", "/beauty-gifts"],
+  },
+  {
+    slug: "refill-vs-full-size-beauty",
+    title: "Refill vs Full Size Beauty",
+    summary: "Compare refillable beauty buying with standard full-size products.",
+    verdict:
+      "A refill is better when the shopper already owns compatible packaging, while full size is stronger for first purchases, gifting, and products where compatibility is uncertain.",
+    columns: ["Refill", "Full size"],
+    rows: [
+      { label: "Best role", values: ["Repeat purchase with compatible packaging", "First purchase or gift"] },
+      { label: "Buyer concern", values: ["Compatibility and refill process", "Price, size, and packaging"] },
+      { label: "Strongest categories", values: ["Hand wash, fragrance, skin care, makeup compacts", "All beauty categories"] },
+      { label: "Shopping note", values: ["Confirm exact compatibility", "Check size and return policy"] },
+    ],
+    relatedLinks: ["/beauty-routines", "/sellers", "/beauty-seller-scorecard"],
+  },
+  {
+    slug: "value-set-vs-single-product",
+    title: "Value Set vs Single Product",
+    summary: "Compare bundled beauty value sets with focused single-product purchases.",
+    verdict:
+      "A value set is better when the shopper wants multiple products from the same routine or brand, while a single product is stronger when fit, shade, or scent confidence matters most.",
+    columns: ["Value set", "Single product"],
+    rows: [
+      { label: "Best role", values: ["Routine building and gifting", "Focused purchase"] },
+      { label: "Buyer concern", values: ["Unused products and size mix", "Less bundled value"] },
+      { label: "Strongest categories", values: ["Skin care, fragrance, body care, makeup minis", "Shade products, signature scents, staples"] },
+      { label: "Shopping note", values: ["Check every included item", "Check return policy and product fit"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/compare/sample-size-vs-full-size-beauty", "/compare/beauty-subscription-box-vs-gift-set"],
+  },
+  {
+    slug: "limited-edition-set-vs-core-product",
+    title: "Limited Edition Set vs Core Product",
+    summary: "Compare seasonal beauty sets with permanent-line products.",
+    verdict:
+      "Limited edition sets are stronger for gifting and discovery, while core products are better for repeatable routines, shade replacement, and easier restocking.",
+    columns: ["Limited edition set", "Core product"],
+    rows: [
+      { label: "Availability", values: ["Seasonal or temporary", "Ongoing or easier to repurchase"] },
+      { label: "Best role", values: ["Holiday, collector, or gift appeal", "Routine staple"] },
+      { label: "Buyer concern", values: ["Restock risk and shade mix", "Less novelty or gift presentation"] },
+      { label: "Shopping note", values: ["Check contents before urgency buying", "Check shade, scent, or formula fit"] },
+    ],
+    relatedLinks: ["/beauty-gifts", "/beauty-calendar", "/compare/value-set-vs-single-product"],
+  },
 ];
 
 export const beautyCalculators = [
