@@ -2013,6 +2013,306 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/best/best-jewelry-organizer", "/best/best-travel-jewelry-case", "/artificial-jewelry"],
   },
+  {
+    slug: "serum-foundation-vs-powder-foundation",
+    title: "Serum Foundation vs Powder Foundation",
+    summary: "Compare fluid, skin-forward coverage with compact powder complexion products.",
+    verdict:
+      "Serum foundation is better for shoppers who want a fluid, skin-like base, while powder foundation is stronger for compact touch-ups and a more set finish.",
+    columns: ["Serum foundation", "Powder foundation"],
+    rows: [
+      { label: "Texture", values: ["Fluid or serum-like", "Pressed or loose powder"] },
+      { label: "Finish", values: ["Skin-like, dewy, or natural", "Matte, soft-focus, or buildable"] },
+      { label: "Best for", values: ["Lightweight base routines", "Quick touch-ups and set looks"] },
+      { label: "Shopping note", values: ["Check shade and coverage", "Check powder texture and shade depth"] },
+    ],
+    relatedLinks: ["/best/best-serum-foundation", "/best/best-powder-foundation", "/makeup/luxury-foundation"],
+  },
+  {
+    slug: "stick-foundation-vs-liquid-foundation",
+    title: "Stick Foundation vs Liquid Foundation",
+    summary: "Compare portable cream coverage with classic liquid foundation flexibility.",
+    verdict:
+      "Stick foundation is stronger for portability and targeted application, while liquid foundation is better for shade flexibility and all-over complexion blending.",
+    columns: ["Stick foundation", "Liquid foundation"],
+    rows: [
+      { label: "Format", values: ["Solid stick", "Bottle, tube, or pump"] },
+      { label: "Best role", values: ["Targeted or travel-friendly coverage", "All-over complexion base"] },
+      { label: "Application", values: ["Direct swipe, brush, or sponge", "Brush, sponge, or fingers"] },
+      { label: "Shopping note", values: ["Check texture and drag", "Check shade, undertone, and finish"] },
+    ],
+    relatedLinks: ["/best/best-stick-foundation", "/best/best-foundation", "/makeup/luxury-foundation"],
+  },
+  {
+    slug: "radiant-concealer-vs-matte-concealer",
+    title: "Radiant Concealer vs Matte Concealer",
+    summary: "Compare brightened-looking concealer finishes with more structured matte coverage.",
+    verdict:
+      "Radiant concealer is better for a fresher under-eye look, while matte concealer is stronger for shoppers who want more structure and a less shiny finish.",
+    columns: ["Radiant concealer", "Matte concealer"],
+    rows: [
+      { label: "Finish", values: ["Radiant or natural", "Matte or soft matte"] },
+      { label: "Best for", values: ["Under-eye brightness", "Targeted coverage and polish"] },
+      { label: "Texture concern", values: ["Shine or slip", "Dry-looking texture or creasing"] },
+      { label: "Shopping note", values: ["Check shade and undertone", "Check coverage and comfort language"] },
+    ],
+    relatedLinks: ["/best/best-radiant-concealer", "/makeup/luxury-concealer", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "liquid-blush-vs-cream-blush",
+    title: "Liquid Blush vs Cream Blush",
+    summary: "Compare fluid cheek color with cream compact, stick, and pot formats.",
+    verdict:
+      "Liquid blush is usually stronger for high-impact drops of color, while cream blush is better for shoppers who want more controlled blending and texture.",
+    columns: ["Liquid blush", "Cream blush"],
+    rows: [
+      { label: "Format", values: ["Liquid, wand, or dropper", "Stick, compact, or pot"] },
+      { label: "Color payoff", values: ["Often high impact", "Buildable and blendable"] },
+      { label: "Best for", values: ["Fresh statement cheeks", "Soft everyday color"] },
+      { label: "Shopping note", values: ["Check pigment intensity", "Check finish and blending time"] },
+    ],
+    relatedLinks: ["/best/best-liquid-blush", "/makeup/cream-blush", "/makeup"],
+  },
+  {
+    slug: "cream-highlighter-vs-liquid-highlighter",
+    title: "Cream Highlighter vs Liquid Highlighter",
+    summary: "Compare balm-like glow with fluid highlighter formats for complexion routines.",
+    verdict:
+      "Cream highlighter is better for targeted balm-like glow, while liquid highlighter is stronger for mixing, layering, and broader radiance.",
+    columns: ["Cream highlighter", "Liquid highlighter"],
+    rows: [
+      { label: "Texture", values: ["Cream, balm, or stick", "Fluid, gel, or drops"] },
+      { label: "Best role", values: ["Targeted glow", "Mixing or all-over glow"] },
+      { label: "Application", values: ["Fingers, brush, or sponge", "Mix, tap, or layer"] },
+      { label: "Shopping note", values: ["Check shimmer and tack", "Check finish and mixability"] },
+    ],
+    relatedLinks: ["/best/best-cream-highlighter", "/best/best-liquid-highlighter", "/makeup"],
+  },
+  {
+    slug: "lip-crayon-vs-lipstick",
+    title: "Lip Crayon vs Lipstick",
+    summary: "Compare pencil-style lip color with classic bullet and cream lipstick formats.",
+    verdict:
+      "Lip crayon is better for easy outlining and filling, while lipstick is stronger for classic color payoff, packaging, and finish variety.",
+    columns: ["Lip crayon", "Lipstick"],
+    rows: [
+      { label: "Format", values: ["Crayon or pencil stick", "Bullet, cream, or liquid"] },
+      { label: "Best role", values: ["Quick line-and-fill color", "Classic lip color"] },
+      { label: "Finish range", values: ["Often matte or satin", "Matte, satin, sheer, or glossy"] },
+      { label: "Shopping note", values: ["Check sharpener or twist-up design", "Check shade, comfort, and transfer"] },
+    ],
+    relatedLinks: ["/best/best-lip-crayon", "/best/best-lipstick", "/makeup"],
+  },
+  {
+    slug: "lip-primer-vs-lip-liner",
+    title: "Lip Primer vs Lip Liner",
+    summary: "Compare a prep step with a shaping and definition step for polished lip looks.",
+    verdict:
+      "Lip primer is the prep-focused route, while lip liner is the stronger choice when definition, shape, and shade structure matter most.",
+    columns: ["Lip primer", "Lip liner"],
+    rows: [
+      { label: "Best role", values: ["Prep and smooth-feel base", "Define and shape"] },
+      { label: "Color", values: ["Usually clear or neutral", "Shade-matched or contour shade"] },
+      { label: "Buyer mindset", values: ["Improve lip-product application feel", "Make lip look more precise"] },
+      { label: "Shopping note", values: ["Check product directions", "Check undertone and glide"] },
+    ],
+    relatedLinks: ["/best/best-lip-primer", "/best/best-lip-liner", "/lip-care"],
+  },
+  {
+    slug: "clear-brow-gel-vs-tinted-brow-gel",
+    title: "Clear Brow Gel vs Tinted Brow Gel",
+    summary: "Compare invisible hold with brow color, texture, and grooming in one step.",
+    verdict:
+      "Clear brow gel is better for hold without color change, while tinted brow gel is stronger when shoppers want grooming plus visible fullness or tone.",
+    columns: ["Clear brow gel", "Tinted brow gel"],
+    rows: [
+      { label: "Best role", values: ["Hold and grooming", "Hold plus color"] },
+      { label: "Shade concern", values: ["No shade matching", "Shade and undertone matter"] },
+      { label: "Finish", values: ["Natural or laminated", "Fuller-looking or defined"] },
+      { label: "Shopping note", values: ["Check hold and flaking", "Check brush size and tint level"] },
+    ],
+    relatedLinks: ["/best/best-clear-brow-gel", "/best/best-brow-gel", "/makeup"],
+  },
+  {
+    slug: "eyeshadow-palette-vs-single-shadow",
+    title: "Eyeshadow Palette vs Single Shadow",
+    summary: "Compare multi-shade eye looks with a focused single-color purchase.",
+    verdict:
+      "An eyeshadow palette is better for variety and gifting, while a single shadow is stronger when the shopper knows the exact shade or finish they want.",
+    columns: ["Eyeshadow palette", "Single shadow"],
+    rows: [
+      { label: "Best role", values: ["Multiple looks and gifting", "Focused shade purchase"] },
+      { label: "Value question", values: ["Many shades, not all may be used", "One shade with less waste"] },
+      { label: "Buyer mindset", values: ["Build a color wardrobe", "Replace or add a specific color"] },
+      { label: "Shopping note", values: ["Check shade story and fallout", "Check finish and pan size"] },
+    ],
+    relatedLinks: ["/best/best-eyeshadow-palette", "/best/best-powder-eyeshadow-single", "/makeup"],
+  },
+  {
+    slug: "makeup-setting-spray-vs-face-mist",
+    title: "Makeup Setting Spray vs Face Mist",
+    summary: "Compare makeup finishing sprays with flexible skin-refresh mists.",
+    verdict:
+      "Setting spray is better for finishing makeup, while face mist is a more flexible refresh or prep product that should not be assumed to set makeup.",
+    columns: ["Setting spray", "Face mist"],
+    rows: [
+      { label: "Best role", values: ["Makeup finishing step", "Refresh, prep, or skin-care mist"] },
+      { label: "Routine timing", values: ["After makeup", "Before, after, or between steps"] },
+      { label: "Buyer concern", values: ["Finish and makeup feel", "Hydrated-feeling refresh"] },
+      { label: "Shopping note", values: ["Check finish and wear language", "Check fragrance and mist pattern"] },
+    ],
+    relatedLinks: ["/best/best-makeup-setting-spray", "/best/best-facial-mist", "/makeup"],
+  },
+  {
+    slug: "hair-mousse-vs-curl-foam",
+    title: "Hair Mousse vs Curl Foam",
+    summary: "Compare general volume mousse with curl-focused foam styling.",
+    verdict:
+      "Hair mousse is the broader volume and body route, while curl foam is stronger for shoppers focused on curl shape, softness, and definition.",
+    columns: ["Hair mousse", "Curl foam"],
+    rows: [
+      { label: "Best role", values: ["Volume and body", "Curl shape and definition"] },
+      { label: "Texture", values: ["Foamy mousse", "Foam or airy curl styler"] },
+      { label: "Buyer concern", values: ["Lift and fullness", "Curl pattern and softness"] },
+      { label: "Shopping note", values: ["Check hold and crunch", "Check curl type and layering"] },
+    ],
+    relatedLinks: ["/best/best-hair-mousse", "/best/best-curl-refresh-foam", "/hair-care"],
+  },
+  {
+    slug: "leave-in-spray-vs-leave-in-cream",
+    title: "Leave-In Spray vs Leave-In Cream",
+    summary: "Compare lightweight spray conditioning with richer cream leave-in products.",
+    verdict:
+      "Leave-in spray is usually better for lightweight detangling and fine hair routines, while leave-in cream is stronger for richer softness and styling control.",
+    columns: ["Leave-in spray", "Leave-in cream"],
+    rows: [
+      { label: "Texture", values: ["Mist or spray", "Cream or lotion"] },
+      { label: "Best for", values: ["Lightweight prep", "Richer softness and control"] },
+      { label: "Buyer concern", values: ["Weightless feel", "Frizz look and manageability"] },
+      { label: "Shopping note", values: ["Check hair type and fragrance", "Check weight and layering"] },
+    ],
+    relatedLinks: ["/best/best-leave-in-spray", "/best/best-leave-in-cream", "/hair-care"],
+  },
+  {
+    slug: "hair-gloss-vs-hair-color-gloss",
+    title: "Hair Gloss vs Hair Color Gloss",
+    summary: "Compare clear shine glosses with color-depositing gloss formats.",
+    verdict:
+      "Hair gloss is the simpler shine-focused route, while hair color gloss is stronger when shoppers want a tone or color-refresh story.",
+    columns: ["Hair gloss", "Hair color gloss"],
+    rows: [
+      { label: "Best role", values: ["Shine and smooth-feel finish", "Tone or color-refresh route"] },
+      { label: "Color", values: ["Often clear or universal", "Shade-specific"] },
+      { label: "Buyer concern", values: ["Glossy finish", "Color maintenance"] },
+      { label: "Shopping note", values: ["Check directions and hair type", "Check shade, timing, and stain risk"] },
+    ],
+    relatedLinks: ["/best/best-hair-gloss", "/best/best-hair-color-gloss", "/hair-care"],
+  },
+  {
+    slug: "root-touch-up-spray-vs-hair-color-gloss",
+    title: "Root Touch-Up Spray vs Hair Color Gloss",
+    summary: "Compare temporary root coverage with broader color-refresh gloss products.",
+    verdict:
+      "Root touch-up spray is better for quick visible root blending, while hair color gloss is stronger for broader tone-refresh routines.",
+    columns: ["Root touch-up spray", "Hair color gloss"],
+    rows: [
+      { label: "Best role", values: ["Quick root coverage", "Broader color refresh"] },
+      { label: "Application", values: ["Spray targeted roots", "Apply through lengths or selected areas"] },
+      { label: "Buyer concern", values: ["Between-color appointments", "Tone or shine maintenance"] },
+      { label: "Shopping note", values: ["Check shade and transfer", "Check timing, shade, and directions"] },
+    ],
+    relatedLinks: ["/best/best-root-touch-up-spray", "/best/best-hair-color-gloss", "/hair-care"],
+  },
+  {
+    slug: "scalp-brush-vs-scalp-massage-brush",
+    title: "Scalp Brush vs Scalp Massage Brush",
+    summary: "Compare scalp-focused brush terminology by routine role, bristle feel, and shower use.",
+    verdict:
+      "A scalp brush is the broader tool category, while a scalp massage brush is usually chosen for a more intentional massage-feel routine.",
+    columns: ["Scalp brush", "Scalp massage brush"],
+    rows: [
+      { label: "Best role", values: ["Shower or scalp tool", "Massage-focused scalp ritual"] },
+      { label: "Bristle feel", values: ["Soft silicone or firm bristles", "Usually flexible silicone"] },
+      { label: "Use case", values: ["Shampoo distribution or scalp routine", "Massage-feel routine"] },
+      { label: "Shopping note", values: ["Check bristle firmness", "Check grip, cleaning, and pressure guidance"] },
+    ],
+    relatedLinks: ["/best/best-scalp-brush", "/best/best-scalp-massage-brush", "/beauty-tools/hair-styling-tools"],
+  },
+  {
+    slug: "body-serum-vs-body-lotion",
+    title: "Body Serum vs Body Lotion",
+    summary: "Compare lightweight body treatment textures with everyday body moisturizers.",
+    verdict:
+      "Body lotion is the practical daily staple, while body serum is a more niche layering product for shoppers who want a lighter or treatment-positioned body-care step.",
+    columns: ["Body serum", "Body lotion"],
+    rows: [
+      { label: "Texture", values: ["Light serum, gel, or fluid", "Lotion or cream"] },
+      { label: "Best role", values: ["Layering or treatment-positioned step", "Daily body moisture"] },
+      { label: "Buyer mindset", values: ["Body-care upgrade", "Routine staple"] },
+      { label: "Shopping note", values: ["Check directions and claims", "Check dry-down and fragrance"] },
+    ],
+    relatedLinks: ["/best/best-body-serum", "/best/best-body-lotion", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "body-cream-vs-body-balm",
+    title: "Body Cream vs Body Balm",
+    summary: "Compare creamy body moisturizers with denser balm textures.",
+    verdict:
+      "Body cream is usually better as a flexible daily moisturizer, while body balm is stronger for shoppers who want a denser, more occlusive-feeling texture.",
+    columns: ["Body cream", "Body balm"],
+    rows: [
+      { label: "Texture", values: ["Creamy and spreadable", "Dense balm or salve-like"] },
+      { label: "Best role", values: ["Daily body moisture", "Targeted rich comfort"] },
+      { label: "Use case", values: ["Post-shower routine", "Dry-feeling areas or night routine"] },
+      { label: "Shopping note", values: ["Check fragrance and dry-down", "Check heaviness and transfer"] },
+    ],
+    relatedLinks: ["/best/best-body-cream", "/best/best-body-balm", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "body-sunscreen-spray-vs-body-sunscreen-lotion",
+    title: "Body Sunscreen Spray vs Body Sunscreen Lotion",
+    summary: "Compare SPF body formats by application style, texture, and reapplication habits.",
+    verdict:
+      "Body sunscreen lotion is often better for deliberate coverage, while sunscreen spray is stronger for convenience when shoppers follow directions carefully.",
+    columns: ["Body sunscreen spray", "Body sunscreen lotion"],
+    rows: [
+      { label: "Format", values: ["Spray or mist", "Lotion or cream"] },
+      { label: "Best role", values: ["Convenient reapplication", "Deliberate application"] },
+      { label: "Buyer concern", values: ["Speed and reach", "Coverage feel and texture"] },
+      { label: "Shopping note", values: ["Follow SPF spray directions", "Follow SPF application directions"] },
+    ],
+    relatedLinks: ["/best/best-body-sunscreen-spray", "/best/best-body-sunscreen-lotion", "/body-care"],
+  },
+  {
+    slug: "hand-lotion-vs-hand-cream",
+    title: "Hand Lotion vs Hand Cream",
+    summary: "Compare lighter hand-care texture with richer cream formats for daily carry.",
+    verdict:
+      "Hand lotion is better for a lighter fast-use feel, while hand cream is stronger when shoppers want a richer comfort-focused hand-care product.",
+    columns: ["Hand lotion", "Hand cream"],
+    rows: [
+      { label: "Texture", values: ["Lighter lotion", "Creamier or richer"] },
+      { label: "Best role", values: ["Quick daily use", "Comfort-first hand care"] },
+      { label: "Packaging", values: ["Pump, tube, or bottle", "Tube, jar, or balm-like format"] },
+      { label: "Shopping note", values: ["Check dry-down and fragrance", "Check richness and residue"] },
+    ],
+    relatedLinks: ["/best/best-hand-lotion", "/best/best-hand-cream", "/body-care/luxury-hand-care"],
+  },
+  {
+    slug: "bath-oil-vs-bath-salt-soak",
+    title: "Bath Oil vs Bath Salt Soak",
+    summary: "Compare two bath-care rituals by texture, scent, and tub experience.",
+    verdict:
+      "Bath oil is better for a silky, fragrance-layered bath feel, while bath salt soak is stronger for shoppers who prefer mineral-style soak rituals.",
+    columns: ["Bath oil", "Bath salt soak"],
+    rows: [
+      { label: "Texture", values: ["Oil dispersing in bath water", "Salt crystals or soak blend"] },
+      { label: "Best role", values: ["Silky bath ritual", "Soak-style bath ritual"] },
+      { label: "Buyer concern", values: ["Slip, scent, and indulgence", "Scent, texture, and cleanup"] },
+      { label: "Shopping note", values: ["Check tub slip and fragrance", "Check dissolve behavior and directions"] },
+    ],
+    relatedLinks: ["/best/best-bath-oil", "/best/best-bath-salt-soak", "/body-care"],
+  },
 ];
 
 export const beautyCalculators = [
