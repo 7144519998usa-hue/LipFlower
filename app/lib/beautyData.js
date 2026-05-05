@@ -3768,6 +3768,261 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/beauty-tools/facial-tools", "/skin-care", "/beauty-university/beauty-routine-order-chart"],
   },
+  {
+    slug: "cream-eyeshadow-vs-powder-eyeshadow",
+    title: "Cream Eyeshadow vs Powder Eyeshadow",
+    summary: "Compare swipe-on cream shadow with classic powder shadow before choosing an eye look.",
+    verdict:
+      "Cream eyeshadow is stronger for quick, blended color, while powder eyeshadow is better for palette variety, layering, and more detailed eye looks.",
+    columns: ["Cream eyeshadow", "Powder eyeshadow"],
+    rows: [
+      { label: "Texture", values: ["Cream, stick, pot, or liquid-cream", "Pressed or loose powder"] },
+      { label: "Best role", values: ["Fast one-and-done eye color", "Layered eye looks"] },
+      { label: "Buyer concern", values: ["Creasing and dry-down", "Fallout and brush needs"] },
+      { label: "Shopping note", values: ["Check finish and wear language", "Check palette shades and pigment level"] },
+    ],
+    relatedLinks: ["/makeup", "/compare/eyeshadow-palette-vs-single-shadow", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "liquid-lipstick-vs-lip-stain",
+    title: "Liquid Lipstick vs Lip Stain",
+    summary: "Compare high-impact liquid lip color with stain-style lip tint.",
+    verdict:
+      "Liquid lipstick is better for opaque color and defined lip looks, while lip stain is stronger for lighter, tint-like color that feels more casual.",
+    columns: ["Liquid lipstick", "Lip stain"],
+    rows: [
+      { label: "Color payoff", values: ["Opaque or high-impact", "Sheer to buildable stain"] },
+      { label: "Finish", values: ["Matte, satin, glossy, or vinyl", "Tinted, blurred, or natural"] },
+      { label: "Best role", values: ["Statement lips", "Low-maintenance tint"] },
+      { label: "Shopping note", values: ["Check dry-down and removal", "Check shade and transfer expectations"] },
+    ],
+    relatedLinks: ["/lip-care", "/makeup", "/compare/lip-crayon-vs-lipstick"],
+  },
+  {
+    slug: "lip-stain-vs-lip-tint",
+    title: "Lip Stain vs Lip Tint",
+    summary: "Compare stain-led lip color with softer tint products.",
+    verdict:
+      "Lip stain is stronger for a longer-looking color impression, while lip tint is better for sheer, fresh, easy color routines.",
+    columns: ["Lip stain", "Lip tint"],
+    rows: [
+      { label: "Color style", values: ["Stained or blurred", "Sheer or juicy tint"] },
+      { label: "Best role", values: ["Color that settles into lips", "Fresh daily color"] },
+      { label: "Buyer concern", values: ["Even application and removal", "Shade payoff and comfort"] },
+      { label: "Shopping note", values: ["Check dry-down and shade depth", "Check texture and scent"] },
+    ],
+    relatedLinks: ["/lip-care/tinted-lip-balms", "/makeup", "/beauty-university/luxury-lip-care-routine"],
+  },
+  {
+    slug: "waterproof-mascara-vs-tubing-mascara",
+    title: "Waterproof Mascara vs Tubing Mascara",
+    summary: "Compare water-resistant mascara shopping with tubing mascara removal and wear language.",
+    verdict:
+      "Waterproof mascara is stronger when water resistance is the main shopping priority, while tubing mascara is better for shoppers comparing tube-forming formula language and removal style.",
+    columns: ["Waterproof mascara", "Tubing mascara"],
+    rows: [
+      { label: "Formula positioning", values: ["Water-resistant or waterproof language", "Tube-forming mascara language"] },
+      { label: "Best role", values: ["Humidity, tears, or event makeup", "Specific removal and wear preference"] },
+      { label: "Buyer concern", values: ["Removal effort and lash feel", "Removal directions and lash effect"] },
+      { label: "Shopping note", values: ["Use appropriate remover as directed", "Read warm-water removal directions"] },
+    ],
+    relatedLinks: ["/compare/tubing-mascara-vs-regular-mascara", "/compare/volumizing-mascara-vs-lengthening-mascara", "/makeup"],
+  },
+  {
+    slug: "brow-pencil-vs-brow-pen",
+    title: "Brow Pencil vs Brow Pen",
+    summary: "Compare classic brow filling with hair-stroke-style brow pens.",
+    verdict:
+      "Brow pencil is better for shaping and soft fill, while brow pen is stronger for shoppers who want fine, hair-stroke-style detail.",
+    columns: ["Brow pencil", "Brow pen"],
+    rows: [
+      { label: "Application", values: ["Pencil fill and shape", "Fine marker-like strokes"] },
+      { label: "Best role", values: ["Everyday brow structure", "Detail and sparse-area styling"] },
+      { label: "Buyer concern", values: ["Shade, waxiness, and spoolie", "Tip control and undertone"] },
+      { label: "Shopping note", values: ["Check shade depth", "Check tip type and dry-down"] },
+    ],
+    relatedLinks: ["/makeup", "/compare/clear-brow-gel-vs-tinted-brow-gel", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "brow-powder-vs-brow-pencil",
+    title: "Brow Powder vs Brow Pencil",
+    summary: "Compare soft powder brow filling with pencil shaping and definition.",
+    verdict:
+      "Brow powder is better for a softer filled-in effect, while brow pencil is stronger for shape, edge control, and more precise definition.",
+    columns: ["Brow powder", "Brow pencil"],
+    rows: [
+      { label: "Texture", values: ["Powder pan or palette", "Pencil, micro pencil, or angled pencil"] },
+      { label: "Best role", values: ["Soft fullness", "Defined shape"] },
+      { label: "Buyer concern", values: ["Brush needs and fallout", "Shade and tip size"] },
+      { label: "Shopping note", values: ["Check included brush", "Check spoolie and shade undertone"] },
+    ],
+    relatedLinks: ["/makeup", "/compare/brow-pencil-vs-brow-pen", "/compare/clear-brow-gel-vs-tinted-brow-gel"],
+  },
+  {
+    slug: "bronzer-vs-contour-powder",
+    title: "Bronzer vs Contour Powder",
+    summary: "Compare warmth-focused complexion color with shadow-focused contour powder.",
+    verdict:
+      "Bronzer is better for warmth and sun-kissed color, while contour powder is stronger for shoppers who want cooler-toned structure and definition.",
+    columns: ["Bronzer", "Contour powder"],
+    rows: [
+      { label: "Color direction", values: ["Warm, golden, or neutral", "Cooler or shadow-like"] },
+      { label: "Best role", values: ["Warmth and complexion color", "Definition and sculpting"] },
+      { label: "Buyer concern", values: ["Orange cast and shimmer", "Gray cast and blendability"] },
+      { label: "Shopping note", values: ["Check undertone and depth", "Check tone and brush pairing"] },
+    ],
+    relatedLinks: ["/makeup", "/compare/contour-stick-vs-bronzer-stick", "/compare/bronzer-stick-vs-powder-bronzer"],
+  },
+  {
+    slug: "clarifying-shampoo-vs-scalp-scrub",
+    title: "Clarifying Shampoo vs Scalp Scrub",
+    summary: "Compare cleanse-focused hair washing with texture-led scalp exfoliation routines.",
+    verdict:
+      "Clarifying shampoo is better for a cleanse-focused wash route, while scalp scrub is stronger for shoppers who want a texture-led pre-wash or in-shower scalp step.",
+    columns: ["Clarifying shampoo", "Scalp scrub"],
+    rows: [
+      { label: "Format", values: ["Shampoo cleanser", "Scrub, paste, or exfoliating texture"] },
+      { label: "Best role", values: ["Occasional deeper-feeling cleanse", "Texture-led scalp routine"] },
+      { label: "Buyer concern", values: ["Frequency and hair feel", "Granule feel and pressure"] },
+      { label: "Shopping note", values: ["Follow frequency directions", "Use gentle pressure and read directions"] },
+    ],
+    relatedLinks: ["/hair-care/scalp-care", "/compare/purple-shampoo-vs-clarifying-shampoo", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "purple-shampoo-vs-blue-shampoo",
+    title: "Purple Shampoo vs Blue Shampoo",
+    summary: "Compare tone-focused shampoo colors for blonde, highlighted, and brunette routines.",
+    verdict:
+      "Purple shampoo is typically shopped for yellow-looking tone concerns, while blue shampoo is more often compared for orange-looking tone concerns in brunette or highlighted hair routines.",
+    columns: ["Purple shampoo", "Blue shampoo"],
+    rows: [
+      { label: "Common color story", values: ["Purple pigment language", "Blue pigment language"] },
+      { label: "Best role", values: ["Blonde or highlighted tone routine", "Brunette or highlighted tone routine"] },
+      { label: "Buyer concern", values: ["Over-toning and dryness feel", "Shade depth and overuse"] },
+      { label: "Shopping note", values: ["Read timing directions", "Check hair-color fit and directions"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/purple-shampoo-vs-clarifying-shampoo", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "leave-in-conditioner-vs-detangler",
+    title: "Leave-In Conditioner vs Detangler",
+    summary: "Compare leave-in softness with slip-focused detangling products.",
+    verdict:
+      "Leave-in conditioner is stronger for softness and post-wash prep, while detangler is better when slip and comb-through ease are the main shopping priorities.",
+    columns: ["Leave-in conditioner", "Detangler"],
+    rows: [
+      { label: "Product role", values: ["Conditioning prep", "Comb-through support"] },
+      { label: "Best role", values: ["Post-wash softness and styling prep", "Knots, kids, or quick brush-through"] },
+      { label: "Buyer concern", values: ["Weight and residue", "Slip, scent, and hair type"] },
+      { label: "Shopping note", values: ["Check hair type notes", "Check spray pattern and directions"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/hair-oil-vs-leave-in-conditioner", "/compare/leave-in-spray-vs-leave-in-cream"],
+  },
+  {
+    slug: "shampoo-bar-vs-liquid-shampoo",
+    title: "Shampoo Bar vs Liquid Shampoo",
+    summary: "Compare solid shampoo bars with classic bottled shampoo.",
+    verdict:
+      "Shampoo bars are better for shoppers who want compact, low-packaging-style routines, while liquid shampoo is stronger for familiar texture, scent, and formula variety.",
+    columns: ["Shampoo bar", "Liquid shampoo"],
+    rows: [
+      { label: "Format", values: ["Solid bar", "Liquid, cream, or gel"] },
+      { label: "Best role", values: ["Travel and compact storage", "Everyday familiar cleansing"] },
+      { label: "Buyer concern", values: ["Storage and lather style", "Bottle size and hair type fit"] },
+      { label: "Shopping note", values: ["Check bar storage and directions", "Check scalp and hair type notes"] },
+    ],
+    relatedLinks: ["/hair-care/luxury-shampoo-conditioner", "/compare/shampoo-vs-cleansing-conditioner", "/hair-care"],
+  },
+  {
+    slug: "hair-oil-vs-hair-cream",
+    title: "Hair Oil vs Hair Cream",
+    summary: "Compare oil polish with cream styling and softness products.",
+    verdict:
+      "Hair oil is better for shine, polish, and finishing, while hair cream is stronger for softness, shape, and cream-style styling support.",
+    columns: ["Hair oil", "Hair cream"],
+    rows: [
+      { label: "Texture", values: ["Oil or dry oil", "Cream, lotion, or balm"] },
+      { label: "Best role", values: ["Finishing shine", "Soft styling and control"] },
+      { label: "Buyer concern", values: ["Greasy feel and amount control", "Weight and hold level"] },
+      { label: "Shopping note", values: ["Start with a small amount", "Check hair type and use directions"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/hair-serum-vs-leave-in-conditioner", "/compare/hair-oil-vs-leave-in-conditioner"],
+  },
+  {
+    slug: "curl-defining-cream-vs-curl-mousse",
+    title: "Curl Defining Cream vs Curl Mousse",
+    summary: "Compare cream curl definition with airy mousse styling.",
+    verdict:
+      "Curl defining cream is better for softness and shape, while curl mousse is stronger for lightweight volume and airy curl styling.",
+    columns: ["Curl defining cream", "Curl mousse"],
+    rows: [
+      { label: "Texture", values: ["Cream or lotion", "Foam or mousse"] },
+      { label: "Best role", values: ["Soft definition", "Lightweight volume"] },
+      { label: "Buyer concern", values: ["Weight and residue", "Crunch, hold, and humidity language"] },
+      { label: "Shopping note", values: ["Check curl type notes", "Check hold level and use directions"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/curl-cream-vs-curl-gel", "/compare/hair-mousse-vs-curl-foam"],
+  },
+  {
+    slug: "frizz-serum-vs-hair-oil",
+    title: "Frizz Serum vs Hair Oil",
+    summary: "Compare smoothing serum products with oil-based shine and polish.",
+    verdict:
+      "Frizz serum is stronger for smoothing-positioned styling, while hair oil is better for shine, finish, and richer polish.",
+    columns: ["Frizz serum", "Hair oil"],
+    rows: [
+      { label: "Texture", values: ["Serum, silicone-feel fluid, or gel-serum", "Oil or dry oil"] },
+      { label: "Best role", values: ["Smoothing and styling control", "Shine and finish"] },
+      { label: "Buyer concern", values: ["Residue and hair feel", "Greasy feel and fragrance"] },
+      { label: "Shopping note", values: ["Check humidity and finish language", "Use a small amount first"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/hair-serum-vs-leave-in-conditioner", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "hair-wax-vs-hair-pomade",
+    title: "Hair Wax vs Hair Pomade",
+    summary: "Compare two styling products by hold, shine, and finish.",
+    verdict:
+      "Hair wax is better for texture and flexible hold, while hair pomade is stronger for smoother, shinier, more polished styling.",
+    columns: ["Hair wax", "Hair pomade"],
+    rows: [
+      { label: "Finish", values: ["Textured, matte, or natural", "Smooth, shiny, or classic"] },
+      { label: "Best role", values: ["Piecey texture and definition", "Slicker styling and polish"] },
+      { label: "Buyer concern", values: ["Grip and washout", "Shine level and residue"] },
+      { label: "Shopping note", values: ["Check hold level", "Check water-based versus oil-based language"] },
+    ],
+    relatedLinks: ["/hair-care", "/beauty-tools/hair-styling-tools", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "texture-paste-vs-hair-gel",
+    title: "Texture Paste vs Hair Gel",
+    summary: "Compare flexible texture products with stronger gel hold.",
+    verdict:
+      "Texture paste is better for movable, piecey styling, while hair gel is stronger for defined hold, slick looks, and more structured styles.",
+    columns: ["Texture paste", "Hair gel"],
+    rows: [
+      { label: "Finish", values: ["Matte, natural, or piecey", "Defined, wet-look, or structured"] },
+      { label: "Best role", values: ["Flexible texture", "Hold and control"] },
+      { label: "Buyer concern", values: ["Grit, residue, and restyling", "Crunch, flakes, and washout"] },
+      { label: "Shopping note", values: ["Check hold and finish", "Check alcohol, scent, and hold language"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/curl-cream-vs-curl-gel", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "sea-salt-spray-vs-texturizing-spray",
+    title: "Sea Salt Spray vs Texturizing Spray",
+    summary: "Compare beachy texture sprays with broader volume and texture sprays.",
+    verdict:
+      "Sea salt spray is better for beachy, tousled texture, while texturizing spray is stronger for volume, grit, and finishing a styled look.",
+    columns: ["Sea salt spray", "Texturizing spray"],
+    rows: [
+      { label: "Style direction", values: ["Beachy and tousled", "Volume, grit, or undone finish"] },
+      { label: "Best role", values: ["Air-dry texture", "Finished style texture"] },
+      { label: "Buyer concern", values: ["Dry feel and scent", "Hold, residue, and volume"] },
+      { label: "Shopping note", values: ["Check hair type and salt feel", "Check finish and fragrance"] },
+    ],
+    relatedLinks: ["/compare/dry-shampoo-vs-texturizing-spray", "/hair-care", "/beauty-university/hair-care-routine-map"],
+  },
 ];
 
 export const beautyCalculators = [
