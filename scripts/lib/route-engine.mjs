@@ -146,43 +146,7 @@ export function buildGeneratedRouteSet() {
 }
 
 export function buildRegistryRouteSet() {
-  const routes = new Set([
-    "/",
-    "/best",
-    "/brands",
-    "/calculators",
-    "/compare",
-    "/sellers",
-    "/beauty-university",
-    "/beauty-research",
-    "/beauty-routines",
-    "/beauty-gifts",
-    "/beauty-occasions",
-    "/beauty-ingredients",
-    "/beauty-finishes",
-    "/beauty-shades",
-    "/beauty-glossary",
-    "/beauty-calendar",
-    "/beauty-checklists",
-    "/beauty-seller-scorecard",
-    "/beauty-claims-guide",
-    "/beauty-methodology",
-    "/beauty-faq",
-    ...registeredTrustRoutes,
-  ]);
-
-  beautyLandingPages.forEach((page) => routes.add(`/${page.categoryPath}/${page.slug}`));
-  beautyUniversityTopics.forEach((page) => routes.add(`/beauty-university/${page.slug}`));
-  beautyComparePages.forEach((page) => routes.add(`/compare/${page.slug}`));
-  beautyCalculators.forEach((page) => routes.add(`/calculators/${page.slug}`));
-  beautyBrands.forEach((brand) => routes.add(`/brands/${brand.slug}`));
-  beautyBrandCategories.forEach((page) => routes.add(`/brands/${page.brandSlug}/${page.categorySlug}`));
-  beautySellers.forEach((seller) => routes.add(`/sellers/${seller.slug}`));
-  beautyCategoryPages.forEach((page) => routes.add(`/${page.slug}`));
-  beautySystemPages.forEach((page) => routes.add(`/${page.slug}`));
-  programmaticBestPages.forEach((page) => routes.add(`/best/${page.slug}`));
-
-  return routes;
+  return new Set(buildBeautyPageRegistry().map((entry) => entry.canonicalPath));
 }
 
 export function buildRouteInventory() {
