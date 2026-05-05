@@ -4248,6 +4248,231 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/compare/jade-roller-vs-ice-roller", "/beauty-tools/facial-tools", "/beauty-university/beauty-routine-order-chart"],
   },
+  {
+    slug: "niacinamide-vs-hyaluronic-acid",
+    title: "Niacinamide vs Hyaluronic Acid",
+    summary: "Compare two common skin-care ingredient stories by routine role, texture, and product positioning.",
+    verdict:
+      "Niacinamide is usually shopped around tone, texture, and balance language, while hyaluronic acid is stronger for hydration-positioned products and lightweight layering.",
+    columns: ["Niacinamide", "Hyaluronic acid"],
+    rows: [
+      { label: "Common positioning", values: ["Tone, texture, and balance story", "Hydration and plumping-feel story"] },
+      { label: "Best role", values: ["Serums, moisturizers, and primers", "Serums, essences, masks, and creams"] },
+      { label: "Buyer concern", values: ["Percentage language and layering", "Texture, tackiness, and humidity feel"] },
+      { label: "Shopping note", values: ["Use visible product claims only", "Check texture and routine placement"] },
+    ],
+    relatedLinks: ["/beauty-ingredients", "/beauty-university/ingredient-claims-guide", "/skin-care/anti-aging-serums"],
+  },
+  {
+    slug: "ceramides-vs-peptides",
+    title: "Ceramides vs Peptides",
+    summary: "Compare ceramide-positioned comfort products with peptide-positioned serums and creams.",
+    verdict:
+      "Ceramides are stronger for barrier-support positioning and richer moisturizer stories, while peptides are usually shopped in serum or cream formulas with firming-style cosmetic language.",
+    columns: ["Ceramides", "Peptides"],
+    rows: [
+      { label: "Common positioning", values: ["Barrier-support and comfort story", "Firming-style cosmetic story"] },
+      { label: "Best role", values: ["Moisturizers and creams", "Serums, creams, and eye products"] },
+      { label: "Buyer concern", values: ["Texture and richness", "Claim support and product type"] },
+      { label: "Shopping note", values: ["Avoid assuming medical repair", "Check visible product claims"] },
+    ],
+    relatedLinks: ["/compare/ceramide-cream-vs-barrier-serum", "/compare/peptide-cream-vs-peptide-serum", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "azelaic-acid-vs-niacinamide",
+    title: "Azelaic Acid vs Niacinamide",
+    summary: "Compare two tone-and-texture ingredient routes without overstating skin outcomes.",
+    verdict:
+      "Azelaic acid is stronger for shoppers comparing specific active-ingredient positioning, while niacinamide is broader and appears across many everyday serum, moisturizer, and primer formulas.",
+    columns: ["Azelaic acid", "Niacinamide"],
+    rows: [
+      { label: "Ingredient route", values: ["Specific active-led products", "Broad multi-category products"] },
+      { label: "Best role", values: ["Targeted routine research", "Flexible daily routine support"] },
+      { label: "Buyer concern", values: ["Directions, strength language, and tolerance", "Percentage, texture, and layering"] },
+      { label: "Shopping note", values: ["Read label directions carefully", "Avoid assuming assured outcomes"] },
+    ],
+    relatedLinks: ["/beauty-ingredients", "/beauty-claims-guide", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "salicylic-acid-vs-glycolic-acid",
+    title: "Salicylic Acid vs Glycolic Acid",
+    summary: "Compare two exfoliating-acid ingredient stories by format, routine timing, and buyer caution.",
+    verdict:
+      "Salicylic acid is often shopped in cleanser, toner, and blemish-prone routine language, while glycolic acid is more often compared for surface exfoliation and glow-positioned products.",
+    columns: ["Salicylic acid", "Glycolic acid"],
+    rows: [
+      { label: "Common formats", values: ["Cleansers, toners, serums, spot products", "Toners, serums, masks, pads"] },
+      { label: "Best role", values: ["Ingredient-led routine planning", "Exfoliation-positioned routine planning"] },
+      { label: "Buyer concern", values: ["Frequency and skin-feel tolerance", "Strength, timing, and sun-care context"] },
+      { label: "Shopping note", values: ["Follow directions and avoid overuse", "Introduce carefully and use SPF as directed"] },
+    ],
+    relatedLinks: ["/beauty-ingredients", "/compare/enzyme-cleanser-vs-exfoliating-toner", "/beauty-claims-guide"],
+  },
+  {
+    slug: "lactic-acid-vs-glycolic-acid",
+    title: "Lactic Acid vs Glycolic Acid",
+    summary: "Compare two AHA ingredient routes for exfoliation-positioned beauty products.",
+    verdict:
+      "Lactic acid is often positioned as a softer-feeling AHA story, while glycolic acid is stronger for shoppers comparing more classic exfoliating-acid products.",
+    columns: ["Lactic acid", "Glycolic acid"],
+    rows: [
+      { label: "Ingredient family", values: ["AHA", "AHA"] },
+      { label: "Common formats", values: ["Serums, lotions, masks, body products", "Toners, pads, serums, masks"] },
+      { label: "Buyer concern", values: ["Texture and frequency", "Strength language and timing"] },
+      { label: "Shopping note", values: ["Read directions and patch-test if sensitive", "Introduce carefully and use SPF as directed"] },
+    ],
+    relatedLinks: ["/beauty-ingredients", "/beauty-university/ingredient-claims-guide", "/beauty-claims-guide"],
+  },
+  {
+    slug: "mandelic-acid-vs-lactic-acid",
+    title: "Mandelic Acid vs Lactic Acid",
+    summary: "Compare two gentler-positioned AHA ingredient stories for careful routine building.",
+    verdict:
+      "Mandelic acid is a more niche AHA route, while lactic acid is broader and appears across more face and body exfoliation-positioned products.",
+    columns: ["Mandelic acid", "Lactic acid"],
+    rows: [
+      { label: "Shopping familiarity", values: ["More niche", "More common"] },
+      { label: "Common formats", values: ["Serums, toners, peels", "Serums, lotions, masks, body products"] },
+      { label: "Buyer concern", values: ["Availability and directions", "Texture, frequency, and pairing"] },
+      { label: "Shopping note", values: ["Check product directions", "Avoid stacking too many exfoliating steps"] },
+    ],
+    relatedLinks: ["/beauty-ingredients", "/beauty-university/ingredient-compatibility-cheat-sheet", "/beauty-claims-guide"],
+  },
+  {
+    slug: "squalane-vs-jojoba-oil",
+    title: "Squalane vs Jojoba Oil",
+    summary: "Compare two oil-like beauty ingredients by texture, product format, and routine role.",
+    verdict:
+      "Squalane is often shopped for a lightweight oil-like finish, while jojoba oil is stronger for shoppers comparing classic plant-oil body, hair, and skin-care products.",
+    columns: ["Squalane", "Jojoba oil"],
+    rows: [
+      { label: "Texture story", values: ["Lightweight oil-like finish", "Classic plant-oil feel"] },
+      { label: "Common formats", values: ["Face oils, serums, moisturizers", "Face, body, hair, and cuticle oils"] },
+      { label: "Buyer concern", values: ["Finish and layering", "Scent, richness, and bottle format"] },
+      { label: "Shopping note", values: ["Check texture and use directions", "Check product category and oil blend"] },
+    ],
+    relatedLinks: ["/beauty-ingredients", "/compare/face-oil-vs-moisturizer", "/compare/perfume-oil-vs-body-oil"],
+  },
+  {
+    slug: "shea-butter-vs-cocoa-butter",
+    title: "Shea Butter vs Cocoa Butter",
+    summary: "Compare two rich butter ingredients common in body care, lip care, and hand care.",
+    verdict:
+      "Shea butter is broader across body, hand, and lip-care products, while cocoa butter is stronger for shoppers who like a richer butter story and cocoa-style scent associations.",
+    columns: ["Shea butter", "Cocoa butter"],
+    rows: [
+      { label: "Texture story", values: ["Rich cream or balm feel", "Rich butter-style feel"] },
+      { label: "Common formats", values: ["Body butter, hand cream, lip balm", "Body butter, balm, lotion"] },
+      { label: "Buyer concern", values: ["Richness and fragrance", "Scent profile and heaviness"] },
+      { label: "Shopping note", values: ["Check full formula, not one ingredient", "Check fragrance and texture"] },
+    ],
+    relatedLinks: ["/body-care/body-moisturizers", "/lip-care", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "lanolin-vs-petrolatum",
+    title: "Lanolin vs Petrolatum",
+    summary: "Compare two occlusive-positioned ingredients often seen in lip and barrier-style products.",
+    verdict:
+      "Lanolin is stronger for shoppers comparing classic lip ointment and balm textures, while petrolatum is broader in occlusive-positioned ointments, balms, and multipurpose products.",
+    columns: ["Lanolin", "Petrolatum"],
+    rows: [
+      { label: "Texture story", values: ["Rich, balm-like, sometimes sticky", "Occlusive ointment or balm feel"] },
+      { label: "Common formats", values: ["Lip balms, ointments, nipple balms", "Ointments, balms, lip products"] },
+      { label: "Buyer concern", values: ["Wool-derived ingredient preference", "Heavy texture and finish"] },
+      { label: "Shopping note", values: ["Check ingredient source and sensitivity", "Check use directions and texture"] },
+    ],
+    relatedLinks: ["/lip-care", "/compare/lip-mask-vs-lip-balm", "/beauty-claims-guide"],
+  },
+  {
+    slug: "zinc-oxide-vs-titanium-dioxide",
+    title: "Zinc Oxide vs Titanium Dioxide",
+    summary: "Compare two mineral sunscreen filter names by product format and shopping considerations.",
+    verdict:
+      "Zinc oxide is often highlighted in mineral SPF products, while titanium dioxide frequently appears alongside zinc oxide or in complexion-SPF formulas.",
+    columns: ["Zinc oxide", "Titanium dioxide"],
+    rows: [
+      { label: "Product role", values: ["Mineral sunscreen filter", "Mineral sunscreen filter"] },
+      { label: "Common formats", values: ["Face SPF, body SPF, tinted SPF", "Face SPF, makeup SPF, tinted SPF"] },
+      { label: "Buyer concern", values: ["White cast, tint, and texture", "White cast, tint, and formula blend"] },
+      { label: "Shopping note", values: ["Follow SPF label directions", "Check active ingredient panel"] },
+    ],
+    relatedLinks: ["/skin-care/sunscreen-for-makeup-prep", "/compare/mineral-sunscreen-vs-chemical-sunscreen", "/beauty-claims-guide"],
+  },
+  {
+    slug: "fragrance-free-vs-unscented",
+    title: "Fragrance-Free vs Unscented",
+    summary: "Compare two label terms that shoppers often confuse in sensitive-routine beauty products.",
+    verdict:
+      "Fragrance-free is the better route when shoppers want products without added fragrance listed, while unscented can still require label reading because it may refer to the final smell rather than the formula story.",
+    columns: ["Fragrance-free", "Unscented"],
+    rows: [
+      { label: "Label meaning", values: ["No added fragrance positioning", "No noticeable scent positioning"] },
+      { label: "Best role", values: ["Fragrance-conscious shopping", "Low-scent preference"] },
+      { label: "Buyer concern", values: ["Full ingredient list", "Masking fragrance or scent language"] },
+      { label: "Shopping note", values: ["Read full label and seller details", "Do not assume fragrance-free"] },
+    ],
+    relatedLinks: ["/beauty-claims-guide", "/beauty-university/ingredient-claims-guide", "/skin-care"],
+  },
+  {
+    slug: "alcohol-free-toner-vs-hydrating-toner",
+    title: "Alcohol-Free Toner vs Hydrating Toner",
+    summary: "Compare label-specific toner shopping with hydration-positioned toner formulas.",
+    verdict:
+      "Alcohol-free toner is better for shoppers prioritizing a specific label preference, while hydrating toner is stronger for texture, layering, and comfort-positioned routine goals.",
+    columns: ["Alcohol-free toner", "Hydrating toner"],
+    rows: [
+      { label: "Shopping focus", values: ["Label preference", "Hydration-positioned texture"] },
+      { label: "Best role", values: ["Ingredient-label screening", "Post-cleanse layering"] },
+      { label: "Buyer concern", values: ["Which alcohols are listed", "Tackiness and layering"] },
+      { label: "Shopping note", values: ["Read full ingredient list", "Check texture and routine order"] },
+    ],
+    relatedLinks: ["/compare/face-mist-vs-toner", "/compare/toner-vs-essence", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "ampoule-vs-serum",
+    title: "Ampoule vs Serum",
+    summary: "Compare ampoule naming with classic serum products for targeted skin-care routines.",
+    verdict:
+      "Ampoule is often a more concentrated or special-step product story, while serum is the broader and more familiar targeted skin-care category.",
+    columns: ["Ampoule", "Serum"],
+    rows: [
+      { label: "Category familiarity", values: ["More niche", "Broad and familiar"] },
+      { label: "Best role", values: ["Special routine step", "Daily targeted layer"] },
+      { label: "Buyer concern", values: ["Size, texture, and claim support", "Ingredient story and routine pairing"] },
+      { label: "Shopping note", values: ["Read visible product claims", "Check texture and directions"] },
+    ],
+    relatedLinks: ["/skin-care/anti-aging-serums", "/compare/skin-essence-vs-serum", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "booster-vs-serum",
+    title: "Booster vs Serum",
+    summary: "Compare booster-style skin-care naming with standard serum shopping.",
+    verdict:
+      "Booster is stronger for shoppers comparing mix-in or add-on routine language, while serum is better for a straightforward targeted skin-care layer.",
+    columns: ["Booster", "Serum"],
+    rows: [
+      { label: "Product story", values: ["Add-on or mix-in language", "Targeted layer"] },
+      { label: "Best role", values: ["Routine customization", "Focused serum step"] },
+      { label: "Buyer concern", values: ["Mixing directions and compatibility", "Ingredient story and texture"] },
+      { label: "Shopping note", values: ["Follow mixing directions", "Check product directions and pairing"] },
+    ],
+    relatedLinks: ["/skin-care/anti-aging-serums", "/beauty-university/ingredient-compatibility-cheat-sheet", "/beauty-claims-guide"],
+  },
+  {
+    slug: "toner-pad-vs-liquid-toner",
+    title: "Toner Pad vs Liquid Toner",
+    summary: "Compare pre-soaked toner pads with bottled liquid toner.",
+    verdict:
+      "Toner pads are better for convenient, pre-portioned application, while liquid toner is stronger for flexible use, refill value, and cotton-free application preferences.",
+    columns: ["Toner pad", "Liquid toner"],
+    rows: [
+      { label: "Format", values: ["Pre-soaked pads", "Bottle of liquid toner"] },
+      { label: "Best role", values: ["Convenient swipe-on use", "Flexible routine layering"] },
+      { label: "Buyer concern", values: ["Pad texture and single-use waste", "Dispensing and cotton needs"] },
+      { label: "Shopping note", values: ["Check pad texture and directions", "Check texture and application method"] },
+    ],
+    relatedLinks: ["/compare/face-mist-vs-toner", "/compare/toner-vs-essence", "/skin-care"],
+  },
 ];
 
 export const beautyCalculators = [
