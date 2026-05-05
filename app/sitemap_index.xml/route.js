@@ -1,21 +1,10 @@
 import { appEnv, publicEnv } from "../lib/env";
 import { getSitemapUrls } from "../lib/sitemapData";
-
-function escapeXml(value) {
-  return String(value)
-    .replaceAll("&", "&amp;")
-    .replaceAll("<", "&lt;")
-    .replaceAll(">", "&gt;")
-    .replaceAll('"', "&quot;")
-    .replaceAll("'", "&apos;");
-}
+import { renderSitemapIndexXml } from "../lib/sitemapXml";
 
 export async function GET() {
   const sitemapUrls = appEnv.isNonProduction ? [] : getSitemapUrls(publicEnv.siteUrl);
-  const xml = `<?xml version="1.0" encoding="UTF-8"?>
-<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${sitemapUrls.map((url) => `  <sitemap><loc>${escapeXml(url)}</loc></sitemap>`).join("\n")}
-</sitemapindex>`;
+  const xml = renderSitemapIndexXml(sitemapUrls);
 
   return new Response(xml, {
     headers: {
