@@ -1728,6 +1728,291 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/best/best-scalp-oil", "/best/best-scalp-serum", "/hair-care/scalp-care"],
   },
+  {
+    slug: "body-mist-vs-perfume",
+    title: "Body Mist vs Perfume",
+    summary: "Compare lighter scent layering with a more concentrated fragrance purchase.",
+    verdict:
+      "Body mist is usually better for casual refresh and layering, while perfume is stronger for shoppers seeking a more deliberate signature scent.",
+    columns: ["Body mist", "Perfume"],
+    rows: [
+      { label: "Best role", values: ["Light scent refresh", "Signature fragrance"] },
+      { label: "Intensity", values: ["Usually lighter", "Usually more concentrated"] },
+      { label: "Buyer mindset", values: ["Everyday spray and layering", "Scent investment or gifting"] },
+      { label: "Shopping note", values: ["Check size and scent family", "Check concentration and return policy"] },
+    ],
+    relatedLinks: ["/best/best-body-mist", "/best/best-perfume", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "eau-de-parfum-vs-eau-de-toilette",
+    title: "Eau de Parfum vs Eau de Toilette",
+    summary: "Compare two classic fragrance concentrations before choosing bottle size and scent style.",
+    verdict:
+      "Eau de parfum is usually the stronger route for shoppers who want more presence, while eau de toilette is often better for a lighter everyday scent style.",
+    columns: ["Eau de parfum", "Eau de toilette"],
+    rows: [
+      { label: "Common feel", values: ["Richer or more present", "Lighter or fresher"] },
+      { label: "Use case", values: ["Evening, signature, or gift", "Daily, warm weather, or casual"] },
+      { label: "Buyer concern", values: ["Scent depth and bottle value", "Wearability and freshness"] },
+      { label: "Shopping note", values: ["Sample when possible", "Check size, concentration, and seller return policy"] },
+    ],
+    relatedLinks: ["/best/best-eau-de-parfum", "/best/best-eau-de-toilette", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "solid-perfume-vs-roll-on-perfume",
+    title: "Solid Perfume vs Roll-On Perfume",
+    summary: "Compare two portable fragrance formats for travel, touch-ups, and gifting.",
+    verdict:
+      "Solid perfume is usually better for discreet, balm-like scent application, while roll-on perfume is stronger for oil-style touch-ups and compact travel.",
+    columns: ["Solid perfume", "Roll-on perfume"],
+    rows: [
+      { label: "Format", values: ["Balm or wax compact", "Rollerball oil or fluid"] },
+      { label: "Best role", values: ["Discreet touch-up", "Portable scent application"] },
+      { label: "Gift appeal", values: ["Novel and compact", "Easy and familiar"] },
+      { label: "Shopping note", values: ["Check texture and scent strength", "Check oil base and packaging"] },
+    ],
+    relatedLinks: ["/best/best-solid-perfume", "/best/best-roll-on-perfume", "/fragrance/fragrance-discovery-sets"],
+  },
+  {
+    slug: "fragrance-mist-vs-hair-mist",
+    title: "Fragrance Mist vs Hair Mist",
+    summary: "Compare general misting scent with hair-specific fragrance formats.",
+    verdict:
+      "Fragrance mist is the broader casual scent route, while hair mist is better when the shopper wants a product specifically positioned for hair fragrance.",
+    columns: ["Fragrance mist", "Hair mist"],
+    rows: [
+      { label: "Best role", values: ["Body or casual refresh", "Hair-fragrance step"] },
+      { label: "Format", values: ["Spray mist", "Hair-positioned spray"] },
+      { label: "Buyer mindset", values: ["Affordable scent layering", "Luxury finishing detail"] },
+      { label: "Shopping note", values: ["Check scent family and size", "Check hair-use directions"] },
+    ],
+    relatedLinks: ["/best/best-fragrance-mist", "/best/best-fragrance-hair-mist", "/fragrance"],
+  },
+  {
+    slug: "nail-strengthener-vs-base-coat",
+    title: "Nail Strengthener vs Base Coat",
+    summary: "Compare nail-care positioning with polish-prep function before a manicure.",
+    verdict:
+      "Base coat is the polish-prep staple, while nail strengthener is a more treatment-positioned route that should be judged by product directions and visible claims.",
+    columns: ["Nail strengthener", "Base coat"],
+    rows: [
+      { label: "Best role", values: ["Treatment-positioned nail step", "Polish-prep step"] },
+      { label: "Routine timing", values: ["Standalone or under polish depending on product", "Before color polish"] },
+      { label: "Buyer mindset", values: ["Nail-care support", "Manicure structure"] },
+      { label: "Shopping note", values: ["Check directions and claim language", "Check dry time and polish compatibility"] },
+    ],
+    relatedLinks: ["/best/best-nail-strengthener", "/best/best-base-coat", "/nail-care"],
+  },
+  {
+    slug: "press-on-nails-vs-gel-nails",
+    title: "Press-On Nails vs Gel Nails",
+    summary: "Compare instant manicure sets with gel manicure systems and upkeep.",
+    verdict:
+      "Press-on nails are better for fast occasion styling, while gel nails are a more tool- and removal-aware route for shoppers who want a salon-style manicure process.",
+    columns: ["Press-on nails", "Gel nails"],
+    rows: [
+      { label: "Best role", values: ["Instant shape and style", "Longer-wear-positioned manicure"] },
+      { label: "Tools", values: ["Glue or adhesive tabs", "Lamp, gel polish, and remover may be needed"] },
+      { label: "Flexibility", values: ["Fast set changes", "More committed process"] },
+      { label: "Shopping note", values: ["Check sizing and removal", "Check lamp and removal directions"] },
+    ],
+    relatedLinks: ["/best/best-press-on-nails", "/best/best-gel-nail-kit", "/nail-care/manicure-tools"],
+  },
+  {
+    slug: "gel-top-coat-vs-regular-top-coat",
+    title: "Gel Top Coat vs Regular Top Coat",
+    summary: "Compare gel-style manicure finishing with classic top coat flexibility.",
+    verdict:
+      "Regular top coat is the simpler at-home route, while gel top coat is better for shoppers using compatible gel systems or gel-like manicure routines.",
+    columns: ["Gel top coat", "Regular top coat"],
+    rows: [
+      { label: "Best role", values: ["Gel-style finish", "Classic polish finish"] },
+      { label: "Tools", values: ["May require compatible lamp or system", "Usually no lamp"] },
+      { label: "Buyer concern", values: ["Gloss and manicure durability positioning", "Quick shine and protection"] },
+      { label: "Shopping note", values: ["Check compatibility and removal", "Check dry time and formula type"] },
+    ],
+    relatedLinks: ["/best/best-gel-top-coat", "/best/best-top-coat", "/nail-care/luxury-nail-polish"],
+  },
+  {
+    slug: "cuticle-cream-vs-cuticle-oil",
+    title: "Cuticle Cream vs Cuticle Oil",
+    summary: "Compare two cuticle-care textures for manicure finishing and daily nail routines.",
+    verdict:
+      "Cuticle oil is better for quick targeted shine and slip, while cuticle cream is stronger for shoppers who prefer a cushioned balm-like texture.",
+    columns: ["Cuticle cream", "Cuticle oil"],
+    rows: [
+      { label: "Texture", values: ["Cream or balm", "Oil, serum, or pen"] },
+      { label: "Best role", values: ["Cushioned cuticle step", "Targeted oil finish"] },
+      { label: "Use case", values: ["At-home manicure routine", "Desk, bag, or nightstand"] },
+      { label: "Shopping note", values: ["Check scent and absorption", "Check applicator and packaging"] },
+    ],
+    relatedLinks: ["/best/best-cuticle-cream", "/nail-care/cuticle-care", "/nail-care"],
+  },
+  {
+    slug: "pedicure-kit-vs-manicure-kit",
+    title: "Pedicure Kit vs Manicure Kit",
+    summary: "Compare tool bundles for foot care and hand-focused at-home nail routines.",
+    verdict:
+      "A manicure kit is better for hand-focused polish prep, while a pedicure kit is stronger when the shopper needs foot files, separators, or foot-specific tools.",
+    columns: ["Pedicure kit", "Manicure kit"],
+    rows: [
+      { label: "Best role", values: ["Foot-focused routine", "Hand and nail prep"] },
+      { label: "Tools", values: ["Foot file, clippers, separators, polish tools", "File, buffer, clippers, cuticle tools"] },
+      { label: "Buyer mindset", values: ["At-home pedi setup", "General nail-care kit"] },
+      { label: "Shopping note", values: ["Check tool quality and cleaning", "Check included tools and storage"] },
+    ],
+    relatedLinks: ["/best/best-pedicure-kit", "/best/best-manicure-kit", "/nail-care/manicure-tools"],
+  },
+  {
+    slug: "foundation-brush-vs-beauty-sponge",
+    title: "Foundation Brush vs Beauty Sponge",
+    summary: "Compare two complexion tools for coverage, blending, and finish.",
+    verdict:
+      "Foundation brush is usually better for control and coverage, while a beauty sponge is stronger for sheering out and soft blending.",
+    columns: ["Foundation brush", "Beauty sponge"],
+    rows: [
+      { label: "Best role", values: ["Controlled base application", "Soft blended complexion"] },
+      { label: "Coverage", values: ["Can build coverage", "Often sheers product slightly"] },
+      { label: "Maintenance", values: ["Wash bristles regularly", "Wash and replace sponge often"] },
+      { label: "Shopping note", values: ["Check brush shape and density", "Check sponge texture and cleaning routine"] },
+    ],
+    relatedLinks: ["/best/best-foundation-brush", "/best/best-beauty-sponge", "/makeup/luxury-foundation"],
+  },
+  {
+    slug: "jade-roller-vs-ice-roller",
+    title: "Jade Roller vs Ice Roller",
+    summary: "Compare two cooling facial tool rituals by feel, storage, and routine use.",
+    verdict:
+      "Jade rollers are better for a classic facial-massage ritual, while ice rollers are stronger for shoppers who want a colder, more refreshing tool feel.",
+    columns: ["Jade roller", "Ice roller"],
+    rows: [
+      { label: "Tool feel", values: ["Cool stone feel", "Colder roller feel"] },
+      { label: "Best role", values: ["Classic massage ritual", "Refreshing routine step"] },
+      { label: "Storage", values: ["Vanity or fridge optional", "Often fridge or freezer"] },
+      { label: "Shopping note", values: ["Check material and cleaning", "Check safe-use directions and cleaning"] },
+    ],
+    relatedLinks: ["/best/best-jade-roller", "/best/best-ice-roller", "/beauty-tools/facial-tools"],
+  },
+  {
+    slug: "makeup-mirror-vs-vanity-mirror",
+    title: "Makeup Mirror vs Vanity Mirror",
+    summary: "Compare portable makeup mirrors with larger vanity-focused beauty setup mirrors.",
+    verdict:
+      "A makeup mirror is better for compact or travel use, while a vanity mirror is stronger for a dedicated beauty station.",
+    columns: ["Makeup mirror", "Vanity mirror"],
+    rows: [
+      { label: "Best role", values: ["Portable detail mirror", "Beauty station mirror"] },
+      { label: "Size", values: ["Compact to medium", "Medium to large"] },
+      { label: "Features", values: ["Magnification or travel light", "Lighting, stand, or sensor features"] },
+      { label: "Shopping note", values: ["Check magnification and battery", "Check lighting tone and desk space"] },
+    ],
+    relatedLinks: ["/best/best-makeup-mirror", "/best/best-vanity-mirror", "/beauty-tools"],
+  },
+  {
+    slug: "makeup-organizer-vs-travel-case",
+    title: "Makeup Organizer vs Travel Case",
+    summary: "Compare vanity storage with portable beauty organization for trips and daily carry.",
+    verdict:
+      "A makeup organizer is better for home storage, while a travel case is stronger when portability, protection, and packing matter.",
+    columns: ["Makeup organizer", "Travel case"],
+    rows: [
+      { label: "Best role", values: ["Vanity storage", "Portable beauty packing"] },
+      { label: "Format", values: ["Drawer, acrylic unit, or carousel", "Zip case, train case, or pouch"] },
+      { label: "Buyer mindset", values: ["Declutter at home", "Pack products safely"] },
+      { label: "Shopping note", values: ["Check dimensions and compartments", "Check size, wipeability, and closure"] },
+    ],
+    relatedLinks: ["/best/best-makeup-organizer", "/best/best-cosmetic-travel-case", "/beauty-tools"],
+  },
+  {
+    slug: "heated-eyelash-curler-vs-regular-curler",
+    title: "Heated Eyelash Curler vs Regular Curler",
+    summary: "Compare classic lash curling with heated tool routines and safety considerations.",
+    verdict:
+      "A regular lash curler is the simpler staple, while a heated lash curler is a more tool-specific route that requires careful use and product directions.",
+    columns: ["Heated eyelash curler", "Regular eyelash curler"],
+    rows: [
+      { label: "Best role", values: ["Heat-assisted lash styling", "Classic lash curl"] },
+      { label: "Skill level", values: ["More caution needed", "Beginner-friendly once sized well"] },
+      { label: "Maintenance", values: ["Battery or charge plus cleaning", "Pad replacement and cleaning"] },
+      { label: "Shopping note", values: ["Read heat and eye-area directions", "Check pad quality and eye shape"] },
+    ],
+    relatedLinks: ["/best/best-heated-eyelash-curler", "/beauty-tools", "/makeup"],
+  },
+  {
+    slug: "pearl-necklace-vs-crystal-necklace",
+    title: "Pearl Necklace vs Crystal Necklace",
+    summary: "Compare classic softness with brighter sparkle for beauty and occasion styling.",
+    verdict:
+      "Pearl necklaces are stronger for soft classic styling, while crystal necklaces are better for sparkle, evening looks, and statement makeup pairings.",
+    columns: ["Pearl necklace", "Crystal necklace"],
+    rows: [
+      { label: "Style effect", values: ["Classic and soft", "Sparkly and statement"] },
+      { label: "Occasion", values: ["Bridal, work, or classic gifting", "Evening, event, or party styling"] },
+      { label: "Beauty pairing", values: ["Soft makeup and fragrance", "Shimmer, bold lip, or event makeup"] },
+      { label: "Shopping note", values: ["Check length and pearl style", "Check stone setting and weight"] },
+    ],
+    relatedLinks: ["/best/best-pearl-necklace", "/best/best-crystal-necklace", "/artificial-jewelry/fashion-necklaces"],
+  },
+  {
+    slug: "statement-earrings-vs-stud-earrings",
+    title: "Statement Earrings vs Stud Earrings",
+    summary: "Compare high-impact earrings with smaller everyday artificial jewelry.",
+    verdict:
+      "Statement earrings are better for event styling and visual impact, while stud earrings are stronger for daily wear, gifting, and simpler beauty looks.",
+    columns: ["Statement earrings", "Stud earrings"],
+    rows: [
+      { label: "Best role", values: ["Event or statement accent", "Everyday or subtle accent"] },
+      { label: "Fit concern", values: ["Weight and closure", "Backing and size"] },
+      { label: "Beauty pairing", values: ["Bold makeup or updo", "Minimal makeup or daily polish"] },
+      { label: "Shopping note", values: ["Check dimensions and return policy", "Check material and backing"] },
+    ],
+    relatedLinks: ["/best/best-statement-earrings", "/artificial-jewelry/fashion-earrings", "/beauty-university/artificial-jewelry-styling-guide"],
+  },
+  {
+    slug: "gold-hoop-earrings-vs-pearl-earrings",
+    title: "Gold Hoop Earrings vs Pearl Earrings",
+    summary: "Compare warm metallic styling with soft classic pearl earrings.",
+    verdict:
+      "Gold hoop earrings are better for everyday polish and trend-led styling, while pearl earrings are stronger for classic, bridal, and softer beauty looks.",
+    columns: ["Gold hoop earrings", "Pearl earrings"],
+    rows: [
+      { label: "Style effect", values: ["Warm, polished, trend-friendly", "Soft, classic, bridal-friendly"] },
+      { label: "Best for", values: ["Daily outfits and sleek hair", "Classic makeup and gifting"] },
+      { label: "Fit concern", values: ["Diameter and weight", "Backing and pearl size"] },
+      { label: "Shopping note", values: ["Check tone and closure", "Check pearl style and materials"] },
+    ],
+    relatedLinks: ["/best/best-gold-hoop-earrings", "/best/best-pearl-stud-earrings", "/artificial-jewelry/fashion-earrings"],
+  },
+  {
+    slug: "bridal-jewelry-set-vs-fashion-jewelry-set",
+    title: "Bridal Jewelry Set vs Fashion Jewelry Set",
+    summary: "Compare occasion-specific bridal accessories with more flexible artificial jewelry sets.",
+    verdict:
+      "A bridal jewelry set is stronger for ceremony and event styling, while a fashion jewelry set is better for versatile gifting and repeat outfit use.",
+    columns: ["Bridal jewelry set", "Fashion jewelry set"],
+    rows: [
+      { label: "Best role", values: ["Wedding or formal event", "Gift or outfit styling"] },
+      { label: "Design", values: ["Pearl, crystal, or rhinestone occasion styling", "Trend, color, or everyday styling"] },
+      { label: "Buyer mindset", values: ["Coordinated ceremony look", "Flexible accessory bundle"] },
+      { label: "Shopping note", values: ["Check dimensions, weight, and packaging", "Check materials and return policy"] },
+    ],
+    relatedLinks: ["/best/best-bridal-necklace-set", "/best/best-artificial-jewelry-set", "/artificial-jewelry/jewelry-gift-sets"],
+  },
+  {
+    slug: "jewelry-organizer-vs-jewelry-travel-case",
+    title: "Jewelry Organizer vs Jewelry Travel Case",
+    summary: "Compare home jewelry storage with portable accessory protection.",
+    verdict:
+      "A jewelry organizer is better for vanity or closet storage, while a jewelry travel case is stronger for trips, event packing, and keeping small pieces separated.",
+    columns: ["Jewelry organizer", "Jewelry travel case"],
+    rows: [
+      { label: "Best role", values: ["Home storage", "Travel protection"] },
+      { label: "Format", values: ["Box, drawer, stand, or tray", "Zip case, roll, or pouch"] },
+      { label: "Buyer concern", values: ["Visibility and organization", "Tangle prevention and compact packing"] },
+      { label: "Shopping note", values: ["Check compartments and footprint", "Check closure, padding, and earring storage"] },
+    ],
+    relatedLinks: ["/best/best-jewelry-organizer", "/best/best-travel-jewelry-case", "/artificial-jewelry"],
+  },
 ];
 
 export const beautyCalculators = [
