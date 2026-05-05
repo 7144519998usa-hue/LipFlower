@@ -1428,6 +1428,306 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/artificial-jewelry/jewelry-gift-sets", "/artificial-jewelry", "/beauty-university/artificial-jewelry-styling-guide"],
   },
+  {
+    slug: "cleansing-oil-vs-cleansing-balm",
+    title: "Cleansing Oil vs Cleansing Balm",
+    summary: "Compare two first-cleanse textures for makeup, sunscreen, and richer routine removal.",
+    verdict:
+      "Cleansing oil is usually better for shoppers who like a fluid slip, while cleansing balm is stronger for a richer scoop-and-melt first cleanse.",
+    columns: ["Cleansing oil", "Cleansing balm"],
+    rows: [
+      { label: "Texture", values: ["Fluid oil", "Solid balm that melts"] },
+      { label: "Best role", values: ["Quick first cleanse", "Richer makeup-removal ritual"] },
+      { label: "Buyer mindset", values: ["Light slip and rinse feel", "Cushioned texture and travel-friendly jar"] },
+      { label: "Shopping note", values: ["Check eye-area directions", "Check residue and fragrance"] },
+    ],
+    relatedLinks: ["/best/best-cleansing-oil", "/best/best-cleansing-balm", "/skin-care"],
+  },
+  {
+    slug: "foam-cleanser-vs-gel-cleanser",
+    title: "Foam Cleanser vs Gel Cleanser",
+    summary: "Compare two everyday cleanser textures before choosing a daily face wash.",
+    verdict:
+      "Foam cleanser is usually stronger for shoppers who want a more airy rinse, while gel cleanser is often the safer flexible route for a clean, low-friction daily wash.",
+    columns: ["Foam cleanser", "Gel cleanser"],
+    rows: [
+      { label: "Texture", values: ["Foamy or whipped", "Gel or jelly"] },
+      { label: "Routine role", values: ["Classic rinse-clean feel", "Everyday flexible cleanse"] },
+      { label: "Buyer concern", values: ["Fresh-feeling finish", "Simple daily usability"] },
+      { label: "Shopping note", values: ["Check post-rinse comfort", "Check fragrance and lather level"] },
+    ],
+    relatedLinks: ["/best/best-foam-cleanser", "/best/best-gel-cleanser", "/skin-care"],
+  },
+  {
+    slug: "gel-moisturizer-vs-cream-moisturizer",
+    title: "Gel Moisturizer vs Cream Moisturizer",
+    summary: "Compare lightweight gel moisture with richer cream textures for different routine feels.",
+    verdict:
+      "Gel moisturizer usually wins for lightweight layering, while cream moisturizer is stronger for shoppers who want a more cushioned comfort step.",
+    columns: ["Gel moisturizer", "Cream moisturizer"],
+    rows: [
+      { label: "Texture", values: ["Light gel or water cream", "Cream, lotion, or rich cream"] },
+      { label: "Best for", values: ["Lightweight routines", "Comfort-first routines"] },
+      { label: "Layering", values: ["Often easier under makeup", "Can feel richer under makeup"] },
+      { label: "Shopping note", values: ["Check finish and tack", "Check fragrance and heaviness"] },
+    ],
+    relatedLinks: ["/best/best-gel-moisturizer", "/best/best-moisturizer", "/skin-care"],
+  },
+  {
+    slug: "retinol-vs-bakuchiol-serum",
+    title: "Retinol vs Bakuchiol Serum",
+    summary: "Compare two mature-routine serum stories without overstating skin outcomes.",
+    verdict:
+      "Retinol serums are usually positioned as evening treatment products, while bakuchiol serums are often positioned as a gentler-feeling alternative story for shoppers comparing routine tolerance.",
+    columns: ["Retinol serum", "Bakuchiol serum"],
+    rows: [
+      { label: "Common positioning", values: ["Evening treatment route", "Alternative active story"] },
+      { label: "Routine fit", values: ["Introduce cautiously", "Compare texture and formula context"] },
+      { label: "Buyer mindset", values: ["Mature routine planning", "Sensitivity-aware shopping"] },
+      { label: "Shopping note", values: ["Read directions and SPF context", "Check claims and ingredient list"] },
+    ],
+    relatedLinks: ["/best/best-retinol-serum", "/best/best-bakuchiol-serum", "/beauty-claims-guide"],
+  },
+  {
+    slug: "hyaluronic-acid-vs-polyglutamic-acid",
+    title: "Hyaluronic Acid vs Polyglutamic Acid",
+    summary: "Compare two hydration-positioned ingredient stories for serum and moisturizer shoppers.",
+    verdict:
+      "Hyaluronic acid is the more familiar hydration-positioned ingredient story, while polyglutamic acid is a more niche option for shoppers comparing texture and layering feel.",
+    columns: ["Hyaluronic acid", "Polyglutamic acid"],
+    rows: [
+      { label: "Common role", values: ["Hydration-positioned staple", "Hydration-positioned niche layer"] },
+      { label: "Product types", values: ["Serums, creams, masks", "Serums and essences"] },
+      { label: "Buyer mindset", values: ["Familiar ingredient route", "Ingredient-curious upgrade"] },
+      { label: "Shopping note", values: ["Check formula context", "Check texture and layering"] },
+    ],
+    relatedLinks: ["/best/best-hyaluronic-moisturizer", "/best/best-polyglutamic-acid-serum", "/beauty-university/ingredient-claims-guide"],
+  },
+  {
+    slug: "mineral-sunscreen-vs-chemical-sunscreen",
+    title: "Mineral Sunscreen vs Chemical Sunscreen",
+    summary: "Compare two SPF formula-positioning routes by finish, feel, and makeup compatibility.",
+    verdict:
+      "Mineral sunscreen is often compared for tint and white-cast considerations, while chemical sunscreen is often compared for lighter invisible-feel finishes.",
+    columns: ["Mineral sunscreen", "Chemical sunscreen"],
+    rows: [
+      { label: "Common concern", values: ["White cast or tint", "Eye sting or finish preference"] },
+      { label: "Finish", values: ["Tinted, matte, or creamy", "Invisible, gel, or fluid"] },
+      { label: "Makeup fit", values: ["Can double as a tint", "Often layers lightly"] },
+      { label: "Shopping note", values: ["Follow SPF directions", "Check label, texture, and reapplication directions"] },
+    ],
+    relatedLinks: ["/best/best-mineral-sunscreen", "/skin-care/sunscreen-for-makeup-prep", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "face-oil-vs-moisturizer",
+    title: "Face Oil vs Moisturizer",
+    summary: "Compare oil-based finishing texture with a classic moisturizer routine anchor.",
+    verdict:
+      "Moisturizer is the more flexible daily anchor, while face oil is better as a finishing or layering step for shoppers who like glow and slip.",
+    columns: ["Face oil", "Moisturizer"],
+    rows: [
+      { label: "Best role", values: ["Finish, glow, or layering", "Daily comfort anchor"] },
+      { label: "Texture", values: ["Oil or dry oil", "Gel, lotion, cream, or balm"] },
+      { label: "Routine timing", values: ["Often later in routine", "Morning or evening anchor"] },
+      { label: "Shopping note", values: ["Check weight and fragrance", "Check skin feel and finish"] },
+    ],
+    relatedLinks: ["/best/best-face-oil", "/best/best-moisturizer", "/skin-care"],
+  },
+  {
+    slug: "eye-cream-vs-eye-serum",
+    title: "Eye Cream vs Eye Serum",
+    summary: "Compare richer eye-area comfort with lighter serum-style texture.",
+    verdict:
+      "Eye cream is usually stronger for comfort and cushion, while eye serum is better for shoppers who want a lighter targeted texture.",
+    columns: ["Eye cream", "Eye serum"],
+    rows: [
+      { label: "Texture", values: ["Cream, balm, or lotion", "Gel, fluid, or lightweight serum"] },
+      { label: "Best role", values: ["Comfort and cushion", "Light targeted layer"] },
+      { label: "Buyer mindset", values: ["Rich eye-area routine", "Lightweight layering"] },
+      { label: "Shopping note", values: ["Check eye-area directions", "Check sensitivity and layering"] },
+    ],
+    relatedLinks: ["/best/best-eye-cream", "/best/best-eye-serum", "/skin-care"],
+  },
+  {
+    slug: "skin-tint-vs-bb-cream",
+    title: "Skin Tint vs BB Cream",
+    summary: "Compare sheer complexion tint with a more hybrid complexion product story.",
+    verdict:
+      "Skin tint is usually better for sheer makeup minimalism, while BB cream is stronger when shoppers want a more hybrid complexion product format.",
+    columns: ["Skin tint", "BB cream"],
+    rows: [
+      { label: "Coverage", values: ["Sheer to light", "Light to medium depending on product"] },
+      { label: "Finish", values: ["Skin-like or dewy", "Natural or creamier"] },
+      { label: "Buyer mindset", values: ["Minimal makeup", "Hybrid complexion product"] },
+      { label: "Shopping note", values: ["Check shade flexibility", "Check SPF and skin-care claims separately"] },
+    ],
+    relatedLinks: ["/best/best-skin-tint", "/best/best-bb-cream", "/makeup/luxury-foundation"],
+  },
+  {
+    slug: "bb-cream-vs-cc-cream",
+    title: "BB Cream vs CC Cream",
+    summary: "Compare two hybrid complexion formats often used for lighter everyday makeup.",
+    verdict:
+      "BB cream is usually the softer all-around hybrid route, while CC cream is often positioned around color-correcting or tone-balancing makeup stories.",
+    columns: ["BB cream", "CC cream"],
+    rows: [
+      { label: "Common role", values: ["Hybrid complexion cream", "Color-correcting complexion cream"] },
+      { label: "Coverage", values: ["Light to medium", "Light to medium"] },
+      { label: "Buyer concern", values: ["Easy everyday base", "Tone-balancing makeup route"] },
+      { label: "Shopping note", values: ["Check shade and finish", "Check tone claims and visible shade range"] },
+    ],
+    relatedLinks: ["/best/best-bb-cream", "/best/best-cc-cream", "/makeup"],
+  },
+  {
+    slug: "cream-contour-vs-powder-contour",
+    title: "Cream Contour vs Powder Contour",
+    summary: "Compare blendable sculpting texture with powder structure and set makeup.",
+    verdict:
+      "Cream contour is usually better for flexible blending, while powder contour is stronger for shoppers who want structure over set makeup.",
+    columns: ["Cream contour", "Powder contour"],
+    rows: [
+      { label: "Texture", values: ["Stick, cream, or wand", "Pressed or loose powder"] },
+      { label: "Application", values: ["Blend before setting", "Apply after setting or over powder"] },
+      { label: "Best for", values: ["Soft sculpt", "Defined structure"] },
+      { label: "Shopping note", values: ["Check undertone and blend time", "Check shade depth and brush fit"] },
+    ],
+    relatedLinks: ["/best/best-cream-contour", "/best/best-powder-contour", "/makeup"],
+  },
+  {
+    slug: "liquid-highlighter-vs-powder-highlighter",
+    title: "Liquid Highlighter vs Powder Highlighter",
+    summary: "Compare glow textures for skin-like radiance or more structured shine.",
+    verdict:
+      "Liquid highlighter is better for skin-like glow and mixing, while powder highlighter is stronger for targeted shine and powder-layered makeup.",
+    columns: ["Liquid highlighter", "Powder highlighter"],
+    rows: [
+      { label: "Finish", values: ["Dewy, glassy, or subtle", "Shimmery, soft-focus, or metallic"] },
+      { label: "Application", values: ["Fingers, sponge, or brush", "Brush-led"] },
+      { label: "Use case", values: ["Under, mixed, or over base", "Finishing highlight"] },
+      { label: "Shopping note", values: ["Check shimmer level", "Check texture and fallout"] },
+    ],
+    relatedLinks: ["/best/best-liquid-highlighter", "/best/best-powder-highlighter", "/makeup"],
+  },
+  {
+    slug: "brow-pencil-vs-brow-pomade",
+    title: "Brow Pencil vs Brow Pomade",
+    summary: "Compare precise brow shaping with a stronger cream-style brow product.",
+    verdict:
+      "Brow pencil is better for natural-looking fill and detail, while brow pomade is stronger for bolder shaping and more structured brow looks.",
+    columns: ["Brow pencil", "Brow pomade"],
+    rows: [
+      { label: "Best role", values: ["Fine detail and fill", "Bold shape and structure"] },
+      { label: "Skill level", values: ["More beginner-friendly", "More technique-sensitive"] },
+      { label: "Finish", values: ["Soft or hair-like", "Defined and fuller-looking"] },
+      { label: "Shopping note", values: ["Check shade and tip shape", "Check brush needs and pigment"] },
+    ],
+    relatedLinks: ["/best/best-brow-pencil", "/best/best-eyebrow-pomade", "/makeup"],
+  },
+  {
+    slug: "tubing-mascara-vs-waterproof-mascara",
+    title: "Tubing Mascara vs Waterproof Mascara",
+    summary: "Compare two mascara routes often chosen for wear preferences and removal style.",
+    verdict:
+      "Tubing mascara is usually better for shoppers prioritizing easier warm-water removal, while waterproof mascara is stronger when water resistance is the main priority.",
+    columns: ["Tubing mascara", "Waterproof mascara"],
+    rows: [
+      { label: "Best role", values: ["Tube-style wear and removal", "Water-resistant wear"] },
+      { label: "Removal", values: ["Often warm-water focused", "Usually needs stronger remover"] },
+      { label: "Buyer concern", values: ["Smudge and removal balance", "Humidity, tears, or event wear"] },
+      { label: "Shopping note", values: ["Check removal directions", "Check eye sensitivity and remover needs"] },
+    ],
+    relatedLinks: ["/best/best-tubing-mascara", "/best/best-waterproof-mascara", "/makeup"],
+  },
+  {
+    slug: "lip-tint-vs-lip-stain",
+    title: "Lip Tint vs Lip Stain",
+    summary: "Compare lightweight lip color with longer-wear-positioned stain formats.",
+    verdict:
+      "Lip tint is usually better for soft, sheer color, while lip stain is stronger for shoppers who want color that feels more set into the lip look.",
+    columns: ["Lip tint", "Lip stain"],
+    rows: [
+      { label: "Color payoff", values: ["Soft or buildable", "More set-looking color"] },
+      { label: "Texture", values: ["Watery, glossy, or balm-like", "Watery, gel, or marker-like"] },
+      { label: "Best for", values: ["Fresh daily color", "Longer-wear-positioned lip looks"] },
+      { label: "Shopping note", values: ["Check finish and comfort", "Check removal and dryness language"] },
+    ],
+    relatedLinks: ["/best/best-lip-tint", "/best/best-lip-stain", "/makeup"],
+  },
+  {
+    slug: "lip-butter-vs-lip-mask",
+    title: "Lip Butter vs Lip Mask",
+    summary: "Compare a daily comfort balm texture with a richer ritual lip-care product.",
+    verdict:
+      "Lip butter is usually better for daily carry and repeated comfort, while lip mask is stronger for a richer nightstand or treatment-style ritual.",
+    columns: ["Lip butter", "Lip mask"],
+    rows: [
+      { label: "Best role", values: ["Daily comfort", "Richer ritual step"] },
+      { label: "Texture", values: ["Soft balm, tube, or pot", "Thicker mask or balm-mask"] },
+      { label: "Use case", values: ["Bag, desk, or pocket", "Night routine or gifting"] },
+      { label: "Shopping note", values: ["Check flavor and finish", "Check jar, tube, and fragrance preferences"] },
+    ],
+    relatedLinks: ["/best/best-lip-butter", "/lip-care/lip-masks", "/lip-care"],
+  },
+  {
+    slug: "hair-oil-vs-hair-serum",
+    title: "Hair Oil vs Hair Serum",
+    summary: "Compare shine-focused oil with serum-style smoothing and finishing products.",
+    verdict:
+      "Hair oil is usually better for shine and a richer finish, while hair serum is stronger for shoppers who want a lighter polished styling layer.",
+    columns: ["Hair oil", "Hair serum"],
+    rows: [
+      { label: "Best role", values: ["Shine and finish", "Smooth and polish"] },
+      { label: "Texture", values: ["Oil or dry oil", "Serum, gel-oil, or fluid"] },
+      { label: "Buyer concern", values: ["Gloss and ends", "Frizz look and finish"] },
+      { label: "Shopping note", values: ["Check weight and scent", "Check hair type and silicone preference"] },
+    ],
+    relatedLinks: ["/best/best-shine-hair-oil", "/best/best-hair-serum", "/hair-care"],
+  },
+  {
+    slug: "curl-cream-vs-curl-gel",
+    title: "Curl Cream vs Curl Gel",
+    summary: "Compare softness-focused curl styling with hold and definition.",
+    verdict:
+      "Curl cream is usually better for softness and shape, while curl gel is stronger for hold, definition, and a more set curl routine.",
+    columns: ["Curl cream", "Curl gel"],
+    rows: [
+      { label: "Best role", values: ["Soft shape and moisture feel", "Hold and definition"] },
+      { label: "Texture", values: ["Cream", "Gel or jelly"] },
+      { label: "Buyer concern", values: ["Softness and frizz look", "Cast, hold, and definition"] },
+      { label: "Shopping note", values: ["Check weight and curl type", "Check crunch, hold level, and layering"] },
+    ],
+    relatedLinks: ["/best/best-curl-cream", "/best/best-hair-gel", "/hair-care"],
+  },
+  {
+    slug: "purple-shampoo-vs-clarifying-shampoo",
+    title: "Purple Shampoo vs Clarifying Shampoo",
+    summary: "Compare tone-focused wash-day products with deeper-cleanse-positioned shampoo.",
+    verdict:
+      "Purple shampoo is usually a tone-focused route for blonde or highlighted hair, while clarifying shampoo is stronger for shoppers concerned with buildup and a fresher wash feel.",
+    columns: ["Purple shampoo", "Clarifying shampoo"],
+    rows: [
+      { label: "Best role", values: ["Tone-focused wash step", "Buildup-focused wash step"] },
+      { label: "Use frequency", values: ["Usually occasional", "Usually occasional"] },
+      { label: "Buyer concern", values: ["Brassy-looking tone", "Product buildup or heavy feel"] },
+      { label: "Shopping note", values: ["Check hair color and directions", "Check frequency and dryness language"] },
+    ],
+    relatedLinks: ["/best/best-purple-shampoo", "/best/best-clarifying-shampoo", "/hair-care/luxury-shampoo-conditioner"],
+  },
+  {
+    slug: "scalp-oil-vs-scalp-serum",
+    title: "Scalp Oil vs Scalp Serum",
+    summary: "Compare oil-based scalp products with lighter serum-style scalp routines.",
+    verdict:
+      "Scalp oil is usually better for shoppers who like a richer pre-wash or massage ritual, while scalp serum is stronger for lighter leave-in-style routines.",
+    columns: ["Scalp oil", "Scalp serum"],
+    rows: [
+      { label: "Texture", values: ["Oil", "Serum, gel, or fluid"] },
+      { label: "Routine timing", values: ["Often pre-wash or massage step", "Often lighter routine layer"] },
+      { label: "Buyer mindset", values: ["Ritual and slip", "Targeted scalp-care step"] },
+      { label: "Shopping note", values: ["Check wash-out directions", "Check leave-in directions and hair type"] },
+    ],
+    relatedLinks: ["/best/best-scalp-oil", "/best/best-scalp-serum", "/hair-care/scalp-care"],
+  },
 ];
 
 export const beautyCalculators = [
