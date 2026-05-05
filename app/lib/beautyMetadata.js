@@ -1,4 +1,4 @@
-import { beautySiteName, beautySiteUrl } from "./beautyData";
+import { beautySiteName, beautySiteUrl } from "./beautyData.js";
 
 export function buildBeautyMetadata({ title, description, canonicalPath = "/" }) {
   const url = canonicalPath === "/" ? beautySiteUrl : `${beautySiteUrl}${canonicalPath}`;

@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { appEnv, getServerEnv } from "./env";
+import { appEnv, getServerEnv } from "./env.js";
 
 function getProvidedKey(request) {
   const authHeader = request.headers.get("authorization") || "";

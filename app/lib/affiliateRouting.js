@@ -1,4 +1,4 @@
-import { beautySellers } from "./beautyData";
+import { beautySellers } from "./beautyData.js";
 
 const allowedAffiliateHosts = new Set(
   beautySellers.map((seller) => new URL(seller.affiliateUrl).hostname.toLowerCase()),

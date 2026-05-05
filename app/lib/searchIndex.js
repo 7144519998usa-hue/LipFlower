@@ -7,8 +7,8 @@ import {
   beautySellers,
   beautySystemPages,
   beautyUniversityTopics,
-} from "./beautyData";
-import { programmaticBestPages } from "./programmaticSeoData";
+} from "./beautyData.js";
+import { programmaticBestPages } from "./programmaticSeoData.js";
 
 function normalize(value) {
   return String(value || "")
