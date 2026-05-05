@@ -1263,6 +1263,171 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/artificial-jewelry/fashion-earrings", "/artificial-jewelry/jewelry-gift-sets", "/beauty-university/artificial-jewelry-styling-guide"],
   },
+  {
+    slug: "essence-vs-toner",
+    title: "Essence vs Toner",
+    summary: "Compare two watery skin-care layers by texture, routine placement, and buyer expectations.",
+    verdict:
+      "Toner is usually the simpler balancing or refreshing step, while essence is more often positioned as a hydrating or treatment-adjacent layer.",
+    columns: ["Essence", "Toner"],
+    rows: [
+      { label: "Best role", values: ["Hydrating or treatment-adjacent layer", "Refreshing or balancing step"] },
+      { label: "Texture", values: ["Watery, milky, or slightly viscous", "Watery, milky, or exfoliating"] },
+      { label: "Buyer mindset", values: ["Layered routine upgrade", "Routine reset after cleansing"] },
+      { label: "Shopping note", values: ["Check ingredient story and sensitivity", "Check exfoliating language and frequency"] },
+    ],
+    relatedLinks: ["/best/best-skin-essence", "/best/best-toner", "/beauty-university/beauty-routine-order-chart"],
+  },
+  {
+    slug: "face-mist-vs-toner",
+    title: "Face Mist vs Toner",
+    summary: "Compare a flexible misting step with a more structured post-cleanse layer.",
+    verdict:
+      "Face mist is better for portable refresh and makeup-adjacent routines, while toner is stronger as a deliberate post-cleanse skin-care step.",
+    columns: ["Face mist", "Toner"],
+    rows: [
+      { label: "Best role", values: ["Refresh, prep, or finishing feel", "Post-cleanse skin-care step"] },
+      { label: "Format", values: ["Spray bottle", "Liquid applied by hand or cotton"] },
+      { label: "Routine fit", values: ["Flexible through the day", "More fixed routine placement"] },
+      { label: "Shopping note", values: ["Check fragrance and mist pattern", "Check exfoliating or active positioning"] },
+    ],
+    relatedLinks: ["/best/best-facial-mist", "/best/best-toner", "/skin-care"],
+  },
+  {
+    slug: "skin-essence-vs-serum",
+    title: "Skin Essence vs Serum",
+    summary: "Compare a watery routine layer with a more targeted serum step.",
+    verdict:
+      "Essence is often the lighter layering step, while serum is usually the more targeted product when shoppers are comparing specific ingredient stories.",
+    columns: ["Skin essence", "Serum"],
+    rows: [
+      { label: "Best role", values: ["Lightweight layer", "Targeted routine step"] },
+      { label: "Texture", values: ["Watery or milky", "Gel, fluid, oil, or emulsion"] },
+      { label: "Buyer mindset", values: ["Routine refinement", "Concern-led upgrade"] },
+      { label: "Shopping note", values: ["Check layering feel", "Check product directions and sensitivity"] },
+    ],
+    relatedLinks: ["/best/best-skin-essence", "/best/best-serum", "/skin-care/anti-aging-serums"],
+  },
+  {
+    slug: "spf-lip-balm-vs-regular-lip-balm",
+    title: "SPF Lip Balm vs Regular Lip Balm",
+    summary: "Compare sun-care-positioned lip balm with everyday comfort balm.",
+    verdict:
+      "SPF lip balm is the better daytime route when sun exposure is part of the use case, while regular lip balm is the simpler comfort-first staple.",
+    columns: ["SPF lip balm", "Regular lip balm"],
+    rows: [
+      { label: "Best role", values: ["Daytime SPF-positioned lip care", "Everyday comfort"] },
+      { label: "Shopping context", values: ["Outdoor, travel, or beach bag", "Desk, bag, or nightstand"] },
+      { label: "Format", values: ["Stick, tube, or tinted balm", "Stick, pot, tube, or gloss-balm"] },
+      { label: "Shopping note", values: ["Follow SPF directions", "Check flavor, tint, and texture"] },
+    ],
+    relatedLinks: ["/best/best-spf-lip-balm", "/best/best-lip-balm", "/lip-care/tinted-lip-balms"],
+  },
+  {
+    slug: "satin-lipstick-vs-matte-lipstick",
+    title: "Satin Lipstick vs Matte Lipstick",
+    summary: "Compare two classic lipstick finishes before choosing shade and comfort level.",
+    verdict:
+      "Satin lipstick is usually better for comfort and soft polish, while matte lipstick is stronger for a more structured color statement.",
+    columns: ["Satin lipstick", "Matte lipstick"],
+    rows: [
+      { label: "Finish", values: ["Soft sheen", "Flat or velvet finish"] },
+      { label: "Comfort expectation", values: ["Often more flexible feeling", "Often more structured feeling"] },
+      { label: "Best for", values: ["Everyday polish", "Statement color"] },
+      { label: "Shopping note", values: ["Check slip and transfer", "Check dryness, pigment, and removal"] },
+    ],
+    relatedLinks: ["/best/best-satin-lipstick", "/best/best-lipstick-for-long-wear", "/makeup"],
+  },
+  {
+    slug: "brow-pencil-vs-brow-gel",
+    title: "Brow Pencil vs Brow Gel",
+    summary: "Compare shape-building brow color with hold, lift, and grooming.",
+    verdict:
+      "Brow pencil is better for filling and shape, while brow gel is stronger for hold, texture, and a groomed finish.",
+    columns: ["Brow pencil", "Brow gel"],
+    rows: [
+      { label: "Best role", values: ["Fill and define", "Hold and groom"] },
+      { label: "Finish", values: ["Hair-like strokes or soft shading", "Clear, tinted, fluffy, or laminated"] },
+      { label: "Buyer mindset", values: ["Shape correction", "Texture and hold"] },
+      { label: "Shopping note", values: ["Check shade and pencil shape", "Check hold level and flaking language"] },
+    ],
+    relatedLinks: ["/best/best-brow-pencil", "/best/best-brow-gel", "/makeup"],
+  },
+  {
+    slug: "cream-bronzer-vs-powder-bronzer",
+    title: "Cream Bronzer vs Powder Bronzer",
+    summary: "Compare blendable warmth with classic powder structure.",
+    verdict:
+      "Cream bronzer is better for skin-like warmth and flexible blending, while powder bronzer is stronger for set makeup, structure, and touch-ups.",
+    columns: ["Cream bronzer", "Powder bronzer"],
+    rows: [
+      { label: "Finish", values: ["Skin-like or dewy", "Soft-focus or matte"] },
+      { label: "Application", values: ["Fingers, sponge, or dense brush", "Powder brush"] },
+      { label: "Best for", values: ["Fresh complexion routines", "Set or polished makeup"] },
+      { label: "Shopping note", values: ["Check undertone and blend time", "Check shade depth and powder texture"] },
+    ],
+    relatedLinks: ["/best/best-cream-bronzer", "/best/best-powder-bronzer", "/makeup"],
+  },
+  {
+    slug: "hair-primer-vs-heat-protectant",
+    title: "Hair Primer vs Heat Protectant",
+    summary: "Compare styling prep with heat-tool-focused product positioning.",
+    verdict:
+      "Hair primer is the broader styling-prep route, while heat protectant is the more specific route when hot tools are part of the routine.",
+    columns: ["Hair primer", "Heat protectant"],
+    rows: [
+      { label: "Best role", values: ["Styling prep", "Hot-tool prep"] },
+      { label: "Routine timing", values: ["Before air-dry or styling", "Before heat styling"] },
+      { label: "Buyer concern", values: ["Smoothness, grip, or manageability", "Heat-tool routine support"] },
+      { label: "Shopping note", values: ["Check hair type and finish", "Follow product directions and heat settings"] },
+    ],
+    relatedLinks: ["/best/best-hair-primer", "/best/best-heat-protectant", "/hair-care"],
+  },
+  {
+    slug: "dry-shampoo-vs-texturizing-spray",
+    title: "Dry Shampoo vs Texturizing Spray",
+    summary: "Compare refresh-focused hair products with volume and grip styling sprays.",
+    verdict:
+      "Dry shampoo is better for refresh and oil-absorbing positioning, while texturizing spray is stronger for volume, grit, and undone styling.",
+    columns: ["Dry shampoo", "Texturizing spray"],
+    rows: [
+      { label: "Best role", values: ["Refresh between washes", "Add volume and grip"] },
+      { label: "Finish", values: ["Fresh-feeling or matte", "Textured or tousled"] },
+      { label: "Buyer mindset", values: ["Extend style", "Build style"] },
+      { label: "Shopping note", values: ["Check residue and scent", "Check hold, grit, and fragrance"] },
+    ],
+    relatedLinks: ["/best/best-dry-shampoo", "/best/best-texturizing-spray", "/hair-care"],
+  },
+  {
+    slug: "body-butter-vs-body-cream",
+    title: "Body Butter vs Body Cream",
+    summary: "Compare rich body-care textures for daily comfort, gifting, and fragrance layering.",
+    verdict:
+      "Body butter is usually the richer, more indulgent route, while body cream is often easier as a daily body-care staple.",
+    columns: ["Body butter", "Body cream"],
+    rows: [
+      { label: "Texture", values: ["Richer and denser", "Creamy but often more flexible"] },
+      { label: "Best for", values: ["Indulgent body-care rituals", "Daily body moisture"] },
+      { label: "Gift appeal", values: ["High", "Moderate to high"] },
+      { label: "Shopping note", values: ["Check fragrance and dry-down", "Check finish, size, and pump or jar format"] },
+    ],
+    relatedLinks: ["/best/best-body-butter", "/best/best-body-cream", "/body-care/body-moisturizers"],
+  },
+  {
+    slug: "jewelry-gift-set-vs-single-piece",
+    title: "Jewelry Gift Set vs Single Piece",
+    summary: "Compare coordinated artificial jewelry gifting with a focused statement accessory.",
+    verdict:
+      "A jewelry gift set is stronger for coordinated occasion styling, while a single piece is better when the shopper knows the exact accent they want.",
+    columns: ["Jewelry gift set", "Single jewelry piece"],
+    rows: [
+      { label: "Best role", values: ["Coordinated gift or event set", "Focused accessory choice"] },
+      { label: "Styling", values: ["Matched necklace, earrings, or bracelet", "One accent point"] },
+      { label: "Buyer mindset", values: ["Gift-ready and cohesive", "Personalized or specific"] },
+      { label: "Shopping note", values: ["Check materials, closures, and packaging", "Check dimensions, finish, and return policy"] },
+    ],
+    relatedLinks: ["/artificial-jewelry/jewelry-gift-sets", "/artificial-jewelry", "/beauty-university/artificial-jewelry-styling-guide"],
+  },
 ];
 
 export const beautyCalculators = [
