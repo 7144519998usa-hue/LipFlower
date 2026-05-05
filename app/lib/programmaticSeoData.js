@@ -258,6 +258,15 @@ const bestPageCategories = [
   { slug: "nail-repair-product", label: "nail repair product", plural: "nail repair products", vertical: "nail care", categoryPath: "/nail-care", examples: ["OPI Repair Mode", "Essie Hard To Resist", "Nailtiques Formula 2"] },
   { slug: "cz-earrings", label: "cubic zirconia earrings", plural: "cubic zirconia earrings", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/fashion-earrings", examples: ["Cubic Zirconia Stud Earrings", "CZ Drop Earrings", "Gold-Tone CZ Hoops"] },
   { slug: "pearl-jewelry-set", label: "pearl jewelry set", plural: "pearl jewelry sets", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/jewelry-gift-sets", examples: ["Pearl Necklace and Earring Set", "Pearl Bracelet Set", "Bridal Pearl Jewelry Set"] },
+  { slug: "skin-essence", label: "skin essence", plural: "skin essences", vertical: "skin care", categoryPath: "/skin-care", examples: ["SK-II Facial Treatment Essence", "Fresh Kombucha Essence", "COSRX Snail Mucin Essence"] },
+  { slug: "facial-mist", label: "facial mist", plural: "facial mists", vertical: "skin care", categoryPath: "/skin-care", examples: ["Caudalie Beauty Elixir", "Tower 28 SOS Spray", "Tatcha Luminous Dewy Skin Mist"] },
+  { slug: "lip-crayon", label: "lip crayon", plural: "lip crayons", vertical: "makeup", categoryPath: "/makeup", examples: ["NARS Velvet Matte Lip Pencil", "Clinique Chubby Stick", "Tarte Maracuja Juicy Lip Crayon"] },
+  { slug: "texturizing-spray", label: "texturizing spray", plural: "texturizing sprays", vertical: "hair care", categoryPath: "/hair-care", examples: ["Oribe Dry Texturizing Spray", "Ouai Texturizing Hair Spray", "Bumble and bumble Thickening Spray"] },
+  { slug: "leave-in-spray", label: "leave-in spray", plural: "leave-in sprays", vertical: "hair care", categoryPath: "/hair-care", examples: ["Pureology Color Fanatic", "Briogeo Farewell Frizz Spray", "It's a 10 Leave-In Spray"] },
+  { slug: "fragrance-layering-set", label: "fragrance layering set", plural: "fragrance layering sets", vertical: "fragrance", categoryPath: "/fragrance/fragrance-discovery-sets", examples: ["Jo Malone Layering Set", "Phlur Fragrance Wardrobe Set", "Maison Margiela Replica Set"] },
+  { slug: "hand-lotion", label: "hand lotion", plural: "hand lotions", vertical: "body care", categoryPath: "/body-care/luxury-hand-care", examples: ["Aesop Resurrection Hand Balm", "L'Occitane Hand Lotion", "Byredo Hand Lotion"] },
+  { slug: "vanity-mirror", label: "vanity mirror", plural: "vanity mirrors", vertical: "beauty tools", categoryPath: "/beauty-tools", examples: ["Simplehuman Vanity Mirror", "Riki Loves Riki Mirror", "Fancii Vanity Mirror"] },
+  { slug: "charm-bracelet", label: "charm bracelet", plural: "charm bracelets", vertical: "artificial jewelry", categoryPath: "/artificial-jewelry/fashion-bracelets", examples: ["Gold-Tone Charm Bracelet", "Pearl Charm Bracelet", "Crystal Charm Bracelet"] },
 ];
 
 const bestPageIntents = [
