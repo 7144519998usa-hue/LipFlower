@@ -2883,6 +2883,321 @@ export const beautyComparePages = [
     ],
     relatedLinks: ["/best/best-lighted-vanity-mirror", "/best/best-compact-makeup-mirror", "/beauty-tools"],
   },
+  {
+    slug: "tinted-moisturizer-vs-bb-cream",
+    title: "Tinted Moisturizer vs BB Cream",
+    summary: "Compare two light complexion routes by coverage, skin-care feel, and daily routine fit.",
+    verdict:
+      "Tinted moisturizer is stronger for a skin-care-first makeup look, while BB cream is better for shoppers who want a more makeup-positioned all-in-one base.",
+    columns: ["Tinted moisturizer", "BB cream"],
+    rows: [
+      { label: "Coverage", values: ["Sheer to light", "Light to medium depending on formula"] },
+      { label: "Best role", values: ["Easy daily base", "Quick complexion step"] },
+      { label: "Buyer concern", values: ["Hydration feel and shade flexibility", "Finish, undertone, and product claims"] },
+      { label: "Shopping note", values: ["Check shade range and finish", "Check SPF language and directions if listed"] },
+    ],
+    relatedLinks: ["/makeup/luxury-foundation", "/skin-care/sunscreen-for-makeup-prep", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "cc-cream-vs-tinted-moisturizer",
+    title: "CC Cream vs Tinted Moisturizer",
+    summary: "Compare tone-focused complexion hybrids with skin-care-first tinted bases.",
+    verdict:
+      "CC cream is stronger for shoppers comparing tone-focused makeup positioning, while tinted moisturizer is better for a softer skin-care-first base routine.",
+    columns: ["CC cream", "Tinted moisturizer"],
+    rows: [
+      { label: "Common positioning", values: ["Color-correcting complexion product", "Hydrating or skin-care-forward tint"] },
+      { label: "Best role", values: ["Tone-focused base shopping", "Low-effort daily makeup"] },
+      { label: "Buyer concern", values: ["Undertone, finish, and coverage", "Shade flexibility and skin feel"] },
+      { label: "Shopping note", values: ["Read visible product claims", "Check shade range and finish"] },
+    ],
+    relatedLinks: ["/makeup/luxury-foundation", "/makeup/luxury-concealer", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "skin-tint-vs-cc-cream",
+    title: "Skin Tint vs CC Cream",
+    summary: "Compare sheer tint formulas with more tone-focused complexion hybrids.",
+    verdict:
+      "Skin tint is better for sheer, skin-forward makeup, while CC cream is stronger when shoppers want a more tone-focused base route.",
+    columns: ["Skin tint", "CC cream"],
+    rows: [
+      { label: "Coverage", values: ["Very sheer to light", "Light to medium depending on product"] },
+      { label: "Finish", values: ["Skin-like, dewy, or natural", "Natural, satin, or soft matte"] },
+      { label: "Best role", values: ["Minimal makeup", "Tone-focused daily base"] },
+      { label: "Shopping note", values: ["Check shade flexibility", "Check finish and product directions"] },
+    ],
+    relatedLinks: ["/compare/luxury-foundation-vs-skin-tint", "/makeup/luxury-foundation", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "bronzer-stick-vs-powder-bronzer",
+    title: "Bronzer Stick vs Powder Bronzer",
+    summary: "Compare portable cream-stick warmth with classic powder bronzer finish.",
+    verdict:
+      "Bronzer stick is stronger for portable cream warmth and targeted application, while powder bronzer is better for quick application, setting, and buildable definition.",
+    columns: ["Bronzer stick", "Powder bronzer"],
+    rows: [
+      { label: "Texture", values: ["Cream stick or balm stick", "Pressed or loose powder"] },
+      { label: "Finish", values: ["Dewy, natural, or skin-like", "Matte, satin, or softly radiant"] },
+      { label: "Best role", values: ["Cream complexion routines", "Powder or set makeup routines"] },
+      { label: "Shopping note", values: ["Check undertone and blend time", "Check tone depth and brush pairing"] },
+    ],
+    relatedLinks: ["/makeup", "/makeup/cream-blush", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "contour-stick-vs-bronzer-stick",
+    title: "Contour Stick vs Bronzer Stick",
+    summary: "Compare sculpting-focused makeup sticks with warmth-focused complexion sticks.",
+    verdict:
+      "Contour sticks are better for shadow and structure, while bronzer sticks are stronger for warmth and sun-kissed makeup styling.",
+    columns: ["Contour stick", "Bronzer stick"],
+    rows: [
+      { label: "Color direction", values: ["Cooler or shadow-like", "Warmer or golden"] },
+      { label: "Best role", values: ["Face-shape definition", "Warmth and complexion color"] },
+      { label: "Buyer concern", values: ["Undertone and blendability", "Shade depth and finish"] },
+      { label: "Shopping note", values: ["Check undertone in daylight", "Check cream texture and return policy"] },
+    ],
+    relatedLinks: ["/makeup", "/makeup/luxury-foundation", "/beauty-university/shade-matching-guide"],
+  },
+  {
+    slug: "liquid-eyeliner-vs-gel-eyeliner",
+    title: "Liquid Eyeliner vs Gel Eyeliner",
+    summary: "Compare crisp liquid liner with softer gel liner control.",
+    verdict:
+      "Liquid eyeliner is stronger for sharp wings and graphic lines, while gel eyeliner is better for softer definition, smudged looks, and controlled application.",
+    columns: ["Liquid eyeliner", "Gel eyeliner"],
+    rows: [
+      { label: "Line style", values: ["Sharp and precise", "Soft, creamy, or smoky"] },
+      { label: "Skill feel", values: ["Steadier hand helpful", "More forgiving to blend"] },
+      { label: "Best role", values: ["Winged liner and graphic looks", "Lash-line definition and smoky eyes"] },
+      { label: "Shopping note", values: ["Check tip style and dry time", "Check pot, pencil, or twist format"] },
+    ],
+    relatedLinks: ["/makeup", "/beauty-tools/makeup-brushes", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "pencil-eyeliner-vs-liquid-eyeliner",
+    title: "Pencil Eyeliner vs Liquid Eyeliner",
+    summary: "Compare classic pencil eyeliner with crisp liquid liner styling.",
+    verdict:
+      "Pencil eyeliner is better for everyday definition and softer looks, while liquid eyeliner is stronger for sharp lines and high-impact eye makeup.",
+    columns: ["Pencil eyeliner", "Liquid eyeliner"],
+    rows: [
+      { label: "Application", values: ["Draw, smudge, or tightline", "Paint or pen-style line"] },
+      { label: "Best role", values: ["Daily definition", "Wings and graphic detail"] },
+      { label: "Buyer concern", values: ["Creaminess and transfer", "Tip control and removal"] },
+      { label: "Shopping note", values: ["Check sharpening or twist format", "Check brush tip versus felt tip"] },
+    ],
+    relatedLinks: ["/makeup", "/beauty-tools/makeup-brushes", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "tubing-mascara-vs-regular-mascara",
+    title: "Tubing Mascara vs Regular Mascara",
+    summary: "Compare tubing mascara technology language with classic mascara formulas.",
+    verdict:
+      "Tubing mascara is better for shoppers who want a specific removal and wear style, while regular mascara offers the broadest volume, length, brush, and price variety.",
+    columns: ["Tubing mascara", "Regular mascara"],
+    rows: [
+      { label: "Formula positioning", values: ["Tube-forming mascara language", "Traditional mascara formula range"] },
+      { label: "Best role", values: ["Specific wear and removal preference", "Volume, length, curl, or everyday looks"] },
+      { label: "Buyer concern", values: ["Removal directions and lash feel", "Smudging, brush shape, and effect"] },
+      { label: "Shopping note", values: ["Read removal directions", "Check brush type and product claims"] },
+    ],
+    relatedLinks: ["/makeup", "/beauty-tools", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "volumizing-mascara-vs-lengthening-mascara",
+    title: "Volumizing Mascara vs Lengthening Mascara",
+    summary: "Compare lash fullness goals with length-focused mascara shopping.",
+    verdict:
+      "Volumizing mascara is stronger for fuller-looking lashes, while lengthening mascara is better for shoppers who want a more elongated lash effect.",
+    columns: ["Volumizing mascara", "Lengthening mascara"],
+    rows: [
+      { label: "Main effect", values: ["Fuller-looking lashes", "Longer-looking lashes"] },
+      { label: "Brush cue", values: ["Larger or dense brush styles", "Comb, tapered, or defining brushes"] },
+      { label: "Best role", values: ["Dramatic lash looks", "Defined everyday lashes"] },
+      { label: "Shopping note", values: ["Check clump and brush reviews", "Check brush shape and removal"] },
+    ],
+    relatedLinks: ["/makeup", "/beauty-tools", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "eyeshadow-primer-vs-concealer-base",
+    title: "Eyeshadow Primer vs Concealer Base",
+    summary: "Compare dedicated eye primer with concealer used as an eye-makeup base.",
+    verdict:
+      "Eyeshadow primer is better when shoppers want a dedicated eye-base product, while concealer base is a flexible shortcut when shade, texture, and setting work for the look.",
+    columns: ["Eyeshadow primer", "Concealer base"],
+    rows: [
+      { label: "Product role", values: ["Dedicated eye prep", "Multi-use complexion product"] },
+      { label: "Best role", values: ["Powder shadow grip and color prep", "Quick neutral base"] },
+      { label: "Buyer concern", values: ["Texture and eye-area comfort", "Creasing and shade depth"] },
+      { label: "Shopping note", values: ["Check eye-area directions", "Set carefully and check formula fit"] },
+    ],
+    relatedLinks: ["/makeup/luxury-concealer", "/makeup", "/beauty-university/makeup-prep-routine"],
+  },
+  {
+    slug: "dry-shampoo-powder-vs-spray",
+    title: "Dry Shampoo Powder vs Spray",
+    summary: "Compare loose or pump powder refresh products with aerosol or mist dry shampoo formats.",
+    verdict:
+      "Dry shampoo powder is better for targeted application and travel-friendly routines, while spray dry shampoo is stronger for fast, even distribution.",
+    columns: ["Dry shampoo powder", "Dry shampoo spray"],
+    rows: [
+      { label: "Format", values: ["Powder, shaker, or pump", "Aerosol or mist spray"] },
+      { label: "Best role", values: ["Targeted roots and travel", "Quick all-over refresh"] },
+      { label: "Buyer concern", values: ["White cast and control", "Scent, residue, and aerosol preference"] },
+      { label: "Shopping note", values: ["Check shade and applicator", "Check scent and residue notes"] },
+    ],
+    relatedLinks: ["/best/best-dry-shampoo", "/hair-care", "/compare/dry-shampoo-vs-texturizing-spray"],
+  },
+  {
+    slug: "hair-dryer-brush-vs-round-brush",
+    title: "Hair Dryer Brush vs Round Brush",
+    summary: "Compare powered blowout tools with classic round-brush styling.",
+    verdict:
+      "A hair dryer brush is better for one-tool blowout styling, while a round brush is stronger for shoppers who already use a separate dryer and want more manual control.",
+    columns: ["Hair dryer brush", "Round brush"],
+    rows: [
+      { label: "Tool type", values: ["Powered hot-air brush", "Manual styling brush"] },
+      { label: "Best role", values: ["Simplified blowout routine", "Controlled blow-dry styling"] },
+      { label: "Buyer concern", values: ["Heat, size, and hair length", "Brush diameter and grip"] },
+      { label: "Shopping note", values: ["Read heat and use directions", "Check barrel size and bristle type"] },
+    ],
+    relatedLinks: ["/beauty-tools/hair-styling-tools", "/compare/hair-dryer-vs-hot-air-brush", "/hair-care"],
+  },
+  {
+    slug: "flat-iron-vs-straightening-brush",
+    title: "Flat Iron vs Straightening Brush",
+    summary: "Compare classic plate styling with brush-style smoothing tools.",
+    verdict:
+      "A flat iron is stronger for sleek, precise styling, while a straightening brush is better for shoppers who want a softer, brushed-through smoothing routine.",
+    columns: ["Flat iron", "Straightening brush"],
+    rows: [
+      { label: "Tool format", values: ["Heated plates", "Heated brush"] },
+      { label: "Best role", values: ["Sleek styles and edge control", "Soft smoothing and volume retention"] },
+      { label: "Buyer concern", values: ["Plate size and heat settings", "Bristle design and heat settings"] },
+      { label: "Shopping note", values: ["Use heat products as directed", "Read tool directions carefully"] },
+    ],
+    relatedLinks: ["/beauty-tools/hair-styling-tools", "/hair-care", "/compare/hair-primer-vs-heat-protectant"],
+  },
+  {
+    slug: "curling-wand-vs-hot-rollers",
+    title: "Curling Wand vs Hot Rollers",
+    summary: "Compare wand-created curls with set-and-style hot roller routines.",
+    verdict:
+      "A curling wand is better for targeted curl shapes, while hot rollers are stronger for volume-led styling and a more set-based routine.",
+    columns: ["Curling wand", "Hot rollers"],
+    rows: [
+      { label: "Styling method", values: ["Wrap sections around barrel", "Set sections around heated rollers"] },
+      { label: "Best role", values: ["Defined curls or waves", "Volume and soft shape"] },
+      { label: "Buyer concern", values: ["Barrel size and glove use", "Roller count and clip hold"] },
+      { label: "Shopping note", values: ["Read heat directions", "Check roller sizes and storage"] },
+    ],
+    relatedLinks: ["/compare/curling-iron-vs-curling-wand", "/beauty-tools/hair-styling-tools", "/hair-care"],
+  },
+  {
+    slug: "hair-serum-vs-leave-in-conditioner",
+    title: "Hair Serum vs Leave-In Conditioner",
+    summary: "Compare polish-focused hair serums with leave-in softness and detangling support.",
+    verdict:
+      "Hair serum is better for finishing polish and shine, while leave-in conditioner is stronger for prep, slip, and lightweight conditioning feel.",
+    columns: ["Hair serum", "Leave-in conditioner"],
+    rows: [
+      { label: "Texture", values: ["Serum, oil-serum, or fluid", "Spray, cream, or lotion"] },
+      { label: "Best role", values: ["Finishing and flyaway polish", "Post-wash prep and softness"] },
+      { label: "Buyer concern", values: ["Weight and residue", "Slip, scent, and hair type fit"] },
+      { label: "Shopping note", values: ["Check use amount and finish", "Check directions and hair type notes"] },
+    ],
+    relatedLinks: ["/hair-care", "/compare/hair-oil-vs-leave-in-conditioner", "/beauty-university/hair-care-routine-map"],
+  },
+  {
+    slug: "hair-bonding-treatment-vs-hair-mask",
+    title: "Hair Bonding Treatment vs Hair Mask",
+    summary: "Compare bond-positioned treatment language with richer mask routines.",
+    verdict:
+      "Hair bonding treatments are better for shoppers specifically comparing bond-care positioning, while hair masks are broader for rich texture, routine feel, and self-care use.",
+    columns: ["Hair bonding treatment", "Hair mask"],
+    rows: [
+      { label: "Positioning", values: ["Bond-care or repair-positioned language", "Rich conditioning or treatment routine"] },
+      { label: "Best role", values: ["Specific treatment-step research", "Weekly care ritual"] },
+      { label: "Buyer concern", values: ["Claim support and directions", "Texture, weight, and use frequency"] },
+      { label: "Shopping note", values: ["Do not assume repair outcomes", "Follow rinse and timing directions"] },
+    ],
+    relatedLinks: ["/hair-care/hair-masks", "/beauty-university/ingredient-claims-guide", "/hair-care"],
+  },
+  {
+    slug: "fragrance-oil-vs-eau-de-parfum",
+    title: "Fragrance Oil vs Eau de Parfum",
+    summary: "Compare oil-based scent application with classic spray perfume.",
+    verdict:
+      "Fragrance oil is better for close-wearing, roll-on or dab-style scent routines, while eau de parfum is stronger for classic spray application and broader luxury fragrance selection.",
+    columns: ["Fragrance oil", "Eau de parfum"],
+    rows: [
+      { label: "Format", values: ["Oil, rollerball, or dabber", "Spray perfume"] },
+      { label: "Best role", values: ["Close-wearing personal scent", "Signature scent or gifting"] },
+      { label: "Buyer concern", values: ["Oil feel and packaging", "Scent family, size, and concentration"] },
+      { label: "Shopping note", values: ["Patch-test if sensitive", "Sample before full-size when possible"] },
+    ],
+    relatedLinks: ["/fragrance", "/compare/eau-de-parfum-vs-eau-de-toilette", "/fragrance/signature-scent-guide"],
+  },
+  {
+    slug: "cologne-vs-perfume",
+    title: "Cologne vs Perfume",
+    summary: "Compare fragrance naming conventions, concentration expectations, and gifting routes.",
+    verdict:
+      "Cologne is often shopped as a lighter or masculine-coded fragrance route, while perfume is the broader luxury scent category across concentrations and styles.",
+    columns: ["Cologne", "Perfume"],
+    rows: [
+      { label: "Shopping language", values: ["Often lighter or masculine-coded", "Broad scent category"] },
+      { label: "Best role", values: ["Fresh daily scent or gift", "Signature scent, gift, or collection"] },
+      { label: "Buyer concern", values: ["Concentration and scent family", "Scent family, size, and return policy"] },
+      { label: "Shopping note", values: ["Check concentration, not just name", "Sample when scent preference is uncertain"] },
+    ],
+    relatedLinks: ["/fragrance", "/compare/eau-de-parfum-vs-eau-de-toilette", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "perfume-sampler-vs-travel-size-perfume",
+    title: "Perfume Sampler vs Travel-Size Perfume",
+    summary: "Compare multi-scent discovery with a portable version of one fragrance.",
+    verdict:
+      "A perfume sampler is better for exploring several scents, while travel-size perfume is stronger when the shopper already knows the fragrance they want.",
+    columns: ["Perfume sampler", "Travel-size perfume"],
+    rows: [
+      { label: "Best role", values: ["Scent discovery", "Portable favorite scent"] },
+      { label: "Risk level", values: ["Lower for uncertain preferences", "Lower only when scent is known"] },
+      { label: "Gift angle", values: ["Flexible and exploratory", "Focused and practical"] },
+      { label: "Shopping note", values: ["Check sample count and redemption terms", "Check size and spray quality"] },
+    ],
+    relatedLinks: ["/fragrance/fragrance-discovery-sets", "/compare/rollerball-perfume-vs-travel-spray", "/beauty-university/fragrance-gifting-guide"],
+  },
+  {
+    slug: "body-splash-vs-body-mist",
+    title: "Body Splash vs Body Mist",
+    summary: "Compare light scented body formats before choosing an everyday fragrance layer.",
+    verdict:
+      "Body splash is usually the simpler light-scent route, while body mist is the broader modern category with more fragrance, body-care, and gifting options.",
+    columns: ["Body splash", "Body mist"],
+    rows: [
+      { label: "Scent style", values: ["Light and casual", "Light, layered, or fragrance-led"] },
+      { label: "Best role", values: ["Fresh post-shower scent", "Everyday fragrance layering"] },
+      { label: "Buyer concern", values: ["Bottle size and scent strength", "Scent family and matching body products"] },
+      { label: "Shopping note", values: ["Check fragrance notes", "Check size, set value, and seller path"] },
+    ],
+    relatedLinks: ["/compare/body-mist-vs-perfume", "/body-care", "/fragrance"],
+  },
+  {
+    slug: "perfume-lotion-vs-body-mist",
+    title: "Perfume Lotion vs Body Mist",
+    summary: "Compare scented body lotion with sprayable fragrance layering.",
+    verdict:
+      "Perfume lotion is better for a scented body-care step, while body mist is stronger for fast, sprayable fragrance refreshes.",
+    columns: ["Perfume lotion", "Body mist"],
+    rows: [
+      { label: "Format", values: ["Scented lotion or cream", "Spray mist"] },
+      { label: "Best role", values: ["Body-care fragrance layer", "Quick scent refresh"] },
+      { label: "Buyer concern", values: ["Texture and scent match", "Scent family and bottle size"] },
+      { label: "Shopping note", values: ["Check texture and fragrance intensity", "Check set pairing and seller trust"] },
+    ],
+    relatedLinks: ["/body-care/body-moisturizers", "/compare/body-mist-vs-perfume", "/fragrance"],
+  },
 ];
 
 export const beautyCalculators = [
