@@ -36,10 +36,18 @@ function makeEntry({
   };
 }
 
+let beautyPageRegistryCache;
+let indexableBeautyPageRegistryCache;
+const indexableBeautyPageRegistryByAssignmentCache = new Map();
+
 export function buildBeautyPageRegistry() {
+  if (beautyPageRegistryCache) {
+    return beautyPageRegistryCache;
+  }
+
   const homePage = getBeautyHubPage("home");
 
-  return [
+  beautyPageRegistryCache = [
     makeEntry({
       canonicalPath: "/",
       title: homePage.title,
@@ -324,15 +332,32 @@ export function buildBeautyPageRegistry() {
       }),
     ),
   ];
+
+  return beautyPageRegistryCache;
 }
 
 export function getIndexableBeautyPageRegistryEntries() {
-  return buildBeautyPageRegistry().filter((entry) => entry.indexabilityState === "indexable");
+  if (!indexableBeautyPageRegistryCache) {
+    indexableBeautyPageRegistryCache = buildBeautyPageRegistry().filter(
+      (entry) => entry.indexabilityState === "indexable",
+    );
+  }
+
+  return indexableBeautyPageRegistryCache;
 }
 
 export function getIndexableBeautyPageRegistryEntriesByAssignment(assignments = []) {
   const normalizedAssignments = Array.isArray(assignments) ? assignments : [assignments];
-  return getIndexableBeautyPageRegistryEntries().filter((entry) =>
-    normalizedAssignments.includes(entry.sitemapAssignment),
-  );
+  const cacheKey = [...normalizedAssignments].sort().join("|");
+
+  if (!indexableBeautyPageRegistryByAssignmentCache.has(cacheKey)) {
+    indexableBeautyPageRegistryByAssignmentCache.set(
+      cacheKey,
+      getIndexableBeautyPageRegistryEntries().filter((entry) =>
+        normalizedAssignments.includes(entry.sitemapAssignment),
+      ),
+    );
+  }
+
+  return indexableBeautyPageRegistryByAssignmentCache.get(cacheKey);
 }
