@@ -10,8 +10,8 @@ import {
   beautySystemPages,
   beautyUniversityTopics,
   getBeautyHubPage,
-} from "./beautyData";
-import { programmaticBestPages } from "./programmaticSeoData";
+} from "./beautyData.js";
+import { programmaticBestPages } from "./programmaticSeoData.js";
 
 function makeEntry({
   canonicalPath,

@@ -1,7 +1,7 @@
 import {
   getIndexableBeautyPageRegistryEntries,
   getIndexableBeautyPageRegistryEntriesByAssignment,
-} from "./beautyPageRegistry";
+} from "./beautyPageRegistry.js";
 
 const sitemapSections = [
   { slug: "beauty-core", assignments: ["core"] },
