@@ -1,24 +1,9 @@
-import { readdir } from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
 import {
-  beautyBrandCategories,
-  beautyBrands,
-  beautyCalculators,
-  beautyCategoryPages,
-  beautyComparePages,
-  beautyLandingPages,
-  beautySellers,
-  beautyUniversityTopics,
-} from "../app/lib/beautyData.js";
-import { programmaticBestPages } from "../app/lib/programmaticSeoData.js";
-
-const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const appDir = path.join(rootDir, "app");
-
-const intentionallyUnregisteredRoutes = new Set([
-  "/search",
-]);
+  buildGeneratedRouteSet,
+  buildRegistryRouteSet,
+  buildStaticRouteSet,
+  intentionallyUnregisteredRoutes,
+} from "./lib/route-engine.mjs";
 
 const ignoredRoutePrefixes = [
   "/api/",
@@ -32,115 +17,6 @@ const ignoredExactRoutes = new Set([
   "/sitemap.xml",
   "/sitemap_index.xml",
 ]);
-
-const registeredTrustRoutes = [
-  "/about",
-  "/about/advertiser-disclosure",
-  "/about/cite-lipflower",
-  "/about/editorial-policy",
-  "/about/how-we-make-money",
-  "/about/media-kit",
-  "/contact",
-  "/privacy-policy",
-  "/terms",
-];
-
-async function listFiles(dir) {
-  const entries = await readdir(dir, { withFileTypes: true });
-  const files = await Promise.all(
-    entries.map(async (entry) => {
-      const fullPath = path.join(dir, entry.name);
-      if (entry.isDirectory()) {
-        if (entry.name === "node_modules" || entry.name === ".next") {
-          return [];
-        }
-        return listFiles(fullPath);
-      }
-      return [fullPath];
-    }),
-  );
-
-  return files.flat();
-}
-
-async function buildStaticRouteSet() {
-  const files = await listFiles(appDir);
-  const routes = new Set(["/"]);
-
-  files
-    .filter((file) => path.basename(file) === "page.js" || path.basename(file) === "page.jsx")
-    .forEach((file) => {
-      const relativeDir = path.relative(appDir, path.dirname(file));
-
-      if (!relativeDir || relativeDir === ".") {
-        routes.add("/");
-        return;
-      }
-
-      if (relativeDir.includes("[") || relativeDir.includes("]")) {
-        return;
-      }
-
-      routes.add(`/${relativeDir.split(path.sep).join("/")}`);
-    });
-
-  return routes;
-}
-
-function buildGeneratedRouteSet() {
-  const routes = new Set();
-
-  beautyLandingPages.forEach((page) => routes.add(`/${page.categoryPath}/${page.slug}`));
-  beautyUniversityTopics.forEach((page) => routes.add(`/beauty-university/${page.slug}`));
-  beautyComparePages.forEach((page) => routes.add(`/compare/${page.slug}`));
-  beautyCalculators.forEach((page) => routes.add(`/calculators/${page.slug}`));
-  beautyBrands.forEach((brand) => routes.add(`/brands/${brand.slug}`));
-  beautyBrandCategories.forEach((page) => routes.add(`/brands/${page.brandSlug}/${page.categorySlug}`));
-  beautySellers.forEach((seller) => routes.add(`/sellers/${seller.slug}`));
-  beautyCategoryPages.forEach((page) => routes.add(`/${page.slug}`));
-  programmaticBestPages.forEach((page) => routes.add(`/best/${page.slug}`));
-
-  return routes;
-}
-
-function buildRegistryRouteSet() {
-  const routes = new Set([
-    "/",
-    "/best",
-    "/brands",
-    "/calculators",
-    "/compare",
-    "/sellers",
-    "/beauty-university",
-    "/beauty-research",
-    "/beauty-routines",
-    "/beauty-gifts",
-    "/beauty-occasions",
-    "/beauty-ingredients",
-    "/beauty-finishes",
-    "/beauty-shades",
-    "/beauty-glossary",
-    "/beauty-calendar",
-    "/beauty-checklists",
-    "/beauty-seller-scorecard",
-    "/beauty-claims-guide",
-    "/beauty-methodology",
-    "/beauty-faq",
-    ...registeredTrustRoutes,
-  ]);
-
-  beautyLandingPages.forEach((page) => routes.add(`/${page.categoryPath}/${page.slug}`));
-  beautyUniversityTopics.forEach((page) => routes.add(`/beauty-university/${page.slug}`));
-  beautyComparePages.forEach((page) => routes.add(`/compare/${page.slug}`));
-  beautyCalculators.forEach((page) => routes.add(`/calculators/${page.slug}`));
-  beautyBrands.forEach((brand) => routes.add(`/brands/${brand.slug}`));
-  beautyBrandCategories.forEach((page) => routes.add(`/brands/${page.brandSlug}/${page.categorySlug}`));
-  beautySellers.forEach((seller) => routes.add(`/sellers/${seller.slug}`));
-  beautyCategoryPages.forEach((page) => routes.add(`/${page.slug}`));
-  programmaticBestPages.forEach((page) => routes.add(`/best/${page.slug}`));
-
-  return routes;
-}
 
 function isIgnoredRoute(route) {
   return (

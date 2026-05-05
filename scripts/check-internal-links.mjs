@@ -1,20 +1,12 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
-import { fileURLToPath } from "node:url";
 import {
-  beautyBrandCategories,
-  beautyBrands,
-  beautyCalculators,
-  beautyCategoryPages,
-  beautyComparePages,
-  beautyLandingPages,
-  beautySellers,
-  beautyUniversityTopics,
-} from "../app/lib/beautyData.js";
-import { programmaticBestPages } from "../app/lib/programmaticSeoData.js";
+  appDir,
+  buildGeneratedRouteSet,
+  buildStaticRouteSet,
+  rootDir,
+} from "./lib/route-engine.mjs";
 
-const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
-const appDir = path.join(rootDir, "app");
 const sourceExtensions = new Set([".js", ".jsx", ".mjs", ".ts", ".tsx"]);
 
 const ignoredPrefixes = [
@@ -70,45 +62,6 @@ async function listFiles(dir) {
   );
 
   return files.flat();
-}
-
-async function buildStaticRouteSet() {
-  const files = await listFiles(appDir);
-  const routes = new Set(["/"]);
-
-  files
-    .filter((file) => path.basename(file) === "page.js" || path.basename(file) === "page.jsx")
-    .forEach((file) => {
-      const relativeDir = path.relative(appDir, path.dirname(file));
-      if (!relativeDir || relativeDir === ".") {
-        routes.add("/");
-        return;
-      }
-
-      if (relativeDir.includes("[") || relativeDir.includes("]")) {
-        return;
-      }
-
-      routes.add(`/${relativeDir.split(path.sep).join("/")}`);
-    });
-
-  return routes;
-}
-
-function buildGeneratedRouteSet() {
-  const routes = new Set();
-
-  beautyLandingPages.forEach((page) => routes.add(`/${page.categoryPath}/${page.slug}`));
-  beautyUniversityTopics.forEach((page) => routes.add(`/beauty-university/${page.slug}`));
-  beautyComparePages.forEach((page) => routes.add(`/compare/${page.slug}`));
-  beautyCalculators.forEach((page) => routes.add(`/calculators/${page.slug}`));
-  beautyBrands.forEach((brand) => routes.add(`/brands/${brand.slug}`));
-  beautyBrandCategories.forEach((page) => routes.add(`/brands/${page.brandSlug}/${page.categorySlug}`));
-  beautySellers.forEach((seller) => routes.add(`/sellers/${seller.slug}`));
-  beautyCategoryPages.forEach((page) => routes.add(`/${page.slug}`));
-  programmaticBestPages.forEach((page) => routes.add(`/best/${page.slug}`));
-
-  return routes;
 }
 
 async function collectInternalPathReferences() {

@@ -97,6 +97,12 @@ Run the complete pre-deploy suite:
 npm run verify
 ```
 
+For the optimized local loop, run the same guardrails in safe parallel groups before the build:
+
+```bash
+npm run verify:fast
+```
+
 For a fast inventory snapshot of route scale, indexable pages, programmatic SEO coverage, and commercial inventory, run:
 
 ```bash
@@ -123,6 +129,8 @@ This runs:
 - `npm run check:affiliate`
 - `npm run check:a11y`
 - `npm run build`
+
+`npm run check:fast` runs those same check scripts in route-aware parallel groups, which is useful now that the site has crossed 10k generated routes.
 
 ## Production verification
 
