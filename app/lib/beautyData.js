@@ -90,7 +90,7 @@ export const beautyHubPages = {
         ],
       },
       {
-        title: "Programmatic SEO collections",
+        title: "Popular beauty buying guides",
         links: [
           {
             href: "/skin-care/anti-aging-serums",
