@@ -33,5 +33,5 @@ export default async function ArtificialJewelryLandingPage({ params }) {
     notFound();
   }
 
-  return <BeautyLandingRoutePage eyebrow="Artificial jewelry route" page={page} />;
+  return <BeautyLandingRoutePage eyebrow="Artificial jewelry guide" page={page} />;
 }

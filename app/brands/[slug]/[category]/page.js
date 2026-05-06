@@ -48,7 +48,7 @@ export default async function BrandCategoryPage({ params }) {
       <section className="catalog-grid-section">
         <div className="catalog-grid">
           <article className="catalog-card">
-            <h2>Best next routes</h2>
+            <h2>Best next guides</h2>
             <div className="catalog-stack">
               <Link href={`/brands/${slug}`} className="catalog-link-card">
                 <strong>{brand?.name || slug} brand page</strong>

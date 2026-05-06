@@ -23,21 +23,21 @@ const ingredientGroups = [
     group: "Radiance and tone-positioned products",
     ingredients: ["Vitamin C", "Niacinamide", "Licorice root", "Peptides", "Gentle acids"],
     guidance:
-      "Radiance pages should compare packaging, routine timing, sensitivity context, and visible brand positioning without promising brightening or anti-aging outcomes.",
+      "For radiance-focused products, compare packaging, routine timing, sensitivity context, and visible brand language without expecting guaranteed brightening or anti-aging outcomes.",
     links: ["/skin-care/vitamin-c-serums", "/skin-care/anti-aging-serums", "/beauty-university/ingredient-claims-guide"],
   },
   {
     group: "Exfoliation and texture-positioned products",
     ingredients: ["Glycolic acid", "Lactic acid", "Salicylic acid", "Enzymes", "PHA"],
     guidance:
-      "Exfoliation language should be careful because personal tolerance varies. Shoppers should compare product directions, frequency guidance, and routine overlap.",
+      "Exfoliation language needs care because personal tolerance varies. Compare product directions, frequency guidance, and routine overlap.",
     links: ["/beauty-university/ingredient-compatibility-cheat-sheet", "/beauty-checklists", "/beauty-routines"],
   },
   {
     group: "Lip-care texture and sensation cues",
     ingredients: ["Lanolin", "Beeswax", "Menthol", "Peptides", "Plant oils"],
     guidance:
-      "Lip-care ingredient pages should separate comfort texture from plumping sensation and keep fragrance, flavor, and sensitivity signals visible.",
+      "For lip-care ingredients, separate comfort texture from plumping sensation and keep fragrance, flavor, and sensitivity cues visible.",
     links: ["/lip-care/lip-oils", "/lip-care/lip-plumpers", "/beauty-university/ingredients-to-watch-in-lip-plumpers"],
   },
   {

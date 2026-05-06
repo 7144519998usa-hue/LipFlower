@@ -10,7 +10,7 @@ const claimRules = [
     saferLanguage: "may help, commonly used for, designed to support, positioned for",
     avoidLanguage: "cures, fixes, guarantees, medically repairs, works for everyone",
     guidance:
-      "Ingredient pages should explain shopping context and visible product positioning without inventing concentration, efficacy, or results.",
+      "Ingredient guidance works best when it explains shopping context and visible product details without inventing concentration, efficacy, or results.",
     links: ["/beauty-university/ingredient-claims-guide", "/beauty-university/ingredient-compatibility-cheat-sheet"],
   },
   {
@@ -34,7 +34,7 @@ const claimRules = [
     saferLanguage: "follow product directions, compare SPF label, texture, tint, layering feel",
     avoidLanguage: "complete protection, all-day protection without reapplication, medical sun advice",
     guidance:
-      "SPF pages should point users to current product directions and avoid turning cosmetic layering guidance into medical advice.",
+      "SPF guidance should point users to current product directions and avoid turning cosmetic layering tips into medical advice.",
     links: ["/skin-care/sunscreen-for-makeup-prep", "/beauty-university/makeup-prep-routine"],
   },
   {

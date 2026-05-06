@@ -156,7 +156,7 @@ export const beautyLandingPages = [
     title: "Barrier-Support Luxury Moisturizers",
     summary: "Compare premium moisturizers for comfort, texture, dry-feeling skin, and routine anchoring.",
     intro:
-      "Barrier-support moisturizer guides should explain texture, finish, fragrance, skin feel, and retailer clarity without promising medical repair or assured outcomes.",
+      "For barrier-support moisturizers, compare texture, finish, fragrance, skin feel, and retailer clarity without expecting medical repair or assured outcomes.",
     bestFor: ["Dry-feeling skin routines", "Comfort-first skin care", "Night cream shoppers"],
     watchFor: ["Fragrance sensitivity", "Rich textures under makeup"],
     relatedLinks: ["/skin-care", "/compare/luxury-serum-vs-moisturizer", "/beauty-university/skin-barrier-basics"],
@@ -167,7 +167,7 @@ export const beautyLandingPages = [
     title: "Luxury Vitamin C Serums",
     summary: "Compare prestige vitamin C serums by texture, packaging, routine fit, and retailer confidence.",
     intro:
-      "Vitamin C shoppers should compare packaging, skin-feel, routine timing, and brand claims carefully because visible product details matter more than hype.",
+      "For vitamin C serums, compare packaging, skin feel, routine timing, and brand language carefully because visible product details matter more than hype.",
     bestFor: ["Radiance-focused routines", "Morning skin care", "Prestige serum shoppers"],
     watchFor: ["Sensitivity history", "Packaging and freshness expectations"],
     relatedLinks: ["/skin-care/anti-aging-serums", "/beauty-university/ingredient-claims-guide", "/sellers"],
@@ -178,7 +178,7 @@ export const beautyLandingPages = [
     title: "Luxury Sunscreen for Makeup Prep",
     summary: "Compare elevated SPF formulas by finish, layering feel, tint, and makeup compatibility.",
     intro:
-      "SPF guides should stay careful: help shoppers compare visible SPF positioning, finish, texture, and layering behavior while reminding them to follow product directions.",
+      "For SPF, compare visible label details, finish, texture, and layering behavior while following product directions.",
     bestFor: ["Daily routines", "Makeup layering", "Polished skin prep"],
     watchFor: ["White cast", "Pilling under complexion products"],
     relatedLinks: ["/skin-care", "/makeup/luxury-foundation", "/beauty-university/makeup-prep-routine"],
@@ -200,7 +200,7 @@ export const beautyLandingPages = [
     title: "Luxury Cream Blush",
     summary: "Compare prestige cream blush by finish, pigment, skin prep, packaging, and retailer fit.",
     intro:
-      "Cream blush is a texture and color-payoff decision, so shoppers should compare blendability, finish, shade family, and return-friendly retailers before choosing.",
+      "Cream blush is a texture and color-payoff decision, so compare blendability, finish, shade family, and return-friendly retailers before choosing.",
     bestFor: ["Fresh complexion makeup", "Natural-looking color", "Compact luxury gifts"],
     watchFor: ["Pigment intensity", "Layering over powder"],
     relatedLinks: ["/makeup", "/compare/cream-blush-vs-powder-blush", "/beauty-university/shade-matching-guide"],
@@ -222,7 +222,7 @@ export const beautyLandingPages = [
     title: "Luxury Setting Powder",
     summary: "Compare prestige setting powders by finish, blur effect, skin tone support, and makeup style.",
     intro:
-      "Setting powder pages should help shoppers understand finish and use case without implying universal pore, oil, or longevity results.",
+      "For setting powder, compare finish and use case without expecting universal pore, oil, or longevity results.",
     bestFor: ["Polished makeup finish", "Event makeup", "Touch-up routines"],
     watchFor: ["Flashback risk", "Dry-looking texture"],
     relatedLinks: ["/makeup", "/compare/luxury-foundation-vs-skin-tint", "/beauty-university/makeup-prep-routine"],
@@ -255,7 +255,7 @@ export const beautyLandingPages = [
     title: "Luxury Tinted Lip Balms",
     summary: "Compare premium tinted balms by color payoff, comfort, finish, and daily-carry appeal.",
     intro:
-      "Tinted balms sit between treatment and makeup, so shoppers should compare shade family, finish, reapplication style, and comfort expectations.",
+      "Tinted balms sit between treatment and makeup, so compare shade family, finish, reapplication style, and comfort expectations.",
     bestFor: ["Low-effort color", "Daily carry", "Makeup-minimal routines"],
     watchFor: ["Shade payoff", "Transfer and reapplication"],
     relatedLinks: ["/lip-care", "/makeup", "/compare/lip-mask-vs-lip-balm"],
@@ -277,7 +277,7 @@ export const beautyLandingPages = [
     title: "Luxury Shampoo and Conditioner",
     summary: "Compare premium shampoo and conditioner by hair type, fragrance, finish, and retailer confidence.",
     intro:
-      "Luxury shampoo and conditioner shoppers should compare hair-feel goals, fragrance, color-care positioning, and routine fit instead of assuming a higher price guarantees better results.",
+      "For luxury shampoo and conditioner, compare hair-feel goals, fragrance, color-care language, and routine fit instead of assuming a higher price guarantees better results.",
     bestFor: ["Salon-inspired routines", "Giftable hair care", "Fragrance-led hair care"],
     watchFor: ["Color-treated hair needs", "Scalp sensitivity"],
     relatedLinks: ["/hair-care", "/hair-care/hair-masks", "/sellers/sephora"],
@@ -288,7 +288,7 @@ export const beautyLandingPages = [
     title: "Luxury Hair Masks",
     summary: "Compare premium hair masks by texture, use frequency, hair-feel goals, and treatment intensity.",
     intro:
-      "Hair mask pages should help shoppers compare rinse-out versus leave-in positioning, texture, fragrance, and use directions without promising repair that the product data does not support.",
+      "For hair masks, compare rinse-out versus leave-in formats, texture, fragrance, and use directions without expecting repair that the product does not promise.",
     bestFor: ["Weekly routine upgrades", "Dry-feeling lengths", "Premium self-care rituals"],
     watchFor: ["Heavy residue", "Fine hair compatibility"],
     relatedLinks: ["/hair-care/luxury-shampoo-conditioner", "/hair-care/scalp-care", "/beauty-university"],
@@ -376,7 +376,7 @@ export const beautyLandingPages = [
     title: "Luxury Nail Polish",
     summary: "Compare premium nail polish by finish, shade family, wear expectations, and retailer clarity.",
     intro:
-      "Luxury nail polish shoppers should compare finish, brush style, shade family, and removal expectations without treating wear claims as guaranteed.",
+      "For luxury nail polish, compare finish, brush style, shade family, and removal expectations without treating wear claims as guaranteed.",
     bestFor: ["At-home manicures", "Seasonal color", "Small luxury gifts"],
     watchFor: ["Shade accuracy", "Wear varies by routine"],
     relatedLinks: ["/nail-care", "/nail-care/manicure-tools", "/sellers"],
@@ -387,7 +387,7 @@ export const beautyLandingPages = [
     title: "Luxury Cuticle Care",
     summary: "Compare premium cuticle oils, creams, and hand-care pairings by texture, scent, and routine fit.",
     intro:
-      "Cuticle-care pages should focus on product format, comfort, and routine fit while avoiding repair or medical-style claims.",
+      "For cuticle care, focus on product format, comfort, and routine fit while avoiding repair or medical-style claims.",
     bestFor: ["Manicure prep", "Hand-care routines", "Portable beauty care"],
     watchFor: ["Oil texture", "Fragrance sensitivity"],
     relatedLinks: ["/nail-care", "/body-care/luxury-hand-care", "/beauty-university"],
@@ -596,7 +596,7 @@ export const beautyComparePages = [
       "Retinol serums are usually positioned around evening renewal routines, while peptide serums are often positioned around comfort, texture, and supportive daily routines.",
     columns: ["Retinol serum", "Peptide serum"],
     rows: [
-      { label: "Common role", values: ["Evening treatment route", "Supportive serum route"] },
+      { label: "Common role", values: ["Evening treatment step", "Supportive serum step"] },
       { label: "Routine fit", values: ["Introduced cautiously", "Often easier to layer"] },
       { label: "Buyer concern", values: ["Mature routine planning", "Comfort and texture preference"] },
       { label: "Shopping note", values: ["Read directions and SPF context", "Check formula pairing and texture"] },
@@ -636,7 +636,7 @@ export const beautyComparePages = [
   {
     slug: "skin-tint-vs-tinted-moisturizer",
     title: "Skin Tint vs Tinted Moisturizer",
-    summary: "Compare two lighter complexion routes for everyday makeup and skin-forward routines.",
+    summary: "Compare two lighter complexion options for everyday makeup and skin-forward routines.",
     verdict:
       "Skin tint usually wins for sheer makeup flexibility, while tinted moisturizer is stronger when shoppers want a skin-care-adjacent complexion step.",
     columns: ["Skin tint", "Tinted moisturizer"],
@@ -696,7 +696,7 @@ export const beautyComparePages = [
   {
     slug: "setting-powder-vs-setting-spray",
     title: "Setting Powder vs Setting Spray",
-    summary: "Compare two finishing routes for makeup polish, shine control, and comfort.",
+    summary: "Compare two finishing options for makeup polish, shine control, and comfort.",
     verdict:
       "Setting powder is stronger for targeted soft-focus and shine control, while setting spray is better for a final mist that helps the makeup feel finished.",
     columns: ["Setting powder", "Setting spray"],
@@ -728,7 +728,7 @@ export const beautyComparePages = [
     title: "Lip Plumper vs Lip Gloss",
     summary: "Compare sensation-positioned lip products with classic shine-focused gloss.",
     verdict:
-      "Lip gloss is the safer default for shine-first shoppers, while lip plumper is a more sensation-aware route that requires careful attention to product directions.",
+      "Lip gloss is the safer default for shine-first shoppers, while lip plumper is a more sensation-aware choice that requires careful attention to product directions.",
     columns: ["Lip plumper", "Lip gloss"],
     rows: [
       { label: "Primary role", values: ["Sensation-positioned shine", "Classic shine"] },
@@ -761,7 +761,7 @@ export const beautyComparePages = [
       "Shampoo is the clearer cleansing anchor, while cleansing conditioner is a more niche option for shoppers prioritizing softness and low-lather routines.",
     columns: ["Shampoo", "Cleansing conditioner"],
     rows: [
-      { label: "Best role", values: ["Scalp and hair cleanse", "Low-lather wash route"] },
+      { label: "Best role", values: ["Scalp and hair cleanse", "Low-lather wash option"] },
       { label: "Texture", values: ["Liquid, cream, or gel cleanser", "Conditioner-like cream"] },
       { label: "Buyer concern", values: ["Build-up and freshness", "Softness and gentle-feel routines"] },
       { label: "Shopping note", values: ["Check scalp type and directions", "Check whether it replaces or supplements shampoo"] },
@@ -801,12 +801,12 @@ export const beautyComparePages = [
   {
     slug: "perfume-vs-fragrance-discovery-set",
     title: "Perfume vs Fragrance Discovery Set",
-    summary: "Compare a full-bottle fragrance purchase with a lower-risk sampling route.",
+    summary: "Compare a full-bottle fragrance purchase with a lower-risk sampling option.",
     verdict:
       "A full perfume bottle is best when the scent is already known, while a discovery set is smarter for gifting, testing, and exploring scent families.",
     columns: ["Perfume", "Discovery set"],
     rows: [
-      { label: "Best role", values: ["Signature scent purchase", "Exploration or gift route"] },
+      { label: "Best role", values: ["Signature scent purchase", "Exploration or gift option"] },
       { label: "Risk level", values: ["Higher for blind buys", "Lower for uncertain preferences"] },
       { label: "Gift appeal", values: ["Premium if preferences are known", "Flexible and safer"] },
       { label: "Shopping note", values: ["Check size and return rules", "Check sample count and redemption options"] },
@@ -831,12 +831,12 @@ export const beautyComparePages = [
   {
     slug: "body-scrub-vs-exfoliating-glove",
     title: "Body Scrub vs Exfoliating Glove",
-    summary: "Compare product-led body exfoliation with a reusable tool route.",
+    summary: "Compare product-led body exfoliation with a reusable tool option.",
     verdict:
-      "A body scrub is better for scent and product ritual, while an exfoliating glove is a tool-led route that depends more on pressure, material, and hygiene.",
+      "A body scrub is better for scent and product ritual, while an exfoliating glove is a tool-led option that depends more on pressure, material, and hygiene.",
     columns: ["Body scrub", "Exfoliating glove"],
     rows: [
-      { label: "Best role", values: ["Product-led exfoliating routine", "Reusable tool route"] },
+      { label: "Best role", values: ["Product-led exfoliating routine", "Reusable tool option"] },
       { label: "Texture", values: ["Grainy, creamy, or oily", "Fabric or textured mitt"] },
       { label: "Buyer mindset", values: ["Scent and ritual", "Tool control and reuse"] },
       { label: "Shopping note", values: ["Check granule feel and directions", "Check material, drying, and replacement"] },
@@ -846,9 +846,9 @@ export const beautyComparePages = [
   {
     slug: "nail-polish-vs-gel-polish",
     title: "Nail Polish vs Gel Polish",
-    summary: "Compare classic polish with a longer-wear-positioned manicure route.",
+    summary: "Compare classic polish with a longer-wear manicure option.",
     verdict:
-      "Classic nail polish is better for easy color changes, while gel polish is a more equipment- and removal-aware route for shoppers who want a more durable manicure feel.",
+      "Classic nail polish is better for easy color changes, while gel polish is a more equipment- and removal-aware choice for shoppers who want a more durable manicure feel.",
     columns: ["Nail polish", "Gel polish"],
     rows: [
       { label: "Best role", values: ["Easy at-home color", "Longer-wear-positioned manicure"] },
@@ -906,7 +906,7 @@ export const beautyComparePages = [
   {
     slug: "hair-dryer-vs-hot-air-brush",
     title: "Hair Dryer vs Hot Air Brush",
-    summary: "Compare classic drying power with a styling-tool route for smoother blowout looks.",
+    summary: "Compare classic drying power with a styling-tool option for smoother blowout looks.",
     verdict:
       "A hair dryer is better for flexible drying and brush choice, while a hot air brush is stronger for shoppers who want a simplified styling tool.",
     columns: ["Hair dryer", "Hot air brush"],
@@ -921,7 +921,7 @@ export const beautyComparePages = [
   {
     slug: "fashion-earrings-vs-statement-necklace",
     title: "Fashion Earrings vs Statement Necklace",
-    summary: "Compare two artificial jewelry routes for finishing beauty looks and occasion styling.",
+    summary: "Compare two artificial jewelry options for finishing beauty looks and occasion styling.",
     verdict:
       "Fashion earrings usually frame makeup and hair most directly, while a statement necklace is stronger when the outfit neckline and occasion need the focal point.",
     columns: ["Fashion earrings", "Statement necklace"],
@@ -1016,7 +1016,7 @@ export const beautyComparePages = [
       "Chemical exfoliants are ingredient-led and timing-sensitive, while physical exfoliants are texture-led and depend heavily on pressure, granule feel, and directions.",
     columns: ["Chemical exfoliant", "Physical exfoliant"],
     rows: [
-      { label: "Best role", values: ["Ingredient-led exfoliation route", "Texture-led polish route"] },
+      { label: "Best role", values: ["Ingredient-led exfoliation", "Texture-led polish"] },
       { label: "Use caution", values: ["Check frequency and actives", "Check pressure and granule feel"] },
       { label: "Buyer mindset", values: ["Routine planning", "Immediate texture preference"] },
       { label: "Shopping note", values: ["Avoid stacking strong products casually", "Use gentle pressure and read directions"] },
@@ -1118,7 +1118,7 @@ export const beautyComparePages = [
     title: "Heat Protectant vs Leave-In Conditioner",
     summary: "Compare styling-tool prep with leave-in softness and detangling support.",
     verdict:
-      "Heat protectant is the styling-tool-specific route when heat is involved, while leave-in conditioner is broader for softness, slip, and prep.",
+      "Heat protectant is the styling-tool-specific choice when heat is involved, while leave-in conditioner is broader for softness, slip, and prep.",
     columns: ["Heat protectant", "Leave-in conditioner"],
     rows: [
       { label: "Best role", values: ["Heat styling prep", "Softness and detangling prep"] },
@@ -1161,7 +1161,7 @@ export const beautyComparePages = [
   {
     slug: "body-wash-vs-shower-oil",
     title: "Body Wash vs Shower Oil",
-    summary: "Compare classic cleansing with a richer, oil-textured shower route.",
+    summary: "Compare classic cleansing with a richer, oil-textured shower option.",
     verdict:
       "Body wash is the practical daily shower staple, while shower oil is better for shoppers who want a richer-feeling cleanse and more indulgent texture.",
     columns: ["Body wash", "Shower oil"],
@@ -1211,7 +1211,7 @@ export const beautyComparePages = [
       "A brush set is useful for beginners or gift buyers, while a single brush is better when the shopper knows exactly which routine gap needs upgrading.",
     columns: ["Brush set", "Single brush"],
     rows: [
-      { label: "Best role", values: ["Starter or gift route", "Targeted tool upgrade"] },
+      { label: "Best role", values: ["Starter or gift option", "Targeted tool upgrade"] },
       { label: "Value question", values: ["Many brushes, not all may be used", "Higher focus per purchase"] },
       { label: "Buyer mindset", values: ["Build a kit", "Improve one step"] },
       { label: "Shopping note", values: ["Check included brush shapes", "Check size, fibers, and use case"] },
@@ -1313,7 +1313,7 @@ export const beautyComparePages = [
     title: "SPF Lip Balm vs Regular Lip Balm",
     summary: "Compare sun-care-positioned lip balm with everyday comfort balm.",
     verdict:
-      "SPF lip balm is the better daytime route when sun exposure is part of the use case, while regular lip balm is the simpler comfort-first staple.",
+      "SPF lip balm is the better daytime choice when sun exposure is part of the use case, while regular lip balm is the simpler comfort-first staple.",
     columns: ["SPF lip balm", "Regular lip balm"],
     rows: [
       { label: "Best role", values: ["Daytime SPF-positioned lip care", "Everyday comfort"] },
@@ -1373,7 +1373,7 @@ export const beautyComparePages = [
     title: "Hair Primer vs Heat Protectant",
     summary: "Compare styling prep with heat-tool-focused product positioning.",
     verdict:
-      "Hair primer is the broader styling-prep route, while heat protectant is the more specific route when hot tools are part of the routine.",
+      "Hair primer is the broader styling-prep choice, while heat protectant is the more specific option when hot tools are part of the routine.",
     columns: ["Hair primer", "Heat protectant"],
     rows: [
       { label: "Best role", values: ["Styling prep", "Hot-tool prep"] },
@@ -1403,7 +1403,7 @@ export const beautyComparePages = [
     title: "Body Butter vs Body Cream",
     summary: "Compare rich body-care textures for daily comfort, gifting, and fragrance layering.",
     verdict:
-      "Body butter is usually the richer, more indulgent route, while body cream is often easier as a daily body-care staple.",
+      "Body butter is usually the richer, more indulgent choice, while body cream is often easier as a daily body-care staple.",
     columns: ["Body butter", "Body cream"],
     rows: [
       { label: "Texture", values: ["Richer and denser", "Creamy but often more flexible"] },
@@ -1448,7 +1448,7 @@ export const beautyComparePages = [
     title: "Foam Cleanser vs Gel Cleanser",
     summary: "Compare two everyday cleanser textures before choosing a daily face wash.",
     verdict:
-      "Foam cleanser is usually stronger for shoppers who want a more airy rinse, while gel cleanser is often the safer flexible route for a clean, low-friction daily wash.",
+      "Foam cleanser is usually stronger for shoppers who want a more airy rinse, while gel cleanser is often the safer flexible choice for a clean, low-friction daily wash.",
     columns: ["Foam cleanser", "Gel cleanser"],
     rows: [
       { label: "Texture", values: ["Foamy or whipped", "Gel or jelly"] },
@@ -1481,7 +1481,7 @@ export const beautyComparePages = [
       "Retinol serums are usually positioned as evening treatment products, while bakuchiol serums are often positioned as a gentler-feeling alternative story for shoppers comparing routine tolerance.",
     columns: ["Retinol serum", "Bakuchiol serum"],
     rows: [
-      { label: "Common positioning", values: ["Evening treatment route", "Alternative active story"] },
+      { label: "Common positioning", values: ["Evening treatment step", "Alternative active story"] },
       { label: "Routine fit", values: ["Introduce cautiously", "Compare texture and formula context"] },
       { label: "Buyer mindset", values: ["Mature routine planning", "Sensitivity-aware shopping"] },
       { label: "Shopping note", values: ["Read directions and SPF context", "Check claims and ingredient list"] },
@@ -1498,7 +1498,7 @@ export const beautyComparePages = [
     rows: [
       { label: "Common role", values: ["Hydration-positioned staple", "Hydration-positioned niche layer"] },
       { label: "Product types", values: ["Serums, creams, masks", "Serums and essences"] },
-      { label: "Buyer mindset", values: ["Familiar ingredient route", "Ingredient-curious upgrade"] },
+      { label: "Buyer mindset", values: ["Familiar ingredient choice", "Ingredient-curious upgrade"] },
       { label: "Shopping note", values: ["Check formula context", "Check texture and layering"] },
     ],
     relatedLinks: ["/best/best-hyaluronic-moisturizer", "/best/best-polyglutamic-acid-serum", "/beauty-university/ingredient-claims-guide"],
@@ -1568,12 +1568,12 @@ export const beautyComparePages = [
     title: "BB Cream vs CC Cream",
     summary: "Compare two hybrid complexion formats often used for lighter everyday makeup.",
     verdict:
-      "BB cream is usually the softer all-around hybrid route, while CC cream is often positioned around color-correcting or tone-balancing makeup stories.",
+      "BB cream is usually the softer all-around hybrid choice, while CC cream is often positioned around color-correcting or tone-balancing makeup stories.",
     columns: ["BB cream", "CC cream"],
     rows: [
       { label: "Common role", values: ["Hybrid complexion cream", "Color-correcting complexion cream"] },
       { label: "Coverage", values: ["Light to medium", "Light to medium"] },
-      { label: "Buyer concern", values: ["Easy everyday base", "Tone-balancing makeup route"] },
+      { label: "Buyer concern", values: ["Easy everyday base", "Tone-balancing makeup option"] },
       { label: "Shopping note", values: ["Check shade and finish", "Check tone claims and visible shade range"] },
     ],
     relatedLinks: ["/best/best-bb-cream", "/best/best-cc-cream", "/makeup"],
@@ -1626,7 +1626,7 @@ export const beautyComparePages = [
   {
     slug: "tubing-mascara-vs-waterproof-mascara",
     title: "Tubing Mascara vs Waterproof Mascara",
-    summary: "Compare two mascara routes often chosen for wear preferences and removal style.",
+    summary: "Compare two mascara options often chosen for wear preferences and removal style.",
     verdict:
       "Tubing mascara is usually better for shoppers prioritizing easier warm-water removal, while waterproof mascara is stronger when water resistance is the main priority.",
     columns: ["Tubing mascara", "Waterproof mascara"],
@@ -1703,7 +1703,7 @@ export const beautyComparePages = [
     title: "Purple Shampoo vs Clarifying Shampoo",
     summary: "Compare tone-focused wash-day products with deeper-cleanse-positioned shampoo.",
     verdict:
-      "Purple shampoo is usually a tone-focused route for blonde or highlighted hair, while clarifying shampoo is stronger for shoppers concerned with buildup and a fresher wash feel.",
+      "Purple shampoo is usually a tone-focused choice for blonde or highlighted hair, while clarifying shampoo is stronger for shoppers concerned with buildup and a fresher wash feel.",
     columns: ["Purple shampoo", "Clarifying shampoo"],
     rows: [
       { label: "Best role", values: ["Tone-focused wash step", "Buildup-focused wash step"] },
@@ -1748,7 +1748,7 @@ export const beautyComparePages = [
     title: "Eau de Parfum vs Eau de Toilette",
     summary: "Compare two classic fragrance concentrations before choosing bottle size and scent style.",
     verdict:
-      "Eau de parfum is usually the stronger route for shoppers who want more presence, while eau de toilette is often better for a lighter everyday scent style.",
+      "Eau de parfum is usually the stronger choice for shoppers who want more presence, while eau de toilette is often better for a lighter everyday scent style.",
     columns: ["Eau de parfum", "Eau de toilette"],
     rows: [
       { label: "Common feel", values: ["Richer or more present", "Lighter or fresher"] },
@@ -1778,7 +1778,7 @@ export const beautyComparePages = [
     title: "Fragrance Mist vs Hair Mist",
     summary: "Compare general misting scent with hair-specific fragrance formats.",
     verdict:
-      "Fragrance mist is the broader casual scent route, while hair mist is better when the shopper wants a product specifically positioned for hair fragrance.",
+      "Fragrance mist is the broader casual scent choice, while hair mist is better when the shopper wants a product specifically positioned for hair fragrance.",
     columns: ["Fragrance mist", "Hair mist"],
     rows: [
       { label: "Best role", values: ["Body or casual refresh", "Hair-fragrance step"] },
@@ -1793,7 +1793,7 @@ export const beautyComparePages = [
     title: "Nail Strengthener vs Base Coat",
     summary: "Compare nail-care positioning with polish-prep function before a manicure.",
     verdict:
-      "Base coat is the polish-prep staple, while nail strengthener is a more treatment-positioned route that should be judged by product directions and visible claims.",
+      "Base coat is the polish-prep staple, while nail strengthener is a more treatment-positioned option that should be judged by product directions and visible claims.",
     columns: ["Nail strengthener", "Base coat"],
     rows: [
       { label: "Best role", values: ["Treatment-positioned nail step", "Polish-prep step"] },
@@ -1808,7 +1808,7 @@ export const beautyComparePages = [
     title: "Press-On Nails vs Gel Nails",
     summary: "Compare instant manicure sets with gel manicure systems and upkeep.",
     verdict:
-      "Press-on nails are better for fast occasion styling, while gel nails are a more tool- and removal-aware route for shoppers who want a salon-style manicure process.",
+      "Press-on nails are better for fast occasion styling, while gel nails are a more tool- and removal-aware choice for shoppers who want a salon-style manicure process.",
     columns: ["Press-on nails", "Gel nails"],
     rows: [
       { label: "Best role", values: ["Instant shape and style", "Longer-wear-positioned manicure"] },
@@ -1823,7 +1823,7 @@ export const beautyComparePages = [
     title: "Gel Top Coat vs Regular Top Coat",
     summary: "Compare gel-style manicure finishing with classic top coat flexibility.",
     verdict:
-      "Regular top coat is the simpler at-home route, while gel top coat is better for shoppers using compatible gel systems or gel-like manicure routines.",
+      "Regular top coat is the simpler at-home choice, while gel top coat is better for shoppers using compatible gel systems or gel-like manicure routines.",
     columns: ["Gel top coat", "Regular top coat"],
     rows: [
       { label: "Best role", values: ["Gel-style finish", "Classic polish finish"] },
@@ -1928,7 +1928,7 @@ export const beautyComparePages = [
     title: "Heated Eyelash Curler vs Regular Curler",
     summary: "Compare classic lash curling with heated tool routines and safety considerations.",
     verdict:
-      "A regular lash curler is the simpler staple, while a heated lash curler is a more tool-specific route that requires careful use and product directions.",
+      "A regular lash curler is the simpler staple, while a heated lash curler is a more tool-specific option that requires careful use and product directions.",
     columns: ["Heated eyelash curler", "Regular eyelash curler"],
     rows: [
       { label: "Best role", values: ["Heat-assisted lash styling", "Classic lash curl"] },
@@ -2378,7 +2378,7 @@ export const beautyComparePages = [
     title: "Lip Primer vs Lip Liner",
     summary: "Compare a prep step with a shaping and definition step for polished lip looks.",
     verdict:
-      "Lip primer is the prep-focused route, while lip liner is the stronger choice when definition, shape, and shade structure matter most.",
+      "Lip primer is the prep-focused choice, while lip liner is stronger when definition, shape, and shade structure matter most.",
     columns: ["Lip primer", "Lip liner"],
     rows: [
       { label: "Best role", values: ["Prep and smooth-feel base", "Define and shape"] },
@@ -2438,7 +2438,7 @@ export const beautyComparePages = [
     title: "Hair Mousse vs Curl Foam",
     summary: "Compare general volume mousse with curl-focused foam styling.",
     verdict:
-      "Hair mousse is the broader volume and body route, while curl foam is stronger for shoppers focused on curl shape, softness, and definition.",
+      "Hair mousse is the broader volume and body choice, while curl foam is stronger for shoppers focused on curl shape, softness, and definition.",
     columns: ["Hair mousse", "Curl foam"],
     rows: [
       { label: "Best role", values: ["Volume and body", "Curl shape and definition"] },
@@ -2468,10 +2468,10 @@ export const beautyComparePages = [
     title: "Hair Gloss vs Hair Color Gloss",
     summary: "Compare clear shine glosses with color-depositing gloss formats.",
     verdict:
-      "Hair gloss is the simpler shine-focused route, while hair color gloss is stronger when shoppers want a tone or color-refresh story.",
+      "Hair gloss is the simpler shine-focused choice, while hair color gloss is stronger when shoppers want a tone or color-refresh story.",
     columns: ["Hair gloss", "Hair color gloss"],
     rows: [
-      { label: "Best role", values: ["Shine and smooth-feel finish", "Tone or color-refresh route"] },
+      { label: "Best role", values: ["Shine and smooth-feel finish", "Tone or color-refresh option"] },
       { label: "Color", values: ["Often clear or universal", "Shade-specific"] },
       { label: "Buyer concern", values: ["Glossy finish", "Color maintenance"] },
       { label: "Shopping note", values: ["Check directions and hair type", "Check shade, timing, and stain risk"] },
@@ -2588,7 +2588,7 @@ export const beautyComparePages = [
     title: "Body Polish vs Body Scrub",
     summary: "Compare two product-led body exfoliation options by texture, scent, and shower routine.",
     verdict:
-      "Body polish is usually the more refined, ritual-feeling route, while body scrub is the broader exfoliating category with more texture and price variety.",
+      "Body polish is usually the more refined, ritual-feeling choice, while body scrub is the broader exfoliating category with more texture and price variety.",
     columns: ["Body polish", "Body scrub"],
     rows: [
       { label: "Texture", values: ["Polished, creamy, or oily", "Grainy, creamy, gel, or oil-based"] },
@@ -2618,7 +2618,7 @@ export const beautyComparePages = [
     title: "Shower Gel vs Body Wash",
     summary: "Compare two everyday body-cleansing formats by texture, fragrance, and skin feel.",
     verdict:
-      "Shower gel is usually the lighter, more gel-textured route, while body wash is the broader category with creamier and more moisturizing-feeling options.",
+      "Shower gel is usually the lighter, more gel-textured choice, while body wash is the broader category with creamier and more moisturizing-feeling options.",
     columns: ["Shower gel", "Body wash"],
     rows: [
       { label: "Texture", values: ["Gel or gel-cream", "Gel, cream, oil, or lotion wash"] },
@@ -2648,7 +2648,7 @@ export const beautyComparePages = [
     title: "Deodorant Cream vs Deodorant Stick",
     summary: "Compare cream deodorant texture with classic stick convenience.",
     verdict:
-      "Deodorant stick is the more familiar daily route, while deodorant cream is a niche texture choice for shoppers who prefer jar, tube, or cream application.",
+      "Deodorant stick is the more familiar daily choice, while deodorant cream is a niche texture choice for shoppers who prefer jar, tube, or cream application.",
     columns: ["Deodorant cream", "Deodorant stick"],
     rows: [
       { label: "Format", values: ["Cream, jar, or tube", "Solid stick"] },
@@ -2666,7 +2666,7 @@ export const beautyComparePages = [
       "Aluminum-free deodorant is best for shoppers intentionally choosing that label, while regular deodorant offers the broadest formula, scent, and format range.",
     columns: ["Aluminum-free deodorant", "Regular deodorant"],
     rows: [
-      { label: "Common role", values: ["Label-specific deodorant route", "Broad deodorant category"] },
+      { label: "Common role", values: ["Label-specific deodorant choice", "Broad deodorant category"] },
       { label: "Formula range", values: ["Cream, stick, gel, or spray", "Stick, gel, spray, cream, or clinical-positioned"] },
       { label: "Buyer mindset", values: ["Ingredient-label preference", "Format, scent, and familiarity"] },
       { label: "Shopping note", values: ["Avoid assuming safety outcomes", "Check product label and directions"] },
@@ -2918,7 +2918,7 @@ export const beautyComparePages = [
     title: "Skin Tint vs CC Cream",
     summary: "Compare sheer tint formulas with more tone-focused complexion hybrids.",
     verdict:
-      "Skin tint is better for sheer, skin-forward makeup, while CC cream is stronger when shoppers want a more tone-focused base route.",
+      "Skin tint is better for sheer, skin-forward makeup, while CC cream is stronger when shoppers want a more tone-focused base.",
     columns: ["Skin tint", "CC cream"],
     rows: [
       { label: "Coverage", values: ["Very sheer to light", "Light to medium depending on product"] },
@@ -3141,9 +3141,9 @@ export const beautyComparePages = [
   {
     slug: "cologne-vs-perfume",
     title: "Cologne vs Perfume",
-    summary: "Compare fragrance naming conventions, concentration expectations, and gifting routes.",
+    summary: "Compare fragrance naming conventions, concentration expectations, and gifting options.",
     verdict:
-      "Cologne is often shopped as a lighter or masculine-coded fragrance route, while perfume is the broader luxury scent category across concentrations and styles.",
+      "Cologne is often shopped as a lighter or masculine-coded fragrance choice, while perfume is the broader luxury scent category across concentrations and styles.",
     columns: ["Cologne", "Perfume"],
     rows: [
       { label: "Shopping language", values: ["Often lighter or masculine-coded", "Broad scent category"] },
@@ -3173,7 +3173,7 @@ export const beautyComparePages = [
     title: "Body Splash vs Body Mist",
     summary: "Compare light scented body formats before choosing an everyday fragrance layer.",
     verdict:
-      "Body splash is usually the simpler light-scent route, while body mist is the broader modern category with more fragrance, body-care, and gifting options.",
+      "Body splash is usually the simpler light-scent choice, while body mist is the broader modern category with more fragrance, body-care, and gifting options.",
     columns: ["Body splash", "Body mist"],
     rows: [
       { label: "Scent style", values: ["Light and casual", "Light, layered, or fragrance-led"] },
@@ -3231,7 +3231,7 @@ export const beautyComparePages = [
   {
     slug: "cleansing-balm-vs-micellar-water",
     title: "Cleansing Balm vs Micellar Water",
-    summary: "Compare rich balm cleansing with quick watery cleansing before choosing a first-cleanse route.",
+    summary: "Compare rich balm cleansing with quick watery cleansing before choosing a first cleanse.",
     verdict:
       "Cleansing balm is better for a richer makeup-removal ritual, while micellar water is stronger for speed, portability, and light cleansing preferences.",
     columns: ["Cleansing balm", "Micellar water"],
@@ -3381,7 +3381,7 @@ export const beautyComparePages = [
   {
     slug: "sunscreen-stick-vs-sunscreen-lotion",
     title: "Sunscreen Stick vs Sunscreen Lotion",
-    summary: "Compare portable SPF stick formats with classic lotion sunscreen routes.",
+    summary: "Compare portable SPF stick formats with classic lotion sunscreens.",
     verdict:
       "Sunscreen stick is better for portable touch-ups and targeted application, while sunscreen lotion is stronger for broader, more familiar face or body application.",
     columns: ["Sunscreen stick", "Sunscreen lotion"],
@@ -3486,7 +3486,7 @@ export const beautyComparePages = [
   {
     slug: "primer-serum-vs-face-primer",
     title: "Primer Serum vs Face Primer",
-    summary: "Compare serum-textured prep products with classic makeup primer routes.",
+    summary: "Compare serum-textured prep products with classic makeup primers.",
     verdict:
       "Primer serum is stronger for shoppers who want a skin-care-like prep texture, while face primer is better for classic makeup grip, smoothing, or finish control.",
     columns: ["Primer serum", "Face primer"],
@@ -3878,7 +3878,7 @@ export const beautyComparePages = [
     title: "Clarifying Shampoo vs Scalp Scrub",
     summary: "Compare cleanse-focused hair washing with texture-led scalp exfoliation routines.",
     verdict:
-      "Clarifying shampoo is better for a cleanse-focused wash route, while scalp scrub is stronger for shoppers who want a texture-led pre-wash or in-shower scalp step.",
+      "Clarifying shampoo is better for a cleanse-focused wash, while scalp scrub is stronger for shoppers who want a texture-led pre-wash or in-shower scalp step.",
     columns: ["Clarifying shampoo", "Scalp scrub"],
     rows: [
       { label: "Format", values: ["Shampoo cleanser", "Scrub, paste, or exfoliating texture"] },
@@ -4071,7 +4071,7 @@ export const beautyComparePages = [
   {
     slug: "discovery-set-vs-sampler-set",
     title: "Discovery Set vs Sampler Set",
-    summary: "Compare two sample-led beauty shopping routes before buying full size.",
+    summary: "Compare two sample-led beauty shopping options before buying full size.",
     verdict:
       "Discovery sets are stronger for curated brand or fragrance exploration, while sampler sets are better for broader trial across products, shades, or routines.",
     columns: ["Discovery set", "Sampler set"],
@@ -4223,7 +4223,7 @@ export const beautyComparePages = [
     title: "Facial Steamer vs Face Sauna",
     summary: "Compare two steam-focused facial tool names before choosing a vanity appliance.",
     verdict:
-      "Facial steamer is the clearer shopping route for compact steam tools, while face sauna is often used for larger or more enclosed steam-style beauty appliances.",
+      "Facial steamer is the clearer shopping term for compact steam tools, while face sauna is often used for larger or more enclosed steam-style beauty appliances.",
     columns: ["Facial steamer", "Face sauna"],
     rows: [
       { label: "Tool style", values: ["Compact steam device", "Larger steam-style appliance"] },
@@ -4286,7 +4286,7 @@ export const beautyComparePages = [
       "Azelaic acid is stronger for shoppers comparing specific active-ingredient positioning, while niacinamide is broader and appears across many everyday serum, moisturizer, and primer formulas.",
     columns: ["Azelaic acid", "Niacinamide"],
     rows: [
-      { label: "Ingredient route", values: ["Specific active-led products", "Broad multi-category products"] },
+      { label: "Ingredient focus", values: ["Specific active-led products", "Broad multi-category products"] },
       { label: "Best role", values: ["Targeted routine research", "Flexible daily routine support"] },
       { label: "Buyer concern", values: ["Directions, strength language, and tolerance", "Percentage, texture, and layering"] },
       { label: "Shopping note", values: ["Read label directions carefully", "Avoid assuming assured outcomes"] },
@@ -4311,7 +4311,7 @@ export const beautyComparePages = [
   {
     slug: "lactic-acid-vs-glycolic-acid",
     title: "Lactic Acid vs Glycolic Acid",
-    summary: "Compare two AHA ingredient routes for exfoliation-positioned beauty products.",
+    summary: "Compare two AHA ingredients for exfoliation-positioned beauty products.",
     verdict:
       "Lactic acid is often positioned as a softer-feeling AHA story, while glycolic acid is stronger for shoppers comparing more classic exfoliating-acid products.",
     columns: ["Lactic acid", "Glycolic acid"],
@@ -4328,7 +4328,7 @@ export const beautyComparePages = [
     title: "Mandelic Acid vs Lactic Acid",
     summary: "Compare two gentler-positioned AHA ingredient stories for careful routine building.",
     verdict:
-      "Mandelic acid is a more niche AHA route, while lactic acid is broader and appears across more face and body exfoliation-positioned products.",
+      "Mandelic acid is a more niche AHA choice, while lactic acid is broader and appears across more face and body exfoliation-positioned products.",
     columns: ["Mandelic acid", "Lactic acid"],
     rows: [
       { label: "Shopping familiarity", values: ["More niche", "More common"] },
@@ -4403,7 +4403,7 @@ export const beautyComparePages = [
     title: "Fragrance-Free vs Unscented",
     summary: "Compare two label terms that shoppers often confuse in sensitive-routine beauty products.",
     verdict:
-      "Fragrance-free is the better route when shoppers want products without added fragrance listed, while unscented can still require label reading because it may refer to the final smell rather than the formula story.",
+      "Fragrance-free is the better choice when shoppers want products without added fragrance listed, while unscented can still require label reading because it may refer to the final smell rather than the formula story.",
     columns: ["Fragrance-free", "Unscented"],
     rows: [
       { label: "Label meaning", values: ["No added fragrance positioning", "No noticeable scent positioning"] },
@@ -4932,7 +4932,7 @@ export const beautyBrands = [
   {
     slug: "nars",
     name: "NARS",
-    description: "NARS is a strong route for shoppers comparing complexion, cheek color, lip products, and artist-led makeup finishes.",
+    description: "NARS is a strong starting point for shoppers comparing complexion, cheek color, lip products, and artist-led makeup finishes.",
   },
   {
     slug: "armani-beauty",
@@ -4982,7 +4982,7 @@ export const beautyBrands = [
   {
     slug: "oribe",
     name: "Oribe",
-    description: "Oribe is a premium hair-care route for shoppers comparing shampoos, conditioners, styling products, and salon-inspired presentation.",
+    description: "Oribe is a premium hair-care brand for shoppers comparing shampoos, conditioners, styling products, and salon-inspired presentation.",
   },
   {
     slug: "kerastase",
@@ -5002,7 +5002,7 @@ export const beautyBrands = [
   {
     slug: "maison-margiela",
     name: "Maison Margiela Replica",
-    description: "Maison Margiela Replica is useful for fragrance shoppers comparing scent stories, discovery sets, and giftable fragrance routes.",
+    description: "Maison Margiela Replica is useful for fragrance shoppers comparing scent stories, discovery sets, and giftable fragrance options.",
   },
   {
     slug: "essie",
@@ -5075,7 +5075,7 @@ export const beautySellers = [
     name: "Bluemercury",
     description: "Bluemercury is useful for luxury skin care, makeup, fragrance, and beauty-tool shoppers who prefer a boutique beauty retail path.",
     bestFor: ["Boutique beauty", "Luxury skin care", "Premium gifts"],
-    trustSignal: "Good fit for shoppers comparing elevated beauty edits, premium brands, and curated gifting routes.",
+    trustSignal: "Good fit for shoppers comparing elevated beauty edits, premium brands, and curated gifting options.",
     affiliateUrl: "https://bluemercury.com/",
   },
   {
@@ -5089,7 +5089,7 @@ export const beautySellers = [
   {
     slug: "bloomingdales",
     name: "Bloomingdale's",
-    description: "Bloomingdale's fits luxury beauty shoppers comparing premium fragrance, designer makeup, skin care, and polished gift routes.",
+    description: "Bloomingdale's fits luxury beauty shoppers comparing premium fragrance, designer makeup, skin care, and polished gifts.",
     bestFor: ["Designer beauty", "Fragrance", "Luxury gifting"],
     trustSignal: "Strong department-store path for elevated beauty purchases and premium presentation.",
     affiliateUrl: "https://www.bloomingdales.com/shop/beauty",
@@ -5105,7 +5105,7 @@ export const beautySellers = [
   {
     slug: "target",
     name: "Target",
-    description: "Target fits accessible beauty shoppers comparing skin care, hair care, makeup staples, body care, and practical replenishment routes.",
+    description: "Target fits accessible beauty shoppers comparing skin care, hair care, makeup staples, body care, and practical replenishment.",
     bestFor: ["Accessible beauty", "Routine staples", "Replenishment"],
     trustSignal: "Useful for shoppers who value familiar checkout, practical pricing, and broad everyday beauty categories.",
     affiliateUrl: "https://www.target.com/c/beauty",
@@ -5141,18 +5141,18 @@ export const beautyBrandCategories = [
   { brandSlug: "chanel", categorySlug: "fragrance", title: "CHANEL Fragrance", summary: "Compare CHANEL fragrance choices, gift sets, and signature scents." },
   { brandSlug: "la-mer", categorySlug: "skin-care", title: "La Mer Skin Care", summary: "Compare La Mer creams, serums, and ultra-premium skin care routines." },
   { brandSlug: "tom-ford-beauty", categorySlug: "lip-care", title: "Tom Ford Lip Color", summary: "Compare premium lip color and luxury makeup retailers." },
-  { brandSlug: "charlotte-tilbury", categorySlug: "makeup", title: "Charlotte Tilbury Makeup", summary: "Compare Charlotte Tilbury complexion, glow, cheek, and lip routes before choosing a seller." },
+  { brandSlug: "charlotte-tilbury", categorySlug: "makeup", title: "Charlotte Tilbury Makeup", summary: "Compare Charlotte Tilbury complexion, glow, cheek, and lip products before choosing a retailer." },
   { brandSlug: "rare-beauty", categorySlug: "makeup", title: "Rare Beauty Makeup", summary: "Compare Rare Beauty cheek, complexion, and lip products with shade and seller context." },
   { brandSlug: "fenty-beauty", categorySlug: "makeup", title: "Fenty Beauty Makeup", summary: "Compare Fenty Beauty complexion, lip, and cheek picks with shade and undertone context." },
   { brandSlug: "nars", categorySlug: "makeup", title: "NARS Makeup", summary: "Compare NARS complexion, blush, bronzer, and lip products by finish and routine fit." },
   { brandSlug: "armani-beauty", categorySlug: "makeup", title: "Armani Beauty Makeup", summary: "Compare Armani complexion, lip, and fragrance-adjacent beauty picks." },
-  { brandSlug: "tatcha", categorySlug: "skin-care", title: "Tatcha Skin Care", summary: "Compare Tatcha cleansers, moisturizers, masks, and ritual-led skin-care routes." },
+  { brandSlug: "tatcha", categorySlug: "skin-care", title: "Tatcha Skin Care", summary: "Compare Tatcha cleansers, moisturizers, masks, and ritual-led skin care." },
   { brandSlug: "drunk-elephant", categorySlug: "skin-care", title: "Drunk Elephant Skin Care", summary: "Compare Drunk Elephant serums, moisturizers, and routine-building product paths." },
   { brandSlug: "skinceuticals", categorySlug: "skin-care", title: "SkinCeuticals Serums", summary: "Compare SkinCeuticals serums with ingredient-led but careful buying context." },
   { brandSlug: "cerave", categorySlug: "skin-care", title: "CeraVe Skin Care", summary: "Compare CeraVe cleansers, moisturizers, SPF, and practical routine staples." },
   { brandSlug: "la-roche-posay", categorySlug: "skin-care", title: "La Roche-Posay Skin Care", summary: "Compare La Roche-Posay sunscreen, cleanser, moisturizer, and sensitive-routine picks." },
   { brandSlug: "laneige", categorySlug: "lip-care", title: "Laneige Lip Care", summary: "Compare Laneige lip masks, lip balms, and hydrating-positioned beauty products." },
-  { brandSlug: "summer-fridays", categorySlug: "lip-care", title: "Summer Fridays Lip Care", summary: "Compare Summer Fridays lip butter balms, skin tints, and easy gifting routes." },
+  { brandSlug: "summer-fridays", categorySlug: "lip-care", title: "Summer Fridays Lip Care", summary: "Compare Summer Fridays lip butter balms, skin tints, and easy gifts." },
   { brandSlug: "sol-de-janeiro", categorySlug: "body-care", title: "Sol de Janeiro Body Care", summary: "Compare Sol de Janeiro body creams, fragrance mists, and giftable body-care paths." },
   { brandSlug: "oribe", categorySlug: "hair-care", title: "Oribe Hair Care", summary: "Compare Oribe shampoo, conditioner, styling, and premium hair-care retailers." },
   { brandSlug: "kerastase", categorySlug: "hair-care", title: "Kerastase Hair Care", summary: "Compare Kerastase cleansing, conditioning, masks, and routine-specific hair-care paths." },
@@ -5180,7 +5180,7 @@ export const beautyCategoryPages = [
           { href: "/hair-care", label: "Hair care", description: "Compare salon-inspired shampoos, masks, scalp care, and styling support." },
           { href: "/makeup", label: "Makeup", description: "Compare luxury complexion, cheek, lip, eye, and finishing products." },
           { href: "/fragrance", label: "Fragrance", description: "Compare discovery sets, signature scents, gifts, and luxury fragrance houses." },
-          { href: "/body-care", label: "Body care", description: "Compare body moisturizers, exfoliants, hand care, and fragrance layering routes." },
+          { href: "/body-care", label: "Body care", description: "Compare body moisturizers, exfoliants, hand care, and fragrance layering." },
           { href: "/beauty-tools", label: "Beauty tools", description: "Compare brushes, facial tools, manicure tools, and hair styling tools." },
           { href: "/artificial-jewelry", label: "Artificial jewelry", description: "Compare fashion earrings, necklaces, bracelets, and giftable jewelry sets." },
         ],
@@ -5205,7 +5205,7 @@ export const beautyCategoryPages = [
     eyebrow: "Skin care",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/skin-care/anti-aging-serums", label: "Anti-aging serums", description: "Start here for targeted treatment and prestige active stories." },
           { href: "/skin-care/barrier-repair-moisturizers", label: "Barrier-support moisturizers", description: "Compare moisturizer texture, comfort, and routine anchoring." },
@@ -5226,7 +5226,7 @@ export const beautyCategoryPages = [
     eyebrow: "Makeup",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/makeup/luxury-foundation", label: "Luxury foundation", description: "Compare complexion products by finish, coverage, and shade path." },
           { href: "/makeup/luxury-concealer", label: "Luxury concealer", description: "Compare high-end concealer by coverage, finish, and undertone." },
@@ -5247,7 +5247,7 @@ export const beautyCategoryPages = [
     eyebrow: "Lip care",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/lip-care/lip-masks", label: "Lip masks", description: "Compare overnight and balm-mask treatment formats." },
           { href: "/lip-care/lip-oils", label: "Lip oils", description: "Compare glossy comfort, tint, applicator, and fragrance preferences." },
@@ -5268,14 +5268,14 @@ export const beautyCategoryPages = [
     eyebrow: "Fragrance",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/fragrance/fragrance-discovery-sets", label: "Fragrance discovery sets", description: "Compare sample sets, scent families, and lower-risk luxury fragrance paths." },
           { href: "/fragrance/luxury-perfume-gifts", label: "Luxury perfume gifts", description: "Compare bottle size, presentation, scent confidence, and seller flexibility." },
-          { href: "/fragrance/signature-scent-guide", label: "Signature scent guide", description: "Use occasion, scent family, and sampling routes before buying a full bottle." },
+          { href: "/fragrance/signature-scent-guide", label: "Signature scent guide", description: "Use occasion, scent family, and sampling options before buying a full bottle." },
           { href: "/brands/chanel", label: "CHANEL Beauty", description: "Compare classic luxury fragrance choices." },
           { href: "/sellers/nordstrom", label: "Nordstrom", description: "Use department-store service for premium fragrance and gifting." },
-          { href: "/luxury-beauty", label: "Luxury beauty edit", description: "Return to a broader prestige-shopping route." },
+          { href: "/luxury-beauty", label: "Luxury beauty edit", description: "Return to a broader prestige-shopping guide." },
         ],
       },
     ],
@@ -5289,12 +5289,12 @@ export const beautyCategoryPages = [
     eyebrow: "Hair care",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/hair-care/luxury-shampoo-conditioner", label: "Luxury shampoo and conditioner", description: "Compare premium wash-day staples by hair type, fragrance, and finish." },
           { href: "/hair-care/hair-masks", label: "Hair masks", description: "Compare rinse-out and treatment-style masks by texture and routine fit." },
           { href: "/hair-care/scalp-care", label: "Scalp care", description: "Compare scalp-focused formats with careful guidance." },
-          { href: "/beauty-university", label: "Routine guides", description: "Use education routes before building a premium hair routine." },
+          { href: "/beauty-university", label: "Routine guides", description: "Use education guides before building a premium hair routine." },
           { href: "/sellers/sephora", label: "Sephora", description: "Compare salon and prestige beauty hair-care retailers." },
           { href: "/luxury-beauty", label: "Luxury beauty edit", description: "Return to a broader prestige shopping guide." },
         ],
@@ -5310,13 +5310,13 @@ export const beautyCategoryPages = [
     eyebrow: "Body care",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/body-care/body-moisturizers", label: "Body moisturizers", description: "Compare premium body creams and lotions by texture, scent, and routine fit." },
           { href: "/body-care/body-exfoliants", label: "Body exfoliants", description: "Compare scrubs and exfoliating body products with use-direction context." },
           { href: "/body-care/luxury-hand-care", label: "Luxury hand care", description: "Compare hand creams and portable body-care gifts by finish and fragrance." },
           { href: "/fragrance", label: "Fragrance", description: "Pair body care with scent and gifting decisions." },
-          { href: "/sellers/nordstrom", label: "Nordstrom", description: "Use department-store routes for luxury body care and gifting." },
+          { href: "/sellers/nordstrom", label: "Nordstrom", description: "Use department-store retailers for luxury body care and gifting." },
           { href: "/beauty-university", label: "Beauty University", description: "Read routine guidance before choosing a product lane." },
         ],
       },
@@ -5327,11 +5327,11 @@ export const beautyCategoryPages = [
     title: "Luxury Nail Care",
     description: "Compare nail polish, treatments, cuticle care, manicure tools, and premium hand-care systems.",
     intro:
-      "Nail care pages should help shoppers compare finish, wear expectations, tool quality, and routine fit without overclaiming repair results.",
+      "For nail care, compare finish, wear expectations, tool quality, and routine fit without overclaiming repair results.",
     eyebrow: "Nail care",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/nail-care/luxury-nail-polish", label: "Luxury nail polish", description: "Compare premium shades, finishes, and retailer clarity." },
           { href: "/nail-care/cuticle-care", label: "Cuticle care", description: "Compare oils, creams, and hand-care pairings with careful language." },
@@ -5352,14 +5352,14 @@ export const beautyCategoryPages = [
     eyebrow: "Beauty tools",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/beauty-tools/makeup-brushes", label: "Makeup brushes", description: "Compare shape, material, application role, and cleaning needs." },
           { href: "/beauty-tools/facial-tools", label: "Facial tools", description: "Compare routine fit, materials, and care instructions without unsupported claims." },
           { href: "/beauty-tools/hair-styling-tools", label: "Hair styling tools", description: "Compare heat settings, attachments, warranty context, and retailer clarity." },
           { href: "/makeup", label: "Makeup", description: "Pair brushes and applicators with complexion and color decisions." },
           { href: "/hair-care", label: "Hair care", description: "Compare tools that support salon-style hair routines." },
-          { href: "/beauty-university", label: "Beauty University", description: "Use education routes before selecting specialized tools." },
+          { href: "/beauty-university", label: "Beauty University", description: "Use education guides before selecting specialized tools." },
         ],
       },
     ],
@@ -5373,10 +5373,10 @@ export const beautyCategoryPages = [
     eyebrow: "Artificial jewelry",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/artificial-jewelry/fashion-earrings", label: "Fashion earrings", description: "Compare statement and everyday earrings by tone, closure, weight, and occasion." },
-          { href: "/artificial-jewelry/fashion-necklaces", label: "Fashion necklaces", description: "Compare chains, pendants, layering pieces, and giftable necklace routes." },
+          { href: "/artificial-jewelry/fashion-necklaces", label: "Fashion necklaces", description: "Compare chains, pendants, layering pieces, and giftable necklaces." },
           { href: "/artificial-jewelry/fashion-bracelets", label: "Fashion bracelets", description: "Compare stacking styles, fit, finish, clasp style, and retailer clarity." },
           { href: "/artificial-jewelry/jewelry-gift-sets", label: "Jewelry gift sets", description: "Compare artificial jewelry sets by presentation, versatility, and return-friendly retailers." },
           { href: "/makeup", label: "Makeup", description: "Coordinate accessories with complexion, lip, and occasion makeup." },
@@ -5390,11 +5390,11 @@ export const beautyCategoryPages = [
     title: "Natural Beauty",
     description: "Compare natural-positioned beauty products with careful ingredient, seller, and claim context.",
     intro:
-      "Natural beauty pages should keep claims conservative, explain what is visible from product positioning, and avoid treating natural language as a safety guarantee.",
+      "For natural beauty, keep claims conservative, explain what is visible from the product details, and avoid treating natural language as a safety guarantee.",
     eyebrow: "Natural beauty",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/skin-care", label: "Skin care", description: "Compare ingredient-led skin-care routines." },
           { href: "/body-care", label: "Body care", description: "Explore body products with texture and fragrance context." },
@@ -5412,7 +5412,7 @@ export const beautyCategoryPages = [
     eyebrow: "Luxury edit",
     sections: [
       {
-        title: "Best next routes",
+        title: "Best next guides",
         links: [
           { href: "/skin-care", label: "Skin care", description: "Start with treatment-led luxury routines." },
           { href: "/makeup", label: "Makeup", description: "Move into color, complexion, and designer beauty." },
@@ -5559,12 +5559,12 @@ export const beautyUniversityTopics = [
       {
         question: "Should shade pages be indexed by default?",
         answer:
-          "No. Shade data is useful for filtering and product discovery, but shade-only pages should stay non-indexable unless they have strong standalone demand and enough unique guidance.",
+          "No. Shade data is useful for filtering and product discovery, but shade-only guides need strong standalone demand and enough unique guidance before they deserve a public page.",
       },
       {
         question: "What makes a luxury foundation page useful?",
         answer:
-          "It should explain finish, coverage, undertone support, retailer clarity, and comparison tradeoffs instead of only listing shopping buttons.",
+          "A useful comparison explains finish, coverage, undertone support, retailer clarity, and tradeoffs instead of only listing shopping buttons.",
       },
     ],
     relatedLinks: ["/makeup/luxury-foundation", "/compare/luxury-foundation-vs-skin-tint", "/sellers"],
@@ -5612,7 +5612,7 @@ export const beautyUniversityTopics = [
       {
         title: "Read the retailer details, not just the product title",
         body:
-          "Luxury beauty shoppers should compare who sells the item, who ships it, whether the listing has clear product details, and whether the return path is obvious before continuing to a marketplace checkout.",
+          "Before marketplace checkout, compare who sells the item, who ships it, whether the listing has clear product details, and whether the return policy is obvious.",
       },
       {
         title: "Treat low prices as a prompt to verify details",
@@ -5645,7 +5645,7 @@ export const beautyUniversityTopics = [
       {
         title: "Translate barrier language into shopping criteria",
         body:
-          "For comparison purposes, barrier-focused pages should look at texture, comfort positioning, fragrance, routine step, and visible product claims rather than implying a product can address a skin condition.",
+          "For barrier-focused products, look at texture, comfort language, fragrance, routine step, and visible product claims rather than assuming a product can address a skin condition.",
       },
       {
         title: "Use moisturizers and serums differently",
@@ -5658,7 +5658,7 @@ export const beautyUniversityTopics = [
       {
         question: "Can a beauty page say a product repairs the skin barrier?",
         answer:
-          "Only when the visible product claim supports it, and even then LipFlower should avoid assured-outcome or medical-style language.",
+          "Only when the visible product claim supports it, and even then LipFlower avoids assured-outcome or medical-style language.",
       },
       {
         question: "What is the safest shopper-first framing?",
@@ -5678,12 +5678,12 @@ export const beautyUniversityTopics = [
       {
         title: "Ingredient presence is not the same as outcome",
         body:
-          "A product can feature a recognizable ingredient without delivering the same feel, texture, or visible result as another formula. Shoppers should compare the whole product, not one highlighted ingredient.",
+          "A product can feature a recognizable ingredient without delivering the same feel, texture, or visible result as another formula. Compare the whole product, not one highlighted ingredient.",
       },
       {
         title: "Keep sensitivity and directions in the decision",
         body:
-          "Ingredients such as acids, retinoid-positioned products, fragrance, menthol, or plumping agents may not fit every routine. LipFlower pages should direct shoppers back to product instructions and personal tolerance.",
+          "Ingredients such as acids, retinoid-positioned products, fragrance, menthol, or plumping agents may not fit every routine. Always return to product instructions and personal tolerance.",
       },
     ],
     checklist: ["Look for visible brand claims", "Compare the full formula context", "Watch sensitivity language", "Do not treat ingredient lists as medical guidance"],
@@ -5711,7 +5711,7 @@ export const beautyUniversityTopics = [
       {
         title: "Think in layers, not isolated products",
         body:
-          "A polished makeup base depends on how moisturizer, SPF, primer, foundation, concealer, and powder behave together. Pages should help shoppers compare finish and compatibility rather than promising all-day wear.",
+          "A polished makeup base depends on how moisturizer, SPF, primer, foundation, concealer, and powder behave together. Compare finish and compatibility rather than expecting all-day wear from every product.",
       },
       {
         title: "Match finish to the final look",
@@ -5724,10 +5724,10 @@ export const beautyUniversityTopics = [
       {
         question: "Should makeup prep pages promise longer wear?",
         answer:
-          "No. They can explain products designed for longevity or setting, but should avoid guaranteed wear-time claims unless visibly supported by the product.",
+          "No. LipFlower can explain products designed for longevity or setting, but avoids guaranteed wear-time claims unless visibly supported by the product.",
       },
       {
-        question: "What internal pages should this guide support?",
+        question: "Where should readers go next?",
         answer:
           "It should connect to sunscreen, primer, foundation, concealer, setting powder, and comparison guides because those are the choices shoppers usually make next.",
       },
@@ -5737,19 +5737,19 @@ export const beautyUniversityTopics = [
   {
     slug: "ingredients-to-watch-in-lip-plumpers",
     title: "Ingredients to Watch in Lip Plumpers",
-    description: "Understand common lip-plumper sensation language, sensitivity concerns, and careful shopping signals.",
+    description: "Understand common lip-plumper sensation language, sensitivity concerns, and careful shopping cues.",
     intro:
-      "Lip plumpers can involve tingling or warming sensations, so shoppers should compare formula positioning and personal sensitivity before choosing a product.",
+      "Lip plumpers can involve tingling or warming sensations, so compare formula style and personal sensitivity before choosing a product.",
     sections: [
       {
         title: "Sensation language deserves extra caution",
         body:
-          "Tingling, cooling, warming, and plumping-positioned products may feel different from person to person. LipFlower should explain sensation as a shopping signal, not as proof of a guaranteed cosmetic result.",
+          "Tingling, cooling, warming, and plumping-positioned products may feel different from person to person. Treat sensation as a shopping cue, not proof of a guaranteed cosmetic result.",
       },
       {
         title: "Compare format and use case",
         body:
-          "Some plumpers are gloss-like, some are treatment-positioned, and some are makeup toppers. The page should help shoppers choose the role that fits their routine and comfort threshold.",
+          "Some plumpers are gloss-like, some are treatment-positioned, and some are makeup toppers. Choose the format that fits your routine and comfort threshold.",
       },
     ],
     checklist: ["Read sensation warnings", "Check fragrance or flavor", "Compare gloss versus treatment format", "Patch-test according to product directions"],
@@ -5757,7 +5757,7 @@ export const beautyUniversityTopics = [
       {
         question: "Can LipFlower say a product will plump lips?",
         answer:
-          "LipFlower can describe product positioning, but should avoid assured-outcome language and keep sensitivity context visible.",
+          "LipFlower can describe product language while avoiding assured-outcome promises and keeping sensitivity context visible.",
       },
       {
         question: "Who should be careful with lip plumpers?",
@@ -5795,7 +5795,7 @@ export const beautyUniversityTopics = [
       {
         question: "Should fragrance pages use medical language?",
         answer:
-          "No. Fragrance guides should avoid health claims and focus on scent style, use case, retailer clarity, and gifting practicality.",
+          "No. Fragrance guides focus on scent style, use case, retailer clarity, and gifting practicality rather than health claims.",
       },
     ],
     relatedLinks: ["/fragrance/fragrance-discovery-sets", "/fragrance/luxury-perfume-gifts", "/sellers"],
@@ -5805,7 +5805,7 @@ export const beautyUniversityTopics = [
     title: "Beauty Routine Order Chart",
     description: "Use a practical routine order chart for skin care, makeup prep, lip care, fragrance, hair care, and finishing accessories.",
     intro:
-      "This chart is designed as a reference asset for shoppers, editors, and creators who need a clean way to explain routine order without turning beauty content into medical advice.",
+      "This chart gives shoppers, editors, and creators a clean way to explain routine order without turning beauty content into medical advice.",
     sections: [
       {
         title: "The practical routine order",
@@ -5826,7 +5826,7 @@ export const beautyUniversityTopics = [
           "No. It is shopping and product-education guidance. Shoppers should follow product directions and seek professional advice for medical concerns.",
       },
       {
-        question: "Why is this a linkable asset?",
+        question: "Why is this useful to reference?",
         answer:
           "Routine order charts are useful reference pages for beauty blogs, gift guides, and internal comparison pages because they explain how categories connect.",
       },
@@ -5881,7 +5881,7 @@ export const beautyUniversityTopics = [
       {
         title: "Keep material and sensitivity details visible",
         body:
-          "Fashion jewelry guides should avoid unsupported sensitivity-suitability claims. Instead, they should prompt shoppers to read material details, closure type, weight, dimensions, and retailer policies.",
+          "Fashion jewelry guides avoid unsupported sensitivity-suitability claims and point shoppers toward material details, closure type, weight, dimensions, and retailer policies.",
       },
     ],
     checklist: ["Match jewelry to occasion", "Check material details", "Compare earring weight and closure", "Review gifting and return policy"],
@@ -5947,7 +5947,7 @@ export const beautyUniversityTopics = [
       {
         title: "Keep tool and heat context separate from product claims",
         body:
-          "Hair tools and styling products can support a polished routine, but pages should avoid guaranteed damage-prevention or hair-growth language unless visible product claims and directions support the wording.",
+          "Hair tools and styling products can support a polished routine, but LipFlower avoids guaranteed damage-prevention or hair-growth language unless visible product claims and directions support the wording.",
       },
     ],
     checklist: ["Choose the routine step", "Compare hair-feel goals", "Check tool and heat guidance", "Review retailer and return details"],
@@ -5960,7 +5960,7 @@ export const beautyUniversityTopics = [
       {
         question: "Can LipFlower promise hair repair or growth?",
         answer:
-          "No. Hair-care guides should stay careful and describe product positioning, routine support, and visible product directions rather than guaranteed outcomes.",
+          "No. Hair-care guides stay careful and describe product language, routine support, and visible product directions rather than guaranteed outcomes.",
       },
     ],
     relatedLinks: ["/hair-care", "/hair-care/luxury-shampoo-conditioner", "/hair-care/hair-masks", "/beauty-tools/hair-styling-tools"],
@@ -6013,7 +6013,7 @@ export const beautyUniversityTopics = [
       {
         title: "Connect body care to fragrance without overclaiming",
         body:
-          "Scented body care can support a fragrance routine, but pages should not promise long-lasting scent performance unless the product itself supports that claim.",
+          "Scented body care can support a fragrance routine, but LipFlower does not promise long-lasting scent performance unless the product itself supports that claim.",
       },
     ],
     checklist: ["Choose cleanse, exfoliate, moisturize, protect, or scent", "Compare texture and fragrance", "Check SPF directions where relevant", "Review gifting format"],
@@ -6054,12 +6054,12 @@ export const beautyUniversityTopics = [
       {
         question: "Why are fragrance-family charts linkable?",
         answer:
-          "They are easy reference assets for gift guides, fragrance roundups, and shopping explainers because they translate scent language into shopper decisions.",
+          "They are useful references for gift guides, fragrance roundups, and shopping explainers because they translate scent language into shopper decisions.",
       },
       {
         question: "Should fragrance pages make wellness claims?",
         answer:
-          "No. They should focus on scent style, gifting, format, and retailer clarity rather than mood, health, or therapeutic claims.",
+          "No. Fragrance guides focus on scent style, gifting, format, and retailer clarity rather than mood, health, or therapeutic claims.",
       },
     ],
     relatedLinks: ["/fragrance", "/fragrance/fragrance-discovery-sets", "/fragrance/luxury-perfume-gifts", "/beauty-university/fragrance-gifting-guide"],

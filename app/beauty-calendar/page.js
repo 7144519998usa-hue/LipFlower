@@ -23,7 +23,7 @@ const calendarMoments = [
     season: "Spring refresh",
     focus: "Fresh makeup and lighter textures",
     guidance:
-      "Spring pages should keep finish, shade flexibility, blush texture, fragrance family, and routine order visible without overpromising results.",
+      "For spring, compare finish, shade flexibility, blush texture, fragrance family, and routine order without expecting one product to do everything.",
     links: ["/makeup/cream-blush", "/beauty-university/shade-matching-guide", "/fragrance/signature-scent-guide"],
   },
   {
@@ -44,7 +44,7 @@ const calendarMoments = [
     season: "Holiday gifting",
     focus: "Gift sets, discovery sets, and retailer clarity",
     guidance:
-      "Holiday gift guides should prioritize retailer clarity, delivery timing, return rules, giftable formats, fragrance discovery sets, and artificial jewelry sets.",
+      "For holiday gifts, prioritize retailer clarity, delivery timing, return rules, giftable formats, fragrance discovery sets, and artificial jewelry sets.",
     links: ["/beauty-university/beauty-gift-decision-tree", "/calculators/gift-finder", "/sellers"],
   },
 ];

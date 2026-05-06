@@ -9,7 +9,7 @@ const finishGroups = [
     title: "Complexion finishes",
     terms: ["Dewy", "Satin", "Natural", "Soft matte", "Radiant"],
     guidance:
-      "Foundation, concealer, skin tint, and powder pages should compare finish as a visible look and texture preference, not as a guaranteed skin outcome.",
+      "For foundation, concealer, skin tint, and powder, compare finish as a visible look and texture preference, not as a guaranteed skin outcome.",
     links: ["/makeup/luxury-foundation", "/makeup/setting-powder", "/beauty-university/shade-matching-guide"],
   },
   {
@@ -23,7 +23,7 @@ const finishGroups = [
     title: "Lip finishes",
     terms: ["Glossy", "Tinted", "Balm-shine", "Matte", "Oil-slick"],
     guidance:
-      "Lip pages should separate treatment feel from makeup finish while keeping fragrance, flavor, stickiness, and reapplication expectations visible.",
+      "For lip products, separate treatment feel from makeup finish while keeping fragrance, flavor, stickiness, and reapplication expectations visible.",
     links: ["/lip-care/lip-oils", "/lip-care/tinted-lip-balms", "/compare/lip-oil-vs-lip-gloss"],
   },
   {
@@ -37,7 +37,7 @@ const finishGroups = [
     title: "Fragrance and body-care feel",
     terms: ["Mist", "Oil", "Cream", "Lotion", "Exfoliating polish"],
     guidance:
-      "Body-care and fragrance pages should use texture and scent-family language as sensorial shopping context, not wellness or therapeutic claims.",
+      "For body care and fragrance, use texture and scent-family language as sensorial shopping context, not wellness or therapeutic claims.",
     links: ["/body-care/body-moisturizers", "/fragrance/fragrance-discovery-sets", "/beauty-university/body-care-layering-guide"],
   },
   {
@@ -92,7 +92,7 @@ export default function BeautyFinishesPage() {
           into unsupported claims.
         </p>
         <p>
-          Finish and texture are shopper-fit signals. They help narrow preferences, but they do not
+          Finish and texture help narrow shopper preferences, but they do not
           guarantee individual results, wear time, comfort, or sensitivity fit.
         </p>
         <div className="hero-actions">

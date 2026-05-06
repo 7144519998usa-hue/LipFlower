@@ -22,7 +22,7 @@ const methodologyAreas = [
   {
     title: "Retailer clarity",
     description:
-      "Shopping pages should help shoppers evaluate retailer identity, return clarity, listing detail quality, delivery details, and price context before continuing.",
+      "Before continuing to a retailer, compare retailer identity, return clarity, listing detail quality, delivery details, and price context.",
     examples: ["Amazon seller checks", "Return-sensitive shade purchases", "Gift delivery timing"],
     links: ["/beauty-seller-scorecard", "/sellers"],
   },
@@ -36,14 +36,14 @@ const methodologyAreas = [
   {
     title: "Comparison usefulness",
     description:
-      "A comparison should explain the practical tradeoff: who each option is for, what decision it helps with, and what a shopper should verify on the retailer site.",
+      "A useful comparison explains the practical tradeoff: who each option is for, what decision it helps with, and what to verify on the retailer site.",
     examples: ["Foundation versus skin tint", "Lip oil versus gloss", "Cream blush versus powder blush"],
     links: ["/compare", "/beauty-checklists"],
   },
   {
     title: "Disclosure and monetization clarity",
     description:
-      "LipFlower may earn affiliate revenue when users continue to retailer sites, so monetized pages should keep disclosures, retailer context, and user-first guidance visible.",
+      "LipFlower may earn affiliate revenue when users continue to retailer sites, so disclosures, retailer context, and shopper-first guidance stay visible.",
     examples: ["Affiliate disclosure", "How we make money", "Retailer context"],
     links: ["/about/advertiser-disclosure", "/about/how-we-make-money"],
   },
@@ -83,7 +83,7 @@ export default function BeautyMethodologyPage() {
           product language before continuing to a retailer.
         </p>
         <p>
-          This methodology explains the public editorial framework. It does not disclose private
+          This page explains our public editorial standards. It does not disclose private
           affiliate operations, internal scoring weights, or merchant strategy.
         </p>
         <div className="hero-actions">
@@ -100,7 +100,7 @@ export default function BeautyMethodologyPage() {
         <div className="catalog-grid">
           {methodologyAreas.map((area) => (
             <article key={area.title} className="catalog-card">
-              <span className="eyebrow">Methodology area</span>
+              <span className="eyebrow">Editorial standard</span>
               <h2>{area.title}</h2>
               <p>{area.description}</p>
               <ul className="fact-list">

@@ -46,7 +46,7 @@ export default async function BrandPage({ params }) {
       <section className="catalog-grid-section">
         <div className="catalog-grid">
           <article className="catalog-card">
-            <h2>Best next routes</h2>
+            <h2>Best next guides</h2>
             <div className="catalog-stack">
               {brandCategories.map((page) => (
                 <Link key={page.categorySlug} href={`/brands/${brand.slug}/${page.categorySlug}`} className="catalog-link-card">

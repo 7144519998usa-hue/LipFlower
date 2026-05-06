@@ -23,14 +23,14 @@ const shadeGroups = [
     title: "Blush and cheek color families",
     role: "Cream blush, powder blush, bronzer, and complexion color",
     guidance:
-      "Cheek color pages should compare tone family, pigment intensity, finish, and blendability without implying one shade works universally.",
+      "For cheek color, compare tone family, pigment intensity, finish, and blendability without implying one shade works universally.",
     links: ["/makeup/cream-blush", "/compare/cream-blush-vs-powder-blush", "/beauty-finishes"],
   },
   {
     title: "Lip color and finish",
     role: "Tinted balm, lip oil, gloss, liner, and lipstick",
     guidance:
-      "Lip shade pages should keep color payoff, finish, transfer, reapplication, fragrance, and comfort expectations visible.",
+      "For lip shades, keep color payoff, finish, transfer, reapplication, fragrance, and comfort expectations visible.",
     links: ["/lip-care/tinted-lip-balms", "/lip-care/lip-oils", "/beauty-university/luxury-lip-care-routine"],
   },
   {

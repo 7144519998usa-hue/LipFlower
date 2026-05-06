@@ -23,7 +23,7 @@ const routineGuides = [
     title: "Makeup prep routine",
     role: "SPF, primer, complexion, concealer, powder, and finish",
     guidance:
-      "Makeup prep is a compatibility decision. Shoppers should compare finish, coverage, pilling risk, shade fit, and retailer return details.",
+      "Makeup prep is a compatibility decision. Compare finish, coverage, pilling risk, shade fit, and retailer return details.",
     links: ["/beauty-university/makeup-prep-routine", "/makeup/luxury-foundation", "/makeup/setting-powder"],
   },
   {
@@ -58,7 +58,7 @@ const routineGuides = [
     title: "Gift-ready beauty routine",
     role: "Gift finder, discovery sets, lip care, tools, fragrance, and jewelry sets",
     guidance:
-      "Giftable routines should prioritize preference uncertainty, return flexibility, retailer clarity, packaging, and delivery timing.",
+      "For giftable routines, prioritize preference uncertainty, return flexibility, retailer clarity, packaging, and delivery timing.",
     links: ["/beauty-university/beauty-gift-decision-tree", "/calculators/gift-finder", "/artificial-jewelry/jewelry-gift-sets"],
   },
 ];

@@ -125,7 +125,7 @@ export default async function BeautyUniversityTopicPage({ params }) {
           </article>
 
           <aside className="catalog-card authority-rail">
-            <h2>Best next routes</h2>
+            <h2>Best next guides</h2>
             <p className="trust-note">
               Use these related pages to move from education into comparison, seller, and category
               decisions.

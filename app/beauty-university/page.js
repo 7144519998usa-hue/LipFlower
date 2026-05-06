@@ -29,7 +29,7 @@ export default function BeautyUniversityPage() {
           })),
         },
         {
-          title: "Reference assets worth citing",
+          title: "Reference guides worth citing",
           links: referenceAssets.map((topic) => ({
             href: `/beauty-university/${topic.slug}`,
             label: topic.title,

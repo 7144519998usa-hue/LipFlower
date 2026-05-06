@@ -9,14 +9,14 @@ const occasionGuides = [
     title: "Wedding guest beauty",
     decisionFocus: "Polished makeup, fragrance, hair, and jewelry",
     guidance:
-      "Wedding guest guides should connect makeup finish, fragrance intensity, hair polish, artificial jewelry, and retailer timing without overclaiming wear time.",
+      "For wedding guest beauty, connect makeup finish, fragrance intensity, hair polish, artificial jewelry, and retailer timing without overclaiming wear time.",
     links: ["/makeup/cream-blush", "/fragrance/signature-scent-guide", "/artificial-jewelry/fashion-earrings"],
   },
   {
     title: "Workday polish",
     decisionFocus: "Comfortable complexion, subtle color, lip care, and easy touch-ups",
     guidance:
-      "Workday routines should prioritize comfortable texture, shade fit, low-friction reapplication, and retailer clarity over dramatic product claims.",
+      "For workday routines, prioritize comfortable texture, shade fit, low-friction reapplication, and retailer clarity over dramatic product claims.",
     links: ["/beauty-routines", "/lip-care/tinted-lip-balms", "/makeup/setting-powder"],
   },
   {
@@ -44,7 +44,7 @@ const occasionGuides = [
     title: "Bridal beauty planning",
     decisionFocus: "Shade testing, skin care comfort, fragrance, and accessories",
     guidance:
-      "Bridal planning content should stay educational and encourage shade testing, routine consistency, retailer clarity, and professional support where needed.",
+      "For bridal planning, keep the research practical: shade testing, routine consistency, retailer clarity, and professional support where needed.",
     links: ["/beauty-university/shade-matching-guide", "/skin-care/barrier-repair-moisturizers", "/artificial-jewelry"],
   },
   {
@@ -58,7 +58,7 @@ const occasionGuides = [
     title: "Self-care weekend",
     decisionFocus: "Masks, body care, hair care, lip care, and fragrance comfort",
     guidance:
-      "Self-care content should focus on routine comfort and product directions without wellness, therapeutic, or guaranteed-results claims.",
+      "For self-care weekends, focus on routine comfort and product directions without wellness, therapeutic, or guaranteed-results claims.",
     links: ["/body-care/body-moisturizers", "/hair-care/hair-masks", "/lip-care/lip-masks"],
   },
 ];

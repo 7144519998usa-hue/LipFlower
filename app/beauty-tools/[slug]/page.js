@@ -33,5 +33,5 @@ export default async function BeautyToolsLandingPage({ params }) {
     notFound();
   }
 
-  return <BeautyLandingRoutePage eyebrow="Beauty tools route" page={page} />;
+  return <BeautyLandingRoutePage eyebrow="Beauty tools guide" page={page} />;
 }

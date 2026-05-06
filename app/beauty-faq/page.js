@@ -26,7 +26,7 @@ const faqItems = [
   {
     question: "How should shoppers use ingredient pages?",
     answer:
-      "Ingredient content should be read as shopping context, not medical or dermatology advice. Shoppers should compare visible product claims, directions, sensitivity history, and retailer clarity.",
+      "Treat ingredient content as shopping context, not medical or dermatology advice. Compare visible product claims, directions, sensitivity history, and retailer clarity.",
     links: ["/beauty-university/ingredient-claims-guide", "/beauty-university/ingredient-compatibility-cheat-sheet"],
   },
   {
@@ -50,7 +50,7 @@ const faqItems = [
   {
     question: "How should editors cite LipFlower?",
     answer:
-      "Editors and bloggers may cite the original page URL when a LipFlower guide is useful to readers. They should avoid copying full page text or presenting shopping guidance as medical advice.",
+      "Editors and bloggers may cite the original page URL when a LipFlower guide is useful to readers. Please avoid copying full page text or presenting shopping guidance as medical advice.",
     links: ["/about/cite-lipflower", "/about/media-kit"],
   },
 ];

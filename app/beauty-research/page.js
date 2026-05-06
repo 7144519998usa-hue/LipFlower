@@ -14,7 +14,7 @@ const referenceSlugSet = new Set(linkableBeautyReferenceSlugs);
 export const metadata = buildBeautyMetadata({
   title: "Beauty Research Library",
   description:
-    "Use LipFlower's careful beauty research library for routine charts, ingredient explainers, gift decision guides, and category reference assets.",
+    "Use LipFlower's careful beauty research library for routine charts, ingredient explainers, gift decision guides, and category references.",
   canonicalPath: "/beauty-research",
 });
 
@@ -49,9 +49,9 @@ export default function BeautyResearchPage() {
       <section className="hero-panel compare-hero-reimagined">
         <div className="hero-copy">
           <span className="eyebrow">Research library</span>
-          <h1>Beauty reference assets for careful shoppers and editors</h1>
+          <h1>Beauty references for careful shoppers and editors</h1>
           <p>
-            LipFlower keeps its most reusable beauty education assets here: routine maps,
+            LipFlower keeps its most useful beauty education references here: routine maps,
             ingredient explainers, gift decision guides, fragrance references, and styling
             checklists that support confident shopping without medical or guaranteed-results claims.
           </p>
@@ -108,7 +108,7 @@ export default function BeautyResearchPage() {
       <section className="catalog-grid-section">
         <div className="catalog-grid">
           <article className="catalog-card">
-            <h2>Reference assets</h2>
+            <h2>Reference guides</h2>
             <div className="catalog-stack">
               {referenceAssets.map((topic) => (
                 <Link

@@ -33,5 +33,5 @@ export default async function BodyCareLandingPage({ params }) {
     notFound();
   }
 
-  return <BeautyLandingRoutePage eyebrow="Body care route" page={page} />;
+  return <BeautyLandingRoutePage eyebrow="Body care guide" page={page} />;
 }

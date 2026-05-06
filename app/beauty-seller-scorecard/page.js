@@ -36,7 +36,7 @@ const scorecardSignals = [
   {
     title: "Careful claims",
     whyItMatters:
-      "Cosmetic guides should not turn retailer or product language into medical, safety, pregnancy, dermatology, or guaranteed-results claims.",
+      "Cosmetic guidance should not turn retailer or product language into medical, safety, pregnancy, dermatology, or guaranteed-results claims.",
     shopperChecks: ["Claims match visible product language", "Directions remain product-specific", "Medical concerns are not handled as shopping advice"],
     links: ["/beauty-university/ingredient-claims-guide", "/about/editorial-policy"],
   },
@@ -108,7 +108,7 @@ export default function BeautySellerScorecardPage() {
         <div className="catalog-grid">
           {scorecardSignals.map((signal) => (
             <article key={signal.title} className="catalog-card">
-              <span className="eyebrow">Scorecard signal</span>
+              <span className="eyebrow">What to check</span>
               <h2>{signal.title}</h2>
               <p>{signal.whyItMatters}</p>
               <ul className="fact-list">
