@@ -8,6 +8,7 @@ const sourceExtensions = new Set([".js", ".jsx", ".mjs", ".ts", ".tsx"]);
 
 const allowedExternalCommerceFiles = new Set([
   "app\\components\\BestProgrammaticPage.jsx",
+  "app\\lib\\affiliateRouting.js",
   "app\\lib\\beautyData.js",
 ]);
 
@@ -20,6 +21,12 @@ const requiredAffiliateLinkFragments = [
   "rel=\"sponsored nofollow noopener noreferrer\"",
   "target=\"_blank\"",
   "aria-label={label}",
+];
+
+const requiredAmazonFragments = [
+  "LIPFLOWER_AMAZON_ASSOCIATE_TAG",
+  "createAmazonSearchUrl",
+  "url.searchParams.set(\"tag\"",
 ];
 
 const requiredDisclosureFragments = [
@@ -87,6 +94,21 @@ if (!layoutSource.includes("<DisclosureNotice />")) {
     type: "sitewide-disclosure-not-rendered",
     file: "app\\layout.js",
   });
+}
+
+const envSource = await readFile(path.join(rootDir, "app/lib/env.js"), "utf8");
+const affiliateRoutingSource = await readFile(path.join(rootDir, "app/lib/affiliateRouting.js"), "utf8");
+
+for (const fragment of requiredAmazonFragments) {
+  const source = fragment === "LIPFLOWER_AMAZON_ASSOCIATE_TAG" ? envSource : affiliateRoutingSource;
+
+  if (!source.includes(fragment)) {
+    findings.push({
+      type: "amazon-affiliate-routing-missing-fragment",
+      file: fragment === "LIPFLOWER_AMAZON_ASSOCIATE_TAG" ? "app\\lib\\env.js" : "app\\lib\\affiliateRouting.js",
+      missing: fragment,
+    });
+  }
 }
 
 for (const file of files) {

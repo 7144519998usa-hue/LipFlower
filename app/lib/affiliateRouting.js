@@ -1,4 +1,5 @@
 import { beautySellers } from "./beautyData.js";
+import { publicEnv } from "./env.js";
 
 const allowedAffiliateHosts = new Set(
   beautySellers.map((seller) => new URL(seller.affiliateUrl).hostname.toLowerCase()),
@@ -19,6 +20,17 @@ export function createAffiliateOutboundHref({ href, source = "site", label = "af
   });
 
   return `/api/outbound?${params.toString()}`;
+}
+
+export function createAmazonSearchUrl(query = "") {
+  const url = new URL("https://www.amazon.com/s");
+  url.searchParams.set("k", String(query || "luxury beauty").trim() || "luxury beauty");
+
+  if (publicEnv.amazonAssociateTag) {
+    url.searchParams.set("tag", publicEnv.amazonAssociateTag);
+  }
+
+  return url.toString();
 }
 
 export function getSafeAffiliateDestination(rawUrl = "") {

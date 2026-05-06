@@ -72,6 +72,7 @@ Copy [.env.example](./.env.example) into `.env.local` and set:
 - `LIPFLOWER_SITE_URL`
 - `LIPFLOWER_GOOGLE_SITE_VERIFICATION`
 - `LIPFLOWER_GA_MEASUREMENT_ID`
+- `LIPFLOWER_AMAZON_ASSOCIATE_TAG`
 - `LIPFLOWER_ENABLE_VERCEL_ANALYTICS` only when overriding the production default
 - `LIPFLOWER_INTERNAL_API_KEY`
 

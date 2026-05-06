@@ -2,15 +2,16 @@ import Link from "next/link";
 import AffiliateLink from "./AffiliateLink";
 import JsonLd from "./JsonLd";
 import ProductUseDisclaimer from "./ProductUseDisclaimer";
+import { createAmazonSearchUrl } from "../lib/affiliateRouting.js";
 import { beautySellers, beautySiteUrl } from "../lib/beautyData";
 import { programmaticBestPages } from "../lib/programmaticSeoData";
 
 function sellerSearchUrl(seller, query) {
-  const encodedQuery = encodeURIComponent(query);
-
   if (seller.slug === "amazon") {
-    return `https://www.amazon.com/s?k=${encodedQuery}`;
+    return createAmazonSearchUrl(query);
   }
+
+  const encodedQuery = encodeURIComponent(query);
 
   if (seller.slug === "sephora") {
     return `https://www.sephora.com/search?keyword=${encodedQuery}`;
