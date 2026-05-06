@@ -502,7 +502,7 @@ const bestPageIntents = [
   { slug: "", label: "", title: "", summary: "overall comparison guide", angle: "compare the most searched options, retailer clarity, and routine fit before continuing" },
   { slug: "luxury", label: "luxury", title: "Luxury", summary: "premium buyer guide", angle: "focus on packaging, brand trust, texture, and giftable presentation" },
   { slug: "for-beginners", label: "for beginners", title: "for Beginners", summary: "first-purchase guide", angle: "prioritize easy-to-understand formats, flexible retailers, and low-friction routines" },
-  { slug: "for-everyday-use", label: "for everyday use", title: "for Everyday Use", summary: "daily routine guide", angle: "look for repeatable use, comfortable textures, and practical retailer availability" },
+{ slug: "for-everyday-use", label: "for everyday use", title: "for Everyday Use", summary: "daily routine guide", angle: "look for repeatable use, comfortable textures, and clear retailer details" },
   { slug: "for-travel", label: "for travel", title: "for Travel", summary: "travel-ready guide", angle: "compare size, packaging, spill risk, and whether the format is easy to repack" },
   { slug: "for-gifting", label: "for gifting", title: "for Gifting", summary: "gift shopping guide", angle: "prioritize presentation, shade flexibility, discovery formats, and return-friendly retailers" },
   { slug: "for-sensitive-shoppers", label: "for sensitive shoppers", title: "for Sensitive Shoppers", summary: "sensitivity-aware guide", angle: "review fragrance, sensation, use directions, and visible brand positioning before choosing" },

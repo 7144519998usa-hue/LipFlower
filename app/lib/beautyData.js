@@ -5,10 +5,10 @@ export const beautyHubPages = {
   home: {
     title: "Luxury beauty, skin care, makeup, and lip care worth comparing",
     description:
-      "LipFlower is a premium beauty affiliate marketplace for affluent shoppers comparing luxury skin care, makeup, fragrance, hair care, and lip care across trusted retailers.",
+      "LipFlower is a premium beauty guide for affluent shoppers researching luxury skin care, makeup, fragrance, hair care, and lip care across trusted retailers.",
     eyebrow: "Luxury beauty marketplace",
     intro:
-      "Use brand, product-category, and routine-led guides to compare high-end beauty before continuing to Amazon, department stores, specialty beauty retailers, or official brand boutiques.",
+      "Use brand, product-category, and routine-led guides to shop high-end beauty with more context before continuing to Amazon, department stores, specialty beauty retailers, or official brand boutiques.",
     actions: [
       { href: "/beauty", label: "Explore Beauty", variant: "primary" },
       { href: "/skin-care", label: "Shop Skin Care", variant: "secondary" },
@@ -20,7 +20,7 @@ export const beautyHubPages = {
           {
             href: "/skin-care",
             label: "Skin care",
-            description: "Compare serums, moisturizers, eye creams, cleansers, SPF, and treatment-led luxury routines.",
+            description: "Explore serums, moisturizers, eye creams, cleansers, SPF, and treatment-led luxury routines.",
           },
           {
             href: "/makeup",
@@ -35,12 +35,12 @@ export const beautyHubPages = {
           {
             href: "/fragrance",
             label: "Fragrance",
-            description: "Compare signature scents, discovery sets, gifting options, and luxury fragrance houses.",
+            description: "Browse signature scents, discovery sets, gifting options, and luxury fragrance houses.",
           },
           {
             href: "/hair-care",
             label: "Hair care",
-            description: "Compare shampoos, conditioners, masks, stylers, scalp care, and salon-grade routines.",
+            description: "Explore shampoos, conditioners, masks, stylers, scalp care, and salon-grade routines.",
           },
           {
             href: "/body-care",
@@ -55,12 +55,12 @@ export const beautyHubPages = {
           {
             href: "/beauty-tools",
             label: "Beauty tools",
-            description: "Compare brushes, facial tools, hair tools, storage, and routine-support accessories.",
+            description: "Explore brushes, facial tools, hair tools, storage, and routine-support accessories.",
           },
           {
             href: "/artificial-jewelry",
             label: "Artificial jewelry",
-            description: "Compare fashion jewelry, occasion accessories, giftable sets, and retailer confidence before styling a beauty look.",
+            description: "Explore fashion jewelry, occasion accessories, giftable sets, and retailer details before styling a beauty look.",
           },
         ],
       },
@@ -95,12 +95,12 @@ export const beautyHubPages = {
           {
             href: "/skin-care/anti-aging-serums",
             label: "Anti-aging serums",
-            description: "Compare prestige serums by concern, texture, ingredients, and retailer availability.",
+            description: "A clearer way to shop prestige serums by concern, texture, ingredient story, and retailer details.",
           },
           {
             href: "/skin-care/barrier-repair-moisturizers",
             label: "Barrier-support moisturizers",
-            description: "Compare premium creams and moisturizers by comfort, finish, and where they fit in a routine.",
+            description: "Find richer creams and moisturizers by skin feel, finish, and where they fit in a routine.",
           },
           {
             href: "/skin-care/vitamin-c-serums",
@@ -115,17 +115,17 @@ export const beautyHubPages = {
           {
             href: "/makeup/cream-blush",
             label: "Cream blush",
-            description: "Compare prestige cream blush by finish, pigment, shade family, and retailer clarity.",
+            description: "Choose cream blush by finish, pigment, shade family, and retailer details.",
           },
           {
             href: "/lip-care/lip-masks",
             label: "Lip masks",
-            description: "Compare overnight lip treatments, balm masks, and glossy treatment formats.",
+            description: "See how overnight lip treatments, balm masks, and glossy treatment formats differ.",
           },
           {
             href: "/lip-care/lip-oils",
             label: "Lip oils",
-            description: "Compare shine, tint, applicator, fragrance, and premium lip-comfort positioning.",
+            description: "Sort lip oils by shine, tint, applicator, fragrance, and comfort-focused positioning.",
           },
           {
             href: "/beauty-university",
@@ -143,7 +143,7 @@ export const beautyLandingPages = [
     categoryPath: "skin-care",
     slug: "anti-aging-serums",
     title: "Luxury Anti-Aging Serums",
-    summary: "Compare prestige serums for firming, radiance, fine lines, and elevated daily routines.",
+    summary: "A premium serum guide for fine-line-focused routines, radiance, texture, and elevated daily skin care.",
     intro:
       "Luxury serum shoppers should compare concern fit, texture, ingredient story, and retailer clarity before chasing one viral bottle.",
     bestFor: ["Fine-line routines", "Radiance-focused skin care", "Premium gifting"],
@@ -154,7 +154,7 @@ export const beautyLandingPages = [
     categoryPath: "skin-care",
     slug: "barrier-repair-moisturizers",
     title: "Barrier-Support Luxury Moisturizers",
-    summary: "Compare premium moisturizers for comfort, texture, dry-feeling skin, and routine anchoring.",
+    summary: "A guide to richer moisturizers for comfort, texture, dry-feeling skin, and dependable routine use.",
     intro:
       "For barrier-support moisturizers, compare texture, finish, fragrance, skin feel, and retailer clarity without expecting medical repair or assured outcomes.",
     bestFor: ["Dry-feeling skin routines", "Comfort-first skin care", "Night cream shoppers"],
@@ -165,7 +165,7 @@ export const beautyLandingPages = [
     categoryPath: "skin-care",
     slug: "vitamin-c-serums",
     title: "Luxury Vitamin C Serums",
-    summary: "Compare prestige vitamin C serums by texture, packaging, routine fit, and retailer confidence.",
+    summary: "A careful look at prestige vitamin C serums by texture, packaging, routine fit, and retailer details.",
     intro:
       "For vitamin C serums, compare packaging, skin feel, routine timing, and brand language carefully because visible product details matter more than hype.",
     bestFor: ["Radiance-focused routines", "Morning skin care", "Prestige serum shoppers"],
@@ -176,7 +176,7 @@ export const beautyLandingPages = [
     categoryPath: "skin-care",
     slug: "sunscreen-for-makeup-prep",
     title: "Luxury Sunscreen for Makeup Prep",
-    summary: "Compare elevated SPF formulas by finish, layering feel, tint, and makeup compatibility.",
+    summary: "Find elevated SPF formulas by finish, layering feel, tint, and makeup compatibility.",
     intro:
       "For SPF, compare visible label details, finish, texture, and layering behavior while following product directions.",
     bestFor: ["Daily routines", "Makeup layering", "Polished skin prep"],
@@ -187,7 +187,7 @@ export const beautyLandingPages = [
     categoryPath: "makeup",
     slug: "luxury-foundation",
     title: "Luxury Foundation",
-    summary: "Compare prestige foundation by finish, coverage, shade range, and retailer fit.",
+    summary: "Choose prestige foundation by finish, coverage, shade range, and retailer fit.",
     intro:
       "High-end foundation is a fit decision as much as a brand decision, so this guide keeps finish, coverage, undertone, and return-friendly retailers in view.",
     bestFor: ["Designer complexion products", "Polished everyday makeup", "Event-ready coverage"],
@@ -198,7 +198,7 @@ export const beautyLandingPages = [
     categoryPath: "makeup",
     slug: "cream-blush",
     title: "Luxury Cream Blush",
-    summary: "Compare prestige cream blush by finish, pigment, skin prep, packaging, and retailer fit.",
+    summary: "A luxury cream blush guide for finish, pigment, skin prep, packaging, and retailer fit.",
     intro:
       "Cream blush is a texture and color-payoff decision, so compare blendability, finish, shade family, and return-friendly retailers before choosing.",
     bestFor: ["Fresh complexion makeup", "Natural-looking color", "Compact luxury gifts"],
@@ -209,7 +209,7 @@ export const beautyLandingPages = [
     categoryPath: "makeup",
     slug: "luxury-concealer",
     title: "Luxury Concealer",
-    summary: "Compare high-end concealer by coverage, finish, undertone, wear, and retailer clarity.",
+    summary: "Find high-end concealer by coverage, finish, undertone, wear expectations, and retailer clarity.",
     intro:
       "Concealer shoppers need more than a shade name. Coverage level, finish, undertone, use case, and return policy all shape the best choice.",
     bestFor: ["Complexion refinement", "Under-eye makeup", "Spot coverage"],
@@ -220,7 +220,7 @@ export const beautyLandingPages = [
     categoryPath: "makeup",
     slug: "setting-powder",
     title: "Luxury Setting Powder",
-    summary: "Compare prestige setting powders by finish, blur effect, skin tone support, and makeup style.",
+    summary: "A prestige setting powder guide for finish, soft-focus positioning, skin tone support, and makeup style.",
     intro:
       "For setting powder, compare finish and use case without expecting universal pore, oil, or longevity results.",
     bestFor: ["Polished makeup finish", "Event makeup", "Touch-up routines"],
@@ -231,7 +231,7 @@ export const beautyLandingPages = [
     categoryPath: "lip-care",
     slug: "lip-masks",
     title: "Luxury Lip Masks",
-    summary: "Compare overnight masks, balm treatments, and high-gloss lip repair products.",
+    summary: "A shopper-friendly look at overnight masks, balm treatments, and glossy lip treatment products.",
     intro:
       "Premium lip masks work best when the shopper understands texture, finish, fragrance, and whether the product is a treatment, gloss, or overnight ritual.",
     bestFor: ["Dry lips", "Night routines", "Giftable lip care"],
@@ -242,7 +242,7 @@ export const beautyLandingPages = [
     categoryPath: "lip-care",
     slug: "lip-oils",
     title: "Luxury Lip Oils",
-    summary: "Compare premium lip oils by shine, tint, texture, applicator, and retailer fit.",
+    summary: "Find premium lip oils by shine, tint, texture, applicator, and retailer fit.",
     intro:
       "Lip oil shoppers often want treatment feel and gloss-like shine in one product, so this guide keeps texture, tint, and fragrance preferences visible.",
     bestFor: ["Glossy lip routines", "Tinted comfort", "Giftable lip products"],
@@ -253,7 +253,7 @@ export const beautyLandingPages = [
     categoryPath: "lip-care",
     slug: "tinted-lip-balms",
     title: "Luxury Tinted Lip Balms",
-    summary: "Compare premium tinted balms by color payoff, comfort, finish, and daily-carry appeal.",
+    summary: "A tinted balm guide for color payoff, comfort, finish, and daily-carry appeal.",
     intro:
       "Tinted balms sit between treatment and makeup, so compare shade family, finish, reapplication style, and comfort expectations.",
     bestFor: ["Low-effort color", "Daily carry", "Makeup-minimal routines"],
@@ -264,7 +264,7 @@ export const beautyLandingPages = [
     categoryPath: "lip-care",
     slug: "lip-plumpers",
     title: "Luxury Lip Plumpers",
-    summary: "Compare premium lip plumpers by finish, sensation level, shine, and realistic expectations.",
+    summary: "A careful lip plumper guide for finish, sensation level, shine, and realistic expectations.",
     intro:
       "Lip plumper pages need extra care: describe visible positioning, finish, and common sensation language without promising lasting volume or medical-style results.",
     bestFor: ["Glossy statement lips", "Makeup-focused routines", "Short-term visual effect shoppers"],
@@ -275,7 +275,7 @@ export const beautyLandingPages = [
     categoryPath: "hair-care",
     slug: "luxury-shampoo-conditioner",
     title: "Luxury Shampoo and Conditioner",
-    summary: "Compare premium shampoo and conditioner by hair type, fragrance, finish, and retailer confidence.",
+    summary: "Find premium shampoo and conditioner by hair type, fragrance, finish, and retailer details.",
     intro:
       "For luxury shampoo and conditioner, compare hair-feel goals, fragrance, color-care language, and routine fit instead of assuming a higher price guarantees better results.",
     bestFor: ["Salon-inspired routines", "Giftable hair care", "Fragrance-led hair care"],
@@ -286,7 +286,7 @@ export const beautyLandingPages = [
     categoryPath: "hair-care",
     slug: "hair-masks",
     title: "Luxury Hair Masks",
-    summary: "Compare premium hair masks by texture, use frequency, hair-feel goals, and treatment intensity.",
+    summary: "A premium hair mask guide for texture, use frequency, hair-feel goals, and treatment intensity.",
     intro:
       "For hair masks, compare rinse-out versus leave-in formats, texture, fragrance, and use directions without expecting repair that the product does not promise.",
     bestFor: ["Weekly routine upgrades", "Dry-feeling lengths", "Premium self-care rituals"],
@@ -297,7 +297,7 @@ export const beautyLandingPages = [
     categoryPath: "hair-care",
     slug: "scalp-care",
     title: "Luxury Scalp Care",
-    summary: "Compare premium scalp-care products by format, routine step, fragrance, and comfort positioning.",
+    summary: "A scalp-care shopping guide by format, routine step, fragrance, and comfort positioning.",
     intro:
       "Scalp-care shopping needs careful language: compare visible product positioning, application style, and comfort-focused claims while avoiding medical treatment promises.",
     bestFor: ["Routine refreshes", "Scalp-focused shoppers", "Pre-wash rituals"],
@@ -308,7 +308,7 @@ export const beautyLandingPages = [
     categoryPath: "fragrance",
     slug: "fragrance-discovery-sets",
     title: "Luxury Fragrance Discovery Sets",
-    summary: "Compare discovery sets by scent family, sample count, redemption value, and gifting flexibility.",
+    summary: "Shop discovery sets by scent family, sample count, redemption value, and gifting flexibility.",
     intro:
       "Discovery sets reduce blind-buy risk by letting shoppers compare scent families, wear preference, and presentation before choosing a full bottle.",
     bestFor: ["Gift research", "Scent exploration", "Lower-risk luxury buying"],
@@ -319,7 +319,7 @@ export const beautyLandingPages = [
     categoryPath: "fragrance",
     slug: "luxury-perfume-gifts",
     title: "Luxury Perfume Gifts",
-    summary: "Compare premium fragrance gifts by bottle size, scent family, packaging, and return-friendly retailers.",
+    summary: "A premium fragrance gifting guide by bottle size, scent family, packaging, and retailer flexibility.",
     intro:
       "Perfume gifting works best when the guide considers presentation, scent familiarity, discovery alternatives, and retailer flexibility rather than pushing one universal fragrance.",
     bestFor: ["Holiday gifts", "Designer fragrance shoppers", "Luxury presentation"],
@@ -330,7 +330,7 @@ export const beautyLandingPages = [
     categoryPath: "fragrance",
     slug: "signature-scent-guide",
     title: "Signature Scent Guide",
-    summary: "Compare luxury fragrances by scent family, occasion, bottle size, and buyer confidence.",
+    summary: "Find luxury fragrances by scent family, occasion, bottle size, and buyer confidence.",
     intro:
       "A signature scent is personal, so LipFlower frames fragrance discovery around scent family, wear occasion, retailer clarity, and sampling options before a full-size purchase.",
     bestFor: ["Everyday fragrance", "Personal luxury routines", "Brand discovery"],
@@ -341,7 +341,7 @@ export const beautyLandingPages = [
     categoryPath: "body-care",
     slug: "body-moisturizers",
     title: "Luxury Body Moisturizers",
-    summary: "Compare premium body creams and lotions by texture, fragrance, finish, and routine fit.",
+    summary: "A body moisturizer guide for texture, fragrance, finish, and routine fit.",
     intro:
       "Luxury body moisturizers should be compared by skin feel, scent profile, absorption, packaging, and retailer details without promising guaranteed skin changes.",
     bestFor: ["Elevated daily routines", "Fragrance layering", "Giftable body care"],
@@ -352,7 +352,7 @@ export const beautyLandingPages = [
     categoryPath: "body-care",
     slug: "body-exfoliants",
     title: "Luxury Body Exfoliants",
-    summary: "Compare premium body scrubs and exfoliating treatments by format, texture, fragrance, and use guidance.",
+    summary: "A careful body exfoliant guide by format, texture, fragrance, and use guidance.",
     intro:
       "Body exfoliant guides need careful language around texture, use frequency, and product directions, especially for shoppers with sensitivity history.",
     bestFor: ["Polished body routines", "Pre-event prep", "Spa-style self care"],
@@ -363,7 +363,7 @@ export const beautyLandingPages = [
     categoryPath: "body-care",
     slug: "luxury-hand-care",
     title: "Luxury Hand Care",
-    summary: "Compare premium hand creams, cuticle-adjacent routines, fragrance, and giftable hand-care sets.",
+    summary: "Find premium hand creams, cuticle-adjacent routines, fragrance, and giftable hand-care sets.",
     intro:
       "Hand-care shopping blends body care and gifting, so this guide keeps texture, scent, portability, packaging, and retailer confidence in view.",
     bestFor: ["Daily carry", "Desk-side routines", "Small luxury gifts"],
@@ -374,7 +374,7 @@ export const beautyLandingPages = [
     categoryPath: "nail-care",
     slug: "luxury-nail-polish",
     title: "Luxury Nail Polish",
-    summary: "Compare premium nail polish by finish, shade family, wear expectations, and retailer clarity.",
+    summary: "A luxury nail polish guide by finish, shade family, wear expectations, and retailer clarity.",
     intro:
       "For luxury nail polish, compare finish, brush style, shade family, and removal expectations without treating wear claims as guaranteed.",
     bestFor: ["At-home manicures", "Seasonal color", "Small luxury gifts"],
@@ -385,7 +385,7 @@ export const beautyLandingPages = [
     categoryPath: "nail-care",
     slug: "cuticle-care",
     title: "Luxury Cuticle Care",
-    summary: "Compare premium cuticle oils, creams, and hand-care pairings by texture, scent, and routine fit.",
+    summary: "A cuticle-care guide for oils, creams, hand-care pairings, texture, scent, and routine fit.",
     intro:
       "For cuticle care, focus on product format, comfort, and routine fit while avoiding repair or medical-style claims.",
     bestFor: ["Manicure prep", "Hand-care routines", "Portable beauty care"],
@@ -396,7 +396,7 @@ export const beautyLandingPages = [
     categoryPath: "nail-care",
     slug: "manicure-tools",
     title: "Luxury Manicure Tools",
-    summary: "Compare premium manicure tools by material, ergonomics, care needs, and at-home routine support.",
+    summary: "Find premium manicure tools by material, ergonomics, care needs, and at-home routine support.",
     intro:
       "Manicure tools are a quality and handling decision, so shoppers should compare materials, tool care, storage, and retailer reliability before continuing.",
     bestFor: ["At-home manicure systems", "Tool upgrades", "Beauty gifts"],
@@ -407,7 +407,7 @@ export const beautyLandingPages = [
     categoryPath: "beauty-tools",
     slug: "makeup-brushes",
     title: "Luxury Makeup Brushes",
-    summary: "Compare premium makeup brushes by shape, material, use case, storage, and retailer clarity.",
+    summary: "A premium makeup brush guide by shape, material, use case, storage, and retailer clarity.",
     intro:
       "Brush shopping works best when shoppers compare application role, bristle material, handle feel, cleaning needs, and whether the set duplicates tools they already own.",
     bestFor: ["Complexion routines", "Color makeup", "Giftable tool sets"],
@@ -418,7 +418,7 @@ export const beautyLandingPages = [
     categoryPath: "beauty-tools",
     slug: "facial-tools",
     title: "Luxury Facial Tools",
-    summary: "Compare premium facial tools by routine fit, material, care instructions, and careful product language.",
+    summary: "A careful facial-tool guide by routine fit, material, care instructions, and product language.",
     intro:
       "Facial-tool pages need extra restraint: compare visible product features, routine feel, and care instructions without implying clinical outcomes.",
     bestFor: ["Self-care routines", "Skin-care pairing", "Luxury gifting"],
@@ -429,7 +429,7 @@ export const beautyLandingPages = [
     categoryPath: "beauty-tools",
     slug: "hair-styling-tools",
     title: "Luxury Hair Styling Tools",
-    summary: "Compare premium hair tools by styling goal, heat settings, attachment set, and retailer clarity.",
+    summary: "Find premium hair tools by styling goal, heat settings, attachment set, and retailer clarity.",
     intro:
       "Hair styling tools should be compared by hair type, heat options, attachments, warranty context, and retailer clarity rather than trend-led claims alone.",
     bestFor: ["Salon-style routines", "Giftable devices", "Premium hair styling"],
@@ -440,7 +440,7 @@ export const beautyLandingPages = [
     categoryPath: "artificial-jewelry",
     slug: "fashion-earrings",
     title: "Artificial Fashion Earrings",
-    summary: "Compare artificial earrings by finish, metal tone, closure style, occasion, and retailer clarity.",
+    summary: "A guide to artificial earrings by finish, metal tone, closure style, occasion, and retailer clarity.",
     intro:
       "Artificial earrings are a styling decision, so shoppers should compare metal tone, weight, closure type, occasion fit, and retailer details before treating a pair as a wardrobe staple.",
     bestFor: ["Event styling", "Statement makeup looks", "Giftable accessories"],
@@ -451,7 +451,7 @@ export const beautyLandingPages = [
     categoryPath: "artificial-jewelry",
     slug: "fashion-necklaces",
     title: "Artificial Fashion Necklaces",
-    summary: "Compare artificial necklaces by chain length, plating tone, pendant style, layering potential, and retailer details.",
+    summary: "A guide to artificial necklaces by chain length, plating tone, pendant style, layering potential, and retailer details.",
     intro:
       "Fashion necklaces can complete a beauty look, but shoppers should compare chain length, plating description, clasp style, and return flexibility before continuing.",
     bestFor: ["Layered styling", "Neckline coordination", "Affordable gifting"],
@@ -462,7 +462,7 @@ export const beautyLandingPages = [
     categoryPath: "artificial-jewelry",
     slug: "fashion-bracelets",
     title: "Artificial Fashion Bracelets",
-    summary: "Compare artificial bracelets by fit, finish, clasp style, stacking appeal, and retailer clarity.",
+    summary: "A guide to artificial bracelets by fit, finish, clasp style, stacking appeal, and retailer clarity.",
     intro:
       "Bracelet shopping works best when shoppers compare size adjustability, finish, weight, and whether the style supports daily wear, event wear, or gifting.",
     bestFor: ["Stacked accessories", "Occasion styling", "Small luxury-adjacent gifts"],
@@ -473,7 +473,7 @@ export const beautyLandingPages = [
     categoryPath: "artificial-jewelry",
     slug: "jewelry-gift-sets",
     title: "Artificial Jewelry Gift Sets",
-    summary: "Compare artificial jewelry sets by packaging, style coordination, occasion, and return-friendly retailers.",
+    summary: "A guide to artificial jewelry sets by packaging, style coordination, occasion, and return-friendly retailers.",
     intro:
       "Artificial jewelry gift sets should be compared by presentation, metal tone, style versatility, and retailer clarity rather than assuming every set fits every recipient.",
     bestFor: ["Beauty gifts", "Holiday styling", "Occasion-ready accessories"],
@@ -4701,7 +4701,7 @@ export const beautyComparePages = [
   {
     slug: "luxury-skincare-vs-drugstore-skincare",
     title: "Luxury Skin Care vs Drugstore Skin Care",
-    summary: "Compare premium skin-care shopping with accessible drugstore routine building.",
+    summary: "A practical look at premium skin-care shopping next to accessible drugstore routine building.",
     verdict:
       "Luxury skin care is stronger for elevated textures, brand storytelling, and premium gifting, while drugstore skin care is better for accessible routine staples and repeat purchases.",
     columns: ["Luxury skin care", "Drugstore skin care"],
@@ -4836,7 +4836,7 @@ export const beautyComparePages = [
   {
     slug: "luxury-lipstick-vs-drugstore-lipstick",
     title: "Luxury Lipstick vs Drugstore Lipstick",
-    summary: "Compare premium lipstick shopping with accessible lip color discovery.",
+    summary: "A practical look at premium lipstick shopping next to accessible lip color discovery.",
     verdict:
       "Luxury lipstick is stronger for packaging, gifting, and signature shade appeal, while drugstore lipstick is better for shade experimentation and lower-commitment color testing.",
     columns: ["Luxury lipstick", "Drugstore lipstick"],
@@ -5137,31 +5137,31 @@ export const beautySellers = [
 ];
 
 export const beautyBrandCategories = [
-  { brandSlug: "dior", categorySlug: "makeup", title: "Dior Makeup", summary: "Compare Dior complexion, lip, and color products before selecting a seller." },
-  { brandSlug: "chanel", categorySlug: "fragrance", title: "CHANEL Fragrance", summary: "Compare CHANEL fragrance choices, gift sets, and signature scents." },
-  { brandSlug: "la-mer", categorySlug: "skin-care", title: "La Mer Skin Care", summary: "Compare La Mer creams, serums, and ultra-premium skin care routines." },
-  { brandSlug: "tom-ford-beauty", categorySlug: "lip-care", title: "Tom Ford Lip Color", summary: "Compare premium lip color and luxury makeup retailers." },
-  { brandSlug: "charlotte-tilbury", categorySlug: "makeup", title: "Charlotte Tilbury Makeup", summary: "Compare Charlotte Tilbury complexion, glow, cheek, and lip products before choosing a retailer." },
-  { brandSlug: "rare-beauty", categorySlug: "makeup", title: "Rare Beauty Makeup", summary: "Compare Rare Beauty cheek, complexion, and lip products with shade and seller context." },
-  { brandSlug: "fenty-beauty", categorySlug: "makeup", title: "Fenty Beauty Makeup", summary: "Compare Fenty Beauty complexion, lip, and cheek picks with shade and undertone context." },
-  { brandSlug: "nars", categorySlug: "makeup", title: "NARS Makeup", summary: "Compare NARS complexion, blush, bronzer, and lip products by finish and routine fit." },
-  { brandSlug: "armani-beauty", categorySlug: "makeup", title: "Armani Beauty Makeup", summary: "Compare Armani complexion, lip, and fragrance-adjacent beauty picks." },
-  { brandSlug: "tatcha", categorySlug: "skin-care", title: "Tatcha Skin Care", summary: "Compare Tatcha cleansers, moisturizers, masks, and ritual-led skin care." },
-  { brandSlug: "drunk-elephant", categorySlug: "skin-care", title: "Drunk Elephant Skin Care", summary: "Compare Drunk Elephant serums, moisturizers, and routine-building product paths." },
-  { brandSlug: "skinceuticals", categorySlug: "skin-care", title: "SkinCeuticals Serums", summary: "Compare SkinCeuticals serums with ingredient-led but careful buying context." },
-  { brandSlug: "cerave", categorySlug: "skin-care", title: "CeraVe Skin Care", summary: "Compare CeraVe cleansers, moisturizers, SPF, and practical routine staples." },
-  { brandSlug: "la-roche-posay", categorySlug: "skin-care", title: "La Roche-Posay Skin Care", summary: "Compare La Roche-Posay sunscreen, cleanser, moisturizer, and sensitive-routine picks." },
-  { brandSlug: "laneige", categorySlug: "lip-care", title: "Laneige Lip Care", summary: "Compare Laneige lip masks, lip balms, and hydrating-positioned beauty products." },
-  { brandSlug: "summer-fridays", categorySlug: "lip-care", title: "Summer Fridays Lip Care", summary: "Compare Summer Fridays lip butter balms, skin tints, and easy gifts." },
-  { brandSlug: "sol-de-janeiro", categorySlug: "body-care", title: "Sol de Janeiro Body Care", summary: "Compare Sol de Janeiro body creams, fragrance mists, and giftable body-care paths." },
-  { brandSlug: "oribe", categorySlug: "hair-care", title: "Oribe Hair Care", summary: "Compare Oribe shampoo, conditioner, styling, and premium hair-care retailers." },
-  { brandSlug: "kerastase", categorySlug: "hair-care", title: "Kerastase Hair Care", summary: "Compare Kerastase cleansing, conditioning, masks, and routine-specific hair-care paths." },
-  { brandSlug: "olaplex", categorySlug: "hair-care", title: "Olaplex Hair Care", summary: "Compare Olaplex treatment-positioned products, masks, and styling support picks." },
-  { brandSlug: "jo-malone", categorySlug: "fragrance", title: "Jo Malone Fragrance", summary: "Compare Jo Malone discovery sets, scent families, gifting, and fragrance retailers." },
-  { brandSlug: "maison-margiela", categorySlug: "fragrance", title: "Maison Margiela Replica Fragrance", summary: "Compare Replica fragrance stories, discovery sets, and giftable scents." },
-  { brandSlug: "essie", categorySlug: "nail-care", title: "Essie Nail Care", summary: "Compare Essie polish color families, manicure staples, and retailers." },
-  { brandSlug: "dyson-beauty", categorySlug: "beauty-tools", title: "Dyson Beauty Tools", summary: "Compare Dyson hair styling tools by use case, gifting context, and seller policy." },
-  { brandSlug: "kate-spade-jewelry", categorySlug: "artificial-jewelry", title: "Kate Spade Fashion Jewelry", summary: "Compare Kate Spade earrings, necklaces, and giftable fashion-jewelry accessories." },
+  { brandSlug: "dior", categorySlug: "makeup", title: "Dior Makeup", summary: "Explore Dior complexion, lip, and color products before selecting a seller." },
+  { brandSlug: "chanel", categorySlug: "fragrance", title: "CHANEL Fragrance", summary: "Explore CHANEL fragrance choices, gift sets, and signature scents." },
+  { brandSlug: "la-mer", categorySlug: "skin-care", title: "La Mer Skin Care", summary: "A guide to La Mer creams, serums, and ultra-premium skin care routines." },
+  { brandSlug: "tom-ford-beauty", categorySlug: "lip-care", title: "Tom Ford Lip Color", summary: "A guide to premium lip color and luxury makeup retailers." },
+  { brandSlug: "charlotte-tilbury", categorySlug: "makeup", title: "Charlotte Tilbury Makeup", summary: "Explore Charlotte Tilbury complexion, glow, cheek, and lip products before choosing a retailer." },
+  { brandSlug: "rare-beauty", categorySlug: "makeup", title: "Rare Beauty Makeup", summary: "Shop Rare Beauty cheek, complexion, and lip products with shade and seller context." },
+  { brandSlug: "fenty-beauty", categorySlug: "makeup", title: "Fenty Beauty Makeup", summary: "Shop Fenty Beauty complexion, lip, and cheek picks with shade and undertone context." },
+  { brandSlug: "nars", categorySlug: "makeup", title: "NARS Makeup", summary: "Explore NARS complexion, blush, bronzer, and lip products by finish and routine fit." },
+  { brandSlug: "armani-beauty", categorySlug: "makeup", title: "Armani Beauty Makeup", summary: "Explore Armani complexion, lip, and fragrance-adjacent beauty picks." },
+  { brandSlug: "tatcha", categorySlug: "skin-care", title: "Tatcha Skin Care", summary: "A guide to Tatcha cleansers, moisturizers, masks, and ritual-led skin care." },
+  { brandSlug: "drunk-elephant", categorySlug: "skin-care", title: "Drunk Elephant Skin Care", summary: "A guide to Drunk Elephant serums, moisturizers, and routine-building product paths." },
+  { brandSlug: "skinceuticals", categorySlug: "skin-care", title: "SkinCeuticals Serums", summary: "A SkinCeuticals serum guide with ingredient-led but careful buying context." },
+  { brandSlug: "cerave", categorySlug: "skin-care", title: "CeraVe Skin Care", summary: "A guide to CeraVe cleansers, moisturizers, SPF, and practical routine staples." },
+  { brandSlug: "la-roche-posay", categorySlug: "skin-care", title: "La Roche-Posay Skin Care", summary: "A guide to La Roche-Posay sunscreen, cleanser, moisturizer, and sensitive-routine picks." },
+  { brandSlug: "laneige", categorySlug: "lip-care", title: "Laneige Lip Care", summary: "Explore Laneige lip masks, lip balms, and hydrating-positioned beauty products." },
+  { brandSlug: "summer-fridays", categorySlug: "lip-care", title: "Summer Fridays Lip Care", summary: "Explore Summer Fridays lip butter balms, skin tints, and easy gifts." },
+  { brandSlug: "sol-de-janeiro", categorySlug: "body-care", title: "Sol de Janeiro Body Care", summary: "Explore Sol de Janeiro body creams, fragrance mists, and giftable body-care paths." },
+  { brandSlug: "oribe", categorySlug: "hair-care", title: "Oribe Hair Care", summary: "A guide to Oribe shampoo, conditioner, styling, and premium hair-care retailers." },
+  { brandSlug: "kerastase", categorySlug: "hair-care", title: "Kerastase Hair Care", summary: "A guide to Kerastase cleansing, conditioning, masks, and routine-specific hair-care paths." },
+  { brandSlug: "olaplex", categorySlug: "hair-care", title: "Olaplex Hair Care", summary: "A guide to Olaplex treatment-positioned products, masks, and styling support picks." },
+  { brandSlug: "jo-malone", categorySlug: "fragrance", title: "Jo Malone Fragrance", summary: "Explore Jo Malone discovery sets, scent families, gifting, and fragrance retailers." },
+  { brandSlug: "maison-margiela", categorySlug: "fragrance", title: "Maison Margiela Replica Fragrance", summary: "Explore Replica fragrance stories, discovery sets, and giftable scents." },
+  { brandSlug: "essie", categorySlug: "nail-care", title: "Essie Nail Care", summary: "Explore Essie polish color families, manicure staples, and retailers." },
+  { brandSlug: "dyson-beauty", categorySlug: "beauty-tools", title: "Dyson Beauty Tools", summary: "A guide to Dyson hair styling tools by use case, gifting context, and seller policy." },
+  { brandSlug: "kate-spade-jewelry", categorySlug: "artificial-jewelry", title: "Kate Spade Fashion Jewelry", summary: "Explore Kate Spade earrings, necklaces, and giftable fashion-jewelry accessories." },
 ];
 
 export const beautyCategoryPages = [
@@ -5176,13 +5176,13 @@ export const beautyCategoryPages = [
       {
         title: "Core beauty pillars",
         links: [
-          { href: "/skin-care", label: "Skin care", description: "Compare premium serums, moisturizers, SPF, cleansers, and routine-led skin care." },
-          { href: "/hair-care", label: "Hair care", description: "Compare salon-inspired shampoos, masks, scalp care, and styling support." },
-          { href: "/makeup", label: "Makeup", description: "Compare luxury complexion, cheek, lip, eye, and finishing products." },
-          { href: "/fragrance", label: "Fragrance", description: "Compare discovery sets, signature scents, gifts, and luxury fragrance houses." },
-          { href: "/body-care", label: "Body care", description: "Compare body moisturizers, exfoliants, hand care, and fragrance layering." },
-          { href: "/beauty-tools", label: "Beauty tools", description: "Compare brushes, facial tools, manicure tools, and hair styling tools." },
-          { href: "/artificial-jewelry", label: "Artificial jewelry", description: "Compare fashion earrings, necklaces, bracelets, and giftable jewelry sets." },
+          { href: "/skin-care", label: "Skin care", description: "Explore premium serums, moisturizers, SPF, cleansers, and routine-led skin care." },
+          { href: "/hair-care", label: "Hair care", description: "Explore salon-inspired shampoos, masks, scalp care, and styling support." },
+          { href: "/makeup", label: "Makeup", description: "Shop luxury complexion, cheek, lip, eye, and finishing products with more context." },
+          { href: "/fragrance", label: "Fragrance", description: "Browse discovery sets, signature scents, gifts, and luxury fragrance houses." },
+          { href: "/body-care", label: "Body care", description: "Explore body moisturizers, exfoliants, hand care, and fragrance layering." },
+          { href: "/beauty-tools", label: "Beauty tools", description: "Explore brushes, facial tools, manicure tools, and hair styling tools." },
+          { href: "/artificial-jewelry", label: "Artificial jewelry", description: "Browse fashion earrings, necklaces, bracelets, and giftable jewelry sets." },
         ],
       },
       {
@@ -5199,7 +5199,7 @@ export const beautyCategoryPages = [
   {
     slug: "skin-care",
     title: "Luxury Skin Care",
-    description: "Compare premium serums, creams, cleansers, eye treatments, SPF, and skin-care routines.",
+    description: "Explore premium serums, creams, cleansers, eye treatments, SPF, and skin-care routines.",
     intro:
       "Luxury skin care shoppers need more than a brand logo. This guide keeps concern, texture, routine fit, retailer confidence, and giftability visible.",
     eyebrow: "Skin care",
@@ -5208,10 +5208,10 @@ export const beautyCategoryPages = [
         title: "Best next guides",
         links: [
           { href: "/skin-care/anti-aging-serums", label: "Anti-aging serums", description: "Start here for targeted treatment and prestige active stories." },
-          { href: "/skin-care/barrier-repair-moisturizers", label: "Barrier-support moisturizers", description: "Compare moisturizer texture, comfort, and routine anchoring." },
-          { href: "/skin-care/vitamin-c-serums", label: "Vitamin C serums", description: "Compare radiance-focused serum guides with careful ingredient context." },
-          { href: "/skin-care/sunscreen-for-makeup-prep", label: "Sunscreen for makeup prep", description: "Compare SPF finish, tint, and layering behavior before foundation." },
-          { href: "/brands/la-mer", label: "La Mer", description: "Compare ultra-premium skin care before choosing a seller." },
+          { href: "/skin-care/barrier-repair-moisturizers", label: "Barrier-support moisturizers", description: "Choose moisturizer texture, comfort, and routine anchoring." },
+          { href: "/skin-care/vitamin-c-serums", label: "Vitamin C serums", description: "Read radiance-focused serum guides with careful ingredient context." },
+          { href: "/skin-care/sunscreen-for-makeup-prep", label: "Sunscreen for makeup prep", description: "Check SPF finish, tint, and layering behavior before foundation." },
+          { href: "/brands/la-mer", label: "La Mer", description: "Explore ultra-premium skin care before choosing a seller." },
           { href: "/compare/luxury-serum-vs-moisturizer", label: "Serum vs moisturizer", description: "Use the comparison when routine fit is still unclear." },
         ],
       },
@@ -5220,7 +5220,7 @@ export const beautyCategoryPages = [
   {
     slug: "makeup",
     title: "Luxury Makeup",
-    description: "Compare prestige foundation, lipstick, eye makeup, blush, bronzer, and finishing products.",
+    description: "Explore prestige foundation, lipstick, eye makeup, blush, bronzer, and finishing products.",
     intro:
       "Luxury makeup is about finish, shade, occasion, packaging, and retailer clarity, not just the most prominent product tile.",
     eyebrow: "Makeup",
@@ -5228,10 +5228,10 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/makeup/luxury-foundation", label: "Luxury foundation", description: "Compare complexion products by finish, coverage, and shade path." },
-          { href: "/makeup/luxury-concealer", label: "Luxury concealer", description: "Compare high-end concealer by coverage, finish, and undertone." },
-          { href: "/makeup/cream-blush", label: "Cream blush", description: "Compare fresh color, pigment, texture, and retailer clarity." },
-          { href: "/makeup/setting-powder", label: "Setting powder", description: "Compare finish, blur positioning, tone support, and event makeup fit." },
+          { href: "/makeup/luxury-foundation", label: "Luxury foundation", description: "Choose complexion products by finish, coverage, and shade path." },
+          { href: "/makeup/luxury-concealer", label: "Luxury concealer", description: "Find high-end concealer by coverage, finish, and undertone." },
+          { href: "/makeup/cream-blush", label: "Cream blush", description: "Shop fresh color, pigment, texture, and retailer clarity." },
+          { href: "/makeup/setting-powder", label: "Setting powder", description: "Check finish, soft-focus positioning, tone support, and event makeup fit." },
           { href: "/brands/dior", label: "Dior Beauty", description: "Move into designer makeup and lip color research." },
           { href: "/compare/luxury-foundation-vs-skin-tint", label: "Foundation vs skin tint", description: "Choose the right complexion lane before continuing." },
         ],
@@ -5241,7 +5241,7 @@ export const beautyCategoryPages = [
   {
     slug: "lip-care",
     title: "Luxury Lip Care",
-    description: "Compare premium lip masks, balms, oils, plumpers, liners, gloss, and lipstick routines.",
+    description: "Explore premium lip masks, balms, oils, plumpers, liners, gloss, and lipstick routines.",
     intro:
       "LipFlower gives lip care its own premium lane because affluent beauty shoppers often move between treatment, color, texture, and gifting.",
     eyebrow: "Lip care",
@@ -5249,10 +5249,10 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/lip-care/lip-masks", label: "Lip masks", description: "Compare overnight and balm-mask treatment formats." },
-          { href: "/lip-care/lip-oils", label: "Lip oils", description: "Compare glossy comfort, tint, applicator, and fragrance preferences." },
-          { href: "/lip-care/tinted-lip-balms", label: "Tinted lip balms", description: "Compare low-effort color, comfort, and daily-carry appeal." },
-          { href: "/lip-care/lip-plumpers", label: "Lip plumpers", description: "Compare sensation, shine, and realistic makeup expectations." },
+          { href: "/lip-care/lip-masks", label: "Lip masks", description: "See how overnight and balm-mask treatment formats differ." },
+          { href: "/lip-care/lip-oils", label: "Lip oils", description: "Choose glossy comfort, tint, applicator, and fragrance preferences." },
+          { href: "/lip-care/tinted-lip-balms", label: "Tinted lip balms", description: "Find low-effort color, comfort, and daily-carry appeal." },
+          { href: "/lip-care/lip-plumpers", label: "Lip plumpers", description: "Understand sensation, shine, and realistic makeup expectations." },
           { href: "/compare/lip-mask-vs-lip-balm", label: "Lip mask vs lip balm", description: "Decide between ritual treatment and everyday comfort." },
           { href: "/brands/tom-ford-beauty", label: "Tom Ford Beauty", description: "Explore luxury lip color and designer beauty positioning." },
         ],
@@ -5262,7 +5262,7 @@ export const beautyCategoryPages = [
   {
     slug: "fragrance",
     title: "Luxury Fragrance",
-    description: "Compare prestige fragrance, discovery sets, designer scents, and premium gifting paths.",
+    description: "Explore prestige fragrance, discovery sets, designer scents, and premium gifting paths.",
     intro:
       "Fragrance shoppers need retailer clarity, format details, bottle size, occasion, and gift presentation before committing to a luxury scent.",
     eyebrow: "Fragrance",
@@ -5270,10 +5270,10 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/fragrance/fragrance-discovery-sets", label: "Fragrance discovery sets", description: "Compare sample sets, scent families, and lower-risk luxury fragrance paths." },
-          { href: "/fragrance/luxury-perfume-gifts", label: "Luxury perfume gifts", description: "Compare bottle size, presentation, scent confidence, and seller flexibility." },
+          { href: "/fragrance/fragrance-discovery-sets", label: "Fragrance discovery sets", description: "Explore sample sets, scent families, and lower-risk luxury fragrance paths." },
+          { href: "/fragrance/luxury-perfume-gifts", label: "Luxury perfume gifts", description: "Choose by bottle size, presentation, scent confidence, and seller flexibility." },
           { href: "/fragrance/signature-scent-guide", label: "Signature scent guide", description: "Use occasion, scent family, and sampling options before buying a full bottle." },
-          { href: "/brands/chanel", label: "CHANEL Beauty", description: "Compare classic luxury fragrance choices." },
+          { href: "/brands/chanel", label: "CHANEL Beauty", description: "Explore classic luxury fragrance choices." },
           { href: "/sellers/nordstrom", label: "Nordstrom", description: "Use department-store service for premium fragrance and gifting." },
           { href: "/luxury-beauty", label: "Luxury beauty edit", description: "Return to a broader prestige-shopping guide." },
         ],
@@ -5283,7 +5283,7 @@ export const beautyCategoryPages = [
   {
     slug: "hair-care",
     title: "Luxury Hair Care",
-    description: "Compare premium shampoos, conditioners, masks, scalp care, stylers, and heat tools.",
+    description: "Explore premium shampoos, conditioners, masks, scalp care, stylers, and heat tools.",
     intro:
       "Luxury hair care decisions work best when shoppers compare hair type, routine step, fragrance, treatment intensity, and retailer clarity before continuing.",
     eyebrow: "Hair care",
@@ -5291,11 +5291,11 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/hair-care/luxury-shampoo-conditioner", label: "Luxury shampoo and conditioner", description: "Compare premium wash-day staples by hair type, fragrance, and finish." },
-          { href: "/hair-care/hair-masks", label: "Hair masks", description: "Compare rinse-out and treatment-style masks by texture and routine fit." },
-          { href: "/hair-care/scalp-care", label: "Scalp care", description: "Compare scalp-focused formats with careful guidance." },
+          { href: "/hair-care/luxury-shampoo-conditioner", label: "Luxury shampoo and conditioner", description: "Choose premium wash-day staples by hair type, fragrance, and finish." },
+          { href: "/hair-care/hair-masks", label: "Hair masks", description: "Find rinse-out and treatment-style masks by texture and routine fit." },
+          { href: "/hair-care/scalp-care", label: "Scalp care", description: "Explore scalp-focused formats with careful guidance." },
           { href: "/beauty-university", label: "Routine guides", description: "Use education guides before building a premium hair routine." },
-          { href: "/sellers/sephora", label: "Sephora", description: "Compare salon and prestige beauty hair-care retailers." },
+          { href: "/sellers/sephora", label: "Sephora", description: "Browse salon and prestige beauty hair-care retailers." },
           { href: "/luxury-beauty", label: "Luxury beauty edit", description: "Return to a broader prestige shopping guide." },
         ],
       },
@@ -5304,7 +5304,7 @@ export const beautyCategoryPages = [
   {
     slug: "body-care",
     title: "Luxury Body Care",
-    description: "Compare body moisturizers, exfoliants, SPF, hand care, body fragrance, and bath products.",
+    description: "Explore body moisturizers, exfoliants, SPF, hand care, body fragrance, and bath products.",
     intro:
       "Premium body care may support a polished routine through texture, scent, hydration feel, and gifting appeal without promising guaranteed skin outcomes.",
     eyebrow: "Body care",
@@ -5312,9 +5312,9 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/body-care/body-moisturizers", label: "Body moisturizers", description: "Compare premium body creams and lotions by texture, scent, and routine fit." },
-          { href: "/body-care/body-exfoliants", label: "Body exfoliants", description: "Compare scrubs and exfoliating body products with use-direction context." },
-          { href: "/body-care/luxury-hand-care", label: "Luxury hand care", description: "Compare hand creams and portable body-care gifts by finish and fragrance." },
+          { href: "/body-care/body-moisturizers", label: "Body moisturizers", description: "Choose premium body creams and lotions by texture, scent, and routine fit." },
+          { href: "/body-care/body-exfoliants", label: "Body exfoliants", description: "Explore scrubs and exfoliating body products with use-direction context." },
+          { href: "/body-care/luxury-hand-care", label: "Luxury hand care", description: "Find hand creams and portable body-care gifts by finish and fragrance." },
           { href: "/fragrance", label: "Fragrance", description: "Pair body care with scent and gifting decisions." },
           { href: "/sellers/nordstrom", label: "Nordstrom", description: "Use department-store retailers for luxury body care and gifting." },
           { href: "/beauty-university", label: "Beauty University", description: "Read routine guidance before choosing a product lane." },
@@ -5325,7 +5325,7 @@ export const beautyCategoryPages = [
   {
     slug: "nail-care",
     title: "Luxury Nail Care",
-    description: "Compare nail polish, treatments, cuticle care, manicure tools, and premium hand-care systems.",
+    description: "Explore nail polish, treatments, cuticle care, manicure tools, and premium hand-care systems.",
     intro:
       "For nail care, compare finish, wear expectations, tool quality, and routine fit without overclaiming repair results.",
     eyebrow: "Nail care",
@@ -5333,10 +5333,10 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/nail-care/luxury-nail-polish", label: "Luxury nail polish", description: "Compare premium shades, finishes, and retailer clarity." },
-          { href: "/nail-care/cuticle-care", label: "Cuticle care", description: "Compare oils, creams, and hand-care pairings with careful language." },
-          { href: "/nail-care/manicure-tools", label: "Manicure tools", description: "Compare material, care, and handling before upgrading at-home tools." },
-          { href: "/beauty-tools", label: "Beauty tools", description: "Compare tools that support polished at-home routines." },
+          { href: "/nail-care/luxury-nail-polish", label: "Luxury nail polish", description: "Browse premium shades, finishes, and retailer clarity." },
+          { href: "/nail-care/cuticle-care", label: "Cuticle care", description: "Explore oils, creams, and hand-care pairings with careful language." },
+          { href: "/nail-care/manicure-tools", label: "Manicure tools", description: "Check material, care, and handling before upgrading at-home tools." },
+          { href: "/beauty-tools", label: "Beauty tools", description: "Explore tools that support polished at-home routines." },
           { href: "/luxury-beauty", label: "Luxury beauty edit", description: "Explore broader prestige beauty categories." },
           { href: "/sellers/amazon", label: "Amazon", description: "Use seller checks carefully when comparing nail-care offers." },
         ],
@@ -5346,7 +5346,7 @@ export const beautyCategoryPages = [
   {
     slug: "beauty-tools",
     title: "Luxury Beauty Tools",
-    description: "Compare premium brushes, facial tools, hair tools, organizers, and routine accessories.",
+    description: "Explore premium brushes, facial tools, hair tools, organizers, and routine accessories.",
     intro:
       "Beauty tools should be compared by material, ergonomics, routine fit, care instructions, and retailer clarity rather than trend language alone.",
     eyebrow: "Beauty tools",
@@ -5354,11 +5354,11 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/beauty-tools/makeup-brushes", label: "Makeup brushes", description: "Compare shape, material, application role, and cleaning needs." },
-          { href: "/beauty-tools/facial-tools", label: "Facial tools", description: "Compare routine fit, materials, and care instructions without unsupported claims." },
-          { href: "/beauty-tools/hair-styling-tools", label: "Hair styling tools", description: "Compare heat settings, attachments, warranty context, and retailer clarity." },
+          { href: "/beauty-tools/makeup-brushes", label: "Makeup brushes", description: "Choose by shape, material, application role, and cleaning needs." },
+          { href: "/beauty-tools/facial-tools", label: "Facial tools", description: "Check routine fit, materials, and care instructions without unsupported claims." },
+          { href: "/beauty-tools/hair-styling-tools", label: "Hair styling tools", description: "Review heat settings, attachments, warranty context, and retailer clarity." },
           { href: "/makeup", label: "Makeup", description: "Pair brushes and applicators with complexion and color decisions." },
-          { href: "/hair-care", label: "Hair care", description: "Compare tools that support salon-style hair routines." },
+          { href: "/hair-care", label: "Hair care", description: "Explore tools that support salon-style hair routines." },
           { href: "/beauty-university", label: "Beauty University", description: "Use education guides before selecting specialized tools." },
         ],
       },
@@ -5367,7 +5367,7 @@ export const beautyCategoryPages = [
   {
     slug: "artificial-jewelry",
     title: "Artificial Jewelry",
-    description: "Compare artificial jewelry, fashion earrings, necklaces, bracelets, gift sets, and beauty-adjacent accessories.",
+    description: "Explore artificial jewelry, fashion earrings, necklaces, bracelets, gift sets, and beauty-adjacent accessories.",
     intro:
       "Artificial jewelry belongs in LipFlower as a styling and gifting layer: it helps shoppers complete beauty looks, coordinate occasion outfits, and compare retailer details without confusing accessories with cosmetic claims.",
     eyebrow: "Artificial jewelry",
@@ -5375,10 +5375,10 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/artificial-jewelry/fashion-earrings", label: "Fashion earrings", description: "Compare statement and everyday earrings by tone, closure, weight, and occasion." },
-          { href: "/artificial-jewelry/fashion-necklaces", label: "Fashion necklaces", description: "Compare chains, pendants, layering pieces, and giftable necklaces." },
-          { href: "/artificial-jewelry/fashion-bracelets", label: "Fashion bracelets", description: "Compare stacking styles, fit, finish, clasp style, and retailer clarity." },
-          { href: "/artificial-jewelry/jewelry-gift-sets", label: "Jewelry gift sets", description: "Compare artificial jewelry sets by presentation, versatility, and return-friendly retailers." },
+          { href: "/artificial-jewelry/fashion-earrings", label: "Fashion earrings", description: "Choose statement and everyday earrings by tone, closure, weight, and occasion." },
+          { href: "/artificial-jewelry/fashion-necklaces", label: "Fashion necklaces", description: "Browse chains, pendants, layering pieces, and giftable necklaces." },
+          { href: "/artificial-jewelry/fashion-bracelets", label: "Fashion bracelets", description: "Find stacking styles, fit, finish, clasp style, and retailer clarity." },
+          { href: "/artificial-jewelry/jewelry-gift-sets", label: "Jewelry gift sets", description: "Review artificial jewelry sets by presentation, versatility, and return-friendly retailers." },
           { href: "/makeup", label: "Makeup", description: "Coordinate accessories with complexion, lip, and occasion makeup." },
           { href: "/sellers/amazon", label: "Amazon", description: "Use seller checks carefully when comparing fashion jewelry offers." },
         ],
@@ -5388,7 +5388,7 @@ export const beautyCategoryPages = [
   {
     slug: "natural-beauty",
     title: "Natural Beauty",
-    description: "Compare natural-positioned beauty products with careful ingredient, seller, and claim context.",
+    description: "Explore natural-positioned beauty products with careful ingredient, seller, and claim context.",
     intro:
       "For natural beauty, keep claims conservative, explain what is visible from the product details, and avoid treating natural language as a safety guarantee.",
     eyebrow: "Natural beauty",
@@ -5396,7 +5396,7 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/skin-care", label: "Skin care", description: "Compare ingredient-led skin-care routines." },
+          { href: "/skin-care", label: "Skin care", description: "Explore ingredient-led skin-care routines." },
           { href: "/body-care", label: "Body care", description: "Explore body products with texture and fragrance context." },
           { href: "/about/editorial-policy", label: "Editorial policy", description: "Understand how LipFlower frames beauty claims." },
         ],
@@ -5416,7 +5416,7 @@ export const beautyCategoryPages = [
         links: [
           { href: "/skin-care", label: "Skin care", description: "Start with treatment-led luxury routines." },
           { href: "/makeup", label: "Makeup", description: "Move into color, complexion, and designer beauty." },
-          { href: "/fragrance", label: "Fragrance", description: "Compare scent and gifting paths." },
+          { href: "/fragrance", label: "Fragrance", description: "Explore scent and gifting paths." },
         ],
       },
     ],

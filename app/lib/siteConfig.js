@@ -2,7 +2,7 @@ export const siteConfig = {
   siteName: "LipFlower",
   siteUrl: "https://lipflower.com",
   siteDescription:
-    "Compare luxury cosmetics, skin care, makeup, fragrance, artificial jewelry, and lip care across Amazon and other premium beauty sellers.",
+  "Explore luxury cosmetics, skin care, makeup, fragrance, artificial jewelry, and lip care across Amazon and other premium beauty sellers.",
   siteTagline:
     "Luxury beauty, artificial jewelry, seller routing, and premium self-care research for affluent shoppers.",
   utilityLinks: [

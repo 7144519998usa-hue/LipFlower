@@ -4,7 +4,7 @@ import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
 export const metadata = buildBeautyMetadata({
   title: "Luxury Beauty Retailers",
-  description: "Compare Amazon and other premium beauty retailers before continuing to external offers.",
+  description: "Review Amazon and other premium beauty retailers before continuing to external offers.",
   canonicalPath: "/sellers",
 });
 

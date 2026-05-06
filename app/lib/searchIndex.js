@@ -34,7 +34,7 @@ export function buildSearchIndex() {
     createEntry({
       href: "/luxury-beauty",
       title: "Luxury Beauty Edit",
-      description: "Compare premium skin care, makeup, fragrance, lip care, brands, and sellers.",
+      description: "Explore premium skin care, makeup, fragrance, lip care, brands, and sellers.",
       pageType: "hub",
       keywords: ["beauty", "luxury", "skin care", "makeup", "lip care", "fragrance"],
     }),
