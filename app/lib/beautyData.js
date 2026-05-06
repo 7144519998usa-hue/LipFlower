@@ -90,12 +90,12 @@ export const beautyHubPages = {
         ],
       },
       {
-        title: "Popular beauty buying guides",
+        title: "Beauty guides shoppers actually use",
         links: [
           {
             href: "/skin-care/anti-aging-serums",
-            label: "Anti-aging serums",
-            description: "A clearer way to shop prestige serums by concern, texture, ingredient story, and retailer details.",
+            label: "Serums for mature routines",
+            description: "A clearer way to shop prestige serums by texture, ingredient story, skin feel, and retailer details.",
           },
           {
             href: "/skin-care/barrier-repair-moisturizers",
@@ -142,7 +142,7 @@ export const beautyLandingPages = [
   {
     categoryPath: "skin-care",
     slug: "anti-aging-serums",
-    title: "Luxury Anti-Aging Serums",
+    title: "Luxury Serums for Mature Routines",
     summary: "A premium serum guide for fine-line-focused routines, radiance, texture, and elevated daily skin care.",
     intro:
       "Luxury serum shoppers should compare concern fit, texture, ingredient story, and retailer clarity before chasing one viral bottle.",
@@ -5207,7 +5207,7 @@ export const beautyCategoryPages = [
       {
         title: "Best next guides",
         links: [
-          { href: "/skin-care/anti-aging-serums", label: "Anti-aging serums", description: "Start here for targeted treatment and prestige active stories." },
+          { href: "/skin-care/anti-aging-serums", label: "Serums for mature routines", description: "Start here for prestige serum texture, routine fit, and careful ingredient context." },
           { href: "/skin-care/barrier-repair-moisturizers", label: "Barrier-support moisturizers", description: "Choose moisturizer texture, comfort, and routine anchoring." },
           { href: "/skin-care/vitamin-c-serums", label: "Vitamin C serums", description: "Read radiance-focused serum guides with careful ingredient context." },
           { href: "/skin-care/sunscreen-for-makeup-prep", label: "Sunscreen for makeup prep", description: "Check SPF finish, tint, and layering behavior before foundation." },
