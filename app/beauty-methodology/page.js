@@ -22,7 +22,7 @@ const methodologyAreas = [
   {
     title: "Seller confidence",
     description:
-      "Commercial pages should help shoppers evaluate seller identity, return clarity, listing detail quality, shipping path, and price context before clicking out.",
+      "Commercial pages should help shoppers evaluate seller identity, return clarity, listing detail quality, delivery details, and price context before clicking out.",
     examples: ["Amazon seller checks", "Return-sensitive shade purchases", "Gift delivery timing"],
     links: ["/beauty-seller-scorecard", "/sellers"],
   },
@@ -44,7 +44,7 @@ const methodologyAreas = [
     title: "Disclosure and monetization clarity",
     description:
       "LipFlower may earn affiliate revenue when users continue to seller sites, so monetized pages should keep disclosures, seller context, and user-first guidance visible.",
-    examples: ["Affiliate disclosure", "How we make money", "Seller path context"],
+    examples: ["Affiliate disclosure", "How we make money", "Retailer context"],
     links: ["/about/advertiser-disclosure", "/about/how-we-make-money"],
   },
 ];
@@ -76,7 +76,7 @@ export default function BeautyMethodologyPage() {
       <JsonLd data={schema} />
       <section className="hero-panel">
         <span className="eyebrow">Methodology</span>
-        <h1>How LipFlower compares beauty products and seller paths</h1>
+        <h1>How LipFlower compares beauty products and retailers</h1>
         <p>
           LipFlower is a beauty research and affiliate comparison platform. Our comparison pages are
           designed to help shoppers understand fit, tradeoffs, seller confidence, and claim-safe

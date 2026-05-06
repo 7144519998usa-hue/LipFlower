@@ -129,7 +129,7 @@ export default function BeautyResearchPage() {
               <li>Start with a reference guide when a buying decision depends on routine order.</li>
               <li>Use ingredient guides as shopping context, not medical or dermatology advice.</li>
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
-              <li>Use the routine library when a shopper needs to connect multiple categories into one decision path.</li>
+              <li>Use the routine library when a shopper needs to connect multiple categories into one decision.</li>
               <li>Use the gift library when recipient fit, return clarity, and seller timing are part of the decision.</li>
               <li>Use the occasion library when an event changes product, seller, or styling priorities.</li>
               <li>Use the ingredient library when product language depends on ingredient positioning.</li>
@@ -152,11 +152,11 @@ export default function BeautyResearchPage() {
           </article>
 
           <article className="catalog-card">
-            <h2>High-value next paths</h2>
+            <h2>High-value next guides</h2>
             <div className="catalog-stack">
               <Link href="/skin-care" className="catalog-link-card">
                 <strong>Skin care</strong>
-                <span>Compare serums, moisturizers, SPF, and routine-led shopping paths.</span>
+                <span>Compare serums, moisturizers, SPF, and routine-led shopping guides.</span>
               </Link>
               <Link href="/makeup" className="catalog-link-card">
                 <strong>Makeup</strong>

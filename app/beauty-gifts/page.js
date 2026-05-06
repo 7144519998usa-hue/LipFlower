@@ -4,7 +4,7 @@ import ProductUseDisclaimer from "../components/ProductUseDisclaimer";
 import { beautySiteName, beautySiteUrl } from "../lib/beautyData";
 import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
-const giftPaths = [
+const giftGuides = [
   {
     title: "Fragrance discovery gifts",
     recipientFit: "When scent preferences are unknown",
@@ -30,7 +30,7 @@ const giftPaths = [
     title: "Artificial jewelry gifts",
     recipientFit: "Occasion styling and beauty-adjacent accessories",
     guidance:
-      "Fashion earrings, necklaces, bracelets, rings, and jewelry sets should be compared by occasion, material details, dimensions, and seller return policy.",
+      "Fashion earrings, necklaces, bracelets, rings, and jewelry sets should be compared by occasion, material details, dimensions, and retailer return policy.",
     links: ["/artificial-jewelry", "/artificial-jewelry/jewelry-gift-sets", "/beauty-university/artificial-jewelry-styling-guide"],
   },
   {
@@ -58,7 +58,7 @@ const giftPaths = [
     title: "Last-minute beauty gifts",
     recipientFit: "When speed matters more than personalization",
     guidance:
-      "Last-minute gifts should favor lower-risk formats, clear shipping paths, discovery sets, tools, lip care, and artificial jewelry with straightforward seller policies.",
+      "Last-minute gifts should favor lower-risk formats, clear delivery details, discovery sets, tools, lip care, and artificial jewelry with straightforward retailer policies.",
     links: ["/beauty-calendar", "/calculators/gift-finder", "/beauty-university/beauty-gift-decision-tree"],
   },
 ];
@@ -76,7 +76,7 @@ export default function BeautyGiftsPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Gift Guide Library",
     description:
-      "Gift-focused beauty shopping paths for fragrance, lip care, beauty tools, artificial jewelry, makeup, skin care, seasonal timing, and seller confidence.",
+      "Gift-focused beauty shopping guidance for fragrance, lip care, beauty tools, artificial jewelry, makeup, skin care, seasonal timing, and retailer confidence.",
     url: `${beautySiteUrl}/beauty-gifts`,
     publisher: {
       "@type": "Organization",
@@ -85,7 +85,7 @@ export default function BeautyGiftsPage() {
     },
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: giftPaths.map((gift, index) => ({
+      itemListElement: giftGuides.map((gift, index) => ({
         "@type": "ListItem",
         position: index + 1,
         name: gift.title,
@@ -99,7 +99,7 @@ export default function BeautyGiftsPage() {
       <JsonLd data={schema} />
       <section className="hero-panel">
         <span className="eyebrow">Gift guide library</span>
-        <h1>Beauty gift paths for confident, lower-risk shopping</h1>
+        <h1>Beauty gift guides for confident, lower-risk shopping</h1>
         <p>
           Use this gift library to compare fragrance discovery sets, lip-care gifts, beauty tools,
           artificial jewelry, makeup, skin care, and seller confidence before choosing a retailer.
@@ -120,7 +120,7 @@ export default function BeautyGiftsPage() {
 
       <section className="catalog-grid-section">
         <div className="catalog-grid">
-          {giftPaths.map((gift) => (
+          {giftGuides.map((gift) => (
             <article key={gift.title} className="catalog-card">
               <span className="eyebrow">{gift.recipientFit}</span>
               <h2>{gift.title}</h2>

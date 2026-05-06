@@ -59,7 +59,7 @@ export default async function SellerPage({ params }) {
             <div className="catalog-stack">
               <Link href="/luxury-beauty" className="catalog-link-card">
                 <strong>Luxury beauty edit</strong>
-                <span>Step back into the main beauty route before clicking out if category fit is still unclear.</span>
+                <span>Step back into the main beauty guide before clicking out if category fit is still unclear.</span>
               </Link>
               <Link href="/compare" className="catalog-link-card">
                 <strong>Comparison hub</strong>

@@ -4,7 +4,7 @@ import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
 export const metadata = buildBeautyMetadata({
   title: "Beauty Finders",
-  description: "Use LipFlower beauty finders to choose routine, gift, seller, and category paths before comparing premium beauty products.",
+  description: "Use LipFlower beauty finders to choose routines, gifts, sellers, and categories before comparing premium beauty products.",
   canonicalPath: "/calculators",
 });
 
@@ -13,8 +13,8 @@ export default function BeautyCalculatorsPage() {
     <BeautyHubPage
       eyebrow="Beauty finders"
       title="Beauty Finders"
-      description="Choose a guided route before comparing luxury skin care, makeup, lip care, fragrance, and beauty tools."
-      intro="These lightweight finders are built for discovery and routing, not diagnosis or guaranteed product outcomes."
+      description="Choose a guided starting point before comparing luxury skin care, makeup, lip care, fragrance, and beauty tools."
+      intro="These lightweight finders are built for discovery and shopping clarity, not diagnosis or guaranteed product outcomes."
       sections={[
         {
           title: "Guided beauty tools",
@@ -27,9 +27,9 @@ export default function BeautyCalculatorsPage() {
         {
           title: "Useful starting points",
           links: [
-            { href: "/beauty", label: "Beauty hub", description: "Start with the full LipFlower beauty architecture." },
+            { href: "/beauty", label: "Beauty hub", description: "Start with the full LipFlower beauty guide." },
             { href: "/beauty-university", label: "Beauty University", description: "Read claim-safe education before product comparison." },
-            { href: "/sellers", label: "Seller directory", description: "Compare seller paths before clicking through." },
+            { href: "/sellers", label: "Seller directory", description: "Compare retailers before clicking through." },
           ],
         },
       ]}

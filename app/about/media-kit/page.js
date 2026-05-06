@@ -86,7 +86,7 @@ export default function MediaKitPage() {
               </Link>
               <Link href="/about/advertiser-disclosure" className="catalog-link-card">
                 <strong>Affiliate disclosure</strong>
-                <span>How monetized links and seller paths are disclosed.</span>
+                <span>How monetized links and retailer recommendations are disclosed.</span>
               </Link>
             </div>
           </article>

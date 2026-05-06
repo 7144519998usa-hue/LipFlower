@@ -14,7 +14,7 @@ export default function ComparisonOfferBlock({ columns = [], sellers = [], sourc
         <span className="eyebrow">Shop carefully</span>
         <h2>Check seller availability for each option</h2>
         <p>
-          Use these seller paths to verify price, shade or size availability, official seller
+          Use these retailer links to verify price, shade or size availability, official seller
           signals, return terms, and current product details before buying.
         </p>
         <div className="offer-grid">

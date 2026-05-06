@@ -60,7 +60,7 @@ export default async function BrandCategoryPage({ params }) {
               </Link>
               <Link href="/sellers" className="catalog-link-card">
                 <strong>Seller directory</strong>
-                <span>Use the seller path when retailer trust and return policy matter most.</span>
+                <span>Use retailer details when trust and return policy matter most.</span>
               </Link>
             </div>
           </article>

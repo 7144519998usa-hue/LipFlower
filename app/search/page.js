@@ -5,7 +5,7 @@ import { searchSite } from "../lib/searchIndex";
 export const metadata = {
   ...buildBeautyMetadata({
     title: "Search LipFlower",
-    description: "Search luxury beauty routes, comparisons, brands, sellers, and education pages across LipFlower.",
+    description: "Search luxury beauty guides, comparisons, brands, sellers, and education pages across LipFlower.",
     canonicalPath: "/search",
   }),
   robots: {
@@ -24,7 +24,7 @@ export default function SearchPage({ searchParams }) {
         <div className="hero-copy">
           <span className="eyebrow">Site search</span>
           <h1>Search LipFlower</h1>
-          <p>Search luxury beauty categories, comparisons, brands, sellers, and education pages without opening a crawl trap.</p>
+          <p>Search luxury beauty categories, comparisons, brands, sellers, and education pages from one quiet place.</p>
           <form className="hero-search" action="/search" method="get">
             <input
               type="search"
@@ -53,7 +53,7 @@ export default function SearchPage({ searchParams }) {
                 <h3>{result.title}</h3>
                 <p>{result.description}</p>
                 <Link href={result.href} className="catalog-link-card">
-                  <strong>Open page</strong>
+                  <strong>Open guide</strong>
                   <span>{result.href}</span>
                 </Link>
               </article>

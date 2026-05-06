@@ -17,7 +17,7 @@ export default function AboutPage() {
           LipFlower is an independent luxury beauty comparison and affiliate marketplace built for affluent shoppers researching skin care, makeup, fragrance, and lip care.
         </p>
         <p>
-          The site is designed as a premium decision-support engine, not a checkout cart. We help shoppers compare brands, categories, product roles, and seller paths before continuing to Amazon or another trusted retailer.
+          The site is designed as a premium beauty guide, not a checkout cart. We help shoppers compare brands, categories, product roles, and retailer options before continuing to Amazon or another trusted retailer.
         </p>
         <div className="hero-actions">
           <Link href="/about/media-kit" className="search-button">

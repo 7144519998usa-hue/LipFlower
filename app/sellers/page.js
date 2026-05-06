@@ -27,12 +27,12 @@ export default function SellersPage() {
           })),
         },
         {
-          title: "Best next routes",
+          title: "Best next guides",
           links: [
             {
               href: "/compare",
               label: "Comparison hub",
-              description: "Move into comparisons before choosing a seller path when the product lane still is not settled.",
+              description: "Move into comparisons before choosing a retailer when the product choice still is not settled.",
             },
             {
               href: "/beauty-university/amazon-luxury-beauty-seller-checklist",

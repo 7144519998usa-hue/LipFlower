@@ -22,7 +22,7 @@ const buyingChecklists = [
     items: [
       "Compare undertone before choosing shade depth.",
       "Check coverage and finish language.",
-      "Look for return-friendly seller paths when shade fit is uncertain.",
+      "Look for return-friendly retailers when shade fit is uncertain.",
       "Avoid assuming one brand's shade name transfers to another brand.",
     ],
     links: ["/makeup/luxury-foundation", "/beauty-university/shade-matching-guide"],

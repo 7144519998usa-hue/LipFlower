@@ -14,7 +14,7 @@ export default function HowWeMakeMoneyPage() {
         <h1>How we make money</h1>
         <p>LipFlower earns revenue through affiliate partnerships and seller referrals for luxury beauty products.</p>
         <p>
-          In practice, that means pages may send shoppers to Amazon, specialty beauty retailers, department stores, or official brand boutiques. We keep disclosures visible and use affiliate links as routing paths after the shopper has enough context to compare.
+          In practice, that means pages may send shoppers to Amazon, specialty beauty retailers, department stores, or official brand boutiques. We keep disclosures visible and only place shopping links where they add useful next-step context.
         </p>
       </div>
     </main>

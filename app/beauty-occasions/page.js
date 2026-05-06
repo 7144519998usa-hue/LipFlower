@@ -4,7 +4,7 @@ import ProductUseDisclaimer from "../components/ProductUseDisclaimer";
 import { beautySiteName, beautySiteUrl } from "../lib/beautyData";
 import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
-const occasionPaths = [
+const occasionGuides = [
   {
     title: "Wedding guest beauty",
     decisionFocus: "Polished makeup, fragrance, hair, and jewelry",
@@ -37,7 +37,7 @@ const occasionPaths = [
     title: "Holiday party beauty",
     decisionFocus: "Fragrance, shimmer, lip finish, body care, and jewelry sets",
     guidance:
-      "Holiday party pages should connect finish, shine, fragrance, body care, jewelry, and return-friendly gift paths without creating thin event-only pages.",
+      "Holiday party guidance should connect finish, shine, fragrance, body care, jewelry, and return-friendly gifts without forcing shoppers through repetitive event pages.",
     links: ["/beauty-calendar", "/beauty-finishes", "/artificial-jewelry/jewelry-gift-sets"],
   },
   {
@@ -51,7 +51,7 @@ const occasionPaths = [
     title: "Graduation and celebration gifts",
     decisionFocus: "Giftable beauty, jewelry, fragrance, and tools",
     guidance:
-      "Celebration gifts should favor low-risk formats, clear return paths, recipient preference context, and seller timing.",
+      "Celebration gifts should favor low-risk formats, clear return details, recipient preference context, and retailer timing.",
     links: ["/beauty-gifts", "/calculators/gift-finder", "/beauty-seller-scorecard"],
   },
   {
@@ -66,7 +66,7 @@ const occasionPaths = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty Occasion Library",
   description:
-    "Use LipFlower's Beauty Occasion Library to connect event makeup, fragrance, hair care, lip care, body care, artificial jewelry, and beauty gifts without thin occasion pages.",
+      "Use LipFlower's Beauty Occasion Library to connect event makeup, fragrance, hair care, lip care, body care, artificial jewelry, and beauty gifts with practical shopping context.",
   canonicalPath: "/beauty-occasions",
 });
 
@@ -76,7 +76,7 @@ export default function BeautyOccasionsPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Occasion Library",
     description:
-      "Occasion-led beauty shopping paths for wedding guests, workday polish, date night, travel, holiday parties, bridal planning, celebration gifts, and self-care weekends.",
+      "Occasion-led beauty shopping guidance for wedding guests, workday polish, date night, travel, holiday parties, bridal planning, celebration gifts, and self-care weekends.",
     url: `${beautySiteUrl}/beauty-occasions`,
     publisher: {
       "@type": "Organization",
@@ -85,7 +85,7 @@ export default function BeautyOccasionsPage() {
     },
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: occasionPaths.map((occasion, index) => ({
+      itemListElement: occasionGuides.map((occasion, index) => ({
         "@type": "ListItem",
         position: index + 1,
         name: occasion.title,
@@ -99,14 +99,14 @@ export default function BeautyOccasionsPage() {
       <JsonLd data={schema} />
       <section className="hero-panel">
         <span className="eyebrow">Occasion library</span>
-        <h1>Beauty occasion paths without thin event-page spam</h1>
+        <h1>Beauty occasion guides for real-life shopping moments</h1>
         <p>
           Use this library to connect beauty decisions around real moments: weddings, workdays,
           date nights, travel, holiday parties, bridal planning, celebration gifts, and self-care.
         </p>
         <p>
-          LipFlower treats occasions as helpful context for routines, sellers, styling, and gift fit
-          rather than an excuse to create duplicate keyword pages.
+          LipFlower treats occasions as helpful context for routines, retailers, styling, and gift fit
+          rather than a reason to repeat the same advice in different packaging.
         </p>
         <div className="hero-actions">
           <Link href="/beauty-calendar" className="search-button">
@@ -120,7 +120,7 @@ export default function BeautyOccasionsPage() {
 
       <section className="catalog-grid-section">
         <div className="catalog-grid">
-          {occasionPaths.map((occasion) => (
+          {occasionGuides.map((occasion) => (
             <article key={occasion.title} className="catalog-card">
               <span className="eyebrow">{occasion.decisionFocus}</span>
               <h2>{occasion.title}</h2>

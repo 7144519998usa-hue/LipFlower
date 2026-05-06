@@ -43,7 +43,7 @@ export function buildSearchIndex() {
         href: `/${page.categoryPath}/${page.slug}`,
         title: page.title,
         description: page.summary,
-        pageType: "beauty route",
+        pageType: "beauty guide",
         keywords: page.relatedLinks || [],
       }),
     ),

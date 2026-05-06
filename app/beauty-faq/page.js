@@ -8,7 +8,7 @@ const faqItems = [
   {
     question: "Is LipFlower a store?",
     answer:
-      "No. LipFlower is a beauty research, comparison, and affiliate marketplace. Shoppers use the site to compare product categories, seller paths, routines, and beauty education before continuing to a retailer.",
+      "No. LipFlower is a beauty research, comparison, and affiliate marketplace. Shoppers use the site to compare product categories, retailers, routines, and beauty education before continuing to a store.",
     links: ["/about", "/about/advertiser-disclosure"],
   },
   {

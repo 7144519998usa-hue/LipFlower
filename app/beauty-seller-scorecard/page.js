@@ -20,7 +20,7 @@ const scorecardSignals = [
     links: ["/beauty-checklists", "/beauty-glossary"],
   },
   {
-    title: "Return and exchange path",
+    title: "Return and exchange clarity",
     whyItMatters:
       "Beauty and artificial jewelry purchases can be fit-sensitive, especially for complexion shades, fragrance gifts, accessories, and occasion styling.",
     shopperChecks: ["Return window is easy to find", "Opened-item limits are understood", "Shade exchange or gift-return rules are clear"],
@@ -52,7 +52,7 @@ const scorecardSignals = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty Seller Scorecard",
   description:
-    "Use LipFlower's beauty seller scorecard to evaluate seller identity, product detail clarity, return paths, price context, claim safety, and gift fit before clicking out.",
+    "Use LipFlower's beauty seller scorecard to evaluate seller identity, product detail clarity, return clarity, price context, claim safety, and gift fit before clicking out.",
   canonicalPath: "/beauty-seller-scorecard",
 });
 
@@ -62,7 +62,7 @@ export default function BeautySellerScorecardPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Seller Scorecard",
     description:
-      "A shopper-first scorecard for evaluating beauty seller confidence, product detail clarity, return paths, price context, claim safety, and gift fit.",
+      "A shopper-first scorecard for evaluating beauty seller confidence, product detail clarity, return clarity, price context, claim safety, and gift fit.",
     url: `${beautySiteUrl}/beauty-seller-scorecard`,
     publisher: {
       "@type": "Organization",
@@ -88,10 +88,10 @@ export default function BeautySellerScorecardPage() {
         <h1>Beauty seller scorecard before you click out</h1>
         <p>
           Use this public scorecard to compare seller identity, product detail clarity, return
-          paths, price context, claim safety, and gift fit before continuing to a retailer.
+          return clarity, price context, claim safety, and gift fit before continuing to a retailer.
         </p>
         <p>
-          This is shopper education, not hidden affiliate logic. LipFlower keeps seller guidance
+          This is shopper education, not a secret ranking formula. LipFlower keeps seller guidance
           visible, claim-safe, and focused on user confidence.
         </p>
         <div className="hero-actions">

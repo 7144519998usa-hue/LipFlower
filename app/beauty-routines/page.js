@@ -4,7 +4,7 @@ import ProductUseDisclaimer from "../components/ProductUseDisclaimer";
 import { beautySiteName, beautySiteUrl } from "../lib/beautyData";
 import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
-const routinePaths = [
+const routineGuides = [
   {
     title: "Morning skin care and SPF routine",
     role: "Cleanse, treat, moisturize, protect, and prep",
@@ -23,7 +23,7 @@ const routinePaths = [
     title: "Makeup prep routine",
     role: "SPF, primer, complexion, concealer, powder, and finish",
     guidance:
-      "Makeup prep is a compatibility decision. Shoppers should compare finish, coverage, pilling risk, shade fit, and seller return paths.",
+      "Makeup prep is a compatibility decision. Shoppers should compare finish, coverage, pilling risk, shade fit, and retailer return details.",
     links: ["/beauty-university/makeup-prep-routine", "/makeup/luxury-foundation", "/makeup/setting-powder"],
   },
   {
@@ -76,7 +76,7 @@ export default function BeautyRoutinesPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Routine Library",
     description:
-      "Routine-led beauty reference paths for skin care, makeup prep, lip care, hair care, fragrance, body care, artificial jewelry, and gifting.",
+      "Routine-led beauty reference guides for skin care, makeup prep, lip care, hair care, fragrance, body care, artificial jewelry, and gifting.",
     url: `${beautySiteUrl}/beauty-routines`,
     publisher: {
       "@type": "Organization",
@@ -85,7 +85,7 @@ export default function BeautyRoutinesPage() {
     },
     mainEntity: {
       "@type": "ItemList",
-      itemListElement: routinePaths.map((routine, index) => ({
+      itemListElement: routineGuides.map((routine, index) => ({
         "@type": "ListItem",
         position: index + 1,
         name: routine.title,
@@ -102,7 +102,7 @@ export default function BeautyRoutinesPage() {
         <h1>Beauty routines that connect education to product decisions</h1>
         <p>
           Use this routine library to move from broad beauty education into practical category,
-          comparison, seller, and gift paths across skin care, makeup, lip care, hair care,
+          comparison, retailer, and gift guides across skin care, makeup, lip care, hair care,
           fragrance, body care, and artificial jewelry.
         </p>
         <p>
@@ -121,7 +121,7 @@ export default function BeautyRoutinesPage() {
 
       <section className="catalog-grid-section">
         <div className="catalog-grid">
-          {routinePaths.map((routine) => (
+          {routineGuides.map((routine) => (
             <article key={routine.title} className="catalog-card">
               <span className="eyebrow">{routine.role}</span>
               <h2>{routine.title}</h2>

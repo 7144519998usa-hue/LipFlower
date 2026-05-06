@@ -35,7 +35,7 @@ export default function CiteLipFlowerPage() {
         <h1>Cite LipFlower beauty research</h1>
         <p>
           LipFlower publishes claim-safe beauty reference pages for shoppers and editors comparing
-          routines, ingredients, gift decisions, seller paths, and beauty-adjacent accessories.
+          routines, ingredients, gift decisions, retailers, and beauty-adjacent accessories.
         </p>
         <p>
           Editors, bloggers, and creators may reference LipFlower pages when a guide is useful to

@@ -97,7 +97,7 @@ export default function BestProgrammaticPage({ page }) {
         <span>{page.title}</span>
       </nav>
       <section className="hero-panel">
-        <span className="eyebrow">{page.vertical} buying route</span>
+        <span className="eyebrow">{page.vertical} buying guide</span>
         <h1>{page.title}</h1>
         <p>{page.summary}</p>
         <p>{page.intro}</p>
@@ -149,12 +149,12 @@ export default function BestProgrammaticPage({ page }) {
           </article>
           <article className="catalog-card">
             <span className="eyebrow">Methodology</span>
-            <h2>How LipFlower frames this route</h2>
+            <h2>How LipFlower frames this guide</h2>
             <p>{page.methodology}</p>
             <p>{page.buyingAngle}.</p>
           </article>
           <article className="catalog-card">
-            <span className="eyebrow">Seller paths</span>
+            <span className="eyebrow">Retailer options</span>
             <h2>Check availability carefully</h2>
             <div className="catalog-stack">
               {featuredSellers.map((seller) => (
@@ -175,7 +175,7 @@ export default function BestProgrammaticPage({ page }) {
       <section className="catalog-grid-section">
         <div className="catalog-grid">
           <article className="catalog-card">
-            <h2>Helpful next routes</h2>
+            <h2>Helpful next guides</h2>
             <div className="catalog-stack">
               {page.relatedLinks.map((href) => (
                 <Link key={href} href={href} className="catalog-link-card">

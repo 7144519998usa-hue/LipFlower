@@ -16,7 +16,7 @@ const shadeGroups = [
     title: "Coverage and shade risk",
     role: "Shade-sensitive makeup gifts and returns",
     guidance:
-      "Shade-dependent products are higher-risk gifts unless the recipient's preferences are known and the seller return path is clear.",
+      "Shade-dependent products are higher-risk gifts unless the recipient's preferences are known and the retailer return policy is clear.",
     links: ["/beauty-gifts", "/beauty-checklists", "/beauty-seller-scorecard"],
   },
   {
@@ -85,14 +85,14 @@ export default function BeautyShadesPage() {
       <JsonLd data={schema} />
       <section className="hero-panel">
         <span className="eyebrow">Shade and color</span>
-        <h1>Beauty shade and color decisions without shade-page bloat</h1>
+        <h1>Beauty shade and color decisions with less guesswork</h1>
         <p>
           Use this library to compare undertone, shade risk, color family, lip color, artificial
           jewelry tones, and fragrance gifting presentation before moving into product pages.
         </p>
         <p>
-          LipFlower treats shade and color as helpful shopping context. Shade-only pages should not
-          be created or indexed unless they have strong standalone value.
+          LipFlower treats shade and color as helpful shopping context, not a shortcut around
+          checking swatches, undertones, return policies, and product details.
         </p>
         <div className="hero-actions">
           <Link href="/beauty-university/shade-matching-guide" className="search-button">

@@ -88,7 +88,7 @@ function inferPriceTier(productName = "", page) {
 function buildPros(page, badge) {
   const basePros = [
     `Clear fit for ${page.intentLabel === "overall" ? page.categoryPlural : page.intentLabel}`,
-    `Easy to compare across ${page.vertical} seller paths`,
+    `Easy to compare across ${page.vertical} retailers`,
   ];
 
   if (badge === "Best Overall") {
@@ -125,7 +125,7 @@ function buildProductFit(page, index) {
   const fits = [
     page.buyingAngle,
     `Shoppers who want a familiar ${page.categoryLabel} starting point`,
-    `Readers comparing ${page.categoryPlural} across Amazon, Sephora, and Ulta-style seller paths`,
+    `Readers comparing ${page.categoryPlural} across Amazon, Sephora, and Ulta-style retailers`,
   ];
 
   return fits[index] || fits[0];

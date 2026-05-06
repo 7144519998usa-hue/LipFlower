@@ -20,7 +20,7 @@ function getRelatedBuyingGuides(page, canonicalPath) {
     .slice(0, 6);
 }
 
-export default function BeautyLandingRoutePage({ eyebrow = "Beauty route", page }) {
+export default function BeautyLandingRoutePage({ eyebrow = "Beauty guide", page }) {
   const canonicalPath = `/${page.categoryPath}/${page.slug}`;
   const pageUrl = `${beautySiteUrl}${canonicalPath}`;
   const relatedBuyingGuides = getRelatedBuyingGuides(page, canonicalPath);
@@ -96,7 +96,7 @@ export default function BeautyLandingRoutePage({ eyebrow = "Beauty route", page 
             </ul>
           </article>
           <article className="catalog-card">
-            <h2>Related routes</h2>
+            <h2>Related guides</h2>
             <div className="catalog-stack">
               {page.relatedLinks.map((href) => (
                 <Link key={href} href={href} className="catalog-link-card">
