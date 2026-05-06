@@ -67,17 +67,3 @@ export function getSafeAffiliateDestination(rawUrl = "") {
     return null;
   }
 }
-
-export function getOutboundLogContext(request, destination) {
-  const source = safeParam(request.nextUrl.searchParams.get("source"), "unknown");
-  const label = safeParam(request.nextUrl.searchParams.get("label"), "affiliate");
-  const destinationHost = destination ? new URL(destination).hostname : "blocked";
-
-  return {
-    route: "/api/outbound",
-    source,
-    label,
-    destinationHost,
-    requestId: request.headers.get("x-vercel-id") || "",
-  };
-}

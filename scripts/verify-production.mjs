@@ -37,6 +37,7 @@ const checks = [
   { path: "/_vercel/insights/script.js", status: 200, name: "Vercel Analytics script" },
   { path: "/api/v1/system/page-registry", status: 404, name: "protected page registry" },
   { path: "/api/v1/system/programmatic-governance", status: 404, name: "protected governance endpoint" },
+  { path: "/api/v1/system/commerce-readiness", status: 404, name: "protected commerce readiness endpoint" },
 ];
 
 async function checkUrl({ path, status, name }) {
