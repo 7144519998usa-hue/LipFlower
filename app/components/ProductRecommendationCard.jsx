@@ -1,7 +1,9 @@
 import AffiliateLink from "./AffiliateLink";
-import { createAmazonSearchUrl } from "../lib/affiliateRouting.js";
+import { createSellerSearchUrl } from "../lib/affiliateRouting.js";
 
-export default function ProductRecommendationCard({ product, source }) {
+export default function ProductRecommendationCard({ product, sellers = [], source }) {
+  const featuredSellers = sellers.filter((seller) => ["amazon", "sephora", "ulta"].includes(seller.slug));
+
   return (
     <article className="product-card">
       <div className="product-art" aria-hidden="true">
@@ -38,15 +40,22 @@ export default function ProductRecommendationCard({ product, source }) {
             </ul>
           </div>
         </div>
-        <div className="hero-actions">
-          <AffiliateLink
-            href={createAmazonSearchUrl(product.sellerQuery)}
-            label={`Check price for ${product.name}`}
-            source={source}
-          >
-            Check Price
-          </AffiliateLink>
-        </div>
+        {featuredSellers.length ? (
+          <div className="merchant-mini-grid" aria-label={`Seller options for ${product.name}`}>
+            {featuredSellers.map((seller) => (
+              <AffiliateLink
+                key={`${product.id}-${seller.slug}`}
+                href={createSellerSearchUrl(seller, product.sellerQuery)}
+                label={`Check ${product.name} at ${seller.name}`}
+                source={source}
+                className="merchant-mini-link"
+              >
+                <span>{seller.name}</span>
+                <strong>Check Price</strong>
+              </AffiliateLink>
+            ))}
+          </div>
+        ) : null}
       </div>
     </article>
   );

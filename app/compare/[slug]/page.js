@@ -4,6 +4,7 @@ import ComparisonOfferBlock from "../../components/ComparisonOfferBlock";
 import ComparisonTable from "../../components/ComparisonTable";
 import JsonLd from "../../components/JsonLd";
 import ProductUseDisclaimer from "../../components/ProductUseDisclaimer";
+import StickyCommerceBar from "../../components/StickyCommerceBar";
 import { beautyComparePages, beautySellers, beautySiteUrl, getBeautyComparePage } from "../../lib/beautyData";
 import { buildBeautyMetadata } from "../../lib/beautyMetadata";
 
@@ -126,6 +127,12 @@ export default async function CompareDetailPage({ params }) {
         </div>
       </section>
       <ProductUseDisclaimer />
+      <StickyCommerceBar
+        label="Compare current seller options"
+        query={page.columns.join(" vs ")}
+        sellers={beautySellers.filter((seller) => ["amazon", "sephora", "ulta"].includes(seller.slug))}
+        source={`sticky-compare-${slug}`}
+      />
     </main>
   );
 }

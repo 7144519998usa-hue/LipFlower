@@ -3,6 +3,7 @@ import AffiliateLink from "./AffiliateLink";
 import JsonLd from "./JsonLd";
 import ProductRecommendationCard from "./ProductRecommendationCard";
 import ProductUseDisclaimer from "./ProductUseDisclaimer";
+import StickyCommerceBar from "./StickyCommerceBar";
 import { createSellerSearchUrl } from "../lib/affiliateRouting.js";
 import { beautySellers, beautySiteUrl } from "../lib/beautyData";
 import { getProductsForBestPage } from "../lib/productCatalog.js";
@@ -124,6 +125,7 @@ export default function BestProgrammaticPage({ page }) {
             <ProductRecommendationCard
               key={product.id}
               product={product}
+              sellers={featuredSellers}
               source={`best-product-${page.slug}`}
             />
           ))}
@@ -211,6 +213,12 @@ export default function BestProgrammaticPage({ page }) {
         </div>
       </section>
       <ProductUseDisclaimer />
+      <StickyCommerceBar
+        label="Ready to compare current offers?"
+        query={page.seoKeyword}
+        sellers={featuredSellers}
+        source={`sticky-best-${page.slug}`}
+      />
     </main>
   );
 }
