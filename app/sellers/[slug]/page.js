@@ -20,7 +20,7 @@ export async function generateMetadata({ params }) {
   }
 
   return buildBeautyMetadata({
-    title: `${seller.name} Seller Profile`,
+    title: `${seller.name} Retailer Profile`,
     description: seller.description,
     canonicalPath: `/sellers/${seller.slug}`,
   });
@@ -37,7 +37,7 @@ export default async function SellerPage({ params }) {
     <main className="page-shell">
       <section className="hero-panel compare-hero-reimagined">
         <div className="hero-copy">
-          <span className="eyebrow">Seller profile</span>
+          <span className="eyebrow">Retailer profile</span>
           <h1>{seller.name}</h1>
           <p>{seller.description}</p>
           <div className="hero-actions">
@@ -55,19 +55,19 @@ export default async function SellerPage({ params }) {
         <div className="catalog-grid">
           <SellerCard seller={seller} />
           <article className="catalog-card">
-            <h2>Best next routes</h2>
+            <h2>Best next guides</h2>
             <div className="catalog-stack">
               <Link href="/luxury-beauty" className="catalog-link-card">
                 <strong>Luxury beauty edit</strong>
-                <span>Step back into the main beauty guide before clicking out if category fit is still unclear.</span>
+                <span>Step back into the main beauty guide before continuing if category fit is still unclear.</span>
               </Link>
               <Link href="/compare" className="catalog-link-card">
                 <strong>Comparison hub</strong>
-                <span>Use comparisons when you still need to narrow product role, texture, finish, or brand tradeoffs.</span>
+                <span>Use comparisons when you still need to narrow product fit, texture, finish, or brand tradeoffs.</span>
               </Link>
               <Link href="/beauty-university/amazon-luxury-beauty-seller-checklist" className="catalog-link-card">
-                <strong>Amazon seller checklist</strong>
-                <span>Use the checklist when seller selection matters more than product discovery.</span>
+                <strong>Amazon retailer checklist</strong>
+                <span>Use the checklist when retailer selection matters more than product discovery.</span>
               </Link>
             </div>
           </article>

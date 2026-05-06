@@ -16,7 +16,7 @@ const calendarMoments = [
     season: "Valentine gifting",
     focus: "Fragrance, lip care, and artificial jewelry",
     guidance:
-      "Giftable beauty works best when shoppers compare discovery sets, lip-care sets, fashion earrings, jewelry sets, and return-friendly sellers.",
+      "Giftable beauty works best when shoppers compare discovery sets, lip-care sets, fashion earrings, jewelry sets, and return-friendly retailers.",
     links: ["/fragrance/luxury-perfume-gifts", "/lip-care/lip-oils", "/artificial-jewelry/jewelry-gift-sets"],
   },
   {
@@ -42,9 +42,9 @@ const calendarMoments = [
   },
   {
     season: "Holiday gifting",
-    focus: "Gift sets, discovery sets, and seller confidence",
+    focus: "Gift sets, discovery sets, and retailer clarity",
     guidance:
-      "Holiday gift pages should prioritize seller clarity, delivery timing, return rules, giftable formats, fragrance discovery sets, and artificial jewelry sets.",
+      "Holiday gift guides should prioritize retailer clarity, delivery timing, return rules, giftable formats, fragrance discovery sets, and artificial jewelry sets.",
     links: ["/beauty-university/beauty-gift-decision-tree", "/calculators/gift-finder", "/sellers"],
   },
 ];
@@ -62,7 +62,7 @@ export default function BeautyCalendarPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Shopping Calendar",
     description:
-      "Seasonal shopping guidance for beauty routines, fragrance gifting, lip care, artificial jewelry, SPF, body care, and seller confidence.",
+      "Seasonal shopping guidance for beauty routines, fragrance gifting, lip care, artificial jewelry, SPF, body care, and retailer clarity.",
     url: `${beautySiteUrl}/beauty-calendar`,
     publisher: {
       "@type": "Organization",
@@ -91,8 +91,8 @@ export default function BeautyCalendarPage() {
           care, and artificial jewelry purchases around moments when shoppers naturally compare.
         </p>
         <p>
-          LipFlower keeps seasonal guidance claim-safe: this page helps with timing, giftability,
-          routine fit, and seller confidence rather than promising product outcomes.
+          LipFlower keeps seasonal guidance careful and practical: this page helps with timing,
+          giftability, routine fit, and retailer clarity rather than promising product outcomes.
         </p>
         <div className="hero-actions">
           <Link href="/beauty-research" className="search-button">

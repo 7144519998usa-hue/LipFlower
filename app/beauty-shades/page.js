@@ -44,7 +44,7 @@ const shadeGroups = [
     title: "Fragrance visual gifting cues",
     role: "Packaging, bottle color, gift sets, and presentation",
     guidance:
-      "Color and packaging can support fragrance gifting, but scent family, discovery format, return restrictions, and seller confidence matter more.",
+      "Color and packaging can support fragrance gifting, but scent family, discovery format, return restrictions, and retailer clarity matter more.",
     links: ["/fragrance/luxury-perfume-gifts", "/beauty-gifts", "/beauty-calendar"],
   },
 ];
@@ -62,7 +62,7 @@ export default function BeautyShadesPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Shade and Color Library",
     description:
-      "Claim-safe shopping guidance for undertone, complexion shade risk, blush color families, lip color, artificial jewelry color, and fragrance gifting presentation.",
+      "Careful shopping guidance for undertone, complexion shade risk, blush color families, lip color, artificial jewelry color, and fragrance gifting presentation.",
     url: `${beautySiteUrl}/beauty-shades`,
     publisher: {
       "@type": "Organization",

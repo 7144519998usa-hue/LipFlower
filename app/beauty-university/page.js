@@ -6,7 +6,7 @@ const referenceAssetSlugs = new Set(linkableBeautyReferenceSlugs);
 
 export const metadata = buildBeautyMetadata({
   title: "Beauty University",
-  description: "Use luxury beauty guides to understand seller trust, shade matching, lip care, and premium product tradeoffs before you buy.",
+  description: "Use luxury beauty guides to understand retailer clarity, shade matching, lip care, and premium product tradeoffs before you buy.",
   canonicalPath: "/beauty-university",
 });
 
@@ -17,7 +17,7 @@ export default function BeautyUniversityPage() {
   return (
     <BeautyHubPage
       title="Use Beauty University before you click out to a seller"
-      description="This education layer supports premium affiliate pages with buyer-first guidance around product fit, luxury shopping risk, and seller confidence."
+      description="This education layer supports premium shopping pages with buyer-first guidance around product fit, luxury shopping risk, and retailer clarity."
       eyebrow="Education hub"
       sections={[
         {

@@ -499,22 +499,22 @@ const bestPageCategories = [
 ];
 
 const bestPageIntents = [
-  { slug: "", label: "", title: "", summary: "overall comparison guide", angle: "compare the most searched options, seller confidence, and routine fit before clicking out" },
+  { slug: "", label: "", title: "", summary: "overall comparison guide", angle: "compare the most searched options, retailer clarity, and routine fit before continuing" },
   { slug: "luxury", label: "luxury", title: "Luxury", summary: "premium buyer guide", angle: "focus on packaging, brand trust, texture, and giftable presentation" },
-  { slug: "for-beginners", label: "for beginners", title: "for Beginners", summary: "first-purchase guide", angle: "prioritize easy-to-understand formats, flexible sellers, and low-friction routines" },
-  { slug: "for-everyday-use", label: "for everyday use", title: "for Everyday Use", summary: "daily routine guide", angle: "look for repeatable use, comfortable textures, and practical seller availability" },
+  { slug: "for-beginners", label: "for beginners", title: "for Beginners", summary: "first-purchase guide", angle: "prioritize easy-to-understand formats, flexible retailers, and low-friction routines" },
+  { slug: "for-everyday-use", label: "for everyday use", title: "for Everyday Use", summary: "daily routine guide", angle: "look for repeatable use, comfortable textures, and practical retailer availability" },
   { slug: "for-travel", label: "for travel", title: "for Travel", summary: "travel-ready guide", angle: "compare size, packaging, spill risk, and whether the format is easy to repack" },
-  { slug: "for-gifting", label: "for gifting", title: "for Gifting", summary: "gift shopping guide", angle: "prioritize presentation, shade flexibility, discovery formats, and return-friendly sellers" },
+  { slug: "for-gifting", label: "for gifting", title: "for Gifting", summary: "gift shopping guide", angle: "prioritize presentation, shade flexibility, discovery formats, and return-friendly retailers" },
   { slug: "for-sensitive-shoppers", label: "for sensitive shoppers", title: "for Sensitive Shoppers", summary: "sensitivity-aware guide", angle: "review fragrance, sensation, use directions, and visible brand positioning before choosing" },
   { slug: "for-dry-feeling-routines", label: "for dry-feeling routines", title: "for Dry-Feeling Routines", summary: "comfort-focused guide", angle: "compare texture, finish, layering, and comfort language without assuming promised outcomes" },
-  { slug: "for-polished-routines", label: "for polished routines", title: "for Polished Routines", summary: "elevated routine guide", angle: "match the product to a refined routine step, finish preference, and trusted seller option" },
+  { slug: "for-polished-routines", label: "for polished routines", title: "for Polished Routines", summary: "elevated routine guide", angle: "match the product to a refined routine step, finish preference, and trusted retailer option" },
   { slug: "for-minimalist-routines", label: "for minimalist routines", title: "for Minimalist Routines", summary: "simplified routine guide", angle: "choose versatile formats that reduce decision fatigue and support simple beauty routines" },
   { slug: "for-mature-routines", label: "for mature routines", title: "for Mature Routines", summary: "mature beauty guide", angle: "compare finish, comfort, visible claims, and ease of application without overpromising outcomes" },
   { slug: "for-glow", label: "for glow", title: "for Glow", summary: "radiance-oriented guide", angle: "focus on visible radiance positioning, finish, and compatibility with the rest of the routine" },
-  { slug: "for-natural-finish", label: "for natural finish", title: "for Natural Finish", summary: "soft-finish guide", angle: "prioritize subtle finish, easy blending, and realistic before-click expectations" },
-  { slug: "for-long-wear", label: "for long wear", title: "for Long Wear", summary: "wear-focused guide", angle: "compare brand wear language, setting steps, and seller policies without guaranteeing longevity" },
-  { slug: "under-25", label: "under $25", title: "Under $25", summary: "budget-conscious guide", angle: "compare accessible seller options while checking size, authenticity, and return policy" },
-  { slug: "under-50", label: "under $50", title: "Under $50", summary: "mid-price guide", angle: "balance prestige appeal, practical size, and seller confidence before clicking out" },
+  { slug: "for-natural-finish", label: "for natural finish", title: "for Natural Finish", summary: "soft-finish guide", angle: "prioritize subtle finish, easy blending, and realistic shopping expectations" },
+  { slug: "for-long-wear", label: "for long wear", title: "for Long Wear", summary: "wear-focused guide", angle: "compare brand wear language, setting steps, and retailer policies without guaranteeing longevity" },
+  { slug: "under-25", label: "under $25", title: "Under $25", summary: "budget-conscious guide", angle: "compare accessible retailer options while checking size, authenticity, and return policy" },
+  { slug: "under-50", label: "under $50", title: "Under $50", summary: "mid-price guide", angle: "balance prestige appeal, practical size, and retailer clarity before continuing" },
   { slug: "worth-the-splurge", label: "worth the splurge", title: "Worth the Splurge", summary: "splurge guide", angle: "weigh packaging, brand trust, format, and routine importance against the higher price point" },
   { slug: "at-amazon", label: "at Amazon", title: "at Amazon", summary: "Amazon shopping guide", angle: "check seller identity, return clarity, delivery speed, and official brand-store signals" },
   { slug: "at-sephora", label: "at Sephora", title: "at Sephora", summary: "specialty beauty shopping guide", angle: "compare shade tools, samples, rewards, and beauty-specific return support" },
@@ -564,9 +564,9 @@ export function buildProgrammaticBestPages() {
         vertical: category.vertical,
         intentLabel: intent.label || "overall",
         seoKeyword: `best ${intentPhrase}`,
-        summary: `A LipFlower buying guide for shoppers comparing ${intentPhrase} across trusted beauty sellers.`,
-        intro: `This page is designed for shoppers searching for ${intentPhrase}. It keeps the decision focused on product format, seller trust, routine fit, and claim-safe comparison signals instead of unsupported before-and-after promises.`,
-        methodology: `LipFlower prioritizes visible product positioning, seller confidence, routine compatibility, product directions, disclosure clarity, and practical buying friction. We keep the language claim-safe and do not invent testing results, medical outcomes, or guaranteed beauty claims.`,
+        summary: `A LipFlower buying guide for shoppers comparing ${intentPhrase} across trusted beauty retailers.`,
+        intro: `This guide helps shoppers compare ${intentPhrase} by product format, retailer clarity, routine fit, and careful beauty claims instead of unsupported before-and-after promises.`,
+        methodology: `LipFlower prioritizes visible product positioning, retailer clarity, routine compatibility, product directions, disclosure clarity, and practical shopping friction. We keep the language careful and do not invent testing results, medical outcomes, or guaranteed beauty claims.`,
         buyingAngle: intent.angle,
         examples: category.examples,
         relatedLinks: [
@@ -578,7 +578,7 @@ export function buildProgrammaticBestPages() {
         faq: [
           {
             question: `How should I compare ${intentPhrase}?`,
-            answer: `Start with routine fit, texture or format, visible brand claims, seller trust, and return flexibility. Avoid assuming that popularity or price guarantees the right result for every shopper.`,
+            answer: `Start with routine fit, texture or format, visible brand claims, retailer clarity, and return flexibility. Avoid assuming that popularity or price guarantees the right result for every shopper.`,
           },
           {
             question: `Will these ${category.plural} work the same way for everyone?`,

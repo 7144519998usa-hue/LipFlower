@@ -14,7 +14,7 @@ export default function EditorialPolicyPage() {
         <h1>Editorial policy</h1>
         <p>LipFlower is built as a comparison and research platform. Pages are written to support buyer decisions, not to inflate page count.</p>
         <p>
-          We avoid invented reviews, unsupported specs, and thin pages created only to chase keyword volume. Commercial pages are meant to help users compare real buying lanes, not mimic a generic affiliate blog.
+          We avoid invented reviews, unsupported specs, and shallow pages created only to chase keyword volume. Shopping pages are meant to help users compare real options, not mimic a generic affiliate blog.
         </p>
       </div>
     </main>

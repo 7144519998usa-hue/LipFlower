@@ -30,13 +30,13 @@ const scorecardSignals = [
     title: "Price context",
     whyItMatters:
       "A lower price can be useful, but it should be compared with seller identity, product condition, delivery timing, and return confidence.",
-    shopperChecks: ["Price matches the exact format", "Discount does not hide unclear seller details", "Shipping and return costs are considered"],
+    shopperChecks: ["Price matches the exact format", "Discount does not hide unclear retailer details", "Shipping and return costs are considered"],
     links: ["/about/how-we-make-money", "/sellers/amazon"],
   },
   {
-    title: "Claim safety",
+    title: "Careful claims",
     whyItMatters:
-      "Cosmetic pages should not turn seller or product language into medical, safety, pregnancy, dermatology, or guaranteed-result claims.",
+      "Cosmetic guides should not turn retailer or product language into medical, safety, pregnancy, dermatology, or guaranteed-results claims.",
     shopperChecks: ["Claims match visible product language", "Directions remain product-specific", "Medical concerns are not handled as shopping advice"],
     links: ["/beauty-university/ingredient-claims-guide", "/about/editorial-policy"],
   },
@@ -52,7 +52,7 @@ const scorecardSignals = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty Seller Scorecard",
   description:
-    "Use LipFlower's beauty seller scorecard to evaluate seller identity, product detail clarity, return clarity, price context, claim safety, and gift fit before clicking out.",
+    "Use LipFlower's beauty retailer scorecard to evaluate seller identity, product detail clarity, return clarity, price context, careful claims, and gift fit before continuing.",
   canonicalPath: "/beauty-seller-scorecard",
 });
 
@@ -62,7 +62,7 @@ export default function BeautySellerScorecardPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Seller Scorecard",
     description:
-      "A shopper-first scorecard for evaluating beauty seller confidence, product detail clarity, return clarity, price context, claim safety, and gift fit.",
+      "A shopper-first scorecard for evaluating beauty retailer clarity, product detail clarity, return clarity, price context, careful claims, and gift fit.",
     url: `${beautySiteUrl}/beauty-seller-scorecard`,
     publisher: {
       "@type": "Organization",
@@ -84,15 +84,15 @@ export default function BeautySellerScorecardPage() {
     <main className="page-shell">
       <JsonLd data={schema} />
       <section className="hero-panel">
-        <span className="eyebrow">Seller confidence</span>
+        <span className="eyebrow">Retailer clarity</span>
         <h1>Beauty seller scorecard before you click out</h1>
         <p>
           Use this public scorecard to compare seller identity, product detail clarity, return
-          return clarity, price context, claim safety, and gift fit before continuing to a retailer.
+          return clarity, price context, careful claims, and gift fit before continuing to a retailer.
         </p>
         <p>
           This is shopper education, not a secret ranking formula. LipFlower keeps seller guidance
-          visible, claim-safe, and focused on user confidence.
+          visible, careful, and focused on user confidence.
         </p>
         <div className="hero-actions">
           <Link href="/sellers" className="search-button">

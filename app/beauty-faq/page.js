@@ -20,31 +20,31 @@ const faqItems = [
   {
     question: "Can LipFlower guarantee beauty results?",
     answer:
-      "No. Beauty products may support a routine, but results vary by person, formulation, usage, and product directions. LipFlower avoids medical cure claims and guaranteed-result language.",
+      "No. Beauty products may support a routine, but results vary by person, formulation, usage, and product directions. LipFlower avoids medical cure claims and guaranteed-results language.",
     links: ["/beauty-claims-guide", "/about/editorial-policy"],
   },
   {
     question: "How should shoppers use ingredient pages?",
     answer:
-      "Ingredient content should be read as shopping context, not medical or dermatology advice. Shoppers should compare visible product claims, directions, sensitivity history, and seller clarity.",
+      "Ingredient content should be read as shopping context, not medical or dermatology advice. Shoppers should compare visible product claims, directions, sensitivity history, and retailer clarity.",
     links: ["/beauty-university/ingredient-claims-guide", "/beauty-university/ingredient-compatibility-cheat-sheet"],
   },
   {
     question: "Does LipFlower verify every seller listing?",
     answer:
-      "No. LipFlower provides seller-confidence guidance, but shoppers should verify live seller identity, availability, return terms, price, and product details on the destination retailer site.",
+      "No. LipFlower provides retailer-check guidance, but shoppers should verify live seller identity, availability, return terms, price, and product details on the destination retailer site.",
     links: ["/beauty-seller-scorecard", "/sellers"],
   },
   {
     question: "Why does LipFlower include artificial jewelry?",
     answer:
-      "Artificial jewelry supports the same beauty-adjacent occasions as makeup, fragrance, hair, and gifting: styling, event looks, seller confidence, and giftable accessories.",
+      "Artificial jewelry supports the same beauty-adjacent occasions as makeup, fragrance, hair, and gifting: styling, event looks, retailer clarity, and giftable accessories.",
     links: ["/artificial-jewelry", "/beauty-university/artificial-jewelry-styling-guide"],
   },
   {
     question: "Can artificial jewelry pages make hypoallergenic claims?",
     answer:
-      "Only if visible product details support that claim. Otherwise, LipFlower encourages shoppers to check material details, earring weight, closure type, dimensions, and seller policies.",
+      "Only if visible product details support that claim. Otherwise, LipFlower encourages shoppers to check material details, earring weight, closure type, dimensions, and retailer policies.",
     links: ["/beauty-claims-guide", "/beauty-checklists"],
   },
   {
@@ -58,7 +58,7 @@ const faqItems = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty FAQ",
   description:
-    "Read LipFlower's beauty FAQ for affiliate disclosure, seller verification, product claims, ingredient guidance, artificial jewelry, and citation questions.",
+    "Read LipFlower's beauty FAQ for affiliate disclosure, retailer checks, product claims, ingredient guidance, artificial jewelry, and citation questions.",
   canonicalPath: "/beauty-faq",
 });
 
@@ -81,10 +81,10 @@ export default function BeautyFaqPage() {
       <JsonLd data={schema} />
       <section className="hero-panel">
         <span className="eyebrow">Beauty FAQ</span>
-        <h1>Common questions about LipFlower, beauty claims, sellers, and research pages</h1>
+        <h1>Common questions about LipFlower, beauty claims, retailers, and research pages</h1>
         <p>
-          Use this FAQ to understand how LipFlower handles affiliate links, beauty guidance, seller
-          confidence, artificial jewelry, product claims, and editorial references.
+          Use this FAQ to understand how LipFlower handles affiliate links, beauty guidance,
+          retailer checks, artificial jewelry, product claims, and editorial references.
         </p>
         <div className="hero-actions">
           <Link href="/beauty-research" className="search-button">

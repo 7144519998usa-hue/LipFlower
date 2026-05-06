@@ -64,7 +64,7 @@ export default async function BeautyCalculatorDetailPage({ params }) {
         <h1>{tool.title}</h1>
         <p>{tool.summary}</p>
         <p>
-          Use this finder as a routing aid: choose the closest category path, compare seller trust,
+          Use this finder as a shopping aid: choose the closest category, compare retailer clarity,
           and read product directions before adding anything new to a routine.
         </p>
       </section>
@@ -76,16 +76,16 @@ export default async function BeautyCalculatorDetailPage({ params }) {
               {finderRoutes.map((route) => (
                 <Link key={route.href} href={route.href} className="catalog-link-card">
                   <strong>{route.label}</strong>
-                  <span>Compare claim-safe routes and seller options.</span>
+                  <span>Compare careful guides and retailer options.</span>
                 </Link>
               ))}
             </div>
           </article>
           <article className="catalog-card">
-            <h2>Before you click out</h2>
+            <h2>Before you continue</h2>
             <ul className="fact-list">
               <li>Check whether the product format fits the routine step.</li>
-              <li>Use seller and return-policy signals for premium beauty purchases.</li>
+              <li>Use retailer and return-policy signals for premium beauty purchases.</li>
               <li>Avoid treating ingredient or trend language as a guaranteed outcome.</li>
             </ul>
           </article>

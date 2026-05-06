@@ -62,7 +62,7 @@ export default function BeautyIngredientsPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Ingredient Library",
     description:
-      "Claim-safe ingredient shopping context for hydration, barrier-positioned skin care, radiance products, exfoliation, lip care, fragrance, and botanical positioning.",
+      "Careful ingredient shopping context for hydration, barrier-positioned skin care, radiance products, exfoliation, lip care, fragrance, and botanical positioning.",
     url: `${beautySiteUrl}/beauty-ingredients`,
     publisher: {
       "@type": "Organization",
@@ -91,8 +91,8 @@ export default function BeautyIngredientsPage() {
           fragrance, and routine pages without treating ingredient presence as a promised outcome.
         </p>
         <p>
-          LipFlower keeps ingredient content claim-safe and encourages shoppers to compare full
-          product positioning, directions, sensitivity context, and seller details.
+          LipFlower keeps ingredient content careful and encourages shoppers to compare full
+          product positioning, directions, sensitivity context, and retailer details.
         </p>
         <div className="hero-actions">
           <Link href="/beauty-university/ingredient-claims-guide" className="search-button">

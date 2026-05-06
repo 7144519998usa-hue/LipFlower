@@ -34,7 +34,7 @@ export default function CiteLipFlowerPage() {
         <span className="eyebrow">Editor resource</span>
         <h1>Cite LipFlower beauty research</h1>
         <p>
-          LipFlower publishes claim-safe beauty reference pages for shoppers and editors comparing
+          LipFlower publishes careful beauty reference pages for shoppers and editors comparing
           routines, ingredients, gift decisions, retailers, and beauty-adjacent accessories.
         </p>
         <p>

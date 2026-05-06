@@ -7,7 +7,7 @@ import { buildBeautyMetadata } from "../lib/beautyMetadata";
 export const metadata = buildBeautyMetadata({
   title: "Beauty Glossary",
   description:
-    "A claim-safe LipFlower glossary for beauty, skin care, makeup, fragrance, lip care, artificial jewelry, and shopping terms.",
+    "A careful LipFlower glossary for beauty, skin care, makeup, fragrance, lip care, artificial jewelry, and shopping terms.",
   canonicalPath: "/beauty-glossary",
 });
 
@@ -17,7 +17,7 @@ export default function BeautyGlossaryPage() {
     "@type": "DefinedTermSet",
     name: "LipFlower Beauty Glossary",
     description:
-      "Claim-safe definitions for beauty shopping, routine, ingredient, makeup, fragrance, lip care, and artificial jewelry terms.",
+      "Careful definitions for beauty shopping, routine, ingredient, makeup, fragrance, lip care, and artificial jewelry terms.",
     url: `${beautySiteUrl}/beauty-glossary`,
     publisher: {
       "@type": "Organization",
@@ -38,7 +38,7 @@ export default function BeautyGlossaryPage() {
       <JsonLd data={glossarySchema} />
       <section className="hero-panel">
         <span className="eyebrow">Beauty glossary</span>
-        <h1>Claim-safe beauty terms for smarter shopping</h1>
+        <h1>Beauty terms for smarter shopping</h1>
         <p>
           Use this glossary to understand common beauty, skin care, makeup, fragrance, lip care,
           artificial jewelry, and seller-confidence language before comparing products.

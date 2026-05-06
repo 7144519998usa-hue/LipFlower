@@ -19,7 +19,7 @@ export default function BestBeautyHubPage() {
     <BeautyHubPage
       eyebrow="Best beauty guides"
       title="Best Beauty Product Guides"
-      description="A clean index of beauty buying guides for shoppers comparing products, sellers, routines, and gift ideas."
+      description="A clean index of beauty buying guides for shoppers comparing products, retailers, routines, and gift ideas."
       intro="Start with a few featured guides, then use search or category hubs to narrow by product type, seller, routine, or beauty concern."
       actions={[
         { href: "/beauty", label: "Explore Beauty", variant: "primary" },

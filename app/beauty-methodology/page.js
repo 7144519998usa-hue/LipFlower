@@ -15,19 +15,19 @@ const methodologyAreas = [
   {
     title: "Visible product attributes",
     description:
-      "Pages prioritize visible product information such as format, texture, finish, shade support, scent family, set contents, size, and seller details.",
+      "Pages prioritize visible product information such as format, texture, finish, shade support, scent family, set contents, size, and retailer details.",
     examples: ["Coverage and finish", "Discovery set size", "Artificial jewelry material details"],
     links: ["/beauty-glossary", "/artificial-jewelry"],
   },
   {
-    title: "Seller confidence",
+    title: "Retailer clarity",
     description:
-      "Commercial pages should help shoppers evaluate seller identity, return clarity, listing detail quality, delivery details, and price context before clicking out.",
+      "Shopping pages should help shoppers evaluate retailer identity, return clarity, listing detail quality, delivery details, and price context before continuing.",
     examples: ["Amazon seller checks", "Return-sensitive shade purchases", "Gift delivery timing"],
     links: ["/beauty-seller-scorecard", "/sellers"],
   },
   {
-    title: "Claim safety",
+    title: "Careful claims",
     description:
       "LipFlower avoids invented efficacy, medical cure claims, guaranteed outcomes, unsupported safety claims, and hidden assumptions about sensitive skin or pregnancy suitability.",
     examples: ["Ingredient-benefit wording", "SPF directions", "Clean beauty positioning"],
@@ -36,14 +36,14 @@ const methodologyAreas = [
   {
     title: "Comparison usefulness",
     description:
-      "A comparison should explain the practical tradeoff: who each option is for, what decision it helps with, and what a shopper should verify on the seller site.",
+      "A comparison should explain the practical tradeoff: who each option is for, what decision it helps with, and what a shopper should verify on the retailer site.",
     examples: ["Foundation versus skin tint", "Lip oil versus gloss", "Cream blush versus powder blush"],
     links: ["/compare", "/beauty-checklists"],
   },
   {
     title: "Disclosure and monetization clarity",
     description:
-      "LipFlower may earn affiliate revenue when users continue to seller sites, so monetized pages should keep disclosures, seller context, and user-first guidance visible.",
+      "LipFlower may earn affiliate revenue when users continue to retailer sites, so monetized pages should keep disclosures, retailer context, and user-first guidance visible.",
     examples: ["Affiliate disclosure", "How we make money", "Retailer context"],
     links: ["/about/advertiser-disclosure", "/about/how-we-make-money"],
   },
@@ -52,7 +52,7 @@ const methodologyAreas = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty Comparison Methodology",
   description:
-    "Read LipFlower's beauty comparison methodology for routine fit, visible product attributes, seller confidence, claim safety, comparison usefulness, and affiliate disclosure.",
+    "Read LipFlower's beauty comparison methodology for routine fit, visible product attributes, retailer clarity, careful claims, comparison usefulness, and affiliate disclosure.",
   canonicalPath: "/beauty-methodology",
 });
 
@@ -62,7 +62,7 @@ export default function BeautyMethodologyPage() {
     "@type": "AboutPage",
     name: "LipFlower Beauty Comparison Methodology",
     description:
-      "Public methodology for how LipFlower frames beauty comparison, routine fit, seller confidence, claim safety, and disclosure.",
+      "Public methodology for how LipFlower frames beauty comparison, routine fit, retailer clarity, careful claims, and disclosure.",
     url: `${beautySiteUrl}/beauty-methodology`,
     publisher: {
       "@type": "Organization",
@@ -79,7 +79,7 @@ export default function BeautyMethodologyPage() {
         <h1>How LipFlower compares beauty products and retailers</h1>
         <p>
           LipFlower is a beauty research and affiliate comparison platform. Our comparison pages are
-          designed to help shoppers understand fit, tradeoffs, seller confidence, and claim-safe
+          designed to help shoppers understand fit, tradeoffs, retailer clarity, and careful
           product language before continuing to a retailer.
         </p>
         <p>

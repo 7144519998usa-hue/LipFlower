@@ -11,8 +11,8 @@ export const metadata = buildBeautyMetadata({
 export default function BrandsPage() {
   return (
     <BeautyHubPage
-      title="Compare luxury beauty brands before you choose a buying path"
-      description="Use brand pages when prestige, formula fit, shade range, scent identity, packaging, and seller confidence matter more than price alone."
+      title="Compare luxury beauty brands before you choose what to buy"
+      description="Use brand pages when prestige, formula fit, shade range, scent identity, packaging, and retailer clarity matter more than price alone."
       eyebrow="Brand hub"
       sections={[
         {

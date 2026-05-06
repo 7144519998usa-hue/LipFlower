@@ -14,7 +14,7 @@ const referenceSlugSet = new Set(linkableBeautyReferenceSlugs);
 export const metadata = buildBeautyMetadata({
   title: "Beauty Research Library",
   description:
-    "Use LipFlower's claim-safe beauty research library for routine charts, ingredient explainers, gift decision guides, and category reference assets.",
+    "Use LipFlower's careful beauty research library for routine charts, ingredient explainers, gift decision guides, and category reference assets.",
   canonicalPath: "/beauty-research",
 });
 
@@ -25,7 +25,7 @@ export default function BeautyResearchPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Research Library",
     description:
-      "Claim-safe beauty reference guides for shoppers comparing routines, ingredients, gifts, fragrance, hair care, nail care, body care, and artificial jewelry.",
+      "Careful beauty reference guides for shoppers comparing routines, ingredients, gifts, fragrance, hair care, nail care, body care, and artificial jewelry.",
     url: `${beautySiteUrl}/beauty-research`,
     publisher: {
       "@type": "Organization",
@@ -53,7 +53,7 @@ export default function BeautyResearchPage() {
           <p>
             LipFlower keeps its most reusable beauty education assets here: routine maps,
             ingredient explainers, gift decision guides, fragrance references, and styling
-            checklists that support confident shopping without medical or guaranteed-result claims.
+            checklists that support confident shopping without medical or guaranteed-results claims.
           </p>
           <div className="hero-actions">
             <Link href="/beauty-university" className="search-button">
@@ -130,19 +130,19 @@ export default function BeautyResearchPage() {
               <li>Use ingredient guides as shopping context, not medical or dermatology advice.</li>
               <li>Move from education into category, comparison, seller, or gift-finder pages.</li>
               <li>Use the routine library when a shopper needs to connect multiple categories into one decision.</li>
-              <li>Use the gift library when recipient fit, return clarity, and seller timing are part of the decision.</li>
+              <li>Use the gift library when recipient fit, return clarity, and retailer timing are part of the decision.</li>
               <li>Use the occasion library when an event changes product, seller, or styling priorities.</li>
               <li>Use the ingredient library when product language depends on ingredient positioning.</li>
               <li>Use the finish library when texture, coverage, shine, or material finish changes the buying decision.</li>
               <li>Use the shade library when undertone, color family, or gift-risk reduction matters.</li>
-              <li>Use the glossary when a term needs a short, claim-safe definition.</li>
+              <li>Use the glossary when a term needs a short, careful definition.</li>
               <li>Use the calendar when seasonal timing, giftability, or occasion styling matters.</li>
               <li>Use buying checklists before high-intent comparison or seller pages.</li>
               <li>Use the seller scorecard when retailer confidence is part of the decision.</li>
               <li>Use the claims guide when beauty wording touches sensitive skin, SPF, clean beauty, or safety-adjacent topics.</li>
               <li>Use the methodology page when comparison logic or editorial standards need context.</li>
-              <li>Use the FAQ when users need quick answers about sellers, claims, disclosure, and citation.</li>
-              <li>Prefer claim-safe language such as may help, designed for, supports, and commonly used for.</li>
+              <li>Use the FAQ when users need quick answers about retailers, claims, disclosure, and citation.</li>
+              <li>Prefer careful language such as may help, designed for, supports, and commonly used for.</li>
             </ul>
             <div className="hero-actions">
               <Link href="/about/cite-lipflower" className="ghost-link">
@@ -160,11 +160,11 @@ export default function BeautyResearchPage() {
               </Link>
               <Link href="/makeup" className="catalog-link-card">
                 <strong>Makeup</strong>
-                <span>Use shade, finish, coverage, and seller trust before choosing complexion products.</span>
+                <span>Use shade, finish, coverage, and retailer clarity before choosing complexion products.</span>
               </Link>
               <Link href="/artificial-jewelry" className="catalog-link-card">
                 <strong>Artificial jewelry</strong>
-                <span>Match fashion jewelry to occasion, makeup finish, gifting, and seller confidence.</span>
+                <span>Match fashion jewelry to occasion, makeup finish, gifting, and retailer clarity.</span>
               </Link>
             </div>
           </article>

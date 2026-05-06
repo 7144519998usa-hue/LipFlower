@@ -62,7 +62,7 @@ export default function BeautyFinishesPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Finish and Texture Library",
     description:
-      "Claim-safe shopping context for beauty finishes and textures across complexion, cheek color, lip care, skin care, body care, fragrance, and artificial jewelry.",
+      "Careful shopping context for beauty finishes and textures across complexion, cheek color, lip care, skin care, body care, fragrance, and artificial jewelry.",
     url: `${beautySiteUrl}/beauty-finishes`,
     publisher: {
       "@type": "Organization",

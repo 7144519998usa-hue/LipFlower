@@ -39,7 +39,7 @@ export default function MediaKitPage() {
         </p>
         <p>
           The site covers luxury beauty, skin care, makeup, fragrance, lip care, hair care, body
-          care, nail care, beauty tools, and artificial jewelry with claim-safe editorial standards.
+          care, nail care, beauty tools, and artificial jewelry with careful editorial standards.
         </p>
         <div className="hero-actions">
           <Link href="/beauty-research" className="search-button">
@@ -66,9 +66,9 @@ export default function MediaKitPage() {
           <article className="catalog-card">
             <h2>Editorial standards</h2>
             <ul className="fact-list">
-              <li>No medical cure claims or guaranteed-result language.</li>
+              <li>No medical cure claims or guaranteed-results language.</li>
               <li>No invented reviews, unsupported product details, or hidden affiliate strategy claims.</li>
-              <li>Affiliate relationships are disclosed before users continue to seller sites.</li>
+              <li>Affiliate relationships are disclosed before users continue to retailer sites.</li>
               <li>Reference pages are written to help shoppers and editors understand decisions, not inflate page count.</li>
             </ul>
           </article>
@@ -82,7 +82,7 @@ export default function MediaKitPage() {
               </Link>
               <Link href="/about/editorial-policy" className="catalog-link-card">
                 <strong>Editorial policy</strong>
-                <span>How LipFlower keeps content buyer-first and claim-safe.</span>
+                <span>How LipFlower keeps content buyer-first and careful.</span>
               </Link>
               <Link href="/about/advertiser-disclosure" className="catalog-link-card">
                 <strong>Affiliate disclosure</strong>

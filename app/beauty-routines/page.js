@@ -37,7 +37,7 @@ const routineGuides = [
     title: "Hair care reset routine",
     role: "Shampoo, conditioner, mask, scalp care, styling, and tools",
     guidance:
-      "Hair-care routines work best when each product is compared by routine role rather than treated as interchangeable.",
+      "Hair-care routines work best when each product is compared by routine fit rather than treated as interchangeable.",
     links: ["/beauty-university/hair-care-routine-map", "/hair-care/luxury-shampoo-conditioner", "/beauty-tools/hair-styling-tools"],
   },
   {
@@ -51,14 +51,14 @@ const routineGuides = [
     title: "Event beauty and artificial jewelry styling routine",
     role: "Makeup finish, fragrance, hair, fashion jewelry, and occasion fit",
     guidance:
-      "Occasion routines can connect beauty and artificial jewelry through styling, gifting, seller confidence, and material-detail checks.",
+      "Occasion routines can connect beauty and artificial jewelry through styling, gifting, retailer clarity, and material-detail checks.",
     links: ["/beauty-university/artificial-jewelry-styling-guide", "/artificial-jewelry/fashion-earrings", "/makeup/cream-blush"],
   },
   {
     title: "Gift-ready beauty routine",
     role: "Gift finder, discovery sets, lip care, tools, fragrance, and jewelry sets",
     guidance:
-      "Giftable routines should prioritize preference uncertainty, return flexibility, seller confidence, packaging, and delivery timing.",
+      "Giftable routines should prioritize preference uncertainty, return flexibility, retailer clarity, packaging, and delivery timing.",
     links: ["/beauty-university/beauty-gift-decision-tree", "/calculators/gift-finder", "/artificial-jewelry/jewelry-gift-sets"],
   },
 ];

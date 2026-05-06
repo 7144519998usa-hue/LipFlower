@@ -6,13 +6,13 @@ import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
 const buyingChecklists = [
   {
-    title: "Seller confidence checklist",
-    intent: "Before clicking out to a retailer",
+    title: "Retailer clarity checklist",
+    intent: "Before continuing to a retailer",
     items: [
       "Confirm who sells and ships the product.",
       "Review return and exchange terms before checkout.",
       "Compare listing photos, size, shade, and package details.",
-      "Avoid relying on price alone when seller details are unclear.",
+      "Avoid relying on price alone when retailer details are unclear.",
     ],
     links: ["/sellers", "/beauty-university/amazon-luxury-beauty-seller-checklist"],
   },
@@ -45,7 +45,7 @@ const buyingChecklists = [
       "Choose scent family before bottle size.",
       "Consider discovery sets when preferences are unknown.",
       "Review return restrictions for opened fragrance.",
-      "Compare packaging, delivery timing, and seller confidence.",
+      "Compare packaging, delivery timing, and retailer clarity.",
     ],
     links: ["/fragrance/luxury-perfume-gifts", "/beauty-university/fragrance-family-reference-chart"],
   },
@@ -56,7 +56,7 @@ const buyingChecklists = [
       "Check material details without assuming special sensitivity suitability claims.",
       "Compare earring weight, closure type, and dimensions.",
       "Match jewelry style to occasion, makeup finish, and gift context.",
-      "Review seller return policy for jewelry sets and occasion accessories.",
+      "Review retailer return policy for jewelry sets and occasion accessories.",
     ],
     links: ["/artificial-jewelry", "/beauty-university/artificial-jewelry-styling-guide"],
   },
@@ -76,7 +76,7 @@ const buyingChecklists = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty Buying Checklists",
   description:
-    "Use LipFlower's claim-safe beauty buying checklists for seller confidence, shade matching, SPF layering, fragrance gifts, artificial jewelry, and routine fit.",
+    "Use LipFlower's practical beauty buying checklists for retailer clarity, shade matching, SPF layering, fragrance gifts, artificial jewelry, and routine fit.",
   canonicalPath: "/beauty-checklists",
 });
 
@@ -86,7 +86,7 @@ export default function BeautyChecklistsPage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Buying Checklists",
     description:
-      "Claim-safe buying checklists for beauty shoppers comparing sellers, shade fit, SPF layering, fragrance gifts, artificial jewelry, and routine decisions.",
+      "Practical buying checklists for beauty shoppers comparing retailers, shade fit, SPF layering, fragrance gifts, artificial jewelry, and routine decisions.",
     url: `${beautySiteUrl}/beauty-checklists`,
     publisher: {
       "@type": "Organization",
@@ -109,10 +109,10 @@ export default function BeautyChecklistsPage() {
       <JsonLd data={schema} />
       <section className="hero-panel">
         <span className="eyebrow">Buyer checklists</span>
-        <h1>Beauty buying checklists before you compare or click out</h1>
+        <h1>Beauty buying checklists before you compare or shop</h1>
         <p>
           Use these checklists to slow down high-intent beauty shopping just enough to compare
-          seller confidence, shade fit, routine role, giftability, and product directions.
+          retailer clarity, shade fit, routine fit, giftability, and product directions.
         </p>
         <p>
           LipFlower checklists are designed for shopping context and do not promise medical,

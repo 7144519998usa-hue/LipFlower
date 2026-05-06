@@ -68,7 +68,7 @@ export default function BeautyClaimsGuidePage() {
     "@type": "CollectionPage",
     name: "LipFlower Beauty Claims Guide",
     description:
-      "Claim-safe guidance for beauty content covering ingredients, sensitive skin, clean beauty, SPF, pregnancy-safe language, dermatologist claims, and artificial jewelry materials.",
+      "Careful guidance for beauty content covering ingredients, sensitive skin, clean beauty, SPF, pregnancy-safe language, dermatologist claims, and artificial jewelry materials.",
     url: `${beautySiteUrl}/beauty-claims-guide`,
     publisher: {
       "@type": "Organization",
@@ -90,10 +90,10 @@ export default function BeautyClaimsGuidePage() {
     <main className="page-shell">
       <JsonLd data={schema} />
       <section className="hero-panel">
-        <span className="eyebrow">Claim safety</span>
+        <span className="eyebrow">Careful beauty claims</span>
         <h1>Beauty claims guide for safer shopping language</h1>
         <p>
-          LipFlower uses claim-safe language across beauty, skin care, makeup, fragrance, lip care,
+          LipFlower uses careful language across beauty, skin care, makeup, fragrance, lip care,
           body care, hair care, and artificial jewelry pages.
         </p>
         <p>

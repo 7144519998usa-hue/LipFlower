@@ -105,13 +105,13 @@ function buildPros(page, badge) {
 function buildCons(page, badge) {
   const caution = page.intentLabel.includes("sensitive")
     ? "Review fragrance, ingredient, and use-direction details carefully"
-    : "Check seller, size, shade, and return details before clicking out";
+    : "Check retailer, size, shade, and return details before continuing";
 
   if (badge === "Luxury Pick") {
     return [caution, "Premium positioning may not be necessary for every routine"];
   }
 
-  return [caution, "Availability and pricing can vary by seller"];
+  return [caution, "Availability and pricing can vary by retailer"];
 }
 
 function buildProductSummary(productName, page, badge) {

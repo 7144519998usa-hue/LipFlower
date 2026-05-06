@@ -44,7 +44,7 @@ const giftGuides = [
     title: "Skin-care comfort gifts",
     recipientFit: "When routine preferences are gentle and familiar",
     guidance:
-      "Moisturizers, masks, and comfort-positioned products should be compared by texture, fragrance, directions, and claim-safe positioning.",
+      "Moisturizers, masks, and comfort-positioned products should be compared by texture, fragrance, directions, and careful product language.",
     links: ["/skin-care/barrier-repair-moisturizers", "/beauty-ingredients", "/beauty-claims-guide"],
   },
   {
@@ -66,7 +66,7 @@ const giftGuides = [
 export const metadata = buildBeautyMetadata({
   title: "Beauty Gift Guide Library",
   description:
-    "Use LipFlower's Beauty Gift Guide Library to compare fragrance gifts, lip care sets, beauty tools, artificial jewelry, makeup gifts, skin care gifts, and seller confidence.",
+    "Use LipFlower's Beauty Gift Guide Library to compare fragrance gifts, lip care sets, beauty tools, artificial jewelry, makeup gifts, skin care gifts, and retailer clarity.",
   canonicalPath: "/beauty-gifts",
 });
 
@@ -102,10 +102,10 @@ export default function BeautyGiftsPage() {
         <h1>Beauty gift guides for confident, lower-risk shopping</h1>
         <p>
           Use this gift library to compare fragrance discovery sets, lip-care gifts, beauty tools,
-          artificial jewelry, makeup, skin care, and seller confidence before choosing a retailer.
+          artificial jewelry, makeup, skin care, and retailer clarity before choosing where to shop.
         </p>
         <p>
-          LipFlower gift guidance favors practical fit, return clarity, giftability, and claim-safe
+          LipFlower gift guidance favors practical fit, return clarity, giftability, and careful
           product language over hype or guaranteed outcomes.
         </p>
         <div className="hero-actions">
