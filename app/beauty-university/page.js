@@ -40,7 +40,7 @@ export default function BeautyUniversityPage() {
           title: "Support your next decision",
           links: [
             { href: "/compare", label: "Comparison hub", description: "Move into comparisons once the education layer narrows the real tradeoff." },
-            { href: "/skin-care", label: "Skin care", description: "Return to premium treatment and routine-led shopping paths." },
+            { href: "/skin-care", label: "Skin care", description: "Return to premium treatment and routine-led shopping guides." },
             { href: "/lip-care", label: "Lip care", description: "Use the lip-care lane when texture, treatment, and color are the real decision." },
           ],
         },
