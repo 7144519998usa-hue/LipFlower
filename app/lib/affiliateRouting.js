@@ -33,6 +33,25 @@ export function createAmazonSearchUrl(query = "") {
   return url.toString();
 }
 
+export function createSellerSearchUrl(seller, query = "") {
+  const searchQuery = String(query || "luxury beauty").trim() || "luxury beauty";
+  const encodedQuery = encodeURIComponent(searchQuery);
+
+  if (seller.slug === "amazon") {
+    return createAmazonSearchUrl(searchQuery);
+  }
+
+  if (seller.slug === "sephora") {
+    return `https://www.sephora.com/search?keyword=${encodedQuery}`;
+  }
+
+  if (seller.slug === "ulta") {
+    return `https://www.ulta.com/search?search=${encodedQuery}`;
+  }
+
+  return seller.affiliateUrl;
+}
+
 export function getSafeAffiliateDestination(rawUrl = "") {
   try {
     const destination = new URL(rawUrl);

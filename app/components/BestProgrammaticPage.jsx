@@ -3,27 +3,13 @@ import AffiliateLink from "./AffiliateLink";
 import JsonLd from "./JsonLd";
 import ProductRecommendationCard from "./ProductRecommendationCard";
 import ProductUseDisclaimer from "./ProductUseDisclaimer";
-import { createAmazonSearchUrl } from "../lib/affiliateRouting.js";
+import { createSellerSearchUrl } from "../lib/affiliateRouting.js";
 import { beautySellers, beautySiteUrl } from "../lib/beautyData";
 import { getProductsForBestPage } from "../lib/productCatalog.js";
 import { programmaticBestPages } from "../lib/programmaticSeoData";
 
 function sellerSearchUrl(seller, query) {
-  if (seller.slug === "amazon") {
-    return createAmazonSearchUrl(query);
-  }
-
-  const encodedQuery = encodeURIComponent(query);
-
-  if (seller.slug === "sephora") {
-    return `https://www.sephora.com/search?keyword=${encodedQuery}`;
-  }
-
-  if (seller.slug === "ulta") {
-    return `https://www.ulta.com/search?search=${encodedQuery}`;
-  }
-
-  return seller.affiliateUrl;
+  return createSellerSearchUrl(seller, query);
 }
 
 function getRelatedBestGuides(page) {

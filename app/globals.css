@@ -238,6 +238,26 @@ a {
   margin-top: 16px;
 }
 
+.conversion-panel {
+  background:
+    linear-gradient(135deg, rgba(138, 75, 95, 0.06), rgba(212, 175, 55, 0.1)),
+    #ffffff;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 16px;
+  margin-top: 18px;
+}
+
+.offer-card {
+  padding: 16px;
+  border: 1px solid #eadde0;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.78);
+}
+
 .section-heading {
   margin-bottom: 16px;
 }

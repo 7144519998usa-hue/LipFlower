@@ -1,9 +1,10 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import ComparisonOfferBlock from "../../components/ComparisonOfferBlock";
 import ComparisonTable from "../../components/ComparisonTable";
 import JsonLd from "../../components/JsonLd";
 import ProductUseDisclaimer from "../../components/ProductUseDisclaimer";
-import { beautyComparePages, beautySiteUrl, getBeautyComparePage } from "../../lib/beautyData";
+import { beautyComparePages, beautySellers, beautySiteUrl, getBeautyComparePage } from "../../lib/beautyData";
 import { buildBeautyMetadata } from "../../lib/beautyMetadata";
 
 function formatRouteLabel(href) {
@@ -102,6 +103,11 @@ export default async function CompareDetailPage({ params }) {
           <ComparisonTable columns={page.columns} rows={page.rows} />
         </article>
       </section>
+      <ComparisonOfferBlock
+        columns={page.columns}
+        sellers={beautySellers}
+        source={`compare-${slug}`}
+      />
       <section className="catalog-grid-section">
         <div className="catalog-grid">
           <article className="catalog-card">
