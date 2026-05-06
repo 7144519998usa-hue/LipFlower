@@ -1,9 +1,11 @@
 import Link from "next/link";
 import AffiliateLink from "./AffiliateLink";
 import JsonLd from "./JsonLd";
+import ProductRecommendationCard from "./ProductRecommendationCard";
 import ProductUseDisclaimer from "./ProductUseDisclaimer";
 import { createAmazonSearchUrl } from "../lib/affiliateRouting.js";
 import { beautySellers, beautySiteUrl } from "../lib/beautyData";
+import { getProductsForBestPage } from "../lib/productCatalog.js";
 import { programmaticBestPages } from "../lib/programmaticSeoData";
 
 function sellerSearchUrl(seller, query) {
@@ -60,6 +62,7 @@ export default function BestProgrammaticPage({ page }) {
     ["amazon", "sephora", "ulta"].includes(seller.slug),
   );
   const relatedBestGuides = getRelatedBestGuides(page);
+  const recommendedProducts = getProductsForBestPage(page);
   const breadcrumbSchema = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -87,10 +90,10 @@ export default function BestProgrammaticPage({ page }) {
     name: page.title,
     description: page.summary,
     url: pageUrl,
-    itemListElement: page.examples.map((name, index) => ({
+    itemListElement: recommendedProducts.map((product, index) => ({
       "@type": "ListItem",
       position: index + 1,
-      name,
+      name: product.name,
     })),
   };
 
@@ -118,6 +121,26 @@ export default function BestProgrammaticPage({ page }) {
           <Link href="/sellers" className="search-button">
             Compare sellers
           </Link>
+        </div>
+      </section>
+
+      <section className="catalog-grid-section">
+        <div className="section-heading">
+          <span className="eyebrow">Shortlist</span>
+          <h2>Products worth checking first</h2>
+          <p>
+            These cards add shopping context around recognizable product anchors. Prices, seller
+            availability, shades, sizes, and official claims should be verified on the seller page.
+          </p>
+        </div>
+        <div className="product-grid">
+          {recommendedProducts.map((product) => (
+            <ProductRecommendationCard
+              key={product.id}
+              product={product}
+              source={`best-product-${page.slug}`}
+            />
+          ))}
         </div>
       </section>
 
