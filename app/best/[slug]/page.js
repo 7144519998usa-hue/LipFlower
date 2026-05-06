@@ -6,8 +6,13 @@ import {
 } from "../../lib/programmaticSeoData";
 import { buildBeautyMetadata } from "../../lib/beautyMetadata";
 
+export const dynamicParams = true;
+export const revalidate = 86400;
+
 export function generateStaticParams() {
-  return programmaticBestPages.map((page) => ({ slug: page.slug }));
+  return programmaticBestPages
+    .slice(0, 250)
+    .map((page) => ({ slug: page.slug }));
 }
 
 export async function generateMetadata({ params }) {
