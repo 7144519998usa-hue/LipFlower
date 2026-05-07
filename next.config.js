@@ -44,6 +44,12 @@ const nextConfig = {
   outputFileTracingRoot: path.join(__dirname),
   async redirects() {
     return [
+      {
+        source: "/:path*",
+        has: [{ type: "host", value: "www.lipflower.com" }],
+        destination: "https://lipflower.com/:path*",
+        permanent: true,
+      },
       { source: "/sitemapindex.xml", destination: "/sitemap_index.xml", permanent: true },
       { source: "/sitemap-index.xml", destination: "/sitemap_index.xml", permanent: true }
     ];
