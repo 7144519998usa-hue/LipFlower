@@ -51,7 +51,6 @@ const nextConfig = {
         permanent: true,
       },
       { source: "/sitemapindex.xml", destination: "/sitemap_index.xml", permanent: true },
-      { source: "/sitemap-index.xml", destination: "/sitemap_index.xml", permanent: true }
     ];
   },
   async headers() {

@@ -43,7 +43,7 @@ export async function getSitemapEntriesForSection(sectionSlug) {
 }
 
 export function getSitemapIndexUrl(siteUrl) {
-  return `${siteUrl}/sitemap_index.xml`;
+  return `${siteUrl}/sitemap-index.xml`;
 }
 
 export function getSitemapUrls(siteUrl) {
