@@ -1,3 +1,5 @@
+import { getVerifiedAmazonProductByName } from "./amazonVerifiedProducts.js";
+
 function inferBrand(productName = "") {
   const knownBrands = [
     "La Mer",
@@ -136,11 +138,12 @@ export function getProductsForBestPage(page) {
 
   return page.examples.map((productName, index) => {
     const badge = badges[index] || "Recommended";
+    const verifiedAmazonProduct = getVerifiedAmazonProductByName(productName);
 
     return {
       id: `${page.slug}-${index}`,
       name: productName,
-      brand: inferBrand(productName),
+      brand: verifiedAmazonProduct?.brand || inferBrand(productName),
       category: page.categoryLabel,
       badge,
       priceTier: inferPriceTier(productName, page),
@@ -150,6 +153,10 @@ export function getProductsForBestPage(page) {
       pros: buildPros(page, badge),
       cons: buildCons(page, badge),
       sellerQuery: `${productName} ${page.categoryLabel}`,
+      amazonAsin: verifiedAmazonProduct?.asin || "",
+      amazonDirectUrl: verifiedAmazonProduct?.detailPageUrl || "",
+      amazonVerifiedAt: verifiedAmazonProduct?.lastVerifiedAt || "",
+      isAmazonVerified: Boolean(verifiedAmazonProduct),
     };
   });
 }

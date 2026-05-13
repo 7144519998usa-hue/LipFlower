@@ -25,7 +25,7 @@ export const publicEnv = {
   siteUrl: getString("LIPFLOWER_SITE_URL", "https://lipflower.com"),
   googleVerification: getString("LIPFLOWER_GOOGLE_SITE_VERIFICATION"),
   googleAnalyticsId: getString("LIPFLOWER_GA_MEASUREMENT_ID"),
-  amazonAssociateTag: getString("LIPFLOWER_AMAZON_ASSOCIATE_TAG"),
+  amazonAssociateTag: getString("LIPFLOWER_AMAZON_ASSOCIATE_TAG", "lipflower-20"),
 };
 
 export function getServerEnv() {

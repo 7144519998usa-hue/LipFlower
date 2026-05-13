@@ -7,6 +7,8 @@ export default function ProductRecommendationCard({ product, sellers = [], sourc
   return (
     <article className="product-card">
       <div className="product-art" aria-hidden="true">
+        <div className="product-object product-object-primary" />
+        <div className="product-object product-object-secondary" />
         <span>{product.brand.slice(0, 2).toUpperCase()}</span>
       </div>
       <div className="product-card-body">
@@ -22,6 +24,11 @@ export default function ProductRecommendationCard({ product, sellers = [], sourc
         <p className="trust-note">
           <strong>Best for:</strong> {product.bestFor}
         </p>
+        <div className="shade-signal-row" aria-label="Shopping cues">
+          <span>Texture</span>
+          <span>Retailer check</span>
+          <span>Routine fit</span>
+        </div>
         <div className="product-proof-grid">
           <div>
             <strong>Why shoppers compare it</strong>

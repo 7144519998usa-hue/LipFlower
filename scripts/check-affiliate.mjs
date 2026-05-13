@@ -1,14 +1,18 @@
 import { readdir, readFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
+import { defaultAmazonAssociateTag, amazonLuxuryProductTargetMinimum } from "../app/lib/amazonLuxuryProducts.js";
+import { programmaticBestPages } from "../app/lib/programmaticSeoData.js";
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const appDir = path.join(rootDir, "app");
 const sourceExtensions = new Set([".js", ".jsx", ".mjs", ".ts", ".tsx"]);
 
 const allowedExternalCommerceFiles = new Set([
+  "app\\data\\amazonVerifiedProducts.js",
   "app\\components\\BestProgrammaticPage.jsx",
   "app\\lib\\affiliateRouting.js",
+  "app\\lib\\amazonVerifiedProducts.js",
   "app\\lib\\beautyData.js",
 ]);
 
@@ -27,6 +31,7 @@ const requiredAmazonFragments = [
   "LIPFLOWER_AMAZON_ASSOCIATE_TAG",
   "createAmazonSearchUrl",
   "url.searchParams.set(\"tag\"",
+  defaultAmazonAssociateTag,
 ];
 
 const requiredDisclosureFragments = [
@@ -98,17 +103,34 @@ if (!layoutSource.includes("<DisclosureNotice />")) {
 
 const envSource = await readFile(path.join(rootDir, "app/lib/env.js"), "utf8");
 const affiliateRoutingSource = await readFile(path.join(rootDir, "app/lib/affiliateRouting.js"), "utf8");
+const envExampleSource = await readFile(path.join(rootDir, ".env.example"), "utf8");
 
 for (const fragment of requiredAmazonFragments) {
-  const source = fragment === "LIPFLOWER_AMAZON_ASSOCIATE_TAG" ? envSource : affiliateRoutingSource;
+  const source = fragment === "LIPFLOWER_AMAZON_ASSOCIATE_TAG" || fragment === defaultAmazonAssociateTag
+    ? `${envSource}\n${envExampleSource}`
+    : affiliateRoutingSource;
 
   if (!source.includes(fragment)) {
     findings.push({
       type: "amazon-affiliate-routing-missing-fragment",
-      file: fragment === "LIPFLOWER_AMAZON_ASSOCIATE_TAG" ? "app\\lib\\env.js" : "app\\lib\\affiliateRouting.js",
+      file: fragment === "LIPFLOWER_AMAZON_ASSOCIATE_TAG" || fragment === defaultAmazonAssociateTag
+        ? "app\\lib\\env.js/.env.example"
+        : "app\\lib\\affiliateRouting.js",
       missing: fragment,
     });
   }
+}
+
+const uniqueAmazonProductAnchors = new Set(
+  programmaticBestPages.flatMap((page) => page.examples || []).map((example) => example.toLowerCase()),
+);
+
+if (uniqueAmazonProductAnchors.size < amazonLuxuryProductTargetMinimum) {
+  findings.push({
+    type: "amazon-luxury-product-target-count-below-minimum",
+    minimum: amazonLuxuryProductTargetMinimum,
+    actual: uniqueAmazonProductAnchors.size,
+  });
 }
 
 for (const file of files) {

@@ -96,19 +96,35 @@ export default function BestProgrammaticPage({ page }) {
         <span aria-hidden="true">/</span>
         <span>{page.title}</span>
       </nav>
-      <section className="hero-panel">
-        <span className="eyebrow">{page.vertical} buying guide</span>
-        <h1>{page.title}</h1>
-        <p>{page.summary}</p>
-        <p>{page.intro}</p>
-        <div className="hero-actions">
-          <Link href={page.categoryPath} className="ghost-link">
-            Explore category
-          </Link>
-          <Link href="/sellers" className="search-button">
-            Compare sellers
-          </Link>
+      <section className="hero-panel beauty-hero-panel commerce-hero-panel">
+        <div className="hero-copy">
+          <span className="eyebrow">{page.vertical} buying guide</span>
+          <h1>{page.title}</h1>
+          <p>{page.summary}</p>
+          <p>{page.intro}</p>
+          <div className="hero-actions">
+            <Link href={page.categoryPath} className="ghost-link">
+              Explore category
+            </Link>
+            <Link href="/sellers" className="search-button">
+              Compare sellers
+            </Link>
+          </div>
         </div>
+        <aside className="hero-shortlist-card" aria-label="Featured shortlist">
+          <span className="eyebrow">Editor's shortlist</span>
+          {recommendedProducts.slice(0, 3).map((product) => (
+            <div key={product.id} className="mini-product-row">
+              <span aria-hidden="true">{product.brand.slice(0, 2).toUpperCase()}</span>
+              <div>
+                <strong>{product.name}</strong>
+                <small>
+                  {product.badge} · {product.priceTier}
+                </small>
+              </div>
+            </div>
+          ))}
+        </aside>
       </section>
 
       <section className="catalog-grid-section">

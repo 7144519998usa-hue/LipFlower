@@ -11,7 +11,7 @@ export default function BeautyHubPage({
 }) {
   return (
     <main className="page-shell">
-      <section className="hero-panel compare-hero-reimagined">
+      <section className="hero-panel beauty-hero-panel">
         <div className="hero-copy">
           <span className="eyebrow">{eyebrow}</span>
           <h1>{title}</h1>
@@ -31,18 +31,44 @@ export default function BeautyHubPage({
             </div>
           ) : null}
         </div>
+        <div className="editorial-visual" aria-hidden="true">
+          <div className="beauty-orb beauty-orb-large" />
+          <div className="beauty-orb beauty-orb-small" />
+          <div className="product-tower">
+            <span className="bottle bottle-tall" />
+            <span className="bottle bottle-short" />
+            <span className="compact-case" />
+          </div>
+          <div className="swatch-row">
+            <span />
+            <span />
+            <span />
+            <span />
+          </div>
+        </div>
       </section>
 
       <section className="catalog-grid-section">
         <div className="catalog-grid">
-          {sections.map((section) => (
-            <article key={section.title} className="catalog-card">
+          {sections.map((section, sectionIndex) => (
+            <article key={section.title} className="catalog-card editorial-card">
+              <span className="card-kicker">0{sectionIndex + 1}</span>
               <h2>{section.title}</h2>
               <div className="catalog-stack">
-                {(section.links || []).map((link) => (
-                  <Link key={link.href} href={link.href} className="catalog-link-card">
-                    <strong>{link.label}</strong>
-                    <span>{link.description}</span>
+                {(section.links || []).map((link, linkIndex) => (
+                  <Link
+                    key={link.href}
+                    href={link.href}
+                    className="catalog-link-card elevated-link-card"
+                  >
+                    <span className="link-visual" aria-hidden="true">
+                      {link.label.slice(0, 1)}
+                    </span>
+                    <span>
+                      <strong>{link.label}</strong>
+                      <span>{link.description}</span>
+                    </span>
+                    {linkIndex === 0 ? <em>Editor's path</em> : null}
                   </Link>
                 ))}
               </div>

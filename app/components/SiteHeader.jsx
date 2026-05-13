@@ -7,7 +7,7 @@ export default function SiteHeader() {
     <header className="site-header">
       <div className="header-row">
         <Logo />
-        <nav className="nav-row" aria-label="Primary">
+        <nav className="nav-row desktop-nav" aria-label="Primary">
           {siteConfig.primaryNavLinks.map((link) => (
             <Link key={link.href} href={link.href}>
               {link.label}
@@ -22,6 +22,17 @@ export default function SiteHeader() {
             Explore Beauty
           </Link>
         </div>
+        <details className="mobile-menu">
+          <summary>Menu</summary>
+          <nav className="mobile-nav" aria-label="Mobile primary">
+            {siteConfig.primaryNavLinks.map((link) => (
+              <Link key={link.href} href={link.href}>
+                {link.label}
+              </Link>
+            ))}
+            <Link href="/search">Search</Link>
+          </nav>
+        </details>
       </div>
     </header>
   );

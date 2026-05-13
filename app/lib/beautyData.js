@@ -5028,7 +5028,7 @@ export const beautySellers = [
     description: "Amazon is useful for broad beauty discovery, fast shipping, and cross-brand comparison when retailer details are checked carefully.",
     bestFor: ["Fast shipping", "Broad selection", "Price comparison"],
     trustSignal: "Use official brand stores, authorized sellers, and clear return paths when available.",
-    affiliateUrl: "https://www.amazon.com/s?k=luxury+beauty",
+    affiliateUrl: "https://www.amazon.com/s?k=luxury+beauty&tag=lipflower-20",
   },
   {
     slug: "sephora",

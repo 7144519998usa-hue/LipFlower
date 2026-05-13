@@ -1,4 +1,5 @@
 import { decorateProgrammaticBestPage } from "./programmaticSeoGovernance.js";
+import { getAmazonLuxuryExamplesForCategory } from "./amazonLuxuryProducts.js";
 
 const bestPageCategories = [
   { slug: "moisturizer", label: "moisturizer", plural: "moisturizers", vertical: "skin care", categoryPath: "/skin-care", examples: ["La Mer Creme de la Mer", "CeraVe Moisturizing Cream", "Tatcha Dewy Skin Cream"] },
@@ -553,6 +554,7 @@ export function buildProgrammaticBestPages() {
       const slug = createSlug(category, intent);
       const title = createTitle(category, intent);
       const intentPhrase = intent.label ? `${category.plural} ${intent.label}` : category.plural;
+      const examples = getAmazonLuxuryExamplesForCategory(category, 11);
 
       return {
         slug,
@@ -568,7 +570,7 @@ export function buildProgrammaticBestPages() {
         intro: `This guide helps shoppers compare ${intentPhrase} by product format, retailer clarity, routine fit, and careful beauty claims instead of unsupported before-and-after promises.`,
         methodology: `LipFlower prioritizes visible product positioning, retailer clarity, routine compatibility, product directions, disclosure clarity, and practical shopping friction. We keep the language careful and do not invent testing results, medical outcomes, or guaranteed beauty claims.`,
         buyingAngle: intent.angle,
-        examples: category.examples,
+        examples,
         relatedLinks: [
           category.categoryPath,
           "/beauty",

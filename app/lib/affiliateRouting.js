@@ -1,5 +1,6 @@
 import { beautySellers } from "./beautyData.js";
 import { publicEnv } from "./env.js";
+import { createAmazonDirectProductUrl } from "./amazonVerifiedProducts.js";
 
 const allowedAffiliateHosts = new Set(
   beautySellers.map((seller) => new URL(seller.affiliateUrl).hostname.toLowerCase()),
@@ -31,6 +32,10 @@ export function createAmazonSearchUrl(query = "") {
   }
 
   return url.toString();
+}
+
+export function createAmazonProductUrl(asin = "") {
+  return createAmazonDirectProductUrl(asin);
 }
 
 export function createSellerSearchUrl(seller, query = "") {

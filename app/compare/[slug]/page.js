@@ -90,13 +90,25 @@ export default async function CompareDetailPage({ params }) {
         <span aria-hidden="true">/</span>
         <span>{page.title}</span>
       </nav>
-      <section className="hero-panel compare-hero-reimagined">
+      <section className="hero-panel beauty-hero-panel compare-hero-reimagined">
         <div className="hero-copy">
           <span className="eyebrow">Comparison</span>
           <h1>{page.title}</h1>
           <p>{page.summary}</p>
           <p>{page.verdict}</p>
         </div>
+        <aside className="compare-winner-card" aria-label="Comparison summary">
+          <span className="eyebrow">Decision map</span>
+          <div className="versus-stack">
+            {page.columns.map((column, index) => (
+              <div key={column} className="versus-option">
+                <span>{index + 1}</span>
+                <strong>{column}</strong>
+              </div>
+            ))}
+          </div>
+          <p>Use the table below to match the product type to routine role, finish, and retailer confidence.</p>
+        </aside>
       </section>
       <section className="catalog-grid-section">
         <article className="catalog-card">
