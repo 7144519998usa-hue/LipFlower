@@ -1,5 +1,5 @@
 import BeautyHubPage from "./components/BeautyHubPage";
-import LipFlowerHeroSlider from "../components/home/LipFlowerHeroSlider";
+import HomepageHeroSlider from "../components/home/HomepageHeroSlider";
 import { getBeautyHubPage } from "./lib/beautyData";
 import { buildBeautyMetadata } from "./lib/beautyMetadata";
 
@@ -14,7 +14,7 @@ export const metadata = buildBeautyMetadata({
 export default function HomePage() {
   return (
     <>
-      <LipFlowerHeroSlider eyebrow={page.eyebrow} title={page.title} description={page.description} />
+      <HomepageHeroSlider />
       <BeautyHubPage {...page} compactHero />
     </>
   );
