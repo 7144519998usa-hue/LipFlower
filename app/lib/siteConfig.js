@@ -4,7 +4,7 @@ export const siteConfig = {
   siteDescription:
   "Explore luxury cosmetics, skin care, makeup, fragrance, artificial jewelry, and lip care across Amazon and other premium beauty sellers.",
   siteTagline:
-    "Luxury beauty, artificial jewelry, seller routing, and premium self-care research for affluent shoppers.",
+    "Luxury beauty, artificial jewelry, and premium self-care research with an editorial eye.",
   utilityLinks: [
     { href: "/beauty-research", label: "Research library" },
     { href: "/beauty-routines", label: "Routine library" },

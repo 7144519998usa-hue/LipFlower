@@ -31,8 +31,9 @@ const slides = [
 ];
 
 export default function LipFlowerHeroSlider({
-  title = "Luxury beauty, skin care, makeup, and lip care worth comparing",
-  description = "Compare premium beauty products with a calmer, more polished view of product fit, seller clarity, and routine value.",
+  eyebrow = "The Beauty Edit",
+  title = "A softer way to discover luxury beauty",
+  description = "LipFlower curates skin care, makeup, fragrance, hair care, lip care, and beauty accessories with an editorial eye for texture, finish, routine fit, and everyday elegance.",
 }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -107,7 +108,7 @@ export default function LipFlowerHeroSlider({
           </div>
         </div>
         <div className="lipflower-slider-caption">
-          <span className="eyebrow">LipFlower front page edit</span>
+          <span className="eyebrow">{eyebrow}</span>
           <h1>{title}</h1>
           <p>{description}</p>
         </div>

@@ -14,7 +14,7 @@ export const metadata = buildBeautyMetadata({
 export default function HomePage() {
   return (
     <>
-      <LipFlowerHeroSlider title={page.title} description={page.description} />
+      <LipFlowerHeroSlider eyebrow={page.eyebrow} title={page.title} description={page.description} />
       <BeautyHubPage {...page} compactHero />
     </>
   );

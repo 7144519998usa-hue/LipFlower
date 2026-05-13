@@ -3,7 +3,7 @@ import { buildBeautyMetadata } from "../lib/beautyMetadata";
 
 export const metadata = buildBeautyMetadata({
   title: "About LipFlower",
-  description: "About the LipFlower luxury beauty affiliate marketplace.",
+  description: "About LipFlower's luxury beauty research, shopping guides, and editorial standards.",
   canonicalPath: "/about",
 });
 
@@ -14,10 +14,10 @@ export default function AboutPage() {
         <span className="eyebrow">About</span>
         <h1>About LipFlower</h1>
         <p>
-          LipFlower is an independent luxury beauty comparison and affiliate marketplace built for affluent shoppers researching skin care, makeup, fragrance, and lip care.
+          LipFlower is an independent luxury beauty guide for readers exploring skin care, makeup, fragrance, hair care, lip care, and beauty accessories with more context.
         </p>
         <p>
-          The site is designed as a premium beauty guide, not a checkout cart. We help shoppers compare brands, categories, product roles, and retailer options before continuing to Amazon or another trusted retailer.
+          The site is not a checkout cart. It helps readers compare brands, categories, product roles, and seller details before choosing where to shop.
         </p>
         <div className="hero-actions">
           <Link href="/about/media-kit" className="search-button">

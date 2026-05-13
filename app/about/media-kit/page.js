@@ -7,7 +7,7 @@ import { buildBeautyMetadata } from "../../lib/beautyMetadata";
 export const metadata = buildBeautyMetadata({
   title: "LipFlower Media Kit",
   description:
-    "Media kit for LipFlower, an independent beauty research, comparison, and affiliate marketplace covering beauty, skin care, makeup, fragrance, lip care, hair care, and artificial jewelry.",
+    "Media kit for LipFlower, an independent beauty research and shopping-guide publisher covering skin care, makeup, fragrance, lip care, hair care, and artificial jewelry.",
   canonicalPath: "/about/media-kit",
 });
 
@@ -34,8 +34,8 @@ export default function MediaKitPage() {
         <span className="eyebrow">Media kit</span>
         <h1>LipFlower media and editor resources</h1>
         <p>
-          LipFlower is an independent beauty research, comparison, and affiliate marketplace built
-          for shoppers who want polished product education before choosing a seller.
+          LipFlower is an independent beauty research and shopping-guide publisher built for
+          readers who want polished product education before choosing a seller.
         </p>
         <p>
           The site covers luxury beauty, skin care, makeup, fragrance, lip care, hair care, body

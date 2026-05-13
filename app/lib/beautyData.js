@@ -3,15 +3,15 @@ export const beautySiteUrl = "https://lipflower.com";
 
 export const beautyHubPages = {
   home: {
-    title: "Luxury beauty, skin care, makeup, and lip care worth comparing",
+    title: "A softer way to discover luxury beauty",
     description:
-      "LipFlower is a premium beauty guide for affluent shoppers researching luxury skin care, makeup, fragrance, hair care, and lip care across trusted retailers.",
-    eyebrow: "Luxury beauty marketplace",
+      "LipFlower curates skin care, makeup, fragrance, hair care, lip care, and beauty accessories with an editorial eye for texture, finish, routine fit, and everyday elegance.",
+    eyebrow: "The Beauty Edit",
     intro:
-      "Use brand, product-category, and routine-led guides to shop high-end beauty with more context before continuing to Amazon, department stores, specialty beauty retailers, or official brand boutiques.",
+      "Browse category, brand, ingredient, and routine guides before choosing where to shop, from Amazon and department stores to specialty beauty retailers and official brand boutiques.",
     actions: [
-      { href: "/beauty", label: "Explore Beauty", variant: "primary" },
-      { href: "/skin-care", label: "Shop Skin Care", variant: "secondary" },
+      { href: "/beauty", label: "Shop Beauty", variant: "primary" },
+      { href: "/skin-care", label: "Skin Care Edit", variant: "secondary" },
     ],
     sections: [
       {
@@ -5408,7 +5408,7 @@ export const beautyCategoryPages = [
     title: "Luxury Beauty Edit",
     description: "Shop a premium beauty path across skin care, makeup, fragrance, lip care, and giftable products.",
     intro:
-      "The luxury edit is built for affluent shoppers who want high-end beauty, polished packaging, brand trust, and retailer confidence in one place.",
+      "The luxury edit brings together high-end beauty, polished packaging, brand context, and seller confidence in one calm place.",
     eyebrow: "Luxury edit",
     sections: [
       {
