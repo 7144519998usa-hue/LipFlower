@@ -61,8 +61,6 @@ p {
 
 .lipflower-slider-frame {
   position: relative;
-  aspect-ratio: 5 / 4;
-  max-height: min(78vh, 760px);
   overflow: hidden;
   border-radius: 28px;
   background: #fffaf8;
@@ -70,11 +68,41 @@ p {
   isolation: isolate;
 }
 
+.lipflower-slider-image-stage {
+  position: relative;
+  aspect-ratio: 5 / 4;
+  min-height: 520px;
+  overflow: hidden;
+}
+
 .slider-image {
   object-fit: cover;
   opacity: 0;
   transform: scale(1.018);
   transition: opacity 700ms ease, transform 900ms ease;
+}
+
+.lipflower-slider-caption {
+  position: relative;
+  z-index: 2;
+  padding: 22px 30px 28px;
+  background:
+    linear-gradient(180deg, rgba(255, 250, 248, 0.92), rgba(255, 250, 248, 0.98)),
+    #fffaf8;
+}
+
+.lipflower-slider-caption h1 {
+  max-width: 840px;
+  margin: 6px 0 8px;
+  font-size: clamp(2rem, 4vw, 3.2rem);
+  line-height: 0.98;
+}
+
+.lipflower-slider-caption p {
+  max-width: 760px;
+  margin: 0;
+  color: #5b3440;
+  font-size: 1rem;
 }
 
 .slider-image.is-active {
@@ -1061,7 +1089,19 @@ select {
 
   .lipflower-slider-frame {
     border-radius: 22px;
-    max-height: 420px;
+  }
+
+  .lipflower-slider-image-stage {
+    min-height: 0;
+    aspect-ratio: 5 / 4;
+  }
+
+  .lipflower-slider-caption {
+    padding: 18px 18px 22px;
+  }
+
+  .lipflower-slider-caption h1 {
+    font-size: clamp(1.72rem, 8vw, 2.45rem);
   }
 
   .slider-arrow {
