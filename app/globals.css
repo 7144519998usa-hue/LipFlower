@@ -70,7 +70,7 @@ p {
 
 .lipflower-slider-image-stage {
   position: relative;
-  aspect-ratio: 5 / 4;
+  aspect-ratio: 3 / 2;
   min-height: 520px;
   overflow: hidden;
 }
@@ -1093,7 +1093,7 @@ select {
 
   .lipflower-slider-image-stage {
     min-height: 0;
-    aspect-ratio: 5 / 4;
+    aspect-ratio: 3 / 2;
   }
 
   .lipflower-slider-caption {

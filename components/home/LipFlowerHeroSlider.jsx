@@ -6,27 +6,27 @@ import { useEffect, useState } from "react";
 const slides = [
   {
     src: "/images/lipflower/slides/lipflower-slide-1.png",
-    alt: "Woman using a luxury serum with premium beauty products styled nearby",
+    alt: "LipFlower luxury lip care banner with premium lip products and soft floral styling",
   },
   {
     src: "/images/lipflower/slides/lipflower-slide-2.png",
-    alt: "Woman testing moisturizer texture with premium skin care products",
+    alt: "LipFlower luxury lip care banner with premium lip products and soft floral styling",
   },
   {
     src: "/images/lipflower/slides/lipflower-slide-3.png",
-    alt: "Woman comparing foundation and complexion products in a luxury beauty setting",
+    alt: "LipFlower luxury lip care banner with premium lip products and soft floral styling",
   },
   {
     src: "/images/lipflower/slides/lipflower-slide-4.png",
-    alt: "Woman applying lip oil with premium lip care products on a vanity",
+    alt: "LipFlower luxury lip care banner with premium lip products and soft floral styling",
   },
   {
     src: "/images/lipflower/slides/lipflower-slide-5.png",
-    alt: "Woman holding fragrance with luxury body care products nearby",
+    alt: "LipFlower luxury lip care banner with premium lip products and soft floral styling",
   },
   {
     src: "/images/lipflower/slides/lipflower-slide-6.png",
-    alt: "Woman using beauty tools with jewelry and premium accessories nearby",
+    alt: "LipFlower luxury lip care banner with premium lip products and soft floral styling",
   },
 ];
 
