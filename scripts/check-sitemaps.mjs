@@ -8,9 +8,12 @@ const assignmentSlugs = new Set(sitemapSections.flatMap((section) => section.ass
 const registryEntries = buildScriptBeautyPageRegistry();
 const indexableEntries = registryEntries.filter((entry) => entry.indexabilityState === "indexable");
 const nonIndexableInSitemap = registryEntries.filter(
-  (entry) => entry.indexabilityState !== "indexable" && assignmentSlugs.has(entry.sitemapAssignment),
+  (entry) =>
+    entry.indexabilityState !== "indexable" &&
+    entry.publicationState !== "live_noindex" &&
+    assignmentSlugs.has(entry.sitemapAssignment),
 );
-const missingAssignments = registryEntries.filter((entry) => !assignmentSlugs.has(entry.sitemapAssignment));
+const missingAssignments = indexableEntries.filter((entry) => !assignmentSlugs.has(entry.sitemapAssignment));
 
 const urls = indexableEntries.map((entry) => entry.canonicalUrl || entry.url);
 const duplicateUrls = urls

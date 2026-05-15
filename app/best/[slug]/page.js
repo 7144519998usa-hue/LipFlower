@@ -11,6 +11,7 @@ export const revalidate = 86400;
 
 export function generateStaticParams() {
   return programmaticBestPages
+    .filter((page) => page.governance.indexabilityState === "indexable")
     .slice(0, 250)
     .map((page) => ({ slug: page.slug }));
 }
@@ -26,6 +27,7 @@ export async function generateMetadata({ params }) {
     title: page.title,
     description: page.summary,
     canonicalPath: `/best/${page.slug}`,
+    index: page.governance.indexabilityState === "indexable",
   });
 }
 

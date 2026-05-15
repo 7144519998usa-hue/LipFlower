@@ -4,9 +4,9 @@ import {
   beautyCalculators,
   beautyComparePages,
   beautySellers,
+  buildScriptBeautyPageRegistry,
   buildRouteInventory,
   countGeneratedPublicRoutes,
-  countIndexablePublicRoutes,
   intentionallyNoindexRoutes,
   programmaticBestPages,
   countBy,
@@ -14,6 +14,7 @@ import {
 } from "./lib/route-engine.mjs";
 
 const routeInventory = buildRouteInventory();
+const registryEntries = buildScriptBeautyPageRegistry();
 const approvedProgrammaticPages = programmaticBestPages.filter(
   (page) => page.contentStatus === "approved" && page.governance?.indexabilityState === "indexable",
 );
@@ -22,7 +23,7 @@ const summary = {
   project: "LipFlower",
   siteUrl: process.env.LIPFLOWER_SITE_URL || "https://lipflower.com",
   generatedPublicRoutes: countGeneratedPublicRoutes(routeInventory),
-  indexablePublicRoutes: countIndexablePublicRoutes(routeInventory),
+  indexablePublicRoutes: registryEntries.filter((entry) => entry.indexabilityState === "indexable").length,
   intentionallyNoindexRoutes,
   routeInventory,
   programmaticSeo: {

@@ -1,4 +1,7 @@
-import { decorateProgrammaticBestPage } from "./programmaticSeoGovernance.js";
+import {
+  applyProgrammaticIndexRollout,
+  decorateProgrammaticBestPage,
+} from "./programmaticSeoGovernance.js";
 import { getAmazonLuxuryExamplesForCategory } from "./amazonLuxuryProducts.js";
 
 const bestPageCategories = [
@@ -592,7 +595,9 @@ export function buildProgrammaticBestPages() {
   );
 }
 
-export const programmaticBestPages = buildProgrammaticBestPages().map(decorateProgrammaticBestPage);
+export const programmaticBestPages = applyProgrammaticIndexRollout(
+  buildProgrammaticBestPages().map(decorateProgrammaticBestPage),
+);
 
 export function getProgrammaticBestPage(slug = "") {
   return programmaticBestPages.find((page) => page.slug === slug) || null;
