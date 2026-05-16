@@ -1,5 +1,49 @@
 const requiredSafeTerms = ["claim-safe", "seller", "routine", "directions"];
 const defaultProgrammaticIndexLimit = 1200;
+const priorityIndexSlugs = new Set([
+  "best-lipstick-under-50",
+  "best-sulfate-free-shampoo",
+  "best-sulfate-free-shampoo-under-50",
+  "best-lip-stain",
+  "best-lip-stain-under-50",
+  "best-pressed-powder",
+  "best-satin-lipstick",
+  "best-brown-mascara",
+  "best-cream-to-powder-foundation",
+  "best-polyglutamic-acid-serum",
+  "best-under-eye-powder",
+  "best-setting-powder-for-under-eyes",
+  "best-oil-cleanser-for-travel",
+  "best-cleansing-oil-for-travel",
+  "best-makeup-remover-balm",
+  "best-powder-cleanser",
+  "best-cream-bronzer",
+  "best-cleansing-balm",
+  "best-face-oil",
+  "best-luxury-face-oil",
+  "best-body-lotion-with-fragrance",
+  "best-scented-body-lotion",
+  "best-deep-conditioner",
+  "best-mineral-powder-foundation",
+  "best-nail-polish-thinner",
+  "best-everyday-eyeshadow-palette",
+  "best-cream-foundation",
+  "best-body-lotion-stick",
+  "best-cica-cream",
+  "best-pore-primer",
+  "best-makeup-gripping-primer",
+  "best-foundation-brush-for-sensitive-shoppers",
+  "best-shimmer-body-oil",
+  "best-vanilla-body-mist",
+  "best-contour-stick",
+  "best-shaving-cream",
+  "best-texturizing-spray",
+  "best-hydrating-face-mist-for-travel",
+  "best-mandelic-acid-serum",
+  "best-azelaic-acid-serum",
+  "best-curling-wand",
+  "best-curling-iron",
+]);
 
 export function getProgrammaticIndexLimit() {
   const configuredLimit = Number.parseInt(process.env.LIPFLOWER_PROGRAMMATIC_INDEX_LIMIT || "", 10);
@@ -53,15 +97,20 @@ export function decorateProgrammaticBestPage(page) {
 export function applyProgrammaticIndexRollout(pages = [], limit = getProgrammaticIndexLimit()) {
   const alreadyEligiblePages = pages.filter((page) => page.governance?.indexabilityState === "indexable");
   const groupedByVertical = new Map();
+  const selectedSlugs = new Set();
 
   alreadyEligiblePages.forEach((page) => {
+    if (priorityIndexSlugs.has(page.slug)) {
+      selectedSlugs.add(page.slug);
+      return;
+    }
+
     const verticalPages = groupedByVertical.get(page.vertical) || [];
     verticalPages.push(page);
     groupedByVertical.set(page.vertical, verticalPages);
   });
 
   const verticals = [...groupedByVertical.keys()].sort();
-  const selectedSlugs = new Set();
 
   while (selectedSlugs.size < limit && verticals.some((vertical) => groupedByVertical.get(vertical)?.length)) {
     for (const vertical of verticals) {
