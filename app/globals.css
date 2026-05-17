@@ -54,9 +54,9 @@ p {
 }
 
 .lipflower-slider-shell {
-  width: calc(100% - 32px);
+  width: calc(100% - 44px);
   max-width: none;
-  margin: 16px auto 0;
+  margin: 18px auto 0;
   padding: 0;
 }
 
@@ -71,7 +71,7 @@ p {
 
 .lipflower-slider-image-stage {
   position: relative;
-  height: clamp(340px, 30vh, 460px);
+  height: clamp(430px, 38vh, 520px);
   overflow: hidden;
 }
 
@@ -177,41 +177,11 @@ p {
 }
 
 .slider-arrow-prev {
-  left: 18px;
+  left: 22px;
 }
 
 .slider-arrow-next {
-  right: 18px;
-}
-
-.slider-dots {
-  position: absolute;
-  left: 50%;
-  bottom: 14px;
-  z-index: 3;
-  display: flex;
-  gap: 8px;
-  padding: 8px 10px;
-  border: 1px solid rgba(255, 255, 255, 0.52);
-  border-radius: 999px;
-  background: rgba(255, 250, 248, 0.72);
-  transform: translateX(-50%);
-  backdrop-filter: blur(12px);
-}
-
-.slider-dot {
-  width: 8px;
-  height: 8px;
-  padding: 0;
-  border: 0;
-  border-radius: 999px;
-  background: rgba(138, 75, 95, 0.32);
-  cursor: pointer;
-}
-
-.slider-dot.is-active {
-  width: 22px;
-  background: #8a4b5f;
+  right: 22px;
 }
 
 .site-header,
@@ -1525,8 +1495,8 @@ select {
   }
 
   .lipflower-slider-shell {
-    width: calc(100% - 20px);
-    margin-top: 10px;
+    width: calc(100% - 22px);
+    margin-top: 12px;
     padding: 0;
   }
 
@@ -1535,7 +1505,7 @@ select {
   }
 
   .lipflower-slider-image-stage {
-    height: clamp(260px, 58vw, 340px);
+    height: clamp(320px, 70vw, 430px);
   }
 
   .slider-copy-overlay {
@@ -1582,10 +1552,6 @@ select {
 
   .slider-arrow-next {
     right: 10px;
-  }
-
-  .slider-dots {
-    bottom: 10px;
   }
 
   .hero-panel,

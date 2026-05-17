@@ -140,18 +140,6 @@ export default function HomepageHeroSlider({ slides = homepageSlides }) {
           >
             {">"}
           </button>
-          <div className="slider-dots" aria-label="LipFlower slide navigation">
-            {slides.map((slide, index) => (
-              <button
-                key={slide.id}
-                type="button"
-                className={index === activeIndex ? "slider-dot is-active" : "slider-dot"}
-                aria-label={`Show ${slide.title}`}
-                aria-current={index === activeIndex ? "true" : undefined}
-                onClick={() => setActiveIndex(index)}
-              />
-            ))}
-          </div>
         </div>
 
         {hasAffiliateSlide ? (
