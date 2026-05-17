@@ -565,6 +565,258 @@ p {
   box-shadow: 0 30px 70px rgba(90, 52, 64, 0.12);
 }
 
+.shop-shell {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.shop-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(280px, 0.36fr);
+  gap: 18px;
+  align-items: end;
+  padding: 34px;
+  border: 1px solid #eadde0;
+  border-radius: 30px;
+  background:
+    radial-gradient(circle at 88% 8%, rgba(212, 175, 55, 0.16), transparent 18rem),
+    radial-gradient(circle at 8% 10%, rgba(138, 75, 95, 0.1), transparent 16rem),
+    #fff;
+  box-shadow: 0 28px 72px rgba(90, 52, 64, 0.1);
+}
+
+.shop-hero h1 {
+  max-width: 760px;
+  margin-bottom: 14px;
+}
+
+.shop-hero p {
+  max-width: 720px;
+  color: #51343c;
+  font-size: 1.04rem;
+}
+
+.shop-hero-card {
+  display: grid;
+  gap: 9px;
+  padding: 20px;
+  border: 1px solid #eadde0;
+  border-radius: 22px;
+  background: rgba(255, 250, 248, 0.86);
+}
+
+.shop-hero-card strong {
+  font-size: 1.1rem;
+}
+
+.shop-hero-card span,
+.shop-disclosure {
+  color: #6f4a54;
+  font-size: 0.9rem;
+}
+
+.shop-category-strip {
+  position: sticky;
+  top: 0;
+  z-index: 8;
+  display: grid;
+  grid-template-columns: repeat(6, minmax(0, 1fr));
+  gap: 10px;
+  margin: 18px 0;
+  padding: 10px;
+  border: 1px solid rgba(234, 221, 224, 0.9);
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.92);
+  box-shadow: 0 18px 44px rgba(90, 52, 64, 0.08);
+  backdrop-filter: blur(16px);
+}
+
+.shop-category-strip a {
+  display: grid;
+  gap: 3px;
+  padding: 10px 12px;
+  border-radius: 16px;
+  background: #fffaf8;
+  color: #4a3038;
+}
+
+.shop-category-strip strong {
+  font-size: 0.9rem;
+}
+
+.shop-category-strip span {
+  color: #8a4b5f;
+  font-size: 0.78rem;
+  font-weight: 700;
+}
+
+.shop-disclosure {
+  margin: 0 0 18px;
+  padding: 0 2px;
+}
+
+.shop-category-section {
+  margin-top: 32px;
+  scroll-margin-top: 96px;
+}
+
+.shop-section-heading {
+  display: flex;
+  gap: 16px;
+  align-items: end;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.shop-section-heading h2 {
+  margin: 4px 0 8px;
+}
+
+.shop-section-heading p {
+  max-width: 740px;
+  margin: 0;
+  color: #5b3440;
+}
+
+.amazon-store-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(214px, 1fr));
+  gap: 14px;
+}
+
+.amazon-store-card {
+  display: flex;
+  min-height: 100%;
+  flex-direction: column;
+  overflow: hidden;
+  border: 1px solid #eadde0;
+  border-radius: 22px;
+  background: #fff;
+  box-shadow: 0 18px 42px rgba(90, 52, 64, 0.08);
+}
+
+.amazon-store-art {
+  position: relative;
+  min-height: 112px;
+  background:
+    radial-gradient(circle at 22% 28%, rgba(255, 255, 255, 0.9), transparent 22%),
+    linear-gradient(135deg, #f7dfe7, #fff8f0 50%, #d7b7a5);
+  overflow: hidden;
+}
+
+.amazon-store-art::before,
+.amazon-store-art::after {
+  position: absolute;
+  content: "";
+  box-shadow: 0 16px 30px rgba(61, 34, 42, 0.14);
+}
+
+.amazon-store-art::before {
+  width: 52px;
+  height: 76px;
+  right: 34px;
+  bottom: 18px;
+  border-radius: 17px 17px 12px 12px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), #f0c9d3);
+}
+
+.amazon-store-art::after {
+  width: 72px;
+  height: 30px;
+  left: 28px;
+  bottom: 18px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #8a4b5f, #d4af37);
+}
+
+.amazon-store-art span {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  z-index: 1;
+  padding: 6px 9px;
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  border-radius: 999px;
+  background: rgba(255, 250, 248, 0.72);
+  color: #7a4054;
+  font-size: 0.76rem;
+  font-weight: 800;
+}
+
+.amazon-store-art-skin-care,
+.amazon-store-art-body-care {
+  background:
+    radial-gradient(circle at 24% 26%, rgba(255, 255, 255, 0.9), transparent 22%),
+    linear-gradient(135deg, #fff6ee, #f6e6d6 52%, #d4af37);
+}
+
+.amazon-store-art-hair-care,
+.amazon-store-art-fragrance {
+  background:
+    radial-gradient(circle at 24% 26%, rgba(255, 255, 255, 0.9), transparent 22%),
+    linear-gradient(135deg, #f6e6d6, #fff8f0 52%, #b87980);
+}
+
+.amazon-store-art-nails-tools-jewelry {
+  background:
+    radial-gradient(circle at 24% 26%, rgba(255, 255, 255, 0.9), transparent 22%),
+    linear-gradient(135deg, #fff8f0, #f7edf0 52%, #d4af37);
+}
+
+.amazon-store-card-body {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.amazon-store-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 10px;
+}
+
+.amazon-store-meta span {
+  padding: 5px 8px;
+  border-radius: 999px;
+  background: #fffaf8;
+  color: #8a4b5f;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.amazon-store-card h2 {
+  margin: 0 0 8px;
+  font-family: "Avenir Next", "Helvetica Neue", "Segoe UI", sans-serif;
+  font-size: 1.02rem;
+  letter-spacing: -0.025em;
+  line-height: 1.14;
+}
+
+.amazon-store-card p {
+  margin: 0 0 14px;
+  color: #60434a;
+  font-size: 0.88rem;
+  line-height: 1.42;
+}
+
+.amazon-store-cta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: auto;
+  padding: 11px 12px;
+  border-radius: 999px;
+  background: #8a4b5f;
+  color: #fff;
+  font-size: 0.9rem;
+  font-weight: 800;
+  box-shadow: 0 14px 28px rgba(138, 75, 95, 0.18);
+}
+
 .product-art {
   min-height: 178px;
   display: flex;
@@ -1231,5 +1483,46 @@ select {
     align-items: stretch;
     flex-direction: column;
     bottom: 12px;
+  }
+
+  .shop-shell {
+    padding: 18px 14px;
+  }
+
+  .shop-hero {
+    grid-template-columns: 1fr;
+    padding: 24px;
+    border-radius: 24px;
+  }
+
+  .shop-category-strip {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    position: static;
+  }
+
+  .shop-section-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .amazon-store-grid {
+    grid-template-columns: repeat(auto-fill, minmax(156px, 1fr));
+    gap: 10px;
+  }
+
+  .amazon-store-art {
+    min-height: 94px;
+  }
+
+  .amazon-store-card-body {
+    padding: 12px;
+  }
+
+  .amazon-store-card h2 {
+    font-size: 0.94rem;
+  }
+
+  .amazon-store-card p {
+    font-size: 0.8rem;
   }
 }

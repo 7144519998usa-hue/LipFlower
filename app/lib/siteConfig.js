@@ -30,6 +30,7 @@ export const siteConfig = {
     { href: "/contact", label: "Contact" }
   ],
   primaryNavLinks: [
+    { href: "/shop", label: "Shop" },
     { href: "/beauty", label: "Beauty" },
     { href: "/skin-care", label: "Skin Care" },
     { href: "/hair-care", label: "Hair Care" },

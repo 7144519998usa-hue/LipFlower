@@ -1,0 +1,92 @@
+import Link from "next/link";
+import AmazonStoreProductCard from "../components/AmazonStoreProductCard";
+import JsonLd from "../components/JsonLd";
+import { buildBeautyMetadata } from "../lib/beautyMetadata";
+import {
+  amazonStorefrontCategories,
+  getAmazonStorefrontProducts,
+} from "../lib/amazonStorefrontProducts";
+import { beautySiteUrl } from "../lib/beautyData";
+
+export const metadata = buildBeautyMetadata({
+  title: "Shop Beauty on Amazon",
+  description:
+    "Shop LipFlower's clean Amazon beauty storefront for makeup, skin care, hair care, fragrance, body care, tools, nails, and artificial jewelry.",
+  canonicalPath: "/shop",
+});
+
+export default function ShopPage() {
+  const products = getAmazonStorefrontProducts();
+  const itemListSchema = {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    name: "LipFlower Amazon Beauty Shop",
+    description: "A clean Amazon shopping page for high-intent beauty product searches.",
+    url: `${beautySiteUrl}/shop`,
+    numberOfItems: products.length,
+    itemListElement: products.slice(0, 120).map((product, index) => ({
+      "@type": "ListItem",
+      position: index + 1,
+      name: product.title,
+      url: `${beautySiteUrl}/shop#${product.id}`,
+    })),
+  };
+
+  return (
+    <main className="shop-shell">
+      <JsonLd data={itemListSchema} />
+      <section className="shop-hero">
+        <div>
+          <span className="eyebrow">Amazon beauty shop</span>
+          <h1>Beauty products, lined up cleanly.</h1>
+          <p>
+            Fast Amazon shopping paths for makeup, skin care, hair care, fragrance, body care,
+            beauty tools, nails, and artificial jewelry.
+          </p>
+        </div>
+        <aside className="shop-hero-card" aria-label="Shop summary">
+          <strong>{products.length} shopping cards</strong>
+          <span>Amazon links use LipFlower affiliate tracking.</span>
+          <span>Check final price, seller, size, shade, and availability on Amazon.</span>
+        </aside>
+      </section>
+
+      <nav className="shop-category-strip" aria-label="Shop categories">
+        {amazonStorefrontCategories.map((category) => (
+          <Link key={category.slug} href={`#${category.slug}`}>
+            <strong>{category.label}</strong>
+            <span>{category.count} cards</span>
+          </Link>
+        ))}
+      </nav>
+
+      <p className="shop-disclosure">
+        As an Amazon Associate, LipFlower may earn from qualifying purchases.
+      </p>
+
+      {amazonStorefrontCategories.map((category) => {
+        const categoryProducts = products.filter((product) => product.categorySlug === category.slug);
+
+        return (
+          <section key={category.slug} id={category.slug} className="shop-category-section">
+            <div className="shop-section-heading">
+              <div>
+                <span className="eyebrow">{category.label}</span>
+                <h2>{category.label} products</h2>
+                <p>{category.description}</p>
+              </div>
+              <Link href="/best" className="ghost-link">
+                View guides
+              </Link>
+            </div>
+            <div className="amazon-store-grid">
+              {categoryProducts.map((product) => (
+                <AmazonStoreProductCard key={product.id} product={product} />
+              ))}
+            </div>
+          </section>
+        );
+      })}
+    </main>
+  );
+}

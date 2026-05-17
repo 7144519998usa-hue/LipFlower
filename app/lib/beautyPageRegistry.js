@@ -74,6 +74,14 @@ export function buildBeautyPageRegistry() {
       sitemapAssignment: "programmatic",
       pageType: "best-hub",
     }),
+    makeEntry({
+      canonicalPath: "/shop",
+      title: "Shop Beauty on Amazon",
+      sitemapAssignment: "commercial",
+      pageType: "amazon-shop",
+      priority: 0.9,
+      changeFrequency: "daily",
+    }),
     ...programmaticBestPages.map((page) =>
       makeEntry({
         canonicalPath: `/best/${page.slug}`,

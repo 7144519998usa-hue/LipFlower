@@ -18,8 +18,8 @@ export default function SiteHeader() {
           <Link href="/search" className="ghost-link">
             Search
           </Link>
-          <Link href="/beauty" className="search-button">
-            Explore Beauty
+          <Link href="/shop" className="search-button">
+            Shop Amazon
           </Link>
         </div>
         <details className="mobile-menu">
