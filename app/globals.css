@@ -160,7 +160,8 @@ p {
 
 .slider-arrow {
   position: absolute;
-  top: 50%;
+  top: auto;
+  bottom: 24px;
   z-index: 3;
   width: 38px;
   height: 38px;
@@ -171,17 +172,17 @@ p {
   cursor: pointer;
   font-size: 1.7rem;
   line-height: 1;
-  transform: translateY(-50%);
   box-shadow: 0 14px 36px rgba(90, 52, 64, 0.16);
   backdrop-filter: blur(12px);
 }
 
 .slider-arrow-prev {
-  left: 22px;
+  left: auto;
+  right: 72px;
 }
 
 .slider-arrow-next {
-  right: 22px;
+  right: 24px;
 }
 
 .site-header,
@@ -1547,7 +1548,8 @@ select {
   }
 
   .slider-arrow-prev {
-    left: 10px;
+    left: auto;
+    right: 52px;
   }
 
   .slider-arrow-next {
