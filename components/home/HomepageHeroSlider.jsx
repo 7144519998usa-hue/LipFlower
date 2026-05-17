@@ -9,6 +9,10 @@ function isSvgImage(imageUrl) {
   return imageUrl.endsWith(".svg");
 }
 
+function isRemoteImage(imageUrl) {
+  return imageUrl.startsWith("https://");
+}
+
 export default function HomepageHeroSlider({ slides = homepageSlides }) {
   const [activeIndex, setActiveIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
@@ -102,6 +106,7 @@ export default function HomepageHeroSlider({ slides = homepageSlides }) {
                 loading={index === 0 ? undefined : "lazy"}
                 sizes="(max-width: 768px) 100vw, 1180px"
                 className={imageClassName}
+                unoptimized={isRemoteImage(slide.imageUrl)}
               />
             );
           })}
